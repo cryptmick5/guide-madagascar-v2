@@ -998,7 +998,17 @@ window.initLanguePage = function () {
         `;
     });
 
-    gridContainer.innerHTML = html;
+    // OPTIMIZATION: Show loading indicator first for perceived performance
+    gridContainer.innerHTML = '<div style="text-align:center; padding:40px; color:var(--text-secondary);"><i class="fas fa-circle-notch fa-spin" style="font-size:2rem;"></i><p style="margin-top:12px;">Chargement des expressions...</p></div>';
+
+    // Defer heavy DOM operation to next frame
+    requestAnimationFrame(() => {
+        gridContainer.innerHTML = html;
+        // Trigger animations after render
+        if (window.GasikaraAnimations && typeof window.GasikaraAnimations.init === 'function') {
+            window.GasikaraAnimations.init();
+        }
+    });
 }
 
 // Global filter function (Dropdown Logic)
