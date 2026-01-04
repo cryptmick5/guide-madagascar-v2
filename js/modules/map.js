@@ -14,7 +14,7 @@ function safeStr(str) {
 window.initMap = function () {
     console.log("🚀 Map Start");
     if (window.leafletMap) return; // Prevent double init
-    window.leafletMap = L.map('map').setView([18.8792, 47.5079], 6);
+    window.leafletMap = L.map('map').setView([-18.8792, 47.5079], 6);
     // CartoDB Voyager
     L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',

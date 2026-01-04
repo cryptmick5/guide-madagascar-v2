@@ -133,7 +133,7 @@ window.filterProvinceItems = function (cityKey, filterType, btn) {
     let count = 0;
 
     items.forEach(item => {
-        const raw Tags = (item.dataset.tags || '').toLowerCase();
+        const rawTags = (item.dataset.tags || '').toLowerCase();
         const tags = rawTags.split(',');
         let isMatch = false;
 
