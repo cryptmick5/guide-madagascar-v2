@@ -1,0 +1,68 @@
+
+/* SPOTS LOGIC - MODULE EXTRACTED */
+
+window.initSpotsPage = function () {
+    console.log("🔍 Init Spots Page");
+    const grid = document.getElementById('spots-grid');
+    if (!grid) return;
+
+    // Clear existing
+    grid.innerHTML = '';
+
+    // Filter tags:spots
+    const spots = (window.LIEUX_DATA || []).filter(lieu =>
+        lieu.tags && lieu.tags.some(t => t.toLowerCase() === 'spots')
+    );
+
+    if (spots.length === 0) {
+        grid.innerHTML = '<p class="empty-message">Aucun spot local trouvé pour le moment.</p>';
+        return;
+    }
+
+    // Render cards
+    spots.forEach(spot => {
+        if (typeof window.createLieuCard === 'function') {
+            const card = window.createLieuCard(spot);
+            grid.insertAdjacentHTML('beforeend', card);
+        }
+    });
+
+    // Init region filter if exists
+    const filterBtns = document.querySelectorAll('.region-filter-btn');
+    if (filterBtns.length > 0) {
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const region = btn.dataset.region;
+                filterSpotsByRegion(region, btn);
+            });
+        });
+    }
+
+    // GSAP Animations
+    if (window.GasikaraAnimations && typeof window.GasikaraAnimations.init === 'function') {
+        window.GasikaraAnimations.init();
+    }
+};
+
+window.filterSpotsByRegion = function (region, btn) {
+    const grid = document.getElementById('spots-grid');
+    if (!grid) return;
+
+    // Toggle active button
+    document.querySelectorAll('.region-filter-btn').forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+
+    const allCards = grid.querySelectorAll('.lieu-card');
+
+    allCards.forEach(card => {
+        const ville = (card.dataset.ville || '').toLowerCase();
+
+        if (region === 'all') {
+            card.style.display = 'flex';
+        } else {
+            // Simple matching (extend with more advanced logic if needed)
+            const match = ville.includes(region.toLowerCase());
+            card.style.display = match ? 'flex' : 'none';
+        }
+    });
+};

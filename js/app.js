@@ -206,55 +206,48 @@ window.initNavigation = function () {
 // Global Context Tracker
 window.previousPageContext = null;
 
-window.navigateToPage = function (pageName) {
+window.navigateToPage = async function (pageName) {
     if (!pageName) return;
 
     let targetId = pageName;
     if (!targetId.startsWith('page-')) targetId = 'page-' + pageName;
 
-    // --- CONTEXT TRACKING START ---
-    // Capture CURRENT active page before switching
+    // --- CONTEXT TRACKING ---
     const currentSection = document.querySelector('.page-section.active');
     if (currentSection) {
         const currentId = currentSection.id;
-        // Only track if coming FROM a Province page (not Carte, not Accueil)
-        // Exception: If we are already on Carte, don't overwrite context
         if (currentId !== 'page-carte' && currentId !== 'page-accueil' && currentId.startsWith('page-')) {
             window.previousPageContext = currentId;
         } else if (currentId === 'page-accueil') {
-            // Reset if coming from Home
             window.previousPageContext = null;
         }
     }
-    // --- CONTEXT TRACKING END ---
 
+    // --- UI RESET ---
     document.querySelectorAll('.page-section').forEach(section => {
         section.classList.remove('active');
         section.style.display = 'none';
-        // Stop videos if any
         const video = section.querySelector('video');
         if (video) video.pause();
     });
-
     document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
 
+    // --- SHOW TARGET ---
     const newSection = document.getElementById(targetId);
     if (newSection) {
         newSection.style.display = 'block';
-        newSection.classList.add('active');
+        setTimeout(() => newSection.classList.add('active'), 10);
         window.scrollTo({ top: 0, behavior: 'smooth' });
 
-        if (pageName === 'carte') { // Logic for Map Page
+        // Map Specifics
+        if (pageName === 'carte') {
             if (window.leafletMap) {
                 setTimeout(() => { if (window.leafletMap) window.leafletMap.invalidateSize(); }, 300);
             }
-
-            // SHOW BACK BUTTON IF CONTEXT EXISTS
+            // Back Button Logic
             const btnContainer = document.getElementById('btn-back-context-container');
             const btnLabel = document.getElementById('btn-back-context-label');
-
             if (window.previousPageContext && btnContainer && btnLabel) {
-                // Determine Label
                 let niceName = "Province";
                 if (window.previousPageContext.includes('antsiranana')) niceName = "Diego";
                 else if (window.previousPageContext.includes('nosybe')) niceName = "Nosy Be";
@@ -264,91 +257,80 @@ window.navigateToPage = function (pageName) {
                 else if (window.previousPageContext.includes('fianarantsoa')) niceName = "Fianar";
                 else if (window.previousPageContext.includes('antananarivo')) niceName = "Tana";
                 else if (window.previousPageContext.includes('saintemarie')) niceName = "Ste Marie";
-
                 btnLabel.innerText = `Retour à ${niceName}`;
                 btnContainer.style.display = 'block';
             } else if (btnContainer) {
                 btnContainer.style.display = 'none';
             }
-
-        } else {
-            // If navigating away from map to anything else (except via back), reset context? 
-            // Actually, navigateToPage is called by menu too.
-            // If I click "Accueil" from Map, context should probably clear or just be ignored next time.
         }
 
-        // GSAP: Refresh animations for new page content
+        // GSAP Refresh
         setTimeout(() => {
-            if (window.GasikaraAnimations) {
-                window.GasikaraAnimations.refresh();
-            }
+            if (window.GasikaraAnimations) window.GasikaraAnimations.refresh();
         }, 100);
-
-        // SPECIAL NORD LOGIC RE-TRIGGER
-        // ⚡ FORCE PREMIUM ENGINE TRIGGER (Mirroring Diego & Nosy Be)
-        if (targetId.toLowerCase().includes('antsiranana') || targetId.toLowerCase().includes('diego')) {
-            setTimeout(() => { if (window.filterProvinceItems) window.filterProvinceItems('all', 'Antsiranana'); }, 50);
-        }
-        if (targetId.toLowerCase().includes('nosybe') || targetId.toLowerCase().includes('nosy-be')) {
-            setTimeout(() => { if (window.filterProvinceItems) window.filterProvinceItems('all', 'Nosy Be'); }, 50);
-        }
-        if (targetId.toLowerCase().includes('mahajanga') || targetId.toLowerCase().includes('majunga')) {
-            setTimeout(() => { if (window.filterProvinceItems) window.filterProvinceItems('all', 'Mahajanga'); }, 50);
-        }
-        if (targetId.toLowerCase().includes('toliara') || targetId.toLowerCase().includes('tulear')) {
-            setTimeout(() => { if (window.filterProvinceItems) window.filterProvinceItems('all', 'Toliara'); }, 50);
-        }
-        if (targetId.toLowerCase().includes('toamasina') || targetId.toLowerCase().includes('tamatave')) {
-            setTimeout(() => { if (window.filterProvinceItems) window.filterProvinceItems('all', 'Toamasina'); }, 50);
-        }
     }
 
     const rawName = pageName.replace('page-', '');
+    const activeBtn = document.querySelector(`.nav-btn[data-page="${rawName}"]`);
+    if (activeBtn) activeBtn.classList.add('active');
 
     // --- LAZY LOADING MODULES ---
     if (!window._modulesLoaded) window._modulesLoaded = {};
 
-    // 1. Map Module
-    if (rawName === 'carte' && !window._modulesLoaded.map) {
-        console.log("Lazy Loading: Map...");
-        if (typeof initMap === 'function') initMap();
-        else if (typeof window.initMapLogic === 'function') window.initMapLogic();
-        window._modulesLoaded.map = true;
-    }
+    try {
+        // 1. MAP
+        if (rawName === 'carte' && !window._modulesLoaded.map) {
+            console.log("Lazy Loading: Map Module...");
+            await import('./modules/map.js');
+            if (typeof window.initMap === 'function') window.initMap();
+            window._modulesLoaded.map = true;
+        }
 
-    // 2. City Pages (Provinces)
-    if (['antsiranana', 'nosybe', 'mahajanga', 'toamasina', 'toliara', 'fianarantsoa', 'antananarivo'].some(p => rawName.includes(p)) && !window._modulesLoaded.cities) {
-        console.log("Lazy Loading: City Pages...");
-        if (typeof initCityPages === 'function') initCityPages();
-        window._modulesLoaded.cities = true;
-    }
+        // 2. CITIES (Hubs)
+        const cityKeys = ['antsiranana', 'nosybe', 'mahajanga', 'toamasina', 'toliara', 'fianarantsoa', 'antananarivo', 'saintemarie'];
+        if (cityKeys.some(k => rawName.includes(k)) && !window._modulesLoaded.cities) {
+            console.log("Lazy Loading: Cities Module...");
+            await import('./modules/cities.js');
+            if (typeof window.initCityPages === 'function') window.initCityPages();
+            window._modulesLoaded.cities = true;
+        }
 
-    // 3. Itineraries
-    if (rawName === 'itineraires' && !window._modulesLoaded.itineraires) {
-        console.log("Lazy Loading: Itineraries...");
-        if (typeof initItinerariesPage === 'function') initItinerariesPage();
-        window._modulesLoaded.itineraires = true;
-    }
+        // 3. ITINERARIES
+        if (rawName === 'itineraires' && !window._modulesLoaded.itineraires) {
+            console.log("Lazy Loading: Itineraries Module...");
+            await import('./modules/itineraries.js');
+            if (typeof window.initItinerariesPage === 'function') window.initItinerariesPage();
+            window._modulesLoaded.itineraires = true;
+        }
 
-    // 4. Spots
-    if (rawName === 'spots' && !window._modulesLoaded.spots) {
-        console.log("Lazy Loading: Spots...");
-        if (typeof initSpotsPage === 'function') initSpotsPage();
-        window._modulesLoaded.spots = true;
-    }
+        // 4. SPOTS
+        if (rawName === 'spots' && !window._modulesLoaded.spots) {
+            console.log("Lazy Loading: Spots Module...");
+            await import('./modules/spots.js');
+            if (typeof window.initSpotsPage === 'function') window.initSpotsPage();
+            window._modulesLoaded.spots = true;
+        }
 
-    // 5. Outils (Taxi, Checklist, etc.)
-    if (rawName === 'outils' && !window._modulesLoaded.outils) {
-        console.log("Lazy Loading: Outils...");
-        if (typeof initOutilsPage === 'function') initOutilsPage();
-        if (typeof initLanguePage === 'function') initLanguePage(); // Often grouped
-        window._modulesLoaded.outils = true;
-    }
+        // 5. TOOLS & LANGUE
+        if (rawName === 'outils' && !window._modulesLoaded.outils) {
+            console.log("Lazy Loading: Tools Module...");
+            await import('./modules/tools.js');
+            if (typeof window.initOutilsPage === 'function') window.initOutilsPage();
 
-    const activeBtn = document.querySelector(`.nav-btn[data-page="${rawName}"]`);
-    if (activeBtn) {
-        activeBtn.classList.add('active');
-        setTimeout(() => activeBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' }), 100);
+            console.log("Lazy Loading: Langue Module...");
+            await import('./modules/langue.js'); // Often used together
+            window._modulesLoaded.outils = true;
+            window._modulesLoaded.langue = true;
+        }
+        if (rawName === 'langue' && !window._modulesLoaded.langue) {
+            console.log("Lazy Loading: Langue Module...");
+            await import('./modules/langue.js');
+            if (typeof window.initLanguePage === 'function') window.initLanguePage();
+            window._modulesLoaded.langue = true;
+        }
+
+    } catch (e) {
+        console.error("Module Load Error:", e);
     }
 };
 
@@ -2535,9 +2517,9 @@ window.closeLieuModal = function () {
     }
 };
 
-window.locateOnMap = function (id) {
+window.locateOnMap = async function (id) {
     window.closeLieuModal();
-    window.navigateToPage('carte');
+    await window.navigateToPage('carte');
     setTimeout(() => {
         if (window.openMapMarker) {
             window.openMapMarker(id);
