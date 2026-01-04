@@ -3,7 +3,7 @@
 
 window.initSpotsPage = function () {
     console.log("🔍 Init Spots Page");
-    const grid = document.getElementById('spots-grid');
+    const grid = document.getElementById('spotsContainer'); // FIX: was 'spots-grid'
     if (!grid) return;
 
     // Clear existing
@@ -46,7 +46,7 @@ window.initSpotsPage = function () {
 };
 
 window.filterSpotsByRegion = function (region, btn) {
-    const grid = document.getElementById('spots-grid');
+    const grid = document.getElementById('spotsContainer'); // FIX: was 'spots-grid'
     if (!grid) return;
 
     // Toggle active button
