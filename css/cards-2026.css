@@ -450,7 +450,7 @@
 .lieux-grid-hero {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--sp acing-2026-lg);
+    gap: var(--spacing-2026-lg);
     margin-top: var(--spacing-2026-md);
 }
 
@@ -2475,10 +2475,24 @@ body.dark-mode .back-to-circuits:hover,
         display: none !important;
     }
 }
-/* FORCE OVERRIDE for Mobile Margins */
-@media (max-width: 767px) {
-    .tools-grid-2026 {
-        margin-bottom: 8px !important; 
-    }
+
+/* =========================================================================
+   FINAL SYMMETRY FIX V2 (TIGHTER VISUAL MATCH)
+   ========================================================================= */
+.tools-grid-2026 {
+    /* DESKTOP: Match Top (48px) and Bottom (48px) */
+    margin-top: 48px !important;
+    margin-bottom: 48px !important;
 }
 
+@media (max-width: 767px) {
+    .tools-grid-2026 {
+        /* MOBILE: Visual Sandwich 
+           Top Gap to Card = 24px 
+           Bottom Gap to Line = 24px 
+        */
+        margin-top: 24px !important;
+        margin-bottom: 24px !important;
+        gap: 8px !important;
+    }
+}
