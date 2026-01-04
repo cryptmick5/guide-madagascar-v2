@@ -158,7 +158,7 @@ window.toggleFilter = function (chip, type) {
     else chip.classList.remove('active');
 
     if (CITY_COORDINATES[type] && cb.checked) {
-        window.leafletMap.setView([CITY_COORDINATES[type][0], CITY_COORDINATES[type][1], CITY_COORDINATES[type][2]);
+        window.leafletMap.setView([CITY_COORDINATES[type][0], CITY_COORDINATES[type][1]], CITY_COORDINATES[type][2]);
     }
     updateMapMarkers();
 };
