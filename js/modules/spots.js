@@ -9,9 +9,10 @@ window.initSpotsPage = function () {
     // Clear existing
     grid.innerHTML = '';
 
-    // Filter tags:spots
+    // Filter by spotLocal property OR tags containing 'spot'
     const spots = (window.LIEUX_DATA || []).filter(lieu =>
-        lieu.tags && lieu.tags.some(t => t.toLowerCase() === 'spots')
+        lieu.spotLocal === true ||
+        (lieu.tags && lieu.tags.some(t => t.toLowerCase().includes('spot')))
     );
 
     if (spots.length === 0) {
