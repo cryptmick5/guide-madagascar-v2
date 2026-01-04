@@ -462,27 +462,42 @@
     }
 }
 
-/* Mobile Grid: Premium Stack (1 Column) */
+/* Mobile Grid: Compact Premium (Strict 2 Columns) */
 @media (max-width: 480px) {
     .lieux-grid-hero {
-        /* Force 1 Column on ALL mobile phones for premium visibility */
-        grid-template-columns: 1fr !important;
-        gap: 16px;
-        /* Restore comfortable gap */
+        /* FORCE 2 Columns on ALL mobiles as requested */
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px;
+        /* Tight gap to maximize card wdh */
+        margin-left: 4px;
+        /* Slight optical adjustment */
+        margin-right: 4px;
     }
 
     .province-card-2026 {
-        min-height: 180px;
-        /* Taller cards for better impact */
+        min-height: 120px;
+        /* Compact height */
+        border-radius: 12px;
     }
 
-    /* Restore Typography */
+    /* Optimize Typography for Compact Views */
+    .province-content-2026 {
+        padding: 10px !important;
+    }
+
     .province-title-2026 {
-        font-size: 1.4rem !important;
+        font-size: 0.95rem !important;
+        /* Smaller text to fit */
+        line-height: 1.2;
+        word-wrap: break-word;
+        /* Prevent overflow */
+        hyphens: auto;
+        /* Smart hyphenation */
     }
 
     .province-label-2026 {
-        font-size: 0.8rem !important;
+        font-size: 0.65rem !important;
+        margin-bottom: 2px !important;
     }
 }
 
