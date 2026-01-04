@@ -1,6 +1,15 @@
 
 /* MAP LOGIC - MODULE EXTRACTED */
-const CITY_COORDINATES = { 'antananarivo': [-18.8792, 47.5079, 12], 'antsiranana': [-12.2797, 49.2917, 12], 'mahajanga': [-15.7167, 46.3167, 12], 'toamasina': [-18.1492, 49.4023, 12], 'toliara': [-23.3500, 43.6667, 12], 'fianarantsoa': [-21.4333, 47.0833, 12] };
+const CITY_COORDINATES = {
+    'antananarivo': [-18.8792, 47.5079, 12],
+    'antsiranana': [-12.2797, 49.2917, 12],
+    'nosybe': [-13.3167, 48.2667, 13],
+    'mahajanga': [-15.7167, 46.3167, 12],
+    'toamasina': [-18.1492, 49.4023, 12],
+    'fianarantsoa': [-21.4333, 47.0833, 12],
+    'toliara': [-23.3500, 43.6667, 12],
+    'saintemarie': [-17.0833, 49.8167, 13]
+};
 window.leafletMap = null; let markersLayer = null;
 
 // FONCTION CRITIQUE : Nettoie tout ce qui peut casser le HTML

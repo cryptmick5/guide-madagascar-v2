@@ -3370,6 +3370,10 @@
                             <input type="checkbox" id="filter-antsiranana" class="filter-checkbox" checked>
                             <i class="fa-solid fa-anchor"></i> Diego
                         </div>
+                        <div class="filter-chip-map active" onclick="toggleFilter(this, 'nosybe')">
+                            <input type="checkbox" id="filter-nosybe" class="filter-checkbox" checked>
+                            <i class="fa-solid fa-island-tropical"></i> Nosy Be
+                        </div>
                         <div class="filter-chip-map active" onclick="toggleFilter(this, 'mahajanga')">
                             <input type="checkbox" id="filter-mahajanga" class="filter-checkbox" checked>
                             <i class="fa-solid fa-umbrella-beach"></i> Majunga
@@ -3378,13 +3382,17 @@
                             <input type="checkbox" id="filter-toamasina" class="filter-checkbox" checked>
                             <i class="fa-solid fa-ship"></i> Tamatave
                         </div>
+                        <div class="filter-chip-map active" onclick="toggleFilter(this, 'fianarantsoa')">
+                            <input type="checkbox" id="filter-fianarantsoa" class="filter-checkbox" checked>
+                            <i class="fa-solid fa-train"></i> Fianar
+                        </div>
                         <div class="filter-chip-map active" onclick="toggleFilter(this, 'toliara')">
                             <input type="checkbox" id="filter-toliara" class="filter-checkbox" checked>
                             <i class="fa-solid fa-sun"></i> Tuléar
                         </div>
-                        <div class="filter-chip-map active" onclick="toggleFilter(this, 'fianarantsoa')">
-                            <input type="checkbox" id="filter-fianarantsoa" class="filter-checkbox" checked>
-                            <i class="fa-solid fa-train"></i> Fianar
+                        <div class="filter-chip-map active" onclick="toggleFilter(this, 'saintemarie')">
+                            <input type="checkbox" id="filter-saintemarie" class="filter-checkbox" checked>
+                            <i class="fa-solid fa-whale"></i> Ste Marie
                         </div>
 
                         <div
@@ -3863,6 +3871,9 @@
                 </button>
                 <button class="nav-pill" onclick="window.filterSpotsByRegion('Fianarantsoa', this)">
                     <i class="fas fa-train"></i> Fianar
+                </button>
+                <button class="nav-pill" onclick="window.filterSpotsByRegion('Sainte-Marie', this)">
+                    <i class="fas fa-whale"></i> Ste Marie
                 </button>
             </div>
             <div id="spotsContainer" class="lieux-grid"></div>
