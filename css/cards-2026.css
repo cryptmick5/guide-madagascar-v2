@@ -462,34 +462,27 @@
     }
 }
 
-/* Mobile Grid: Smart Responsive */
+/* Mobile Grid: Premium Stack (1 Column) */
 @media (max-width: 480px) {
     .lieux-grid-hero {
-        /* Standard Mobile: 2 columns */
-        grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
-        /* Tighter gap for small screens */
-    }
-
-    /* Tiny Screens (< 360px like iPhone SE) -> Force 1 Column for breathing room */
-    @media (max-width: 359px) {
-        .lieux-grid-hero {
-            grid-template-columns: 1fr !important;
-        }
+        /* Force 1 Column on ALL mobile phones for premium visibility */
+        grid-template-columns: 1fr !important;
+        gap: 16px;
+        /* Restore comfortable gap */
     }
 
     .province-card-2026 {
-        min-height: 140px;
+        min-height: 180px;
+        /* Taller cards for better impact */
     }
 
-    /* Optimize Typography for small spaces */
+    /* Restore Typography */
     .province-title-2026 {
-        font-size: 1.1rem !important;
-        /* Slightly smaller title */
+        font-size: 1.4rem !important;
     }
 
     .province-label-2026 {
-        font-size: 0.7rem !important;
+        font-size: 0.8rem !important;
     }
 }
 
