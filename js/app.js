@@ -316,15 +316,11 @@ window.navigateToPage = async function (pageName) {
             console.log("Lazy Loading: Tools Module...");
             await import('./modules/tools.js');
             if (typeof window.initOutilsPage === 'function') window.initOutilsPage();
-
-            console.log("Lazy Loading: Langue Module...");
-            await import('./modules/langue.js'); // Often used together
             window._modulesLoaded.outils = true;
-            window._modulesLoaded.langue = true;
         }
         if (rawName === 'langue' && !window._modulesLoaded.langue) {
-            console.log("Lazy Loading: Langue Module...");
-            await import('./modules/langue.js');
+            // Langue data is loaded synchronously in index.html (phrases.js)
+            // Logic is already in app.js, no need to lazy load empty module
             if (typeof window.initLanguePage === 'function') window.initLanguePage();
             window._modulesLoaded.langue = true;
         }
@@ -998,17 +994,13 @@ window.initLanguePage = function () {
         `;
     });
 
-    // OPTIMIZATION: Show loading indicator first for perceived performance
-    gridContainer.innerHTML = '<div style="text-align:center; padding:40px; color:var(--text-secondary);"><i class="fas fa-circle-notch fa-spin" style="font-size:2rem;"></i><p style="margin-top:12px;">Chargement des expressions...</p></div>';
+    // OPTIMIZATION: Render immediately without artificial delay
+    gridContainer.innerHTML = html;
 
-    // Defer heavy DOM operation to next frame
-    requestAnimationFrame(() => {
-        gridContainer.innerHTML = html;
-        // Trigger animations after render
-        if (window.GasikaraAnimations && typeof window.GasikaraAnimations.init === 'function') {
-            window.GasikaraAnimations.init();
-        }
-    });
+    // Trigger animations after render
+    if (window.GasikaraAnimations && typeof window.GasikaraAnimations.init === 'function') {
+        window.GasikaraAnimations.init();
+    }
 }
 
 // Global filter function (Dropdown Logic)

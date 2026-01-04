@@ -788,12 +788,21 @@ body:not(.dark-mode) .search-input-2026 {
    LANGUAGES PREMIUM 2026
    ========================================= */
 
+
 .language-grid-2026 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: var(--spacing-2026-lg);
     margin-top: var(--spacing-2026-md);
 }
+
+@media (max-width: 480px) {
+    .language-grid-2026 {
+        gap: 12px;
+        /* Tighter gap on mobile */
+    }
+}
+
 
 .language-card-2026 {
     background: var(--bg-secondary);
