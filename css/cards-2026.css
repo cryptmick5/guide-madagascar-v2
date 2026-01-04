@@ -2413,3 +2413,56 @@ body.dark-mode .back-to-circuits:hover,
     align-items: center;
     flex-direction: column;
 }
+/* =========================================================================
+   TOOLS GRID RESPONSIVE (3 Columns on Mobile)
+   ========================================================================= */
+.tools-grid-2026 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+/* Mobile Optimisations for 3-column fit */
+@media (max-width: 767px) {
+    .tools-grid-2026 {
+        gap: 8px !important;       /* Reduce gap */
+        margin-top: 24px !important;
+    }
+
+    /* Target the boxes deeply */
+    .tools-grid-2026 > div {
+        padding: 10px !important;  /* Compact padding */
+        border-radius: 12px !important;
+        gap: 8px !important;
+        align-items: center !important; /* Center align for improved look */
+        text-align: center !important;
+    }
+
+    /* Icon Container */
+    .tools-grid-2026 > div > div:first-child {
+        width: 36px !important;
+        height: 36px !important;
+        border-radius: 10px !important;
+        margin: 0 auto !important; /* Center icon */
+    }
+    .tools-grid-2026 > div > div:first-child i {
+        font-size: 1rem !important;
+    }
+
+    /* Title */
+    .tools-grid-2026 > div > div:last-child > div:first-child {
+        font-size: 0.75rem !important; /* Smaller title */
+        line-height: 1.1 !important;
+        margin-bottom: 0 !important;
+        white-space: normal !important; /* Allow wrap */
+        height: auto !important;
+    }
+
+    /* Description (Hide on mobile to save space/clutter) */
+    .tools-grid-2026 > div > div:last-child > div:last-child {
+        display: none !important;
+    }
+}
+
