@@ -2475,3 +2475,10 @@ body.dark-mode .back-to-circuits:hover,
         display: none !important;
     }
 }
+/* FORCE OVERRIDE for Mobile Margins */
+@media (max-width: 767px) {
+    .tools-grid-2026 {
+        margin-bottom: 8px !important; 
+    }
+}
+
