@@ -961,15 +961,14 @@ window.initLanguePage = function () {
 
     dataEntries.forEach(([cat, phrases]) => {
         html += `
-            <div class="accordion-item-2026">
-                <div class="accordion-header-2026" onclick="this.parentElement.classList.toggle('active')">
-                    <span class="accordion-title-2026">${cat.charAt(0).toUpperCase() + cat.slice(1)}</span>
-                    <i class="fas fa-chevron-down"></i>
-                </div>
+            <details class="accordion-mobile" style="margin-bottom: 16px;">
+                <summary>
+                    <i class="fas fa-language" style="color: var(--laterite); font-size: 1.2rem;"></i>
+                    <span>${cat.charAt(0).toUpperCase() + cat.slice(1)}</span>
+                </summary>
                 
-                <div class="accordion-content-2026">
-                   <div class="accordion-inner-padding">
-                        <div class="language-grid-2026">
+                <div class="accordion-content-native">
+                     <div class="language-grid-2026">
                             ${phrases.map((p, index) => {
             const uniqueId = `btn-audio-${cat.replace(/\s+/g, '-')}-${index}`;
             const audioFile = p.audio || '';
@@ -987,10 +986,9 @@ window.initLanguePage = function () {
                                     </div>
                                 </div>`;
         }).join('')}
-                        </div>
-                   </div>
+                    </div>
                 </div>
-            </div>
+            </details>
         `;
     });
 
@@ -2333,69 +2331,64 @@ window.openLieuModal = function (lieu) {
 
                 <!-- INFOS PRATIQUES - ACCORDÉON 2026 -->
                 ${(infos.horaires || infos.meilleure_periode || infos.a_prevoir) ? `
-                \u003cdiv class="modal-accordion-section" style="margin-bottom: 25px;"\u003e
-                    \u003cbutton class="accordion-header-2026" onclick="window.toggleAccordion(this)" style="width: 100%; background: linear-gradient(135deg, rgba(220, 38, 38, 0.05), rgba(220, 38, 38, 0.02)); border: none; border-left: 4px solid var(--laterite); border-radius: 12px; padding: 18px 20px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; transition: all 0.3s ease; font-family: var(--font-display);"\u003e
-                        \u003cdiv style="display: flex; align-items: center; gap: 12px;"\u003e
-                            \u003ci class="fas fa-info-circle" style="color: var(--laterite); font-size: 1.2rem;"\u003e\u003c/i\u003e
-                            \u003ch3 style="margin: 0; font-size: 1.15rem; font-weight: 700; color: var(--text-primary);"\u003eInfos Pratiques\u003c/h3\u003e
-                        \u003c/div\u003e
-                        \u003ci class="fas fa-chevron-down accordion-chevron" style="color: var(--laterite); font-size: 0.9rem; transition: transform 0.3s ease;"\u003e\u003c/i\u003e
-                    \u003c/button\u003e
+                \u003cdetails class="accordion-mobile" open\u003e
+                    \u003csummary\u003e
+                        \u003ci class="fas fa-info-circle" style="color: var(--laterite); font-size: 1.2rem;"\u003e\u003c/i\u003e
+                        \u003cspan\u003eInfos Pratiques\u003c/span\u003e
+                    \u003c/summary\u003e
                     
-                    \u003cdiv class="accordion-content-2026" style="max-height: 0; overflow: hidden; transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out; background: var(--bg-secondary); border-radius: 0 0 12px 12px; margin-top: -8px;"\u003e
-                        \u003cdiv style="padding: 20px;"\u003e
-                            ${infos.horaires ? `
-                            \u003cdiv style="margin-bottom: 18px; display: flex; gap: 15px; align-items: flex-start;"\u003e
-                                \u003cdiv style="width: 36px; height: 36px; background: rgba(220, 38, 38, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--laterite); flex-shrink: 0;"\u003e\u003ci class="far fa-clock"\u003e\u003c/i\u003e\u003c/div\u003e
-                                \u003cdiv style="flex: 1;"\u003e
-                                    \u003cstrong style="font-size: 0.95rem; display: block; margin-bottom: 6px; color: var(--text-primary);"\u003eHoraires\u003c/strong\u003e
-                                    \u003cdiv style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;"\u003e
-                                        ${infos.horaires.lundi_vendredi ? `\u003cdiv\u003e${infos.horaires.lundi_vendredi}\u003c/div\u003e` : ''}
-                                        ${infos.horaires.weekend ? `\u003cdiv\u003e${infos.horaires.weekend}\u003c/div\u003e` : ''}
-                                        ${infos.horaires.note ? `\u003cdiv style="font-style: italic; margin-top: 4px; color: var(--laterite);"\u003e${infos.horaires.note}\u003c/div\u003e` : ''}
-                                    \u003c/div\u003e
+                    \u003cdiv\u003e
+                        ${infos.horaires ? `
+                        \u003cdiv style="margin-bottom: 18px; display: flex; gap: 15px; align-items: flex-start;"\u003e
+                            \u003cdiv style="width: 36px; height: 36px; background: rgba(220, 38, 38, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--laterite); flex-shrink: 0;"\u003e\u003ci class="far fa-clock"\u003e\u003c/i\u003e\u003c/div\u003e
+                            \u003cdiv style="flex: 1;"\u003e
+                                \u003cstrong style="font-size: 0.95rem; display: block; margin-bottom: 6px; color: var(--text-primary);"\u003eHoraires\u003c/strong\u003e
+                                \u003cdiv style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;"\u003e
+                                    ${infos.horaires.lundi_vendredi ? `\u003cdiv\u003e${infos.horaires.lundi_vendredi}\u003c/div\u003e` : ''}
+                                    ${infos.horaires.weekend ? `\u003cdiv\u003e${infos.horaires.weekend}\u003c/div\u003e` : ''}
+                                    ${infos.horaires.note ? `\u003cdiv style="font-style: italic; margin-top: 4px; color: var(--laterite);"\u003e${infos.horaires.note}\u003c/div\u003e` : ''}
                                 \u003c/div\u003e
-                            \u003c/div\u003e` : ''}
-                            
-                            ${infos.meilleure_periode ? `
-                            \u003cdiv style="margin-bottom: 18px; display: flex; gap: 15px; align-items: flex-start;"\u003e
-                                \u003cdiv style="width: 36px; height: 36px; background: rgba(220, 38, 38, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--laterite); flex-shrink: 0;"\u003e\u003ci class="fas fa-sun"\u003e\u003c/i\u003e\u003c/div\u003e
-                                \u003cdiv style="flex: 1;"\u003e
-                                    \u003cstrong style="font-size: 0.95rem; display: block; margin-bottom: 6px; color: var(--text-primary);"\u003eMeilleure Période\u003c/strong\u003e
-                                    \u003cdiv style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;"\u003e
-                                        ${infos.meilleure_periode.saison_ideale ? `\u003cdiv\u003e✅ ${infos.meilleure_periode.saison_ideale}\u003c/div\u003e` : ''}
-                                        ${infos.meilleure_periode.eviter || infos.meilleure_periode.a_eviter ? `\u003cdiv style="margin-top: 4px;"\u003e⚠️ ${infos.meilleure_periode.eviter || infos.meilleure_periode.a_eviter}\u003c/div\u003e` : ''}
-                                    \u003c/div\u003e
+                            \u003c/div\u003e
+                        \u003c/div\u003e` : ''}
+                        
+                        ${infos.meilleure_periode ? `
+                        \u003cdiv style="margin-bottom: 18px; display: flex; gap: 15px; align-items: flex-start;"\u003e
+                            \u003cdiv style="width: 36px; height: 36px; background: rgba(220, 38, 38, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--laterite); flex-shrink: 0;"\u003e\u003ci class="fas fa-sun"\u003e\u003c/i\u003e\u003c/div\u003e
+                            \u003cdiv style="flex: 1;"\u003e
+                                \u003cstrong style="font-size: 0.95rem; display: block; margin-bottom: 6px; color: var(--text-primary);"\u003eMeilleure Période\u003c/strong\u003e
+                                \u003cdiv style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;"\u003e
+                                    ${infos.meilleure_periode.saison_ideale ? `\u003cdiv\u003e✅ ${infos.meilleure_periode.saison_ideale}\u003c/div\u003e` : ''}
+                                    ${infos.meilleure_periode.eviter || infos.meilleure_periode.a_eviter ? `\u003cdiv style="margin-top: 4px;"\u003e⚠️ ${infos.meilleure_periode.eviter || infos.meilleure_periode.a_eviter}\u003c/div\u003e` : ''}
                                 \u003c/div\u003e
-                            \u003c/div\u003e` : ''}
-                            
-                            ${infos.a_prevoir ? `
-                            \u003cdiv style="display: flex; gap: 15px; align-items: flex-start;"\u003e
-                                \u003cdiv style="width: 36px; height: 36px; background: rgba(220, 38, 38, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--laterite); flex-shrink: 0;"\u003e\u003ci class="fas fa-backpack"\u003e\u003c/i\u003e\u003c/div\u003e
-                                \u003cdiv style="flex: 1;"\u003e
-                                    \u003cstrong style="font-size: 0.95rem; display: block; margin-bottom: 6px; color: var(--text-primary);"\u003eÀ Prévoir\u003c/strong\u003e
-                                    \u003cdiv style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;"\u003e
-                                        ${Array.isArray(infos.a_prevoir.equipement) ? infos.a_prevoir.equipement.map(item => `\u003cdiv style="padding: 3px 0;"\u003e• ${item}\u003c/div\u003e`).join('') : infos.a_prevoir.equipement}
-                                        ${infos.a_prevoir.conseils ? `\u003cdiv style="margin-top: 8px; font-style: italic; color: var(--laterite);"\u003e💡 ${infos.a_prevoir.conseils}\u003c/div\u003e` : ''}
-                                    \u003c/div\u003e
+                            \u003c/div\u003e
+                        \u003c/div\u003e` : ''}
+                        
+                        ${infos.a_prevoir ? `
+                        \u003cdiv style="display: flex; gap: 15px; align-items: flex-start;"\u003e
+                            \u003cdiv style="width: 36px; height: 36px; background: rgba(220, 38, 38, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--laterite); flex-shrink: 0;"\u003e\u003ci class="fas fa-backpack"\u003e\u003c/i\u003e\u003c/div\u003e
+                            \u003cdiv style="flex: 1;"\u003e
+                                \u003cstrong style="font-size: 0.95rem; display: block; margin-bottom: 6px; color: var(--text-primary);"\u003eÀ Prévoir\u003c/strong\u003e
+                                \u003cdiv style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;"\u003e
+                                    ${Array.isArray(infos.a_prevoir.equipement) ? infos.a_prevoir.equipement.map(item => `\u003cdiv style="padding: 3px 0;"\u003e• ${item}\u003c/div\u003e`).join('') : infos.a_prevoir.equipement}
+                                    ${infos.a_prevoir.conseils ? `\u003cdiv style="margin-top: 8px; font-style: italic; color: var(--laterite);"\u003e💡 ${infos.a_prevoir.conseils}\u003c/div\u003e` : ''}
                                 \u003c/div\u003e
-                            \u003c/div\u003e` : ''}
+                            \u003c/div\u003e
+                        \u003c/div\u003e` : ''}
 
-                            ${lieu.humour_grok ? `
-                            \u003cdiv style="margin-top: 20px; padding-top: 20px; border-top: 1px dashed rgba(220, 38, 38, 0.2);"\u003e
-                                \u003cdiv style="display: flex; gap: 15px; align-items: flex-start;"\u003e
-                                    \u003cdiv style="width: 36px; height: 36px; background: rgba(220, 38, 38, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--laterite); flex-shrink: 0;"\u003e\u003ci class="fas fa-laugh-wink"\u003e\u003c/i\u003e\u003c/div\u003e
-                                    \u003cdiv style="flex: 1;"\u003e
-                                        \u003cstrong style="font-size: 0.95rem; display: block; margin-bottom: 6px; color: var(--text-primary);"\u003eL'Avis Sans Filtre\u003c/strong\u003e
-                                        \u003cdiv style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; font-style: italic;"\u003e
-                                            "${lieu.humour_grok}"
-                                        \u003c/div\u003e
+                        ${lieu.humour_grok ? `
+                        \u003cdiv style="margin-top: 20px; padding-top: 20px; border-top: 1px dashed rgba(220, 38, 38, 0.2);"\u003e
+                            \u003cdiv style="display: flex; gap: 15px; align-items: flex-start;"\u003e
+                                \u003cdiv style="width: 36px; height: 36px; background: rgba(220, 38, 38, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--laterite); flex-shrink: 0;"\u003e\u003ci class="fas fa-laugh-wink"\u003e\u003c/i\u003e\u003c/div\u003e
+                                \u003cdiv style="flex: 1;"\u003e
+                                    \u003cstrong style="font-size: 0.95rem; display: block; margin-bottom: 6px; color: var(--text-primary);"\u003eL'Avis Sans Filtre\u003c/strong\u003e
+                                    \u003cdiv style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; font-style: italic;"\u003e
+                                        "${lieu.humour_grok}"
                                     \u003c/div\u003e
                                 \u003c/div\u003e
-                            \u003c/div\u003e` : ''}
-                        \u003c/div\u003e
+                            \u003c/div\u003e
+                        \u003c/div\u003e` : ''}
                     \u003c/div\u003e
-                \u003c/div\u003e` : ''}
+                \u003c/details\u003e` : ''}
 
                 <!-- CARTE INTERACTIVE (Embedded) -->
                 ${embeddedMap ? `
@@ -2538,23 +2531,12 @@ window.addToItineraryTemp = function (id) {
  * FONCTION ACCORDÉON 2026
  * ========================================
  */
+// DEPRECATED: Remplacé par <details> HTML natif
+/*
 window.toggleAccordion = function (button) {
-    const content = button.nextElementSibling;
-    const chevron = button.querySelector('.accordion-chevron');
-    const isOpen = content.style.maxHeight && content.style.maxHeight !== '0px';
-
-    if (isOpen) {
-        content.style.maxHeight = '0';
-        content.style.padding = '0 20px';
-        if (chevron) chevron.style.transform = 'rotate(0deg)';
-        button.style.background = 'linear-gradient(135deg, rgba(220, 38, 38, 0.05), rgba(220, 38, 38, 0.02))';
-    } else {
-        content.style.maxHeight = content.scrollHeight + 40 + 'px';
-        content.style.padding = '20px';
-        if (chevron) chevron.style.transform = 'rotate(180deg)';
-        button.style.background = 'linear-gradient(135deg, rgba(220, 38, 38, 0.1), rgba(220, 38, 38, 0.05))';
-    }
+  // Legacy function removed
 };
+*/
 
 /**
  * ========================================
