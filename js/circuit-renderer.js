@@ -1,45 +1,45 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Identification
-    const circuitId = window.CIRCUIT_ID;
-    const container = document.getElementById('circuit-content');
-    const loader = document.getElementById('loading');
+  // 1. Identification
+  const circuitId = window.CIRCUIT_ID;
+  const container = document.getElementById('circuit-content');
+  const loader = document.getElementById('loading');
 
-    // Robustness check
-    if (!window.ITINERAIRES_DATA || !window.ITINERAIRES_DATA[circuitId]) {
-        if (loader) loader.innerHTML = '<p style="color:red; padding:20px; text-align:center;">Données du circuit introuvables.<br><a href="../index.html">Retour Accueil</a></p>';
-        return;
+  // Robustness check
+  if (!window.ITINERAIRES_DATA || !window.ITINERAIRES_DATA[circuitId]) {
+    if (loader) loader.innerHTML = '<p style="color:red; padding:20px; text-align:center;">Données du circuit introuvables.<br><a href="../index.html">Retour Accueil</a></p>';
+    return;
+  }
+
+  const circuit = window.ITINERAIRES_DATA[circuitId];
+
+  // --- THEME INITIALIZATION (Fix 2026) ---
+  function initCircuitTheme() {
+    try {
+      const savedTheme = localStorage.getItem('theme');
+      const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const currentTheme = savedTheme || (systemDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', currentTheme);
+      if (currentTheme === 'dark') {
+        document.body.classList.add('dark-mode');
+      } else {
+        document.body.classList.remove('dark-mode');
+      }
+    } catch (e) {
+      console.warn("Theme init failed", e);
     }
-
-    const circuit = window.ITINERAIRES_DATA[circuitId];
-
-    // --- THEME INITIALIZATION (Fix 2026) ---
-    function initCircuitTheme() {
-        try {
-            const savedTheme = localStorage.getItem('theme');
-            const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            const currentTheme = savedTheme || (systemDark ? 'dark' : 'light');
-            document.documentElement.setAttribute('data-theme', currentTheme);
-            if (currentTheme === 'dark') {
-                document.body.classList.add('dark-mode');
-            } else {
-                document.body.classList.remove('dark-mode');
-            }
-        } catch (e) {
-            console.warn("Theme init failed", e);
-        }
-    }
-    initCircuitTheme(); // Run immediately
+  }
+  initCircuitTheme(); // Run immediately
 
 
-    // 2. Render Functions
-    function render() {
-        document.title = `${circuit.nom} - Madagascar du Nord`;
+  // 2. Render Functions
+  function render() {
+    document.title = `${circuit.nom} - Madagascar du Nord`;
 
-        // Image Path Correction for Subfolder: ../images/...
-        // But data has "images/..." -> we need "../images/..."
-        const bgImage = '../' + circuit.image;
+    // Image Path Correction for Subfolder: ../images/...
+    // But data has "images/..." -> we need "../images/..."
+    const bgImage = '../' + circuit.image;
 
-        let html = `
+    let html = `
             <div class="circuit-detail-banner city-header" style="background-image: url('${bgImage}'); height: 60vh; position: relative;">
                 <div class="banner-overlay" style="background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7));"></div>
                 <div class="banner-content" style="position: absolute; bottom: 40px; left: 20px; right: 20px; text-align: center; color: white;">
@@ -91,14 +91,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             </div>
         `;
-        container.innerHTML = html;
-        if (loader) loader.style.display = 'none';
-        container.style.display = 'block';
-    }
+    container.innerHTML = html;
+    if (loader) loader.style.display = 'none';
+    container.style.display = 'block';
+  }
 
-    function renderTimeline() {
-        if (!circuit.etapes) return '';
-        return circuit.etapes.map(step => `
+  function renderTimeline() {
+    if (!circuit.etapes) return '';
+    return circuit.etapes.map(step => `
             <div style="position: relative; padding-left: 30px; margin-bottom: 30px; border-left: 2px solid var(--border-color);">
                 <div style="position: absolute; left: -9px; top: 0; width: 16px; height: 16px; background: var(--laterite); border-radius: 50%; border: 3px solid var(--bg-primary);"></div>
                 
@@ -122,17 +122,246 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${step.incontournables.map(i => `<span style="background: rgba(22, 163, 74, 0.1); color: var(--gratuit); padding: 4px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;"><i class="fas fa-check"></i> ${typeof i === 'object' ? i.label : i}</span>`).join('')}
                 </div>` : ''}
 
-                 <div style="font-size: 0.9rem; color: var(--text-secondary);">
-                    ${step.hebergement_options ? `<div><i class="fas fa-bed"></i> <strong>Dodo:</strong> ${getAccomText(step.hebergement_options)}</div>` : ''}
-                    ${step.gourmandise ? `<div style="margin-top:4px;"><i class="fas fa-utensils"></i> <strong>Miam:</strong> ${step.gourmandise}</div>` : ''}
-                </div>
+                ${window.generateStepPracticalInfo ? window.generateStepPracticalInfo(step) : ''}
             </div>
         `).join('');
+  }
+
+  /**
+   * Génère l'accordéon Infos Pratiques Premium - FULL WIDTH
+   * Compatible avec les styles ajoutés dans css/styles-premium.css (Step 603)
+   */
+  /**
+   * Génère l'accordéon Infos Pratiques Premium - FULL WIDTH (Refactor V4)
+   * Utilise <details> et <summary> pour les sous-sections
+   */
+  // Gestionnaire d'observateurs pour nettoyer proprement (Scope local au module)
+  const accordionObservers = new WeakMap();
+
+  window.generateStepPracticalInfo = function (day) {
+    const hasFood = day.gourmandise;
+    const hasAccom = day.hebergement_options && (
+      typeof day.hebergement_options === 'string' ||
+      (Array.isArray(day.hebergement_options) ? day.hebergement_options.length > 0 : Object.keys(day.hebergement_options).length > 0)
+    );
+    const hasAdvice = day.astuce;
+
+    // Si aucune info pratique, ne rien afficher
+    if (!hasFood && !hasAccom && !hasAdvice) {
+      return '';
     }
 
-    function renderBudget() {
-        if (!circuit.budgets) return '';
-        return `
+    const title = "Infos Pratiques de l'Étape";
+
+    return `
+        <div class="step-accordion step-accordion-premium">
+          <button class="step-accordion-toggle-btn step-accordion-header">
+            <div class="step-accordion-header-main">
+              <div class="step-accordion-icon step-accordion-icon-premium">
+                <i class="fas fa-info"></i>
+              </div>
+              <div class="step-accordion-text">
+                <h3 class="step-accordion-title">${title}</h3>
+                <p class="step-accordion-subtitle">
+                  Les bons plans de ton guide local pour profiter à fond de cette journée.
+                </p>
+              </div>
+            </div>
+            <i class="fas fa-chevron-down step-accordion-chevron"></i>
+          </button>
+
+          <div class="step-accordion-outer">
+            <div class="step-accordion-inner step-practical-content step-practical-content-premium">
+            ${hasFood ? `
+              <details class="step-sub-accordion" open>
+                <summary class="step-sub-header">
+                  <div class="step-sub-header-main">
+                    <span class="step-info-badge step-info-badge-food">
+                      <span class="step-info-icon">🍽️</span>
+                    </span>
+                    <div>
+                      <span class="step-info-title">Instant Gourmand</span>
+                      <span class="step-info-kicker">Où bien manger sans se tromper</span>
+                    </div>
+                  </div>
+                  <i class="fas fa-chevron-down step-sub-chevron"></i>
+                </summary>
+                <div class="step-sub-body">
+                  <p class="step-info-text">${day.gourmandise}</p>
+                </div>
+              </details>
+            ` : ''}
+
+            ${hasAccom ? `
+              <details class="step-sub-accordion">
+                <summary class="step-sub-header">
+                  <div class="step-sub-header-main">
+                    <span class="step-info-badge step-info-badge-hotel">
+                      <span class="step-info-icon">🏨</span>
+                    </span>
+                    <div>
+                      <span class="step-info-title">Où poser ses valises ?</span>
+                      <span class="step-info-kicker">Nos adresses testées et approuvées</span>
+                    </div>
+                  </div>
+                  <i class="fas fa-chevron-down step-sub-chevron"></i>
+                </summary>
+                <div class="step-sub-body">
+                  <p class="step-info-text">${window.getAccomPreviewText
+          ? window.getAccomPreviewText(day.hebergement_options)
+          : (typeof day.hebergement_options === 'string'
+            ? day.hebergement_options
+            : 'Voir les options')
+        }</p>
+                </div>
+              </details>
+            ` : ''}
+
+            ${hasAdvice ? `
+              <details class="step-sub-accordion">
+                <summary class="step-sub-header">
+                  <div class="step-sub-header-main">
+                    <span class="step-info-badge step-info-badge-tip">
+                      <span class="step-info-icon">💡</span>
+                    </span>
+                    <div>
+                      <span class="step-info-title">Le Conseil Expert</span>
+                      <span class="step-info-kicker">Le petit hack qui change tout</span>
+                    </div>
+                  </div>
+                  <i class="fas fa-chevron-down step-sub-chevron"></i>
+                </summary>
+                <div class="step-sub-body">
+                  <p class="step-info-text">${day.astuce}</p>
+                </div>
+              </details>
+            ` : ''}
+            </div>
+          </div>
+        </div>
+      `;
+  };
+
+  // GLOBAL: Expose for setInterval usage
+  window.forceRecalculateHeight = function (container) {
+    const outer = container.querySelector('.step-accordion-outer');
+    const inner = container.querySelector('.step-accordion-inner');
+
+    if (!container.classList.contains('open') || !outer || !inner) return;
+
+    void inner.offsetHeight; // Force reflow
+    const newHeight = inner.scrollHeight;
+    outer.style.maxHeight = (newHeight + 50) + 'px';
+  };
+
+  const forceRecalculateHeight = window.forceRecalculateHeight;
+
+  function attachAccordionListeners() {
+    document.querySelectorAll('.step-accordion-toggle-btn').forEach(btn => {
+      // Prevent multiple attachments
+      if (btn.dataset.hasListener) return;
+      btn.dataset.hasListener = 'true';
+
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation(); // SOL 1: ISOLATION
+        toggleStepAccordion(btn);
+      });
+    });
+
+    // Écouter TOUS les <details> pour les sous-accordéons
+    document.querySelectorAll('.step-sub-accordion').forEach(details => {
+      if (details.dataset.hasListener) return;
+      details.dataset.hasListener = 'true';
+
+      details.addEventListener('toggle', (e) => {
+        e.stopPropagation();
+
+        const parentAccordion = details.closest('.step-accordion');
+        if (!parentAccordion) return;
+
+        setTimeout(() => {
+          forceRecalculateHeight(parentAccordion);
+        }, 50);
+
+        requestAnimationFrame(() => {
+          forceRecalculateHeight(parentAccordion);
+        });
+      });
+    });
+  }
+
+  // Toggle Function for new Premium Accordion with ResizeObserver
+  function toggleStepAccordion(btn) {
+    const container = btn.closest('.step-accordion');
+    if (!container) return;
+
+    const outer = container.querySelector('.step-accordion-outer');
+    const inner = container.querySelector('.step-accordion-inner');
+    // Safety check: if outer/inner not found (old HTML), fallback to old toggle
+    if (!outer || !inner) {
+      container.classList.toggle('open');
+      return;
+    }
+
+    const isOpen = container.classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen);
+
+    if (isOpen) {
+      // 1. Initial set to allow measurement
+      outer.style.maxHeight = 'none';
+
+      // 2. Setup ResizeObserver
+      if (!accordionObservers.has(container)) {
+        const observer = new ResizeObserver(entries => {
+          for (let entry of entries) {
+            requestAnimationFrame(() => {
+              if (!container.classList.contains('open')) return;
+              // On mobile, CSS override handles this, but for desktop/tablet we keep precise calc
+              const height = inner.scrollHeight;
+              outer.style.maxHeight = (height + 30) + 'px';
+            });
+          }
+        });
+        observer.observe(inner);
+        accordionObservers.set(container, observer);
+      }
+
+      // Surveillance continue sur mobile
+      if (window.innerWidth <= 768) {
+        // FORCE STATIC CARDS MODE: Open all sub-details
+        container.querySelectorAll('.step-sub-accordion').forEach(details => {
+          details.open = true;
+        });
+
+        let iterations = 0;
+        const mobileInterval = setInterval(() => {
+          forceRecalculateHeight(container);
+          iterations++;
+          if (iterations >= 10) {
+            clearInterval(mobileInterval);
+          }
+        }, 100);
+      }
+
+    } else {
+      // 1. Clean up
+      const observer = accordionObservers.get(container);
+      if (observer) {
+        observer.disconnect();
+        accordionObservers.delete(container);
+      }
+      // 2. Force close
+      outer.style.maxHeight = '0px';
+    }
+  };
+
+  // Expose for compatibility if needed elsewhere, but internal usage is preferred
+  window.toggleStepAccordion = toggleStepAccordion;
+  window.attachAccordionListeners = attachAccordionListeners; // For manual re-attachment
+
+  function renderBudget() {
+    if (!circuit.budgets) return '';
+    return `
             <h2 style="font-family: var(--font-display); margin: 40px 0 20px; border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">Budget Estimé</h2>
             <div style="display: grid; gap: 15px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
                 ${Object.entries(circuit.budgets).map(([key, data]) => `
@@ -148,14 +377,14 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 15px; text-align: center;">* Prix par personne sur base double. Hors vols internationaux.</p>
         `;
-    }
+  }
 
-    function getAccomText(options) {
-        if (typeof options === 'object' && !Array.isArray(options)) {
-            return Object.values(options).map(v => (typeof v === 'object' ? v.text : v).split('(')[0]).join(' / ');
-        }
-        return options;
+  function getAccomText(options) {
+    if (typeof options === 'object' && !Array.isArray(options)) {
+      return Object.values(options).map(v => (typeof v === 'object' ? v.text : v).split('(')[0]).join(' / ');
     }
+    return options;
+  }
 
-    render();
+  render();
 });

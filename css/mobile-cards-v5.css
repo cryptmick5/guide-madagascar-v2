@@ -1,0 +1,40 @@
+/* 
+   MOBILE STATIC CARDS MODE (v5)
+   Forces the Accordion to behave like a static list of cards on mobile.
+   Overrides everything else.
+*/
+
+@media only screen and (max-width: 768px) {
+
+    /* 1. Force Visibility of Main Container */
+    .step-accordion.open .step-accordion-outer {
+        max-height: none !important;
+        overflow: visible !important;
+        transition: none !important;
+    }
+
+    /* 2. Force Visibility of Inner Content */
+    .step-accordion-inner,
+    .step-sub-accordion,
+    .step-sub-accordion[open] {
+        overflow: visible !important;
+        display: block !important;
+        height: auto !important;
+    }
+
+    /* 3. Disable User Interaction on Sub-Headers (Static Feel) */
+    .step-sub-accordion>summary {
+        pointer-events: none !important;
+        cursor: default !important;
+    }
+
+    /* 4. Hide Collapse Chevrons */
+    .step-sub-accordion>summary .fa-chevron-down,
+    .step-sub-accordion>summary .step-sub-chevron {
+        display: none !important;
+    }
+
+    /* 5. Force Sub-Accordions Open (Visual Backup for JS) */
+    /* Note: We can't force <details> open via CSS, JS must do it. 
+       But we can ensure if they ARE open, they look right. */
+}

@@ -2,111 +2,358 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-    <title>Détail Circuit - Guide Madagascar</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Détail Circuit - Guide Madagascar</title>
 
-    <!-- Fonts & Icons -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- CSS (Same Premium Styles) -->
-    <link rel="stylesheet" href="css/styles-premium.css">
-    <link rel="stylesheet" href="css/cards-2026.css">
+  <!-- CSS (Same Premium Styles) -->
+  <link rel="stylesheet" href="css/styles-premium.css?v=2026.NUCLEAR.5">
+  <link rel="stylesheet" href="css/mobile-cards-v5.css?v=2026.NUCLEAR.5"> <!-- MOBILE CARDS OVERRIDE -->
+  <link rel="stylesheet" href="css/cards-2026.css?v=2026.NUCLEAR.5">
 
-    <!-- Important: No PWA Manifest here to keep context specific to browsing but inheriting cached styles -->
+  <!-- Important: No PWA Manifest here to keep context specific to browsing but inheriting cached styles -->
 
-    <style>
-        /* Specific page overrides */
-        body {
-            background: var(--bg-primary);
-            padding-bottom: 40px;
+  <style>
+    /* Specific page overrides */
+    body {
+      background: var(--bg-primary);
+      padding-bottom: 40px;
+    }
+
+    .back-nav {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 10px 15px;
+      border-radius: 50px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      color: var(--text-primary);
+      font-weight: 600;
+      font-family: var(--font-body);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border-color);
+    }
+
+    .back-nav:hover {
+      transform: translateY(-2px);
+    }
+
+    .loading-screen {
+      position: fixed;
+      inset: 0;
+      background: var(--bg-primary);
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  </style>
+  <script>
+    // NUCLEAR CACHE PROTOCOL
+    // Force unregistration of any existing Service Workers to ensure fresh code load
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function (registrations) {
+        for (let registration of registrations) {
+          console.log('NUCLEAR: Unregistering SW:', registration);
+          registration.unregister();
         }
-
-        .back-nav {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 100;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 10px 15px;
-            border-radius: 50px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            text-decoration: none;
-            color: var(--text-primary);
-            font-weight: 600;
-            font-family: var(--font-body);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            backdrop-filter: blur(10px);
-            border: 1px solid var(--border-color);
-        }
-
-        .back-nav:hover {
-            transform: translateY(-2px);
-        }
-
-        .loading-screen {
-            position: fixed;
-            inset: 0;
-            background: var(--bg-primary);
-            z-index: 9999;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-    </style>
+      });
+      // Force reload if we suspect stale cache (optional, effectively done by unregister + reload)
+    }
+  </script>
 </head>
 
 <body>
 
-    <!-- Nav Retour -->
-    <a href="index.html#itineraires" class="back-nav">
-        <i class="fas fa-arrow-left"></i> Retour aux Circuits
-    </a>
+  <!-- Nav Retour -->
+  <a href="index.html#itineraires" class="back-nav">
+    <i class="fas fa-arrow-left"></i> Retour aux Circuits
+  </a>
 
-    <!-- Loading -->
-    <div id="loading" class="loading-screen">
-        <i class="fas fa-compass fa-spin fa-3x" style="color:var(--laterite); margin-bottom: 20px;"></i>
-        <p>Chargement du Voyage...</p>
-    </div>
+  <!-- Loading -->
+  <div id="loading" class="loading-screen">
+    <i class="fas fa-compass fa-spin fa-3x" style="color:var(--laterite); margin-bottom: 20px;"></i>
+    <p>Chargement du Voyage...</p>
+  </div>
 
-    <!-- Content Container -->
-    <div id="circuit-content" style="display:none;">
-        <!-- Injected via JS -->
-    </div>
+  <!-- Content Container -->
+  <div id="circuit-content" style="display:none;">
+    <!-- Injected via JS -->
+  </div>
 
-    <!-- Scripts Data -->
-    <script src="data/phrases.js"></script>
-    <script src="data/lieux.js"></script>
-    <script src="data/itineraires.js"></script>
-    <!-- We repurpose the render logic from app.js locally here for standalone autonomy -->
+  <!-- Scripts Data -->
+  <script src="data/lieux.js?v=2026.FINAL.1"></script>
+  <script src="data/itineraires.js?v=2026.FINAL.1"></script>
+  <script src="js/circuit-renderer.js?v=2026.FINAL.1"></script>
+  <!-- Force Shared Logic loading (CLEAN) -->
+  <script src="js/app.js?v=2026.FINAL.1"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const circuitId = params.get('id');
+      const container = document.getElementById('circuit-content');
+      const loader = document.getElementById('loading');
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const params = new URLSearchParams(window.location.search);
-            const circuitId = params.get('id');
-            const container = document.getElementById('circuit-content');
-            const loader = document.getElementById('loading');
+      if (!circuitId || !window.ITINERAIRES_DATA || !window.ITINERAIRES_DATA[circuitId]) {
+        loader.innerHTML = '<p>Circuit introuvable (ID invalide).</p><a href="index.html" style="margin-top:10px; color:blue;">Retour Accueil</a>';
+        return;
+      }
 
-            if (!circuitId || !window.ITINERAIRES_DATA || !window.ITINERAIRES_DATA[circuitId]) {
-                loader.innerHTML = '<p>Circuit introuvable (ID invalide).</p><a href="index.html" style="margin-top:10px; color:blue;">Retour Accueil</a>';
-                return;
-            }
+      const circuit = window.ITINERAIRES_DATA[circuitId];
 
-            const circuit = window.ITINERAIRES_DATA[circuitId];
+      // Alias for compatibility if needed
+      window.getAccomPreviewText = getAccomText;
 
-            // Render Function (extracted from logic)
-            function render() {
-                document.title = `${circuit.nom} - Madagascar du Nord`;
+      /**
+       * Génère l'accordéon Infos Pratiques Premium - FULL WIDTH (Refactor V4)
+       * Utilise <details> et <summary> pour les sous-sections
+       */
+      window.generateStepPracticalInfo = function (day) {
+        const hasFood = day.gourmandise;
+        const hasAccom = day.hebergement_options && (
+          typeof day.hebergement_options === 'string' ||
+          (Array.isArray(day.hebergement_options) ? day.hebergement_options.length > 0 : Object.keys(day.hebergement_options).length > 0)
+        );
+        const hasAdvice = day.astuce;
 
-                let html = `
+        // Si aucune info pratique, ne rien afficher
+        if (!hasFood && !hasAccom && !hasAdvice) {
+          return '';
+        }
+
+        const title = "Infos Pratiques de l'Étape";
+
+        return `
+        <div class="step-accordion step-accordion-premium">
+          <button class="step-accordion-header" onclick="window.toggleStepAccordion(this)">
+            <div class="step-accordion-header-main">
+              <div class="step-accordion-icon step-accordion-icon-premium">
+                <i class="fas fa-info"></i>
+              </div>
+              <div class="step-accordion-text">
+                <h3 class="step-accordion-title">${title}</h3>
+                <p class="step-accordion-subtitle">
+                  Les bons plans de ton guide local pour profiter à fond de cette journée.
+                </p>
+              </div>
+            </div>
+            <i class="fas fa-chevron-down step-accordion-chevron"></i>
+          </button>
+
+          <div class="step-accordion-outer">
+            <div class="step-accordion-inner step-practical-content step-practical-content-premium">
+            ${hasFood ? `
+              <details class="step-sub-accordion" open>
+                <summary class="step-sub-header">
+                  <div class="step-sub-header-main">
+                    <span class="step-info-badge step-info-badge-food">
+                      <span class="step-info-icon">🍽️</span>
+                    </span>
+                    <div>
+                      <span class="step-info-title">Instant Gourmand</span>
+                      <span class="step-info-kicker">Où bien manger sans se tromper</span>
+                    </div>
+                  </div>
+                  <i class="fas fa-chevron-down step-sub-chevron"></i>
+                </summary>
+                <div class="step-sub-body">
+                  <p class="step-info-text">${day.gourmandise}</p>
+                </div>
+              </details>
+            ` : ''}
+
+            ${hasAccom ? `
+              <details class="step-sub-accordion">
+                <summary class="step-sub-header">
+                  <div class="step-sub-header-main">
+                    <span class="step-info-badge step-info-badge-hotel">
+                      <span class="step-info-icon">🏨</span>
+                    </span>
+                    <div>
+                      <span class="step-info-title">Où poser ses valises ?</span>
+                      <span class="step-info-kicker">Nos adresses testées et approuvées</span>
+                    </div>
+                  </div>
+                  <i class="fas fa-chevron-down step-sub-chevron"></i>
+                </summary>
+                <div class="step-sub-body">
+                  <p class="step-info-text">${window.getAccomPreviewText
+              ? window.getAccomPreviewText(day.hebergement_options)
+              : (typeof day.hebergement_options === 'string'
+                ? day.hebergement_options
+                : 'Voir les options')
+            }</p>
+                </div>
+              </details>
+            ` : ''}
+
+            ${hasAdvice ? `
+              <details class="step-sub-accordion">
+                <summary class="step-sub-header">
+                  <div class="step-sub-header-main">
+                    <span class="step-info-badge step-info-badge-tip">
+                      <span class="step-info-icon">💡</span>
+                    </span>
+                    <div>
+                      <span class="step-info-title">Le Conseil Expert</span>
+                      <span class="step-info-kicker">Le petit hack qui change tout</span>
+                    </div>
+                  </div>
+                  <i class="fas fa-chevron-down step-sub-chevron"></i>
+                </summary>
+                <div class="step-sub-body">
+                  <p class="step-info-text">${day.astuce}</p>
+                </div>
+              </details>
+            ` : ''}
+            </div>
+          </div>
+        </div>
+      `;
+      };
+
+      // Gestionnaire d'observateurs pour nettoyer proprement
+      const accordionObservers = new WeakMap();
+
+      // Fonction principale appelée au clic sur le header
+      window.toggleStepAccordion = function (btn) {
+        const container = btn.closest('.step-accordion');
+        if (!container) return;
+
+        const outer = container.querySelector('.step-accordion-outer');
+        const inner = container.querySelector('.step-accordion-inner');
+        if (!outer || !inner) return;
+
+        const isOpen = container.classList.toggle('open');
+        btn.setAttribute('aria-expanded', isOpen);
+
+        if (isOpen) {
+          // 1. Initial set to allow measurement
+          outer.style.maxHeight = 'none';
+
+          // 2. Setup ResizeObserver for dynamic, real-time height tracking
+          // This handles: images loading, font shifts, nested details toggling, orientation changes
+          if (!accordionObservers.has(container)) {
+            const observer = new ResizeObserver(entries => {
+              for (let entry of entries) {
+                // requestAnimationFrame to avoid "ResizeObserver loop limit limited"
+                requestAnimationFrame(() => {
+                  if (!container.classList.contains('open')) return;
+
+                  // Measure the full scrollHeight to be safe on mobile
+                  // contentRect.height is good, but scrollHeight captures overflow better in some edge cases
+                  const height = inner.scrollHeight;
+
+                  // Apply with safety buffer (+30px)
+                  outer.style.maxHeight = (height + 30) + 'px';
+                  console.log('ResizeObserver: height updated to', height + 30);
+                });
+              }
+            });
+
+            observer.observe(inner);
+            accordionObservers.set(container, observer);
+          }
+        } else {
+          // 1. Clean up observer to save resources
+          const observer = accordionObservers.get(container);
+          if (observer) {
+            observer.disconnect();
+            accordionObservers.delete(container);
+          }
+
+          // 2. Force close
+          outer.style.maxHeight = '0px';
+        }
+      };
+
+      // Plus besoin de "recalcAccordionOuter" ou de "resize listener" global
+      // L'Observer gère tout automatiquement.
+
+      function renderTimeline() {
+        if (!circuit.etapes) return '';
+        return circuit.etapes.map(step => `
+                    <div class="timeline-step">
+                        <div class="timeline-left">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        
+                        <div class="timeline-right">
+                            <div style="margin-bottom: 5px;">
+                                <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--laterite); font-weight: 700;">Jour ${step.jour}</span>
+                                <h3 style="font-size: 1.3rem; margin: 5px 0;">${step.titre}</h3>
+                            </div>
+
+                            ${step.logistique ? `
+                            <div style="display: flex; gap: 10px; align-items: center; background: var(--bg-secondary); padding: 8px 12px; border-radius: 8px; font-size: 0.85rem; margin-bottom: 10px; border: 1px solid var(--border-color);">
+                                <span>${step.logistique.depart}</span>
+                                <i class="fas fa-long-arrow-alt-right" style="color: var(--text-secondary);"></i>
+                                <span>${step.logistique.arrivee}</span>
+                                <span style="margin-left: auto; font-weight: 600;">${step.logistique.duree_totale_transport}</span>
+                            </div>` : ''}
+
+                            <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 15px;">${step.description}</p>
+
+                            ${step.incontournables ? `
+                            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px;">
+                                ${step.incontournables.map(i => `<span style="background: rgba(22, 163, 74, 0.1); color: var(--gratuit); padding: 4px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;"><i class="fas fa-check"></i> ${typeof i === 'object' ? i.label : i}</span>`).join('')}
+                            </div>` : ''}
+
+                            <div style="font-size: 0.9rem; color: var(--text-secondary);">
+                                ${window.generateStepPracticalInfo ? window.generateStepPracticalInfo(step) : ''}
+                            </div>
+                        </div>
+                    </div>
+        `).join('');
+      }
+
+      function renderBudget() {
+        if (!circuit.budgets) return '';
+        return `
+          <h2 style="font-family: var(--font-display); margin: 40px 0 20px; border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">Budget Estimé</h2>
+                    <div style="display: grid; gap: 15px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+                        ${Object.entries(circuit.budgets).map(([key, data]) => `
+                            <div style="background: var(--bg-secondary); padding: 20px; border-radius: 12px; border: 1px solid var(--border-color); box-shadow: var(--shadow);">
+                                <h4 style="text-transform: capitalize; color: var(--laterite); margin-bottom: 5px;">${key}</h4>
+                                <div style="font-size: 1.5rem; font-weight: 800; margin-bottom: 10px;">${data.price}</div>
+                                <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 15px; min-height: 40px;">${data.desc}</p>
+                                <ul style="padding-left: 20px; font-size: 0.85rem; color: var(--text-secondary);">
+                                    ${data.inclus ? data.inclus.slice(0, 3).map(i => `<li>${i}</li>`).join('') : ''}
+                                </ul>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 15px; text-align: center;">* Prix par personne sur base double. Hors vols internationaux.</p>
+                `;
+      }
+
+      function getAccomText(options) {
+        if (typeof options === 'object' && !Array.isArray(options)) {
+          return Object.values(options).map(v => (typeof v === 'object' ? v.text : v).split('(')[0]).join(' / ');
+        }
+        return options;
+      }
+
+      function render() {
+        document.title = `${circuit.nom} - Madagascar du Nord`;
+
+        let html = `
                     <div class="circuit-detail-banner city-header" style="background-image: url('${circuit.image}'); height: 60vh; position: relative;">
                         <div class="banner-overlay" style="background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7));"></div>
                         <div class="banner-content" style="position: absolute; bottom: 40px; left: 20px; right: 20px; text-align: center; color: white;">
@@ -158,75 +405,14 @@
 
                     </div>
                 `;
-                container.innerHTML = html;
-                loader.style.display = 'none';
-                container.style.display = 'block';
-            }
+        container.innerHTML = html;
+        loader.style.display = 'none';
+        container.style.display = 'block';
+      }
 
-            function renderTimeline() {
-                if (!circuit.etapes) return '';
-                return circuit.etapes.map(step => `
-                    <div style="position: relative; padding-left: 30px; margin-bottom: 30px; border-left: 2px solid var(--border-color);">
-                        <div style="position: absolute; left: -9px; top: 0; width: 16px; height: 16px; background: var(--laterite); border-radius: 50%; border: 3px solid var(--bg-primary);"></div>
-                        
-                        <div style="margin-bottom: 5px;">
-                            <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--laterite); font-weight: 700;">Jour ${step.jour}</span>
-                            <h3 style="font-size: 1.3rem; margin: 5px 0;">${step.titre}</h3>
-                        </div>
-
-                        ${step.logistique ? `
-                        <div style="display: flex; gap: 10px; align-items: center; background: var(--bg-secondary); padding: 8px 12px; border-radius: 8px; font-size: 0.85rem; margin-bottom: 10px; border: 1px solid var(--border-color);">
-                            <span>${step.logistique.depart}</span>
-                            <i class="fas fa-long-arrow-alt-right" style="color: var(--text-secondary);"></i>
-                            <span>${step.logistique.arrivee}</span>
-                            <span style="margin-left: auto; font-weight: 600;">${step.logistique.duree_totale_transport}</span>
-                        </div>` : ''}
-
-                        <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 15px;">${step.description}</p>
-
-                        ${step.incontournables ? `
-                        <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px;">
-                            ${step.incontournables.map(i => `<span style="background: rgba(22, 163, 74, 0.1); color: var(--gratuit); padding: 4px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;"><i class="fas fa-check"></i> ${typeof i === 'object' ? i.label : i}</span>`).join('')}
-                        </div>` : ''}
-
-                         <div style="font-size: 0.9rem; color: var(--text-secondary);">
-                            ${step.hebergement_options ? `<div><i class="fas fa-bed"></i> <strong>Dodo:</strong> ${getAccomText(step.hebergement_options)}</div>` : ''}
-                            ${step.gourmandise ? `<div style="margin-top:4px;"><i class="fas fa-utensils"></i> <strong>Miam:</strong> ${step.gourmandise}</div>` : ''}
-                        </div>
-                    </div>
-                `).join('');
-            }
-
-            function renderBudget() {
-                if (!circuit.budgets) return '';
-                return `
-                    <h2 style="font-family: var(--font-display); margin: 40px 0 20px; border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">Budget Estimé</h2>
-                    <div style="display: grid; gap: 15px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
-                        ${Object.entries(circuit.budgets).map(([key, data]) => `
-                            <div style="background: var(--bg-secondary); padding: 20px; border-radius: 12px; border: 1px solid var(--border-color); box-shadow: var(--shadow);">
-                                <h4 style="text-transform: capitalize; color: var(--laterite); margin-bottom: 5px;">${key}</h4>
-                                <div style="font-size: 1.5rem; font-weight: 800; margin-bottom: 10px;">${data.price}</div>
-                                <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 15px; min-height: 40px;">${data.desc}</p>
-                                <ul style="padding-left: 20px; font-size: 0.85rem; color: var(--text-secondary);">
-                                    ${data.inclus ? data.inclus.slice(0, 3).map(i => `<li>${i}</li>`).join('') : ''}
-                                </ul>
-                            </div>
-                        `).join('')}
-                    </div>
-                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 15px; text-align: center;">* Prix par personne sur base double. Hors vols internationaux.</p>
-                `;
-            }
-
-            function getAccomText(options) {
-                if (typeof options === 'object' && !Array.isArray(options)) {
-                    return Object.values(options).map(v => (typeof v === 'object' ? v.text : v).split('(')[0]).join(' / ');
-                }
-                return options;
-            }
-
-            render();
-        });
-    </script>
+      render();
+    });
+  </script>
 </body>
 
 </html>
