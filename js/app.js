@@ -3,6 +3,8 @@
    Handles Navigation, Data Loading, UI interaction, Pages, Modals.
    ============================================ */
 
+console.log('🚀 APP.JS LOADED - STARTING INIT');
+
 // Global State
 window.currentTheme = 'light';
 window.exchangeRate = 4250;
@@ -57,26 +59,21 @@ window.initData = function () {
             console.warn("LS Error", e);
         }
 
-        // --- PWA SERVICE WORKER REGISTRATION (RESTORED) ---
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./sw.js')
-                .then(reg => console.log('SW Registered:', reg.scope))
-                .catch(err => console.error('SW Fail:', err));
-        }
+
 
         // Initialize Modules
         if (window.MapModule) window.MapModule.init();
 
-        // PWA REGISTRATION (Senior Engineer Standard) 
+        // === SERVICE WORKER REGISTRATION (Single Instance) ===
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('/sw.js')
-                    .then(registration => {
-                        console.log('✅ PWA ServiceWorker registered with scope:', registration.scope);
+                    .then(reg => {
+                        console.log('✅ SW registered:', reg.scope);
+                        // Vérifier mises à jour toutes les heures
+                        setInterval(() => reg.update(), 60 * 60 * 1000);
                     })
-                    .catch(error => {
-                        console.error('❌ PWA ServiceWorker registration failed:', error);
-                    });
+                    .catch(err => console.error('❌ SW registration failed:', err));
             });
         }
 
@@ -208,6 +205,7 @@ window.initNavigation = function () {
 window.previousPageContext = null;
 
 window.navigateToPage = async function (pageName) {
+    console.log('🔄 navigateToPage called with:', pageName);
     if (!pageName) return;
 
     let targetId = pageName;
@@ -3358,3 +3356,5 @@ window.initItineraryMap = function (steps) {
         map.setView(routeCoords[0], 10);
     }
 };
+
+console.log('✅ APP.JS FULLY PARSED');
