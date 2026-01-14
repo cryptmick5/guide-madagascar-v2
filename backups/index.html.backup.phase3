@@ -9,7 +9,6 @@
     <meta name="theme-color" content="#C13535">
     <meta name="color-scheme" content="light dark">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <title>MG Guide Voyage Madagascar - Le guide que seuls les Malgaches connaissent</title>
@@ -4015,7 +4014,20 @@
                     </div>
                 </div>
 
-
+                <!-- Paramètres -->
+                <div class="tool-card">
+                    <h3 class="tool-title">⚙️ Maintenance</h3>
+                    <p style="color:var(--text-secondary); margin-bottom:15px; font-size:0.9rem;">Si l'application
+                        semble lente ou buggée, vous pouvez réinitialiser les données.</p>
+                    <button onclick="resetApp()" class="btn-action-secondary"
+                        style="width:100%; border:1px solid #e74c3c; color:#e74c3c; background:rgba(231, 76, 60, 0.1);">
+                        <i class="fas fa-trash-alt"></i> Réinitialiser l'application
+                    </button>
+                    <div
+                        style="text-align:center; margin-top:10px; font-size:0.75rem; color:var(--text-secondary); opacity:0.6;">
+                        Version 2.4.0 (Premium)
+                    </div>
+                </div>
 
                 <!-- Numéros Utiles -->
                 <div class="tool-card">
@@ -4166,7 +4178,7 @@
     <script src="data/lieux.js?v=2026.FINAL.1" defer></script>
     <script src="data/itineraires.js?v=2026.FINAL.1" defer></script>
     <script src="data/phrases.js?v=1767094000" defer></script>
-    <script src="js/app.min.js?v=2026.FINAL.1" defer></script>
+    <script src="js/app.js?v=2026.FINAL.1" defer></script>
 
     <!-- GSAP Animations -->
     <script src="js/gsap-config.js" defer></script>

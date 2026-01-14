@@ -1,3 +1,12 @@
+/**
+ * ====================================================================
+ * DONNÉES DES LIEUX - GASIKARA EXPLORER V6 (FINAL ROAST)
+ * ====================================================================
+ * Version V6: 200+ punchlines, Catégories 'Local' & 'Sacré'
+ * Date: 02/01/2026
+ * Total: 287 fiches
+ */
+
 window.LIEUX_DATA = [
   {
     "id": 601,
@@ -7,7 +16,7 @@ window.LIEUX_DATA = [
     "lat": -12.2797,
     "lng": 49.2917,
     "image": "images/villes/diego-suarez.jpg",
-    "description": "Bienvenue à Diego (Antsiranana), la belle endormie du Nord ! C'est un mélange unique d'histoire coloniale et de douceur de vivre tropicale.\n\n🏙️ Architecture : Flânez rue Colbert pour admirer les vieilles bâtisses coloniales, témoins d'une époque révolue.\n🚙 Transport : Ici, on se déplace en Bajaj (les tuk-tuks jaunes). C'est fun, ça passe partout et ça coûte rien !\n🌅 Ambiance : C'est 'Mora Mora' (doucement). Prenez le temps de boire un café en terrasse et de regarder la vie passer.\n\nUne ville authentique qui vous séduira par son charme nostalgique.",
+    "description": "La plus belle baie du monde (après Rio !). Une ville coloniale au charme suranné. Cette ville dynamique mêle harmonieusement héritage colonial et vie moderne, offrant aux visiteurs un aperçu fascinant de l'histoire et de la culture malgaches. Les marchés locaux, colorés et animés, sont le cœur battant de la ville où l'on trouve artisanat, produits frais et ambiance chaleureuse. L'architecture unique, témoin du passé colonial, se marie aux constructions plus récentes, créant un paysage urbain plein de caractère. Les restaurants, hôtels et services touristiques bien développés en font une base idéale pour rayonner vers les sites naturels environnants. Prendre le temps de flâner dans les rues, d'échanger avec les habitants et de découvrir les petits commerces locaux révèle toute l'authenticité de ce lieu.",
     "tags": [
       "Ville",
       "diego",
@@ -108,7 +117,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Bienvenue à Diego (Antsiranana), la belle endormie du Nord ! C'est un mélange unique d'histoire coloniale et de douceur de vivre tropicale.",
+    "description_summary": "La plus belle baie du monde (après Rio !). Une ville coloniale au charme suranné. Cette ville dynamique mêle harmonieusement héritage colonial et vie moderne, offrant aux visiteurs un aperçu fascinant de l'histoire et de la culture malgaches. Les marchés locaux, colorés et animés, sont le cœur battant de la ville où l'on trouve artisanat, produits frais et ambiance chaleureuse.",
     "has_expandable_description": true,
     "humour_grok": "Tu vas acheter des souvenirs moches que tu cacheras au fond d'un placard. C'est la tradition. 🗿"
   },
@@ -119,8 +128,8 @@ window.LIEUX_DATA = [
     "type": "Incontournable",
     "lat": -12.164,
     "lng": 49.352,
-    "image": "images/iles/mer-emeraude.jpg",
-    "description": "La Mer d'Émeraude, c'est LA carte postale mauricienne... mais à Madagascar ! Un lagon immense, peu profond, d'un turquoise qui fait mal aux yeux (dans le bon sens).\n\n⛵ Accès : On y va en boutre traditionnel depuis Ramena. La traversée est déjà une aventure.\n🐠 Snorkeling : L'eau est si claire que vous verrez les poissons depuis le bateau. Parfait pour une initiation.\n🏝️ Déjeuner : Grillades de poissons frais sur un îlot désert. Le luxe, le vrai : les pieds dans le sable.\n\n⚠️ Attention au soleil, ça tape fort sur l'eau !",
+    "image": "images/spots/mer-emeraude.jpg",
+    "description": "Un lagon paradisiaque aux eaux turquoises éblouissantes, accessible en bateau depuis Ramena. La Mer d'Émeraude offre des nuances de bleu et vert exceptionnelles, idéale pour le snorkeling. Les îlots de sable blanc émergent à marée basse, créant un décor de carte postale. L'un des joyaux naturels de Diego-Suarez. Ce site emblématique figure parmi les attractions phares de Diego-Suarez, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur. Les infrastructures d'accueil bien pensées permettent de profiter pleinement du site tout en respectant son intégrité et sa préservation. Que vous soyez photographe amateur, passionné de nature ou simple curieux, ce lieu offre des perspectives uniques et des souvenirs impérissables. Une visite matinale ou en fin d'après-midi permet de profiter d'une lumière idéale et d'une affluence réduite pour une expérience optimale.",
     "tags": [
       "Incontournable",
       "diego",
@@ -140,7 +149,7 @@ window.LIEUX_DATA = [
     "siteWeb": "https://www.diego-suarez-tourisme.com",
     "galerie_photos": [
       {
-        "url": "images/iles/mer-emeraude.jpg",
+        "url": "images/spots/mer-emeraude.jpg",
         "alt": "Mer d'Émeraude",
         "type": "principale"
       },
@@ -243,7 +252,7 @@ window.LIEUX_DATA = [
         "accordeon"
       ]
     },
-    "description_summary": "La Mer d'Émeraude, c'est LA carte postale mauricienne... mais à Madagascar ! Un lagon immense, peu profond, d'un turquoise qui fait mal aux yeux (dans le bon sens).",
+    "description_summary": "Un lagon paradisiaque aux eaux turquoises éblouissantes, accessible en bateau depuis Ramena. La Mer d'Émeraude offre des nuances de bleu et vert exceptionnelles, idéale pour le snorkeling. Les îlots de sable blanc émergent à marée basse, créant un décor de carte postale. L'un des joyaux naturels de Diego-Suarez.",
     "has_expandable_description": true,
     "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
   },
@@ -259,7 +268,7 @@ window.LIEUX_DATA = [
     "prixNum": 15000,
     "note": 4.6,
     "duree": "2h à 3h",
-    "description": "Oubliez la roche grise, ici la terre saigne ! Les Tsingy Rouges sont un canyon éphémère sculpté par la pluie dans de la latérite et du grès.\n\n🎨 Couleurs : Un dégradé spectaculaire du blanc à l'ocre rouge. C'est le paradis des photographes.\n⏳ Fragile : Contrairement aux Tsingy de pierre, ceux-ci sont fragiles. On regarde avec les yeux, on touche pas !\n☀️ Moment : Idéal en fin d'après-midi quand le soleil rasant enflamme les couleurs.\n\nUn paysage martien au milieu de la brousse.",
+    "description": "Un site géologique spectaculaire où le grès rouge a été sculpté par l'érosion en formations étonnantes. Les Tsingy Rouge de Diego offrent un paysage aux couleurs flamboyantes, particulièrement magique au coucher du soleil. Un spot photo exceptionnel et une balade facile accessible à tous. Ce site emblématique figure parmi les attractions phares de Diego-Suarez, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur. Les infrastructures d'accueil bien pensées permettent de profiter pleinement du site tout en respectant son intégrité et sa préservation. Que vous soyez photographe amateur, passionné de nature ou simple curieux, ce lieu offre des perspectives uniques et des souvenirs impérissables. Une visite matinale ou en fin d'après-midi permet de profiter d'une lumière idéale et d'une affluence réduite pour une expérience optimale.",
     "tags": [
       "Incontournable",
       "diego",
@@ -381,7 +390,7 @@ window.LIEUX_DATA = [
         "accordeon"
       ]
     },
-    "description_summary": "Oubliez la roche grise, ici la terre saigne ! Les Tsingy Rouges sont un canyon éphémère sculpté par la pluie dans de la latérite et du grès.",
+    "description_summary": "Un site géologique spectaculaire où le grès rouge a été sculpté par l'érosion en formations étonnantes. Les Tsingy Rouge de Diego offrent un paysage aux couleurs flamboyantes, particulièrement magique au coucher du soleil. Un spot photo exceptionnel et une balade facile accessible à tous.",
     "has_expandable_description": true,
     "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
   },
@@ -393,7 +402,7 @@ window.LIEUX_DATA = [
     "lat": -12.516,
     "lng": 49.166,
     "image": "images/spots/montagne-ambre.jpg",
-    "description": "La Montagne d'Ambre, c'est votre climatiseur naturel ! Une forêt pluviale d'altitude qui tranche avec la chaleur de la côte.\n\n🦎 Faune : Cherchez bien, le plus petit caméléon du monde (Brookesia) se cache dans les feuilles mortes.\n💦 Fraîcheur : Cascades sacrées et lacs de cratère. Ça fait un bien fou de respirer l'air frais.\n🌿 Flore : Des fougères arborescentes géantes comme à l'époque des dinosaures.\n\nPrévoyez un K-way, ici la météo est capricieuse !",
+    "description": "Un parc national d'exception où la forêt humide abrite des cascades sacrées et une biodiversité unique. C'est le royaume des caméléons et des lémuriens, offrant une fraîcheur bienvenue à seulement quelques kilomètres de Diego. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Diego-Suarez. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
     "tags": [
       "Nature",
       "diego",
@@ -509,7 +518,7 @@ window.LIEUX_DATA = [
         "accordeon"
       ]
     },
-    "description_summary": "La Montagne d'Ambre, c'est votre climatiseur naturel ! Une forêt pluviale d'altitude qui tranche avec la chaleur de la côte.",
+    "description_summary": "Un parc national d'exception où la forêt humide abrite des cascades sacrées et une biodiversité unique. C'est le royaume des caméléons et des lémuriens, offrant une fraîcheur bienvenue à seulement quelques kilomètres de Diego. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
     "humour_grok": "Tu vas marcher 3h dans la boue pour voir une cascade... qui est juste de l'eau qui tombe. Mais 'c'est l'aventure' qu'ils disent. 🤠"
   },
@@ -663,7 +672,7 @@ window.LIEUX_DATA = [
     "lat": -12.916,
     "lng": 49.116,
     "image": "images/spots/ankarana.jpg",
-    "description": "L'Ankarana, c'est le Mordor version tropicale. Des formations calcaires acérées à perte de vue (les Tsingy) qui cachent un monde souterrain.\n\n🦇 Grottes : Explorez des cathédrales souterraines habitées par des colonies de chauves-souris. Indiana Jones, c'est vous !\n🌉 Pont Suspendu : Oserez-vous traverser au-dessus du vide ? La vue sur le canyon est imprenable.\n🐒 Lémuriens : Les Lémurs couronnés sont chez eux ici. Ils sont curieux, mais gardez vos distances.\n\nC'est physique, il fait chaud, mais c'est inoubliable.",
+    "description": "Tsingy gris affûtés et pont suspendu mythique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Ambilobe. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
     "tags": [
       "Nature",
       "diego",
@@ -767,7 +776,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "L'Ankarana, c'est le Mordor version tropicale. Des formations calcaires acérées à perte de vue (les Tsingy) qui cachent un monde souterrain.",
+    "description_summary": "Tsingy gris affûtés et pont suspendu mythique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Ambilobe.",
     "has_expandable_description": true,
     "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾"
   },
@@ -778,8 +787,8 @@ window.LIEUX_DATA = [
     "type": "Incontournable",
     "lat": -13.683,
     "lng": 48.45,
-    "image": "images/circuits/circuit-cacao.jpg",
-    "description": "Ambanja, c'est la capitale du cacao fin ! Ici, l'air sent le chocolat et l'ylang-ylang. Une étape sensorielle obligatoire.\n\n🍫 Plantations : Visitez les champs de cacaoyers sous l'ombrage des grands arbres. C'est ici que naissent les grands crus.\n🚕 Transport : Baladez-vous en vélo ou en Bajaj à travers les allées de la vallée du Sambirano.\n🌿 Nature : Une végétation luxuriante qui change de la savane du nord.\n\nSi vous aimez le chocolat, vous êtes en pèlerinage.",
+    "image": "images/spots/cacao-plantation.jpg",
+    "description": "Berceau du cacao de Madagascar. Ce site emblématique figure parmi les attractions phares de Ambanja, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur. Les infrastructures d'accueil bien pensées permettent de profiter pleinement du site tout en respectant son intégrité et sa préservation. Que vous soyez photographe amateur, passionné de nature ou simple curieux, ce lieu offre des perspectives uniques et des souvenirs impérissables. Une visite matinale ou en fin d'après-midi permet de profiter d'une lumière idéale et d'une affluence réduite pour une expérience optimale.",
     "tags": [
       "Incontournable",
       "ambanja",
@@ -797,7 +806,7 @@ window.LIEUX_DATA = [
     "categorie": "Incontournable",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-cacao.jpg",
+        "url": "images/spots/cacao-plantation.jpg",
         "alt": "Plantation Cacao (Ambanja)",
         "type": "principale"
       }
@@ -881,7 +890,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Ambanja, c'est la capitale du cacao fin ! Ici, l'air sent le chocolat et l'ylang-ylang. Une étape sensorielle obligatoire.",
+    "description_summary": "Berceau du cacao de Madagascar. Ce site emblématique figure parmi les attractions phares de Ambanja, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur.",
     "has_expandable_description": true,
     "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔"
   },
@@ -892,8 +901,8 @@ window.LIEUX_DATA = [
     "type": "Spot Local",
     "lat": -13.533,
     "lng": 48.366,
-    "image": "images/circuits/circuit-cacao.jpg",
-    "description": "Ankify n'est pas qu'un port d'embarquement, c'est un petit village paisible posé sur l'eau.\n\n🚤 Connexion : C'est le hub pour aller à Nosy Be. Les vedettes partent d'ici.\n🥥 Détente : En attendant le bateau, profitez des petites gargotes qui servent du poisson coco délicieux.\n👀 Vue : On aperçoit déjà les îles au loin. L'aventure insulaire commence ici.\n\nSoyez 'Mora Mora' avec les horaires des bateaux, c'est ça les vacances !",
+    "image": "images/spots/ankify.jpg",
+    "description": "Point de départ vers Nosy Be. Ce lieu présente un intérêt certain pour les visiteurs de Ankify, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
       "Spot Local",
       "ambanja",
@@ -910,7 +919,7 @@ window.LIEUX_DATA = [
     "categorie": "Spot Local",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-cacao.jpg",
+        "url": "images/spots/ankify.jpg",
         "alt": "Port d'Ankify",
         "type": "principale"
       }
@@ -994,7 +1003,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Ankify n'est pas qu'un port d'embarquement, c'est un petit village paisible posé sur l'eau.",
+    "description_summary": "Point de départ vers Nosy Be. Ce lieu présente un intérêt certain pour les visiteurs de Ankify, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
   },
@@ -1005,8 +1014,8 @@ window.LIEUX_DATA = [
     "type": "Incontournable",
     "lat": -13.67,
     "lng": 48.46,
-    "image": "images/circuits/circuit-cacao.jpg",
-    "description": "Les Plantations Millot, c'est l'histoire vivante d'Ambanja. Une institution centenaire qui produit cacao, épices et parfums.\n\n👨‍🌾 Savoir-faire : Découvrez comment on transforme la fève brute en or noir. C'est tout un art.\n🌸 Parfums : L'Ylang-Ylang embaume l'air. On l'appelle la fleur des fleurs.\n🍽️ Dégustation : Le clou du spectacle : goûter le chocolat à la source. Attention, c'est puissant !\n\nUne visite pédagogique passionnante pour comprendre la richesse du terroir malgache.",
+    "image": "images/spots/cacao-plantation.jpg",
+    "description": "Plantation historique de cacao, ylang-ylang et épices. Ce site emblématique figure parmi les attractions phares de Ambanja, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur. Les infrastructures d'accueil bien pensées permettent de profiter pleinement du site tout en respectant son intégrité et sa préservation. Que vous soyez photographe amateur, passionné de nature ou simple curieux, ce lieu offre des perspectives uniques et des souvenirs impérissables. Une visite matinale ou en fin d'après-midi permet de profiter d'une lumière idéale et d'une affluence réduite pour une expérience optimale.",
     "tags": [
       "Incontournable",
       "ambanja",
@@ -1024,7 +1033,7 @@ window.LIEUX_DATA = [
     "categorie": "Incontournable",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-cacao.jpg",
+        "url": "images/spots/cacao-plantation.jpg",
         "alt": "Plantations Millot",
         "type": "principale"
       }
@@ -1108,7 +1117,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Les Plantations Millot, c'est l'histoire vivante d'Ambanja. Une institution centenaire qui produit cacao, épices et parfums.",
+    "description_summary": "Plantation historique de cacao, ylang-ylang et épices. Ce site emblématique figure parmi les attractions phares de Ambanja, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur.",
     "has_expandable_description": true,
     "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
   },
@@ -1119,8 +1128,8 @@ window.LIEUX_DATA = [
     "type": "Nature",
     "lat": -13.75,
     "lng": 48.5,
-    "image": "images/circuits/circuit-cacao.jpg",
-    "description": "Le Fleuve Sambirano, c'est l'artère vitale de la région. Une balade en pirogue pour déconnecter totalement.\n\n🐊 Faune : Ouvrez l'œil, des crocodiles se dorent parfois sur les berges (de loin, c'est mieux !).\n🌳 Paysage : Des berges verdoyantes, des oiseaux pêcheurs... c'est le calme absolu.\n🛶 Authentique : La pirogue, c'est le moyen de transport local. Laissez-vous glisser au fil de l'eau.\n\nUn moment de pure zénitude au cœur de la nature.",
+    "image": "images/spots/sambirano-river.jpg",
+    "description": "Excursion en pirogue au cœur de la vallée fertile. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Ambanja. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
     "tags": [
       "Nature",
       "ambanja",
@@ -1138,7 +1147,7 @@ window.LIEUX_DATA = [
     "categorie": "Nature",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-cacao.jpg",
+        "url": "images/spots/sambirano-river.jpg",
         "alt": "Fleuve Sambirano",
         "type": "principale"
       }
@@ -1224,7 +1233,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le Fleuve Sambirano, c'est l'artère vitale de la région. Une balade en pirogue pour déconnecter totalement.",
+    "description_summary": "Excursion en pirogue au cœur de la vallée fertile. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Ambanja.",
     "has_expandable_description": true,
     "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
   },
@@ -1235,8 +1244,8 @@ window.LIEUX_DATA = [
     "type": "Ville",
     "lat": -13.4,
     "lng": 48.2667,
-    "image": "images/circuits/circuit-nosybe.jpg",
-    "description": "Hell-Ville, c'est le cœur bouillonnant de Nosy Be. Une capitale de poche où tout le monde se croise.\n\n🏛️ Colonial : Des bâtiments anciens qui ont du cachet, vestiges du passé comptoir de l'île.\n🛒 Marché : Le Bazar Be est incontournable. Épices, vanille, artisanat... négociez avec le sourire !\n🍹 Vie : C'est animé, bruyant, vivant. C'est là que bat le pouls de l'île.\n\nIdéal pour faire ses emplettes souvenirs et sentir l'atmosphère locale.",
+    "image": "images/villes/nosy-be.jpg",
+    "description": "Capitale de l'île aux parfums. Cette ville dynamique mêle harmonieusement héritage colonial et vie moderne, offrant aux visiteurs un aperçu fascinant de l'histoire et de la culture malgaches. Les marchés locaux, colorés et animés, sont le cœur battant de la ville où l'on trouve artisanat, produits frais et ambiance chaleureuse. L'architecture unique, témoin du passé colonial, se marie aux constructions plus récentes, créant un paysage urbain plein de caractère. Les restaurants, hôtels et services touristiques bien développés en font une base idéale pour rayonner vers les sites naturels environnants. Prendre le temps de flâner dans les rues, d'échanger avec les habitants et de découvrir les petits commerces locaux révèle toute l'authenticité de ce lieu.",
     "tags": [
       "Ville",
       "nosybe",
@@ -1253,7 +1262,7 @@ window.LIEUX_DATA = [
     "categorie": "Ville",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-nosybe.jpg",
+        "url": "images/villes/nosy-be.jpg",
         "alt": "Nosy Be (Hell-Ville)",
         "type": "principale"
       }
@@ -1337,7 +1346,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Hell-Ville, c'est le cœur bouillonnant de Nosy Be. Une capitale de poche où tout le monde se croise.",
+    "description_summary": "Capitale de l'île aux parfums. Cette ville dynamique mêle harmonieusement héritage colonial et vie moderne, offrant aux visiteurs un aperçu fascinant de l'histoire et de la culture malgaches. Les marchés locaux, colorés et animés, sont le cœur battant de la ville où l'on trouve artisanat, produits frais et ambiance chaleureuse.",
     "has_expandable_description": true,
     "humour_grok": "Le code de la route est une suggestion vague. Le klaxon est ton seul bouclier. 🚗"
   },
@@ -1352,7 +1361,7 @@ window.LIEUX_DATA = [
     "prixEur": "2 €",
     "prixNum": 10000,
     "note": 4.5,
-    "description": "Le Rova, c'est l'âme de l'Imerina. Perché sur la plus haute colline, il veille sur Tana depuis des siècles.\n\n👑 Histoire : Ici vivaient les Rois et Reines. C'est sacré. Écoutez bien les légendes du guide.\n🏙️ Vue : Le panorama à 360° sur la capitale est juste dingue. On comprend mieux la ville d'ici.\n🔥 Résilience : Reconstruit après l'incendie, c'est un symbole fort pour les Malgaches.\n\nUne montée au ciel pour toucher l'histoire du doigt.",
+    "description": "Le Rova de Manjakamiadana est le cœur historique et spirituel de l’Imerina. Perché sur la plus haute colline, ce complexe royal offre une plongée fascinante dans l’histoire des monarques malgaches et une vue imprenable à 360° sur toute la ville. Ce site emblématique figure parmi les attractions phares de Antananarivo, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur. Les infrastructures d'accueil bien pensées permettent de profiter pleinement du site tout en respectant son intégrité et sa préservation. Que vous soyez photographe amateur, passionné de nature ou simple curieux, ce lieu offre des perspectives uniques et des souvenirs impérissables. Une visite matinale ou en fin d'après-midi permet de profiter d'une lumière idéale et d'une affluence réduite pour une expérience optimale.",
     "image": "images/villes/palais-reine.jpg",
     "acces": "Centre-ville d’Antananarivo, colline d’Ambohimanga",
     "horaires": "9h-17h tous les jours",
@@ -1459,7 +1468,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le Rova, c'est l'âme de l'Imerina. Perché sur la plus haute colline, il veille sur Tana depuis des siècles.",
+    "description_summary": "Le Rova de Manjakamiadana est le cœur historique et spirituel de l’Imerina. Perché sur la plus haute colline, ce complexe royal offre une plongée fascinante dans l’histoire des monarques malgaches et une vue imprenable à 360° sur toute la ville. Ce site emblématique figure parmi les attractions phares de Antananarivo, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
   },
@@ -1474,7 +1483,7 @@ window.LIEUX_DATA = [
     "prixEur": "Gratuit",
     "prixNum": 0,
     "note": 4.3,
-    "description": "Le Marché de la Digue, c'est la caverne d'Ali Baba de l'artisanat. Préparez vos valises, vous allez craquer !\n\n🎁 Choix : Vannerie, bois sculpté, pierres, broderie... Tout le savoir-faire malgache est ici.\n🤝 Négociation : C'est le jeu ! Discutez les prix avec le sourire, c'est l'échange qui compte.\n🎨 Couleurs : C'est visuellement superbe. Même juste pour les yeux, ça vaut le détour.\n\nLe passage obligé avant de reprendre l'avion pour les cadeaux.",
+    "description": "Le plus grand marché artisanal de la capitale. Un labyrinthe de couleurs et de senteurs où vous trouverez tout l’artisanat malgache : vannerie, marqueterie, pierres semi-précieuses, broderies et sculptures en bois. L’endroit idéal pour vos souvenirs. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/villes/marche-la-digue.jpg",
     "acces": "Avenue de l’Indépendance",
     "horaires": "8h-18h du lundi au samedi",
@@ -1579,7 +1588,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le Marché de la Digue, c'est la caverne d'Ali Baba de l'artisanat. Préparez vos valises, vous allez craquer !",
+    "description_summary": "Le plus grand marché artisanal de la capitale. Un labyrinthe de couleurs et de senteurs où vous trouverez tout l’artisanat malgache : vannerie, marqueterie, pierres semi-précieuses, broderies et sculptures en bois. L’endroit idéal pour vos souvenirs. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
   },
@@ -1821,7 +1830,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une source mystique chargée de légendes, vénérée par les habitants du quartier. On dit que son eau possède des vertus purificatrices. C’est un lieu secret, hors des guides touristiques classiques, où l’on ressent la spiritualité quotidienne malgache.",
+    "description_summary": "Une source mystique chargée de légendes, vénérée par les habitants du quartier. On dit que son eau possède des vertus purificatrices. C’est un lieu secret, hors des guides touristiques classiques, où l’on ressent la spiritualité quotidienne malgache. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
   },
@@ -1832,7 +1841,7 @@ window.LIEUX_DATA = [
     "type": "Ville",
     "lat": -14.2667,
     "lng": 50.1667,
-    "image": "images/circuits/circuit-vanille.jpg",
+    "image": "images/villes/sambava.jpg",
     "description": "Capitale de la vanille, entre mer et montagne. Cette ville dynamique mêle harmonieusement héritage colonial et vie moderne, offrant aux visiteurs un aperçu fascinant de l'histoire et de la culture malgaches. Les marchés locaux, colorés et animés, sont le cœur battant de la ville où l'on trouve artisanat, produits frais et ambiance chaleureuse. L'architecture unique, témoin du passé colonial, se marie aux constructions plus récentes, créant un paysage urbain plein de caractère. Les restaurants, hôtels et services touristiques bien développés en font une base idéale pour rayonner vers les sites naturels environnants. Prendre le temps de flâner dans les rues, d'échanger avec les habitants et de découvrir les petits commerces locaux révèle toute l'authenticité de ce lieu.",
     "tags": [
       "Ville",
@@ -1850,7 +1859,7 @@ window.LIEUX_DATA = [
     "categorie": "Ville",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-vanille.jpg",
+        "url": "images/villes/sambava.jpg",
         "alt": "Sambava",
         "type": "principale"
       }
@@ -1945,7 +1954,7 @@ window.LIEUX_DATA = [
     "type": "Nature",
     "lat": -14.4394,
     "lng": 49.7392,
-    "image": "images/circuits/circuit-vanille.jpg",
+    "image": "images/spots/marojejy.jpg",
     "description": "Sanctuaire du Sifaka Soyeux, jungle dense et sommets. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Andapa. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
     "tags": [
       "Nature",
@@ -1964,7 +1973,7 @@ window.LIEUX_DATA = [
     "categorie": "Nature",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-vanille.jpg",
+        "url": "images/spots/marojejy.jpg",
         "alt": "Parc National Marojejy",
         "type": "principale"
       }
@@ -2061,7 +2070,7 @@ window.LIEUX_DATA = [
     "type": "Ville",
     "lat": -14.8833,
     "lng": 50.2833,
-    "image": "images/circuits/circuit-vanille.jpg",
+    "image": "images/villes/antalaha.jpg",
     "description": "La Mecque de la vanille mondiale. Chic et tropical. Cette ville dynamique mêle harmonieusement héritage colonial et vie moderne, offrant aux visiteurs un aperçu fascinant de l'histoire et de la culture malgaches. Les marchés locaux, colorés et animés, sont le cœur battant de la ville où l'on trouve artisanat, produits frais et ambiance chaleureuse. L'architecture unique, témoin du passé colonial, se marie aux constructions plus récentes, créant un paysage urbain plein de caractère. Les restaurants, hôtels et services touristiques bien développés en font une base idéale pour rayonner vers les sites naturels environnants. Prendre le temps de flâner dans les rues, d'échanger avec les habitants et de découvrir les petits commerces locaux révèle toute l'authenticité de ce lieu.",
     "tags": [
       "Ville",
@@ -2079,7 +2088,7 @@ window.LIEUX_DATA = [
     "categorie": "Ville",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-vanille.jpg",
+        "url": "images/villes/antalaha.jpg",
         "alt": "Antalaha",
         "type": "principale"
       }
@@ -2163,7 +2172,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "La Mecque de la vanille mondiale. Chic et tropical. Cette ville dynamique mêle harmonieusement héritage colonial et vie moderne, offrant aux visiteurs un aperçu fascinant de l'histoire et de la culture malgaches.",
+    "description_summary": "La Mecque de la vanille mondiale. Chic et tropical. Cette ville dynamique mêle harmonieusement héritage colonial et vie moderne, offrant aux visiteurs un aperçu fascinant de l'histoire et de la culture malgaches. Les marchés locaux, colorés et animés, sont le cœur battant de la ville où l'on trouve artisanat, produits frais et ambiance chaleureuse.",
     "has_expandable_description": true,
     "humour_grok": "Les trottoirs sont des parcours d'obstacles. C'est comme Koh-Lanta, mais en ville. 🏃‍♂️"
   },
@@ -2174,7 +2183,7 @@ window.LIEUX_DATA = [
     "type": "Spot Local",
     "lat": -15.2667,
     "lng": 50.4833,
-    "image": "images/circuits/circuit-vanille.jpg",
+    "image": "images/spots/cap-est.jpg",
     "description": "Le point le plus oriental de l'Afrique. Sauvage. Ce lieu présente un intérêt certain pour les visiteurs de Antalaha, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
       "Spot Local",
@@ -2192,7 +2201,7 @@ window.LIEUX_DATA = [
     "categorie": "Spot Local",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-vanille.jpg",
+        "url": "images/spots/cap-est.jpg",
         "alt": "Cap Est",
         "type": "principale"
       }
@@ -2287,7 +2296,7 @@ window.LIEUX_DATA = [
     "type": "Nature",
     "lat": -14.9083,
     "lng": 50.275,
-    "image": "images/circuits/circuit-vanille.jpg",
+    "image": "images/spots/macolline.jpg",
     "description": "Jardin botanique avec vue spectaculaire. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Antalaha. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
     "tags": [
       "Nature",
@@ -2305,7 +2314,7 @@ window.LIEUX_DATA = [
     "categorie": "Nature",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-vanille.jpg",
+        "url": "images/spots/macolline.jpg",
         "alt": "Macolline",
         "type": "principale"
       }
@@ -2402,8 +2411,8 @@ window.LIEUX_DATA = [
     "type": "Incontournable",
     "lat": -13.4667,
     "lng": 48.35,
-    "image": "images/iles/nosy-komba.jpg",
-    "description": "Nosy Komba, c'est l'île granitique qui veille sur Nosy Be. Ici, pas de voitures, pas de stress, juste la nature.\n\n🐒 Makis : Les Lémurs Macaco sont les rois. Ils viendront vous manger des bananes sur l'épaule (photos garanties !).\n🧵 Artisanat : Les femmes du village brodent des nappes magnifiques ('Richelieu'). C'est fin et local.\n🚶 Rando : Ça grimpe ! Mais la vue depuis le sommet vaut chaque goutte de sueur.\n\nUne parenthèse enchantée où l'homme et l'animal cohabitent.",
+    "image": "images/spots/nosy-komba.jpg",
+    "description": "L'île aux lémuriens, artisanat et tranquillité. Ce site emblématique figure parmi les attractions phares de Nosy Be, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur. Les infrastructures d'accueil bien pensées permettent de profiter pleinement du site tout en respectant son intégrité et sa préservation. Que vous soyez photographe amateur, passionné de nature ou simple curieux, ce lieu offre des perspectives uniques et des souvenirs impérissables. Une visite matinale ou en fin d'après-midi permet de profiter d'une lumière idéale et d'une affluence réduite pour une expérience optimale.",
     "tags": [
       "Incontournable",
       "nosybe",
@@ -2421,7 +2430,7 @@ window.LIEUX_DATA = [
     "categorie": "Incontournable",
     "galerie_photos": [
       {
-        "url": "images/iles/nosy-komba.jpg",
+        "url": "images/spots/nosy-komba.jpg",
         "alt": "Nosy Komba",
         "type": "principale"
       }
@@ -2505,7 +2514,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Nosy Komba, c'est l'île granitique qui veille sur Nosy Be. Ici, pas de voitures, pas de stress, juste la nature.",
+    "description_summary": "L'île aux lémuriens, artisanat et tranquillité. Ce site emblématique figure parmi les attractions phares de Nosy Be, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur.",
     "has_expandable_description": true,
     "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
   },
@@ -2516,8 +2525,8 @@ window.LIEUX_DATA = [
     "type": "Incontournable",
     "lat": -13.4833,
     "lng": 48.2333,
-    "image": "images/iles/nosy-tanikely.jpg",
-    "description": "Nosy Tanikely, c'est un aquarium géant... sans les vitres ! Réserve marine protégée, c'est le spot de snorkeling ultime.\n\n🐢 Tortues : Elles sont là, tranquilles, à brouter les coraux. Nagez avec elles (sans les toucher !).\n🐠 Poissons : Des milliers de poissons colorés dès qu'on met la tête sous l'eau. Même pour les débutants.\n🏝️ Phare : Grimpez au vieux phare pour une vue panoramique à 360° sur l'archipel.\n\nPrenez votre masque et tuba, c'est le meilleur film que vous verrez.",
+    "image": "images/spots/nosy-tanikely.jpg",
+    "description": "Aquarium naturel, snorkeling de classe mondiale. Ce site emblématique figure parmi les attractions phares de Nosy Be, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur. Les infrastructures d'accueil bien pensées permettent de profiter pleinement du site tout en respectant son intégrité et sa préservation. Que vous soyez photographe amateur, passionné de nature ou simple curieux, ce lieu offre des perspectives uniques et des souvenirs impérissables. Une visite matinale ou en fin d'après-midi permet de profiter d'une lumière idéale et d'une affluence réduite pour une expérience optimale.",
     "tags": [
       "Incontournable",
       "nosybe",
@@ -2535,7 +2544,7 @@ window.LIEUX_DATA = [
     "categorie": "Incontournable",
     "galerie_photos": [
       {
-        "url": "images/iles/nosy-tanikely.jpg",
+        "url": "images/spots/nosy-tanikely.jpg",
         "alt": "Nosy Tanikely",
         "type": "principale"
       }
@@ -2619,7 +2628,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Nosy Tanikely, c'est un aquarium géant... sans les vitres ! Réserve marine protégée, c'est le spot de snorkeling ultime.",
+    "description_summary": "Aquarium naturel, snorkeling de classe mondiale. Ce site emblématique figure parmi les attractions phares de Nosy Be, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur.",
     "has_expandable_description": true,
     "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
   },
@@ -2631,7 +2640,7 @@ window.LIEUX_DATA = [
     "lat": -13.3222,
     "lng": 48.2431,
     "image": "images/spots/mont-passot.jpg",
-    "description": "Le Mont Passot, c'est le balcon de Nosy Be. Le point de rendez-vous obligatoire pour finir la journée en beauté.\n\n🌅 Sunset : Le coucher de soleil y est légendaire. Le ciel s'embrase sur l'océan.\n🌋 Lacs Sacrés : On domine les lacs de cratère. Attention, ils sont sacrés (et habités par des crocodiles, paraît-il).\n🍹 Apéro : Siroter un cocktail en regardant le soleil plonger dans la mer... What else ?\n\nArrivez tôt pour avoir une bonne place !",
+    "description": "Le point culminant de l'île. Coucher de soleil 360°. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
       "Spot Local",
       "nosybe",
@@ -2732,7 +2741,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le Mont Passot, c'est le balcon de Nosy Be. Le point de rendez-vous obligatoire pour finir la journée en beauté.",
+    "description_summary": "Le point culminant de l'île. Coucher de soleil 360°. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
   },
@@ -2743,8 +2752,8 @@ window.LIEUX_DATA = [
     "type": "Incontournable",
     "lat": -13.5833,
     "lng": 47.8167,
-    "image": "images/iles/nosy-iranja.jpg",
-    "description": "Nosy Iranja, c'est la star d'Instagram. Deux îlots reliés par une langue de sable blanc aveuglant.\n\n🏖️ Sable : Une marche sur l'eau (presque) à marée basse. C'est magique.\n🐢 Ponte : C'est un lieu de nidification pour les tortues marines. Respectez leur tranquillité.\n💎 Eau : Un bleu turquoise impossible à décrire. C'est le paradis, littéralement.\n\nC'est loin (1h30 de bateau), mais c'est l'excursion d'une vie.",
+    "image": "images/spots/nosy-iranja.jpg",
+    "description": "Deux îles reliées par un banc de sable blanc sublime. Ce site emblématique figure parmi les attractions phares de Nosy Be, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur. Les infrastructures d'accueil bien pensées permettent de profiter pleinement du site tout en respectant son intégrité et sa préservation. Que vous soyez photographe amateur, passionné de nature ou simple curieux, ce lieu offre des perspectives uniques et des souvenirs impérissables. Une visite matinale ou en fin d'après-midi permet de profiter d'une lumière idéale et d'une affluence réduite pour une expérience optimale.",
     "tags": [
       "Incontournable",
       "nosybe",
@@ -2762,7 +2771,7 @@ window.LIEUX_DATA = [
     "categorie": "Incontournable",
     "galerie_photos": [
       {
-        "url": "images/iles/nosy-iranja.jpg",
+        "url": "images/spots/nosy-iranja.jpg",
         "alt": "Nosy Iranja",
         "type": "principale"
       }
@@ -2846,7 +2855,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Nosy Iranja, c'est la star d'Instagram. Deux îlots reliés par une langue de sable blanc aveuglant.",
+    "description_summary": "Deux îles reliées par un banc de sable blanc sublime. Ce site emblématique figure parmi les attractions phares de Nosy Be, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur.",
     "has_expandable_description": true,
     "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
   },
@@ -2858,7 +2867,7 @@ window.LIEUX_DATA = [
     "lat": -13.4167,
     "lng": 48.3167,
     "image": "images/spots/lokobe.jpg",
-    "description": "Lokobe, c'est la forêt originelle de Nosy Be. La jungle comme elle était avant l'homme.\n\n🛶 Accès : On y arrive en pirogue à balancier. Silence, on glisse sur l'eau.\n🐍 Faune : Boas (gentils), lémuriens nocturnes, caméléons... C'est un festival de biodiversité.\n🌳 Atmosphère : Humide, dense, mystérieuse. On se sent tout petit sous les arbres géants.\n\nGuide obligatoire pour voir les animaux camouflés !",
+    "description": "La dernière forêt primaire protégée de Nosy Be. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Nosy Be. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
     "tags": [
       "Nature",
       "nosybe",
@@ -2961,7 +2970,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Lokobe, c'est la forêt originelle de Nosy Be. La jungle comme elle était avant l'homme.",
+    "description_summary": "La dernière forêt primaire protégée de Nosy Be. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Nosy Be.",
     "has_expandable_description": true,
     "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿"
   },
@@ -2972,8 +2981,8 @@ window.LIEUX_DATA = [
     "type": "Spot Local",
     "lat": -13.2667,
     "lng": 48.1833,
-    "image": "images/circuits/circuit-nosybe.jpg",
-    "description": "Andilana, c'est LA plage carte postale du dimanche. La plus belle plage publique de l'île, et de loin.\n\n🌴 Cadre : Cocotiers, sable fin, eau calme. Tout y est pour le farniente.\n🎉 Ambiance : Le dimanche, c'est la fête ! Musique, grillades, familles... C'est la vie malgache joyeuse.\n🍽️ Miam : Mangez des langoustes grillées les pieds dans le sable dans les paillotes.\n\nLe spot parfait pour déconnecter et bronzer 'Tsara'.",
+    "image": "images/spots/andilana.jpg",
+    "description": "La plus belle plage publique de Nosy Be. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
       "Spot Local",
       "nosybe",
@@ -2990,7 +2999,7 @@ window.LIEUX_DATA = [
     "categorie": "Spot Local",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-nosybe.jpg",
+        "url": "images/spots/andilana.jpg",
         "alt": "Plage d'Andilana",
         "type": "principale"
       }
@@ -3074,7 +3083,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Andilana, c'est LA plage carte postale du dimanche. La plus belle plage publique de l'île, et de loin.",
+    "description_summary": "La plus belle plage publique de Nosy Be. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
   },
@@ -3193,7 +3202,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une institution gastronomique à Tana. Installé dans une magnifique villa coloniale remplie d’antiquités, ce restaurant propose une cuisine fusion raffinée. Le cadre est aussi exquis que les plats, avec une collection d’objets d’art hétéroclite fascinante.",
+    "description_summary": "Une institution gastronomique à Tana. Installé dans une magnifique villa coloniale remplie d’antiquités, ce restaurant propose une cuisine fusion raffinée. Le cadre est aussi exquis que les plats, avec une collection d’objets d’art hétéroclite fascinante. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
     "humour_grok": "Le menu est à titre indicatif. Il y a ce qu'il y a, et tu vas dire merci. 🤷‍♂️"
   },
@@ -3313,7 +3322,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le berceau de la royauté Merina, classé à l’UNESCO. Une cité interdite préservée avec ses palais en bois précieux, ses tombeaux royaux et ses ficus sacrés. Un lieu chargé de spiritualité et d’histoire, indispensable pour comprendre Madagascar.",
+    "description_summary": "Le berceau de la royauté Merina, classé à l’UNESCO. Une cité interdite préservée avec ses palais en bois précieux, ses tombeaux royaux et ses ficus sacrés. Un lieu chargé de spiritualité et d’histoire, indispensable pour comprendre Madagascar. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
   },
@@ -3677,7 +3686,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Chic et tendance. Situé au Carlton, le Kudeta est à la fois un excellent restaurant gastronomique et un lounge bar sophistiqué le soir. Le décor mélange art malgache contemporain et design industriel. Incontournable pour la jeunesse dorée.",
+    "description_summary": "Chic et tendance. Situé au Carlton, le Kudeta est à la fois un excellent restaurant gastronomique et un lounge bar sophistiqué le soir. Le décor mélange art malgache contemporain et design industriel. Incontournable pour la jeunesse dorée. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
     "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹"
   },
@@ -3797,7 +3806,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "La plus belle vue de Tana. Perché sur la colline royale, ce restaurant offre un panorama époustouflant, surtout au coucher du soleil. Dans un cadre colonial raffiné, on y déguste une cuisine fine et des desserts maison squis (profiteroles, tartes).",
+    "description_summary": "La plus belle vue de Tana. Perché sur la colline royale, ce restaurant offre un panorama époustouflant, surtout au coucher du soleil. Dans un cadre colonial raffiné, on y déguste une cuisine fine et des desserts maison squis (profiteroles, tartes). La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
     "humour_grok": "Prends le poisson. Il nageait encore ce matin. Contrairement au steak qui a fait plus d'avion que toi. 🐟"
   },
@@ -4034,7 +4043,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le chic colonial revisité. Façade blanche immaculée, parquets en bois sombre et design épuré. C’est l’un des hôtels de charme les plus élégants du centre-ville, avec un rooftop bar très prisé pour les afterworks.",
+    "description_summary": "Le chic colonial revisité. Façade blanche immaculée, parquets en bois sombre et design épuré. C’est l’un des hôtels de charme les plus élégants du centre-ville, avec un rooftop bar très prisé pour les afterworks. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
   },
@@ -4154,7 +4163,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le standing international 4 étoiles. Un bâtiment moderne vitré qui tranche avec l’architecture locale. Chambres spacieuses et sobres, spa complet et surtout ’La Canopée’, son rooftop offrant une vue panoramique sur tout Tana.",
+    "description_summary": "Le standing international 4 étoiles. Un bâtiment moderne vitré qui tranche avec l’architecture locale. Chambres spacieuses et sobres, spa complet et surtout ’La Canopée’, son rooftop offrant une vue panoramique sur tout Tana. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
   },
@@ -4395,7 +4404,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "L’élégance intimiste au bord du lac. Situé dans une maison traditionnelle rénovée face au lac Anosy, il offre seulement quelques chambres sublimes et une terrasse en bois parfaite pour un dîner romantique avec vue sur le Rova illuminé.",
+    "description_summary": "L’élégance intimiste au bord du lac. Situé dans une maison traditionnelle rénovée face au lac Anosy, il offre seulement quelques chambres sublimes et une terrasse en bois parfaite pour un dîner romantique avec vue sur le Rova illuminé. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Le silence est d'or. Et ici, il est obligatoire. Range ton téléphone et écoute l'histoire (même si c'est compliqué). 🤫"
   },
@@ -4515,7 +4524,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le luxe confidentiel. Cette ancienne banque coloniale en briques rouges transformée en maison d’hôtes exclusive propose un jardin tropical avec piscine et une vue imprenable. Un havre de paix absolu sur les hauteurs de la ville.",
+    "description_summary": "Le luxe confidentiel. Cette ancienne banque coloniale en briques rouges transformée en maison d’hôtes exclusive propose un jardin tropical avec piscine et une vue imprenable. Un havre de paix absolu sur les hauteurs de la ville. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
   },
@@ -4874,7 +4883,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le spot arty et culturel. Une galerie d’art qui fait bar et salle de concert. L’ambiance y est alternative, détendue et créative. Idéal pour ceux qui cherchent autre chose que les boîtes de nuit classiques : expos, débats et musique indé.",
+    "description_summary": "Le spot arty et culturel. Une galerie d’art qui fait bar et salle de concert. L’ambiance y est alternative, détendue et créative. Idéal pour ceux qui cherchent autre chose que les boîtes de nuit classiques : expos, débats et musique indé. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
   },
@@ -4995,7 +5004,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Mythique et sulfureux. Situé en plein Analakely, c’est le cabaret le plus célèbre de Tana. Concerts de Tsapiky et Salegy tous les soirs. L’ambiance est très locale, parfois un peu interlope, mais c’est une expérience brute de la nuit malgache.",
+    "description_summary": "Mythique et sulfureux. Situé en plein Analakely, c’est le cabaret le plus célèbre de Tana. Concerts de Tsapiky et Salegy tous les soirs. L’ambiance est très locale, parfois un peu interlope, mais c’est une expérience brute de la nuit malgache. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Attention au rhum coco. Il a le goût de jus de fruit, mais il frappe comme un boxeur poids lourd. 🥊"
   },
@@ -5476,7 +5485,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le centre spirituel et géographique. Considéré comme le centre de gravité de Madagascar, cet îlot sur le lac Itasy offre une vue panoramique époustouflante sur toute la région. Une statue de la Vierge veille au sommet. Silence et contemplation.",
+    "description_summary": "Le centre spirituel et géographique. Considéré comme le centre de gravité de Madagascar, cet îlot sur le lac Itasy offre une vue panoramique époustouflante sur toute la région. Une statue de la Vierge veille au sommet. Silence et contemplation. Ce lieu présente un intérêt certain pour les visiteurs de Ampefy, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
   },
@@ -5716,7 +5725,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Un chef-d’œuvre architectural. Cette immense cathédrale fait la fierté de la ’Ville d’Eau’. Son architecture mêlant gothique et roman, avec ses briques rouges typiques des Hautes Terres, est majestueuse. Le parvis est un lieu de vie animé.",
+    "description_summary": "Un chef-d’œuvre architectural. Cette immense cathédrale fait la fierté de la ’Ville d’Eau’. Son architecture mêlant gothique et roman, avec ses briques rouges typiques des Hautes Terres, est majestueuse. Le parvis est un lieu de vie animé. Ce lieu présente un intérêt certain pour les visiteurs de Antsirabe, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
   },
@@ -5840,7 +5849,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Bien plus qu’une simple plage, Ramena est un village de pêcheurs vibrant. La plage de sable blanc s’étire sur des kilomètres, bordée de gargotes servant du poisson grillé fraîchement pêché. L’ambiance y est détendue et festive le dimanche.",
+    "description_summary": "Bien plus qu’une simple plage, Ramena est un village de pêcheurs vibrant. La plage de sable blanc s’étire sur des kilomètres, bordée de gargotes servant du poisson grillé fraîchement pêché. L’ambiance y est détendue et festive le dimanche. Le sable fin et l'eau cristalline créent un décor de carte postale, idéal pour se détendre et profiter du soleil tropical.",
     "has_expandable_description": true,
     "humour_grok": "Attention, les noix de coco sont des tueuses silencieuses. La gravité ne prend pas de vacances. 🥥"
   },
@@ -5962,7 +5971,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Un lagon aux couleurs irréelles, digne des plus belles cartes postales. L’eau peu profonde et turquoise est idéale pour le snorkeling et le kitesurf. Le déjeuner se prend souvent sur un îlot désert avec au menu : poisson grillé et riz coco.",
+    "description_summary": "Un lagon aux couleurs irréelles, digne des plus belles cartes postales. L’eau peu profonde et turquoise est idéale pour le snorkeling et le kitesurf. Le déjeuner se prend souvent sur un îlot désert avec au menu : poisson grillé et riz coco. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
   },
@@ -6085,7 +6094,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une succession spectaculaire de baies sauvages : la Baie des Dunes, la Baie des Pigeons et la Baie des Sakalava. C’est un paradis pour les marcheurs et les photographes, offrant des panoramas contrastés entre sable blanc, eau turquoise et rochers sombres.",
+    "description_summary": "Une succession spectaculaire de baies sauvages : la Baie des Dunes, la Baie des Pigeons et la Baie des Sakalava. C’est un paradis pour les marcheurs et les photographes, offrant des panoramas contrastés entre sable blanc, eau turquoise et rochers sombres. Le sable fin et l'eau cristalline créent un décor de carte postale, idéal pour se détendre et profiter du soleil tropical.",
     "has_expandable_description": true,
     "humour_grok": "Le sable s'infiltre partout. Vraiment partout. On en reparle dans 3 jours aux urgences. 🏖️"
   },
@@ -6326,7 +6335,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une curiosité géologique unique, différente des Tsingy gris. Ici, l’érosion a sculpté le grès rouge et la latérite pour former des cheminées de fée aux couleurs flamboyantes. Le contraste avec la végétation verte est saisissant.",
+    "description_summary": "Une curiosité géologique unique, différente des Tsingy gris. Ici, l’érosion a sculpté le grès rouge et la latérite pour former des cheminées de fée aux couleurs flamboyantes. Le contraste avec la végétation verte est saisissant. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
   },
@@ -6828,7 +6837,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le repaire des gourmands. Tenu par des Italiens, ce restaurant allie la fraîcheur des produits malgaches au savoir-faire italien. Pizzas au feu de bois excellentes et pâtes fraîches maison, le tout dans une ambiance bistro décontractée.",
+    "description_summary": "Le repaire des gourmands. Tenu par des Italiens, ce restaurant allie la fraîcheur des produits malgaches au savoir-faire italien. Pizzas au feu de bois excellentes et pâtes fraîches maison, le tout dans une ambiance bistro décontractée. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
     "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗"
   },
@@ -6951,7 +6960,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Ce cône volcanique parfait émerge de la baie tel un gardien sacré. Appelé ’Pain de Sucre’ pour sa forme, il est couvert de végétation et abrite des rituels traditionnels. On ne peut généralement pas y débarquer, mais en faire le tour en bateau est magique.",
+    "description_summary": "Ce cône volcanique parfait émerge de la baie tel un gardien sacré. Appelé ’Pain de Sucre’ pour sa forme, il est couvert de végétation et abrite des rituels traditionnels. On ne peut généralement pas y débarquer, mais en faire le tour en bateau est magique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
     "humour_grok": "Le silence est d'or. Et ici, il est obligatoire. Range ton téléphone et écoute l'histoire (même si c'est compliqué). 🤫"
   },
@@ -7199,7 +7208,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "L’adresse de référence pour le luxe à Diego. Situé en plein centre-ville, cet hôtel historique offre des prestations haut de gamme : grande piscine, spa, casino et chambres spacieuses. Idéal pour ceux qui cherchent confort et services irréprochables.",
+    "description_summary": "L’adresse de référence pour le luxe à Diego. Situé en plein centre-ville, cet hôtel historique offre des prestations haut de gamme : grande piscine, spa, casino et chambres spacieuses. Idéal pour ceux qui cherchent confort et services irréprochables. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎"
   },
@@ -7561,7 +7570,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une table incontournable pour les gourmets. Ce restaurant propose une cuisine fusion métissée, mettant à l’honneur les produits locaux (crabe, zébu, vanille) avec une touche française. Le cadre est élégant et le service attentionné.",
+    "description_summary": "Une table incontournable pour les gourmets. Ce restaurant propose une cuisine fusion métissée, mettant à l’honneur les produits locaux (crabe, zébu, vanille) avec une touche française. Le cadre est élégant et le service attentionné. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
     "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔"
   },
@@ -7682,7 +7691,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le temple de la nuit majungaise. Une ambiance survoltée, de la musique live tous les soirs (Salegy, Slow, Variété) et une foule cosmopolite. C’est l’endroit où tout Majunga se retrouve pour danser et faire la fête jusqu’au bout de la nuit.",
+    "description_summary": "Le temple de la nuit majungaise. Une ambiance survoltée, de la musique live tous les soirs (Salegy, Slow, Variété) et une foule cosmopolite. C’est l’endroit où tout Majunga se retrouve pour danser et faire la fête jusqu’au bout de la nuit. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Le silence est d'or. Et ici, il est obligatoire. Range ton téléphone et écoute l'histoire (même si c'est compliqué). 🤫"
   },
@@ -7802,7 +7811,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le repaire cool et branché de la rue Colbert. Ambiance tapas, cocktails soignés et musique latine/rock. C’est l’endroit parfait pour commencer la soirée (before) avant d’aller danser. La terrasse permet d’observer l’animation de la rue.",
+    "description_summary": "Le repaire cool et branché de la rue Colbert. Ambiance tapas, cocktails soignés et musique latine/rock. C’est l’endroit parfait pour commencer la soirée (before) avant d’aller danser. La terrasse permet d’observer l’animation de la rue. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃"
   },
@@ -8179,7 +8188,7 @@ window.LIEUX_DATA = [
     "lng": 49.29,
     "prix": "Gratuit",
     "note": 4.7,
-    "description": "Bienvenue à Diego (Antsiranana), la belle endormie du Nord ! C'est un mélange unique d'histoire coloniale et de douceur de vivre tropicale.\n\n🏙️ Architecture : Flânez rue Colbert pour admirer les vieilles bâtisses coloniales, témoins d'une époque révolue.\n🚙 Transport : Ici, on se déplace en Bajaj (les tuk-tuks jaunes). C'est fun, ça passe partout et ça coûte rien !\n🌅 Ambiance : C'est 'Mora Mora' (doucement). Prenez le temps de boire un café en terrasse et de regarder la vie passer.\n\nUne ville authentique qui vous séduira par son charme nostalgique.",
+    "description": "Une ruine majestueuse qui trône face à la mer. Cet immense bâtiment fantomatique est l’un des symboles les plus photogéniques de Diego. Bien qu’abandonné, il dégage une aura puissante et romantique, témoignage de la grandeur passée du port. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/diego/hotel-marine.jpg",
     "conseil": "Idéal pour des photos d’ambiance ’urbex’ au coucher du soleil.",
     "duree": "30 min",
@@ -8284,7 +8293,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Bienvenue à Diego (Antsiranana), la belle endormie du Nord ! C'est un mélange unique d'histoire coloniale et de douceur de vivre tropicale.",
+    "description_summary": "Une ruine majestueuse qui trône face à la mer. Cet immense bâtiment fantomatique est l’un des symboles les plus photogéniques de Diego. Bien qu’abandonné, il dégage une aura puissante et romantique, témoignage de la grandeur passée du port. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑"
   },
@@ -8297,7 +8306,7 @@ window.LIEUX_DATA = [
     "lng": 49.3,
     "prix": "Gratuit",
     "note": 4.4,
-    "description": "La Mer d'Émeraude, c'est LA carte postale mauricienne... mais à Madagascar ! Un lagon immense, peu profond, d'un turquoise qui fait mal aux yeux (dans le bon sens).\n\n⛵ Accès : On y va en boutre traditionnel depuis Ramena. La traversée est déjà une aventure.\n🐠 Snorkeling : L'eau est si claire que vous verrez les poissons depuis le bateau. Parfait pour une initiation.\n🏝️ Déjeuner : Grillades de poissons frais sur un îlot désert. Le luxe, le vrai : les pieds dans le sable.\n\n⚠️ Attention au soleil, ça tape fort sur l'eau !",
+    "description": "Le cœur battant de la vie locale. Moins touristique que le grand bazar, c’est ici que les Diégo-mananets font leurs courses. Épices, fruits tropicaux, crabes, tissus... C’est un festival de couleurs et d’odeurs. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/diego/marche-bazarikely.jpg",
     "conseil": "Achetez-y votre poivre vert de Madagascar et de la vanille.",
     "duree": "1h",
@@ -8404,7 +8413,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "La Mer d'Émeraude, c'est LA carte postale mauricienne... mais à Madagascar ! Un lagon immense, peu profond, d'un turquoise qui fait mal aux yeux (dans le bon sens).",
+    "description_summary": "Le cœur battant de la vie locale. Moins touristique que le grand bazar, c’est ici que les Diégo-mananets font leurs courses. Épices, fruits tropicaux, crabes, tissus... C’est un festival de couleurs et d’odeurs. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
   },
@@ -8417,7 +8426,7 @@ window.LIEUX_DATA = [
     "lng": 49.29,
     "prix": "Gratuit",
     "note": 4.6,
-    "description": "Oubliez la roche grise, ici la terre saigne ! Les Tsingy Rouges sont un canyon éphémère sculpté par la pluie dans de la latérite et du grès.\n\n🎨 Couleurs : Un dégradé spectaculaire du blanc à l'ocre rouge. C'est le paradis des photographes.\n⏳ Fragile : Contrairement aux Tsingy de pierre, ceux-ci sont fragiles. On regarde avec les yeux, on touche pas !\n☀️ Moment : Idéal en fin d'après-midi quand le soleil rasant enflamme les couleurs.\n\nUn paysage martien au milieu de la brousse.",
+    "description": "Le belvédère de la ville. Située à la pointe de Diego, cette place offre une vue panoramique imprenable sur la baie et le port. La statue du Maréchal Joffre y veille toujours. C’est le lieu de rendez-vous des amoureux le soir. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/diego/place-joffre.jpg",
     "conseil": "Le meilleur endroit pour observer les mouvements des bateaux dans la baie.",
     "duree": "45 min",
@@ -8522,7 +8531,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Oubliez la roche grise, ici la terre saigne ! Les Tsingy Rouges sont un canyon éphémère sculpté par la pluie dans de la latérite et du grès.",
+    "description_summary": "Le belvédère de la ville. Située à la pointe de Diego, cette place offre une vue panoramique imprenable sur la baie et le port. La statue du Maréchal Joffre y veille toujours. C’est le lieu de rendez-vous des amoureux le soir. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "L'aventure commence là où le goudron s'arrête. Et ici, il s'arrête souvent. 🛑"
   },
@@ -8533,7 +8542,7 @@ window.LIEUX_DATA = [
     "type": "Hébergement",
     "note": 4.3,
     "prix": "Convivial",
-    "description": "Les Plantations Millot, c'est l'histoire vivante d'Ambanja. Une institution centenaire qui produit cacao, épices et parfums.\n\n👨‍🌾 Savoir-faire : Découvrez comment on transforme la fève brute en or noir. C'est tout un art.\n🌸 Parfums : L'Ylang-Ylang embaume l'air. On l'appelle la fleur des fleurs.\n🍽️ Dégustation : Le clou du spectacle : goûter le chocolat à la source. Attention, c'est puissant !\n\nUne visite pédagogique passionnante pour comprendre la richesse du terroir malgache.",
+    "description": "Une institution pour les routards. Simple, propre et incroyablement convivial. Le patio intérieur est un lieu de rencontre génial pour échanger des infos avec d’autres voyageurs. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/hotels/gite-voyageur.jpg",
     "conseil": "Réservez à l’avance, c’est souvent complet.",
     "duree": "Nuit",
@@ -8641,7 +8650,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Les Plantations Millot, c'est l'histoire vivante d'Ambanja. Une institution centenaire qui produit cacao, épices et parfums.",
+    "description_summary": "Une institution pour les routards. Simple, propre et incroyablement convivial. Le patio intérieur est un lieu de rencontre génial pour échanger des infos avec d’autres voyageurs. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Vue sur mer ? Si tu te penches beaucoup et que tu fermes un œil, oui, absolument. 🌊"
   },
@@ -8652,7 +8661,7 @@ window.LIEUX_DATA = [
     "type": "Hébergement",
     "note": 4.5,
     "prix": "Confort",
-    "description": "Le Fleuve Sambirano, c'est l'artère vitale de la région. Une balade en pirogue pour déconnecter totalement.\n\n🐊 Faune : Ouvrez l'œil, des crocodiles se dorent parfois sur les berges (de loin, c'est mieux !).\n🌳 Paysage : Des berges verdoyantes, des oiseaux pêcheurs... c'est le calme absolu.\n🛶 Authentique : La pirogue, c'est le moyen de transport local. Laissez-vous glisser au fil de l'eau.\n\nUn moment de pure zénitude au cœur de la nature.",
+    "description": "Le meilleur rapport qualité/prix en bord de mer. Piscine agréable, chambres confortables avec balcon vue mer. C’est calme tout en étant à 5mn à pied de la rue Colbert. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/hotels/allamanda.jpg",
     "conseil": "Demandez une chambre à l’étage pour une meilleure vue sur la baie.",
     "duree": "Nuit",
@@ -8759,7 +8768,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le Fleuve Sambirano, c'est l'artère vitale de la région. Une balade en pirogue pour déconnecter totalement.",
+    "description_summary": "Le meilleur rapport qualité/prix en bord de mer. Piscine agréable, chambres confortables avec balcon vue mer. C’est calme tout en étant à 5mn à pied de la rue Colbert. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Si tu trouves une bête bizarre dans ta chambre, donne-lui un prénom. Ça fait moins peur. 🕷️"
   },
@@ -8995,7 +9004,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Un lieu chargé de mystère et de légendes. Selon la croyance, ce lac serait un ancien village dont les habitants, ayant refusé de l’eau à un voyageur assoiffé (un sorcier déguisé), furent maudits et transformés en crocodiles. Le village fut englouti par les eaux.",
+    "description_summary": "Un lieu chargé de mystère et de légendes. Selon la croyance, ce lac serait un ancien village dont les habitants, ayant refusé de l’eau à un voyageur assoiffé (un sorcier déguisé), furent maudits et transformés en crocodiles. Le village fut englouti par les eaux. Aujourd’hui, on y vient pour voir les nombreux crocodiles sacrés qui répondent à l’appel des gardiens et pour faire des offrandes.",
     "has_expandable_description": true,
     "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸"
   },
@@ -9118,7 +9127,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Sans doute la plage la plus célèbre de l’île aux Parfums. Andilana offre deux baies aux eaux cristallines, séparées par une pointe rocheuse. C’est le spot baignade par excellence, avec des eaux calmes et peu profondes, idéales pour les familles.",
+    "description_summary": "Sans doute la plage la plus célèbre de l’île aux Parfums. Andilana offre deux baies aux eaux cristallines, séparées par une pointe rocheuse. C’est le spot baignade par excellence, avec des eaux calmes et peu profondes, idéales pour les familles. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨"
   },
@@ -9239,7 +9248,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Surnommée l’île aux lémuriens, Nosy Komba est une montagne volcanique émergée de la forêt. Ici, pas de voitures, tout se fait à pied. Les lémuriens Macaco viennent manger dans votre main, et le village d’Ampangorinana est célèbre pour ses nappes brodées.",
+    "description_summary": "Surnommée l’île aux lémuriens, Nosy Komba est une montagne volcanique émergée de la forêt. Ici, pas de voitures, tout se fait à pied. Les lémuriens Macaco viennent manger dans votre main, et le village d’Ampangorinana est célèbre pour ses nappes brodées. Ce site emblématique figure parmi les attractions phares de Nosy Be, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
   },
@@ -9481,7 +9490,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "La perle de Madagascar. Deux îlots (Nosy Iranja Be et Nosy Iranja Kely) reliés par un banc de sable blanc d’un kilomètre, submergé à marée haute. L’eau y est d’un bleu turquoise irréel. C’est aussi un lieu de ponte important pour les tortues.",
+    "description_summary": "La perle de Madagascar. Deux îlots (Nosy Iranja Be et Nosy Iranja Kely) reliés par un banc de sable blanc d’un kilomètre, submergé à marée haute. L’eau y est d’un bleu turquoise irréel. C’est aussi un lieu de ponte important pour les tortues. Ce site emblématique figure parmi les attractions phares de Nosy Be, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
   },
@@ -9723,7 +9732,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le toit de Nosy Be. Ce point culminant offre une vue à 360 degrés sur toute l’île et ses lacs sacrés volcaniques. C’est le rendez-vous incontournable pour un coucher de soleil spectaculaire, un cocktail à la main.",
+    "description_summary": "Le toit de Nosy Be. Ce point culminant offre une vue à 360 degrés sur toute l’île et ses lacs sacrés volcaniques. C’est le rendez-vous incontournable pour un coucher de soleil spectaculaire, un cocktail à la main. Ce site emblématique figure parmi les attractions phares de Nosy Be, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
   },
@@ -9844,7 +9853,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une réserve zoologique et botanique privée très bien entretenue. Vous pourrez y voir de près de nombreuses espèces de lémuriens, des crocodiles impressionnants et visiter une distillerie d’ylang-ylang traditionnelle toujours en activité.",
+    "description_summary": "Une réserve zoologique et botanique privée très bien entretenue. Vous pourrez y voir de près de nombreuses espèces de lémuriens, des crocodiles impressionnants et visiter une distillerie d’ylang-ylang traditionnelle toujours en activité. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
   },
@@ -9966,7 +9975,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le quartier général de la vie nocturne et touristique. C’est ici que tout se passe : départs d’excursions, restaurants les pieds dans le sable, bars animés. L’ambiance y est festive, bruyante et colorée, mélangeant touristes et locaux.",
+    "description_summary": "Le quartier général de la vie nocturne et touristique. C’est ici que tout se passe : départs d’excursions, restaurants les pieds dans le sable, bars animés. L’ambiance y est festive, bruyante et colorée, mélangeant touristes et locaux. Ce site emblématique figure parmi les attractions phares de Nosy Be, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃"
   },
@@ -10088,7 +10097,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "L’île tranquille. Sakatia est authentique, avec ses sentiers de randonnée traversant les champs de vanille et d’orchidées. La plage aux tortues permet de nager avec d’immenses tortues vertes qui viennent brouter les herbiers à marée haute.",
+    "description_summary": "L’île tranquille. Sakatia est authentique, avec ses sentiers de randonnée traversant les champs de vanille et d’orchidées. La plage aux tortues permet de nager avec d’immenses tortues vertes qui viennent brouter les herbiers à marée haute. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
   },
@@ -10329,7 +10338,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Découvrez les fonds marins exceptionnels de Nosy Be. Ce centre professionnel vous emmène sur les meilleurs spots : tombants, épaves, et réserve de Tanikely. En saison (octobre-novembre), c’est le spot mondial pour nager avec les requins-baleines.",
+    "description_summary": "Découvrez les fonds marins exceptionnels de Nosy Be. Ce centre professionnel vous emmène sur les meilleurs spots : tombants, épaves, et réserve de Tanikely. En saison (octobre-novembre), c’est le spot mondial pour nager avec les requins-baleines. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
   },
@@ -10574,7 +10583,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Un lieu de syncrétisme religieux étonnant. Cette grotte marine abrite une statue de la Vierge, mais est aussi un lieu de culte pour les esprits locaux. L’accès se fait par la mer, ajoutant au mystère. C’est un endroit calme, respecté et très photogénique.",
+    "description_summary": "Un lieu de syncrétisme religieux étonnant. Cette grotte marine abrite une statue de la Vierge, mais est aussi un lieu de culte pour les esprits locaux. L’accès se fait par la mer, ajoutant au mystère. C’est un endroit calme, respecté et très photogénique. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Si tu vois du tissu rouge, c'est pas de la déco. C'est sacré. Recule doucement et fais un sourire gêné. 🔴"
   },
@@ -10589,7 +10598,7 @@ window.LIEUX_DATA = [
     "prixEur": "180 €",
     "prixNum": 800000,
     "note": 4.9,
-    "description": "Hell-Ville, c'est le cœur bouillonnant de Nosy Be. Une capitale de poche où tout le monde se croise.\n\n🏛️ Colonial : Des bâtiments anciens qui ont du cachet, vestiges du passé comptoir de l'île.\n🛒 Marché : Le Bazar Be est incontournable. Épices, vanille, artisanat... négociez avec le sourire !\n🍹 Vie : C'est animé, bruyant, vivant. C'est là que bat le pouls de l'île.\n\nIdéal pour faire ses emplettes souvenirs et sentir l'atmosphère locale.",
+    "description": "Un sanctuaire de bien-être niché dans un jardin luxuriant face à la mer. Bungalows spacieux de grand standing, spa de classe mondiale et gastronomie raffinée. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/hotels/ravintsara.jpg",
     "acces": "Côte Ouest, Dzamandzar",
     "siteWeb": "https://ravintsara.mg",
@@ -10696,7 +10705,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Hell-Ville, c'est le cœur bouillonnant de Nosy Be. Une capitale de poche où tout le monde se croise.",
+    "description_summary": "Un sanctuaire de bien-être niché dans un jardin luxuriant face à la mer. Bungalows spacieux de grand standing, spa de classe mondiale et gastronomie raffinée. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "La piscine a l'air propre. 'A l'air' est le mot clé. Plonge, on verra bien. 🏊"
   },
@@ -10817,7 +10826,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Architecture traditionnelle malgache et confort moderne. Piscines à débordement et vue imprenable sur le coucher de soleil. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
+    "description_summary": "Architecture traditionnelle malgache et confort moderne. Piscines à débordement et vue imprenable sur le coucher de soleil. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸"
   },
@@ -11059,7 +11068,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Perché sur une colline avec une vue panoramique à 180° sur la baie d’Andilana. Ambiance conviviale et décontractée. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
+    "description_summary": "Perché sur une colline avec une vue panoramique à 180° sur la baie d’Andilana. Ambiance conviviale et décontractée. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Si tu trouves une bête bizarre dans ta chambre, donne-lui un prénom. Ça fait moins peur. 🕷️"
   },
@@ -11179,7 +11188,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Un havre de paix au milieu de l’animation d’Ambatoloaka. Bungalows de charme dans un jardin tropical calme. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
+    "description_summary": "Un havre de paix au milieu de l’animation d’Ambatoloaka. Bungalows de charme dans un jardin tropical calme. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎"
   },
@@ -11297,7 +11306,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Table élégante, cuisine fusion franco-malgache raffinée. Le chef sublime les produits locaux. Cadre soigné. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
+    "description_summary": "Table élégante, cuisine fusion franco-malgache raffinée. Le chef sublime les produits locaux. Cadre soigné. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis.",
     "has_expandable_description": true,
     "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️"
   },
@@ -11413,7 +11422,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une institution à Hell-Ville. Cadre colonial historique et carte variée, célèbre pour ses pizzas et fruits de mer. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
+    "description_summary": "Une institution à Hell-Ville. Cadre colonial historique et carte variée, célèbre pour ses pizzas et fruits de mer. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis.",
     "has_expandable_description": true,
     "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗"
   },
@@ -11646,7 +11655,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Restaurant sur pilotis offrant une vue spectaculaire. Spécialités de fruits de mer et cadre romantique. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
+    "description_summary": "Restaurant sur pilotis offrant une vue spectaculaire. Spécialités de fruits de mer et cadre romantique. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis.",
     "has_expandable_description": true,
     "humour_grok": "Ne demande pas ce qu'il y a exactement dans la sauce. Mange, c'est délicieux, pose pas de questions. 🤫"
   },
@@ -12009,7 +12018,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le spot incontournable pour commencer la soirée. Cocktails les pieds dans le sable et bonne musique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
+    "description_summary": "Le spot incontournable pour commencer la soirée. Cocktails les pieds dans le sable et bonne musique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Nosy Be.",
     "has_expandable_description": true,
     "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️"
   },
@@ -12378,7 +12387,7 @@ window.LIEUX_DATA = [
     "prixEur": "2 €",
     "prixNum": 10000,
     "note": 4.8,
-    "description": "Le Cirque Rouge, c'est de la géologie psychédélique ! Un amphithéâtre naturel où la terre a toutes les couleurs.\n\n🌈 Palette : 12 nuances d'ocre et de rouge. C'est comme si un peintre géant avait renversé ses pots.\n🦕 Fossiles : On trouve parfois des traces du passé. C'est une terre ancienne.\n☀️ Timing : Allez-y pour le coucher du soleil, quand la roche s'embrase. Magique.\n\nUne balade facile pour un spectacle grandiose.",
+    "description": "Un amphithéâtre naturel sculpté par le vent et la pluie. Le Cirque Rouge est célèbre pour ses cheminées de fée et ses strates de sédiments aux 12 nuances de couleurs, du blanc à l’ocre foncé. C’est aussi un site paléontologique important. Ce site emblématique figure parmi les attractions phares de Mahajanga, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur. Les infrastructures d'accueil bien pensées permettent de profiter pleinement du site tout en respectant son intégrité et sa préservation. Que vous soyez photographe amateur, passionné de nature ou simple curieux, ce lieu offre des perspectives uniques et des souvenirs impérissables. Une visite matinale ou en fin d'après-midi permet de profiter d'une lumière idéale et d'une affluence réduite pour une expérience optimale.",
     "image": "images/spots/cirque-rouge.jpg",
     "acces": "12 km au nord, piste praticable",
     "horaires": "Tôt le matin ou fin d'après-midi (chaleur)",
@@ -12483,7 +12492,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le Cirque Rouge, c'est de la géologie psychédélique ! Un amphithéâtre naturel où la terre a toutes les couleurs.",
+    "description_summary": "Un amphithéâtre naturel sculpté par le vent et la pluie. Le Cirque Rouge est célèbre pour ses cheminées de fée et ses strates de sédiments aux 12 nuances de couleurs, du blanc à l’ocre foncé. C’est aussi un site paléontologique important. Ce site emblématique figure parmi les attractions phares de Mahajanga, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾"
   },
@@ -12727,7 +12736,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Cette source d’eau douce ne tarit jamais et joue un rôle centrale dans la vie spirituelle locale. C’est un lieu de rituels Sakalava où l’on vient demander bénédiction et guérison. L’atmosphère y est paisible et empreinte de respect.",
+    "description_summary": "Cette source d’eau douce ne tarit jamais et joue un rôle centrale dans la vie spirituelle locale. C’est un lieu de rituels Sakalava où l’on vient demander bénédiction et guérison. L’atmosphère y est paisible et empreinte de respect. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
   },
@@ -12742,7 +12751,7 @@ window.LIEUX_DATA = [
     "prixEur": "Gratuit",
     "prixNum": 0,
     "note": 4.6,
-    "description": "Le Bord de Majunga, c'est le salon de la ville. Le soir, tout le monde est là. C'est immanquable.\n\n🍢 Brochettes : Les meilleures de Madagascar (si, si !). Asseyez-vous, commandez, savourez.\n🌳 Baobab : Le grand-père de la ville. Un baobab géant au milieu du rond-point. Respect.\n❄️ Frais : On vient chercher la brise marine après la chaleur de la journée. Ambiance 'cool Raoul'.\n\nC'est ça la vraie vie majungaise : simple, conviviale et dehors.",
+    "description": "Le ’Bord’ est le cœur battant de Mahajanga. Le soir, tout la ville vient s’y promener pour profiter de la brise marine, manger des brochettes et admirer le crépuscule. Le célèbre Baobab géant, emblème de la ville, veille sur les passants. Ce site emblématique figure parmi les attractions phares de Mahajanga, attirant des visiteurs du monde entier grâce à son caractère exceptionnel. L'expérience vécue ici reste gravée dans les mémoires, tant par la beauté des lieux que par l'émotion ressentie face à tant de splendeur. Les infrastructures d'accueil bien pensées permettent de profiter pleinement du site tout en respectant son intégrité et sa préservation. Que vous soyez photographe amateur, passionné de nature ou simple curieux, ce lieu offre des perspectives uniques et des souvenirs impérissables. Une visite matinale ou en fin d'après-midi permet de profiter d'une lumière idéale et d'une affluence réduite pour une expérience optimale.",
     "image": "images/iles/plage-mahajanga.jpg",
     "acces": "Centre-ville, front de mer (boulevard Poincaré)",
     "horaires": "Accessible 24h/24, meilleur au coucher de soleil",
@@ -12848,7 +12857,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le Bord de Majunga, c'est le salon de la ville. Le soir, tout le monde est là. C'est immanquable.",
+    "description_summary": "Le ’Bord’ est le cœur battant de Mahajanga. Le soir, tout la ville vient s’y promener pour profiter de la brise marine, manger des brochettes et admirer le crépuscule. Le célèbre Baobab géant, emblème de la ville, veille sur les passants. Ce site emblématique figure parmi les attractions phares de Mahajanga, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿"
   },
@@ -13215,7 +13224,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une aventure pour y aller, mais le site est grandiose. Un réseau de grottes immenses, des piscines naturelles d’eau douce vert émeraude et une cascade nichée dans la verdure. Les lémuriens et les perroquets peuplent les arbres alentour.",
+    "description_summary": "Une aventure pour y aller, mais le site est grandiose. Un réseau de grottes immenses, des piscines naturelles d’eau douce vert émeraude et une cascade nichée dans la verdure. Les lémuriens et les perroquets peuplent les arbres alentour. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
   },
@@ -13453,7 +13462,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Plongez dans l’authenticité de Majunga. Ce marché couvert regorge d’épices odorantes, de fruits exotiques colorés et de poissons séchés. C’est aussi le meilleur endroit pour acheter le célèbre artisanat Sakalava en raphia et en bois.",
+    "description_summary": "Plongez dans l’authenticité de Majunga. Ce marché couvert regorge d’épices odorantes, de fruits exotiques colorés et de poissons séchés. C’est aussi le meilleur endroit pour acheter le célèbre artisanat Sakalava en raphia et en bois. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
   },
@@ -13697,7 +13706,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Un lieu mystique où l’histoire et la légende se rencontrent. Ce lac aux eaux émeraude cristallines abrite des carpes et des anguilles sacrées gigantesques, qui seraient les ancêtres d’un ancien village. L’ambiance y est solennelle et paisible. Les mardis et jeudis sont fady (tabous).",
+    "description_summary": "Un lieu mystique où l’histoire et la légende se rencontrent. Ce lac aux eaux émeraude cristallines abrite des carpes et des anguilles sacrées gigantesques, qui seraient les ancêtres d’un ancien village. L’ambiance y est solennelle et paisible. Les mardis et jeudis sont fady (tabous). Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
     "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔"
   },
@@ -13939,7 +13948,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Probablement la meilleure table de la Corniche. Le Guest propose une cuisine raffinée mélangeant saveurs locales et techniques françaises. La terrasse en bois au-dessus de la mer offre une vue imprenable sur le coucher de soleil.",
+    "description_summary": "Probablement la meilleure table de la Corniche. Le Guest propose une cuisine raffinée mélangeant saveurs locales et techniques françaises. La terrasse en bois au-dessus de la mer offre une vue imprenable sur le coucher de soleil. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
     "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️"
   },
@@ -14062,7 +14071,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une oasis gourmande en plein centre. Réputé pour sa cuisine fusion malgache-libanaise-française (foie gras, mezzés, langoustes). Le cadre autour de la piscine est relaxant, et les dîners-cabaret du vendredi soir sont une institution locale.",
+    "description_summary": "Une oasis gourmande en plein centre. Réputé pour sa cuisine fusion malgache-libanaise-française (foie gras, mezzés, langoustes). Le cadre autour de la piscine est relaxant, et les dîners-cabaret du vendredi soir sont une institution locale. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu vas boire, tu vas danser, tu vas oublier. Demain matin sera un problème pour le 'Toi du Futur'. 🍻"
   },
@@ -14306,7 +14315,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Plus intime et paisible que sa grande sœur, la Petite Plage est un joyau bordé de filaos. L’eau y est calme et transparente, idéale pour la baignade en famille. C’est le lieu parfait pour admirer le coucher de soleil en toute tranquillité.",
+    "description_summary": "Plus intime et paisible que sa grande sœur, la Petite Plage est un joyau bordé de filaos. L’eau y est calme et transparente, idéale pour la baignade en famille. C’est le lieu parfait pour admirer le coucher de soleil en toute tranquillité. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Les lémuriens ne sont pas mignons, ils complotent. Et ils jugent tes chaussures Quechua. 🐒"
   },
@@ -14427,7 +14436,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le standing international à Mahajanga. Chambres spacieuses, immense piscine à débordement et spa de qualité. Situé sur la Corniche, c’est l’adresse idéale pour un séjour confort et luxe avec tous les standards modernes.",
+    "description_summary": "Le standing international à Mahajanga. Chambres spacieuses, immense piscine à débordement et spa de qualité. Situé sur la Corniche, c’est l’adresse idéale pour un séjour confort et luxe avec tous les standards modernes. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
   },
@@ -14548,7 +14557,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Plus qu’un hôtel, une destination écotouristique. Niché entre rivière et mer, loin de tout, cet écolodge offre une déconnexion totale. Bungalows charmants, cuisine bio locale et engagement communautaire fort.",
+    "description_summary": "Plus qu’un hôtel, une destination écotouristique. Niché entre rivière et mer, loin de tout, cet écolodge offre une déconnexion totale. Bungalows charmants, cuisine bio locale et engagement communautaire fort. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚"
   },
@@ -14668,7 +14677,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Un petit jardin d’Eden. Cet hôtel à taille humaine charme par son jardin tropical luxuriant et son ambiance intimiste. Les bungalows sont décorés avec soin et la piscine est un havre de paix.",
+    "description_summary": "Un petit jardin d’Eden. Cet hôtel à taille humaine charme par son jardin tropical luxuriant et son ambiance intimiste. Les bungalows sont décorés avec soin et la piscine est un havre de paix. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
   },
@@ -14787,7 +14796,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une légende de Majunga. Cet hôtel historique offre le panorama le plus spectaculaire de la ville sur la baie de Bombetoka. Son architecture coloniale Art Déco et sa terrasse ’La Rotonde’ sont des incontournables empreints de nostalgie.",
+    "description_summary": "Une légende de Majunga. Cet hôtel historique offre le panorama le plus spectaculaire de la ville sur la baie de Bombetoka. Son architecture coloniale Art Déco et sa terrasse ’La Rotonde’ sont des incontournables empreints de nostalgie. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
   },
@@ -15391,7 +15400,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "L’un des parcs les plus visités et pour cause : c’est le seul endroit où l’on peut entendre le chant puissant de l’Indri, le plus grand lémurien vivant. La forêt de brume, les orchidées rares et les caméléons de Parson géants créent une ambiance jurassique.",
+    "description_summary": "L’un des parcs les plus visités et pour cause : c’est le seul endroit où l’on peut entendre le chant puissant de l’Indri, le plus grand lémurien vivant. La forêt de brume, les orchidées rares et les caméléons de Parson géants créent une ambiance jurassique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
     "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
   },
@@ -15513,7 +15522,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une expérience inoubliable pour les familles. Sur « l’île aux lémuriens », les animaux sont en liberté et n’hésitent pas à sauter sur vos épaules pour réclamer une banane. C’est l’occasion unique de voir de très près des espèces difficiles à observer en forêt dense.",
+    "description_summary": "Une expérience inoubliable pour les familles. Sur « l’île aux lémuriens », les animaux sont en liberté et n’hésitent pas à sauter sur vos épaules pour réclamer une banane. C’est l’occasion unique de voir de très près des espèces difficiles à observer en forêt dense. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
     "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️"
   },
@@ -15758,7 +15767,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le Colorado malgache. Un paysage ruiniforme de grès jurassique, entaillé de canyons profonds. On passe de la savane aride à des oasis de fraîcheur luxuriantes en quelques pas. C’est un parc grandiose, sacré pour l’ethnie Bara qui y enterre ses morts.",
+    "description_summary": "Le Colorado malgache. Un paysage ruiniforme de grès jurassique, entaillé de canyons profonds. On passe de la savane aride à des oasis de fraîcheur luxuriantes en quelques pas. C’est un parc grandiose, sacré pour l’ethnie Bara qui y enterre ses morts. Ce site emblématique figure parmi les attractions phares de Isalo, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
   },
@@ -16245,7 +16254,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une forêt digne d’un conte de fées. Ici, les baobabs prennent des formes étranges (bouteilles, carottes) pour stocker l’eau. La forêt abrite aussi des oiseaux endémiques rares et des plantes succulentes adaptées à la sécheresse extrême.",
+    "description_summary": "Une forêt digne d’un conte de fées. Ici, les baobabs prennent des formes étranges (bouteilles, carottes) pour stocker l’eau. La forêt abrite aussi des oiseaux endémiques rares et des plantes succulentes adaptées à la sécheresse extrême. Ce lieu présente un intérêt certain pour les visiteurs de Ifaty, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿"
   },
@@ -16490,7 +16499,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Des Tsingy gris acérés comme des lames de rasoir, une forêt sèche décidue et des grottes immenses abritant des chauves-souris. Ce parc est une aventure géologique. Le ’Pont Suspendu’ au-dessus des Tsingy est le spot photo incontournable.",
+    "description_summary": "Des Tsingy gris acérés comme des lames de rasoir, une forêt sèche décidue et des grottes immenses abritant des chauves-souris. Ce parc est une aventure géologique. Le ’Pont Suspendu’ au-dessus des Tsingy est le spot photo incontournable. Ce site emblématique figure parmi les attractions phares de Ankarana, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
   },
@@ -16737,7 +16746,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Grotte sacrée par excellence. Elle abrite les sépultures royales de la tribu Antakarana. L’accès est strictement réglementé et soumis à l’approbation des ancêtres via les gardiens traditionnels. C’est un lieu chargée d’histoire et de mystère.",
+    "description_summary": "Grotte sacrée par excellence. Elle abrite les sépultures royales de la tribu Antakarana. L’accès est strictement réglementé et soumis à l’approbation des ancêtres via les gardiens traditionnels. C’est un lieu chargée d’histoire et de mystère. Ce lieu présente un intérêt certain pour les visiteurs de Ankarana, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
   },
@@ -16858,7 +16867,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "L’un des parcs les plus sauvages. Il combine une réserve marine et une forêt humide de basse altitude. C’est le seul endroit où l’on peut espérer voir l’Aye-Aye à l’état sauvage la nuit, ainsi que les baleines à bosse en saison.",
+    "description_summary": "L’un des parcs les plus sauvages. Il combine une réserve marine et une forêt humide de basse altitude. C’est le seul endroit où l’on peut espérer voir l’Aye-Aye à l’état sauvage la nuit, ainsi que les baleines à bosse en saison. Ce site emblématique figure parmi les attractions phares de Mananara, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
   },
@@ -17103,7 +17112,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le repaire des ancêtres. Un lac sacré pour l’ethnie Betsimisaraka où les crocodiles sont vénérés comme des aïeux. Les villageois leur font des offrandes de zébu. Une atmosphère mystique règne ici, entre crainte et respect, au cœur de la forêt.",
+    "description_summary": "Le repaire des ancêtres. Un lac sacré pour l’ethnie Betsimisaraka où les crocodiles sont vénérés comme des aïeux. Les villageois leur font des offrandes de zébu. Une atmosphère mystique règne ici, entre crainte et respect, au cœur de la forêt. Ce lieu présente un intérêt certain pour les visiteurs de Mananara, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Ici, on ne pointe pas du doigt. Sauf si tu veux pointer vers ta propre malchance future. 👉"
   },
@@ -17222,7 +17231,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Classée au patrimoine mondial, la Haute Ville est le cœur historique. C’est un dédale de ruelles pavées et de maisons traditionnelles en briques rouges aux toits de tuiles, rappelant Tana d’autrefois. La vue depuis le sommet est imprenable.",
+    "description_summary": "Classée au patrimoine mondial, la Haute Ville est le cœur historique. C’est un dédale de ruelles pavées et de maisons traditionnelles en briques rouges aux toits de tuiles, rappelant Tana d’autrefois. La vue depuis le sommet est imprenable. Ce site emblématique figure parmi les attractions phares de Fianarantsoa, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
   },
@@ -17341,7 +17350,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le point de départ du mythique train Fianar-Côte Est. Même si vous ne prenez pas le train, l’ambiance de la gare, avec sa Micheline d’époque et son agitation, vaut le détour. Un saut dans le temps colonial.",
+    "description_summary": "Le point de départ du mythique train Fianar-Côte Est. Même si vous ne prenez pas le train, l’ambiance de la gare, avec sa Micheline d’époque et son agitation, vaut le détour. Un saut dans le temps colonial. Ce site emblématique figure parmi les attractions phares de Fianarantsoa, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
   },
@@ -18170,7 +18179,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le bon plan populaire. Cuisine chinoise et malgache généreuse, service rapide et prix doux. C’est bruyant, vivant et toujours bon. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
+    "description_summary": "Le bon plan populaire. Cuisine chinoise et malgache généreuse, service rapide et prix doux. C’est bruyant, vivant et toujours bon. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis.",
     "has_expandable_description": true,
     "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗"
   },
@@ -18286,7 +18295,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Célèbre pour ses pizzas au feu de bois et ses pâtisseries. Le cadre est celui d’un grand hôtel classique, confortable et climatisé. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
+    "description_summary": "Célèbre pour ses pizzas au feu de bois et ses pâtisseries. Le cadre est celui d’un grand hôtel classique, confortable et climatisé. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis.",
     "has_expandable_description": true,
     "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗"
   },
@@ -18527,7 +18536,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Bar populaire et animé. On y boit de la bière THB bien fraîche et du rhum arrangé au comptoir. Ambiance authentique et sans chichis. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
+    "description_summary": "Bar populaire et animé. On y boit de la bière THB bien fraîche et du rhum arrangé au comptoir. Ambiance authentique et sans chichis. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "La patronne t'appelle 'Chéri' ou 'Mon fils'. Fais gaffe, elle peut aussi te gronder si tu finis pas. 👵"
   },
@@ -18647,7 +18656,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "La référence pour danser. Située dans l’hôtel Soafia, c’est le club le plus équipé de la ville. Ambiance locale et tubes internationaux. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
+    "description_summary": "La référence pour danser. Située dans l’hôtel Soafia, c’est le club le plus équipé de la ville. Ambiance locale et tubes internationaux. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Tu vas devenir meilleur ami avec des gens dont tu ne te souviendras plus du prénom demain. C'est la magie. ✨"
   },
@@ -18767,7 +18776,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Pour un verre au calme. Cadre apaisant avec vue sur les jardins de l’école hôtelière. Idéal pour un apéritif tranquille. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
+    "description_summary": "Pour un verre au calme. Cadre apaisant avec vue sur les jardins de l’école hôtelière. Idéal pour un apéritif tranquille. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Tu vas devenir meilleur ami avec des gens dont tu ne te souviendras plus du prénom demain. C'est la magie. ✨"
   },
@@ -18886,7 +18895,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Ambiance lounge et fauteuils confortables. C’est le bar d’hôtel classique pour discuter affaires ou se détendre au frais. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
+    "description_summary": "Ambiance lounge et fauteuils confortables. C’est le bar d’hôtel classique pour discuter affaires ou se détendre au frais. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Le sol colle. Les verres collent. Tout colle. C'est ça l'ambiance authentique. 🦶"
   },
@@ -19006,7 +19015,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le défi sportif et photogénique. Ces grands escaliers relient la ville basse à la ville haute. La perspective est magnifique pour les photos. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
+    "description_summary": "Le défi sportif et photogénique. Ces grands escaliers relient la ville basse à la ville haute. La perspective est magnifique pour les photos. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
   },
@@ -19247,7 +19256,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Une colline offrant un panorama à 360° sur toute la ville et les vallées environnantes. Un bol d’air frais à quelques minutes du centre. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
+    "description_summary": "Une colline offrant un panorama à 360° sur toute la ville et les vallées environnantes. Un bol d’air frais à quelques minutes du centre. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
   },
@@ -19367,7 +19376,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le poumon vert de la ville basse. Une promenade agréable autour du lac artificiel, bordé de jacarandas (en fleurs en octobre/novembre). Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
+    "description_summary": "Le poumon vert de la ville basse. Une promenade agréable autour du lac artificiel, bordé de jacarandas (en fleurs en octobre/novembre). Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
   },
@@ -19725,7 +19734,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Un havre de paix en plein centre-ville. Des bungalows disséminés dans un jardin luxuriant et fleuri. Calme, intimiste et très bien situé. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
+    "description_summary": "Un havre de paix en plein centre-ville. Des bungalows disséminés dans un jardin luxuriant et fleuri. Calme, intimiste et très bien situé. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎"
   },
@@ -20088,7 +20097,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Site spectaculaire où le fleuve Onilahy se jette dans la mer. Falaises calcaires blanches, mangroves et flamants roses. Un paysage de bout du monde. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
+    "description_summary": "Site spectaculaire où le fleuve Onilahy se jette dans la mer. Falaises calcaires blanches, mangroves et flamants roses. Un paysage de bout du monde. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Tuléar.",
     "has_expandable_description": true,
     "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨"
   },
@@ -20210,7 +20219,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Village de pêcheurs Vezo authentique. Plages de sable blanc immaculé, eau turquoise. Accès bateau uniquement, garantissant une tranquillité absolue. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
+    "description_summary": "Village de pêcheurs Vezo authentique. Plages de sable blanc immaculé, eau turquoise. Accès bateau uniquement, garantissant une tranquillité absolue. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
   },
@@ -20332,7 +20341,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Réserve de Reniala : forêt de baobabs bouteilles, tortues radiata et oiseaux. Sentier facile pour découvrir ces géants millénaires. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
+    "description_summary": "Réserve de Reniala : forêt de baobabs bouteilles, tortues radiata et oiseaux. Sentier facile pour découvrir ces géants millénaires. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Tuléar.",
     "has_expandable_description": true,
     "humour_grok": "Tu vas payer pour marcher dans la boue et chercher un lézard de 2cm invisible. Et tu vas adorer ça. Masochiste. 🤠"
   },
@@ -20454,7 +20463,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Musée de l’Institut Halieutique. Découvrez la biodiversité marine du canal du Mozambique et le célèbre cœlacanthe fossile. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
+    "description_summary": "Musée de l’Institut Halieutique. Découvrez la biodiversité marine du canal du Mozambique et le célèbre cœlacanthe fossile. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
   },
@@ -20572,7 +20581,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Institution gastronomique italienne. Produits de la mer d’une fraîcheur absolue, cadre jardin tropical apaisant. Une valeur sûre. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
+    "description_summary": "Institution gastronomique italienne. Produits de la mer d’une fraîcheur absolue, cadre jardin tropical apaisant. Une valeur sûre. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis.",
     "has_expandable_description": true,
     "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗"
   },
@@ -20690,7 +20699,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "L’ambiance routard mythique de Tuléar. Convivial, pas cher, copieux. Le point de ralliement des voyageurs pour échanger des infos. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
+    "description_summary": "L’ambiance routard mythique de Tuléar. Convivial, pas cher, copieux. Le point de ralliement des voyageurs pour échanger des infos. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis.",
     "has_expandable_description": true,
     "humour_grok": "L'addition arrivera... un jour. Peut-être. Profite pour digérer. 🧾"
   },
@@ -20807,7 +20816,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Terrasse vue mer agréable. Spécialiste des grillades de poissons arrivant du port tout proche. Cuisine simple et savoureuse. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
+    "description_summary": "Terrasse vue mer agréable. Spécialiste des grillades de poissons arrivant du port tout proche. Cuisine simple et savoureuse. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis.",
     "has_expandable_description": true,
     "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗"
   },
@@ -20926,7 +20935,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Restaurant de plage les pieds dans le sable à Anakao. Langoustes grillées pêchées du matin. Le goût du paradis. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
+    "description_summary": "Restaurant de plage les pieds dans le sable à Anakao. Langoustes grillées pêchées du matin. Le goût du paradis. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis.",
     "has_expandable_description": true,
     "humour_grok": "L'addition arrivera... un jour. Peut-être. Profite pour digérer. 🧾"
   },
@@ -21045,7 +21054,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Ovni architectural style Gaudí face à la baie de Saint-Augustin. Décoration ethnique unique, piscine à débordement. Une expérience hors du temps. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
+    "description_summary": "Ovni architectural style Gaudí face à la baie de Saint-Augustin. Décoration ethnique unique, piscine à débordement. Une expérience hors du temps. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Vue sur mer ? Si tu te penches beaucoup et que tu fermes un œil, oui, absolument. 🌊"
   },
@@ -21165,7 +21174,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le confort moderne en ville. Chambres spacieuses, grand patio verdoyant, excellent service. La valeur sûre business/détente. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
+    "description_summary": "Le confort moderne en ville. Chambres spacieuses, grand patio verdoyant, excellent service. La valeur sûre business/détente. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎"
   },
@@ -21287,7 +21296,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Charme italien à Anakao. Bungalows rustiques-chic, cuisine délicieuse d’inspiration italienne. Ambiance familiale et décontractée. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
+    "description_summary": "Charme italien à Anakao. Bungalows rustiques-chic, cuisine délicieuse d’inspiration italienne. Ambiance familiale et décontractée. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "La télé a deux chaînes : de la neige et une émission de cuisine en malgache. Cultive-toi. 📺"
   },
@@ -21408,7 +21417,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Eco-lodge de luxe à Ifaty. Bungalows pierre/bois intégrés à la dune, piscine à débordement sur le lagon. Calme absolu. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
+    "description_summary": "Eco-lodge de luxe à Ifaty. Bungalows pierre/bois intégrés à la dune, piscine à débordement sur le lagon. Calme absolu. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Le WiFi fonctionne... quand il a envie. Un peu comme le personnel, finalement. 📶"
   },
@@ -21527,7 +21536,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Complexe hôtelier confortable, villas vue mer, piscine et jardin tropical. Idéal pour familles et longs séjours. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
+    "description_summary": "Complexe hôtelier confortable, villas vue mer, piscine et jardin tropical. Idéal pour familles et longs séjours. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Si tu trouves une bête bizarre dans ta chambre, donne-lui un prénom. Ça fait moins peur. 🕷️"
   },
@@ -27327,7 +27336,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Petit hôtel récent et propre près de la gare routière. Chambres simples mais fonctionnelles avec ventilateur. Idéal pour arrivée ou départ tardif ou matinal. Wi-Fi gratuit dans les espaces communs.",
+    "description_summary": "Petit hôtel récent et propre près de la gare routière. Chambres simples mais fonctionnelles avec ventilateur. Idéal pour arrivée ou départ tardif ou matinal. Wi-Fi gratuit dans les espaces communs. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚"
   },
@@ -27789,7 +27798,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Option économique au centre-ville de Tamatave. Chambres basiques mais propres avec ventilateur. Personnel serviable et accueillant. Proche des commerces, restaurants et attractions principales.",
+    "description_summary": "Option économique au centre-ville de Tamatave. Chambres basiques mais propres avec ventilateur. Personnel serviable et accueillant. Proche des commerces, restaurants et attractions principales. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
   },
@@ -27903,7 +27912,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Hôtel moderne rénové avec staff compétent et courtois. Propreté impeccable, chambres confortables climatisées avec TV. Proche du centre-ville, parking privé sécurisé gratuit. Excellent rapport qualité-prix.",
+    "description_summary": "Hôtel moderne rénové avec staff compétent et courtois. Propreté impeccable, chambres confortables climatisées avec TV. Proche du centre-ville, parking privé sécurisé gratuit. Excellent rapport qualité-prix. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚"
   },
@@ -28017,7 +28026,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Hôtel confortable avec salon commun élégant, restaurant sur place et bar cosy. Chambres spacieuses climatisées, Wi-Fi gratuit haut débit. Ambiance décontractée, personnel attentif aux besoins des clients.",
+    "description_summary": "Hôtel confortable avec salon commun élégant, restaurant sur place et bar cosy. Chambres spacieuses climatisées, Wi-Fi gratuit haut débit. Ambiance décontractée, personnel attentif aux besoins des clients. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
   },
@@ -28132,7 +28141,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Hôtel avec jardin tropical agréable et terrasse ombragée. Restaurant servant cuisine locale et internationale. Chambres modernes climatisées avec balcon. Parking privé gratuit et sécurisé. Ambiance paisible.",
+    "description_summary": "Hôtel avec jardin tropical agréable et terrasse ombragée. Restaurant servant cuisine locale et internationale. Chambres modernes climatisées avec balcon. Parking privé gratuit et sécurisé. Ambiance paisible. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
   },
@@ -28246,7 +28255,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Chambres rénovées et confortables dans quartier résidentiel sécurisé. Wi-Fi gratuit fiable, parking privé. Bon équilibre entre confort moderne et prix raisonnable. Service attentionné et professionnel.",
+    "description_summary": "Chambres rénovées et confortables dans quartier résidentiel sécurisé. Wi-Fi gratuit fiable, parking privé. Bon équilibre entre confort moderne et prix raisonnable. Service attentionné et professionnel. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
   },
@@ -28597,7 +28606,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Appartements spacieux avec cuisine entièrement équipée et vue panoramique sur ville. Piscine extérieure moderne, salle de sport équipée, terrasse panoramique. Wi-Fi fibre premium. Emplacement central privilégié. Standing haut de gamme.",
+    "description_summary": "Appartements spacieux avec cuisine entièrement équipée et vue panoramique sur ville. Piscine extérieure moderne, salle de sport équipée, terrasse panoramique. Wi-Fi fibre premium. Emplacement central privilégié. Standing haut de gamme. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "C'est loin, c'est compliqué d'accès, mais tu vas mettre la photo sur Instagram donc ça vaut le coup. 📱"
   },
@@ -28948,7 +28957,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Maison d'hôtes de charme exclusive au nord de Tamatave. Bungalows privatifs luxueux dans jardin tropical luxuriant. Piscine à débordement, cuisine gastronomique raffinée. Havre de paix authentique et romantique. Service personnalisé exceptionnel.",
+    "description_summary": "Maison d'hôtes de charme exclusive au nord de Tamatave. Bungalows privatifs luxueux dans jardin tropical luxuriant. Piscine à débordement, cuisine gastronomique raffinée. Havre de paix authentique et romantique. Service personnalisé exceptionnel. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Le WiFi fonctionne... quand il a envie. Un peu comme le personnel, finalement. 📶"
   },
@@ -29066,7 +29075,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Parc zoologique et botanique à 30 minutes au nord de Tamatave. 282 hectares de forêt avec 12 espèces de lémuriens en semi-liberté. Sentiers de randonnée de 9km, cascade pour la baignade, et programme de conservation des espèces en danger. Éducatif et ludique pour toute la famille.",
+    "description_summary": "Parc zoologique et botanique à 30 minutes au nord de Tamatave. 282 hectares de forêt avec 12 espèces de lémuriens en semi-liberté. Sentiers de randonnée de 9km, cascade pour la baignade, et programme de conservation des espèces en danger. Éducatif et ludique pour toute la famille. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
   },
@@ -29184,7 +29193,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Croisière sur le célèbre Canal des Pangalanes, réseau de 645km de canaux et lagunes. Paysages sauvages luxuriants, villages de pêcheurs authentiques, observation de lémuriens et oiseaux tropicaux. Déjeuner dans un village local inclus. Expérience unique et paisible.",
+    "description_summary": "Croisière sur le célèbre Canal des Pangalanes, réseau de 645km de canaux et lagunes. Paysages sauvages luxuriants, villages de pêcheurs authentiques, observation de lémuriens et oiseaux tropicaux. Déjeuner dans un village local inclus. Expérience unique et paisible. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑"
   },
@@ -29301,7 +29310,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le grand marché historique de Toamasina, véritable cœur battant de la ville. Épices, vanille, cannelle, fruits exotiques litchis, artisanat local (paniers raphia, sculptures bois), tissus malgaches. Immersion culturelle totale dans l'ambiance locale authentique.",
+    "description_summary": "Le grand marché historique de Toamasina, véritable cœur battant de la ville. Épices, vanille, cannelle, fruits exotiques litchis, artisanat local (paniers raphia, sculptures bois), tissus malgaches. Immersion culturelle totale dans l'ambiance locale authentique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
   },
@@ -29420,7 +29429,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Île déserte paradisiaque avec phare historique, plages de sable blanc immaculé et eaux cristallines. Snorkeling, baignade dans une eau turquoise, pique-nique sur la plage. Accessible en bateau depuis le port. Parfait pour une journée d'évasion totale.",
+    "description_summary": "Île déserte paradisiaque avec phare historique, plages de sable blanc immaculé et eaux cristallines. Snorkeling, baignade dans une eau turquoise, pique-nique sur la plage. Accessible en bateau depuis le port. Parfait pour une journée d'évasion totale. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
   },
@@ -29540,7 +29549,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Village côtier charmant au nord de Tamatave, réputé pour ses plages de sable blanc et son lagon turquoise. Fort Manda historique à visiter, cimetière de pirates mystérieux. Idéal pour snorkeling, baignade et détente. Ambiance paisible et authentique.",
+    "description_summary": "Village côtier charmant au nord de Tamatave, réputé pour ses plages de sable blanc et son lagon turquoise. Fort Manda historique à visiter, cimetière de pirates mystérieux. Idéal pour snorkeling, baignade et détente. Ambiance paisible et authentique. Le sable fin et l'eau cristalline créent un décor de carte postale, idéal pour se détendre et profiter du soleil tropical.",
     "has_expandable_description": true,
     "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸"
   },
@@ -29658,7 +29667,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Parc naturel à 30km au sud de Tamatave. Randonnées en forêt tropicale, baignade dans piscines naturelles et mini-cascades rafraîchissantes, parcours accrobranche pour les aventuriers. Cadre verdoyant et familial. Parfait pour une journée nature active.",
+    "description_summary": "Parc naturel à 30km au sud de Tamatave. Randonnées en forêt tropicale, baignade dans piscines naturelles et mini-cascades rafraîchissantes, parcours accrobranche pour les aventuriers. Cadre verdoyant et familial. Parfait pour une journée nature active. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨"
   },
@@ -29776,7 +29785,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Verger à ciel ouvert à 20km de Tamatave. Cueillette de fruits frais tropicaux selon saison (litchis, mangues, ananas), baignade dans zones aménagées naturelles, promenade dans jardins luxuriants. Expérience agricole authentique et gourmande.",
+    "description_summary": "Verger à ciel ouvert à 20km de Tamatave. Cueillette de fruits frais tropicaux selon saison (litchis, mangues, ananas), baignade dans zones aménagées naturelles, promenade dans jardins luxuriants. Expérience agricole authentique et gourmande. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
   },
@@ -29894,7 +29903,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Boulevard emblématique en bord de mer, cœur de la vie sociale de Tamatave. Promenade au coucher du soleil, animation locale le soir avec fatapera (BBQ de rue), vue sur le port et navires. Ambiance conviviale et authentique. Gratuit et accessible à tous.",
+    "description_summary": "Boulevard emblématique en bord de mer, cœur de la vie sociale de Tamatave. Promenade au coucher du soleil, animation locale le soir avec fatapera (BBQ de rue), vue sur le port et navires. Ambiance conviviale et authentique. Gratuit et accessible à tous. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔"
   },
@@ -30013,7 +30022,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Petite plage isolée juste en face du port, accessible en pirogue. Sable fin, eaux calmes, tranquillité absolue. Parfait pour se détendre sans être dérangé, loin de l'agitation urbaine. Spot secret apprécié des locaux pour sa sérénité.",
+    "description_summary": "Petite plage isolée juste en face du port, accessible en pirogue. Sable fin, eaux calmes, tranquillité absolue. Parfait pour se détendre sans être dérangé, loin de l'agitation urbaine. Spot secret apprécié des locaux pour sa sérénité. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
   },
@@ -30130,7 +30139,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Parc spacieux au centre-ville, poumon vert de Tamatave. Jardins bien entretenus, fleurs tropicales colorées, bancs ombragés. Lieu de détente pour locaux et touristes, parfait pour pause fraîcheur après visite du marché. Gratuit et accessible.",
+    "description_summary": "Parc spacieux au centre-ville, poumon vert de Tamatave. Jardins bien entretenus, fleurs tropicales colorées, bancs ombragés. Lieu de détente pour locaux et touristes, parfait pour pause fraîcheur après visite du marché. Gratuit et accessible. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
   },
@@ -30246,7 +30255,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Centre culturel à l'architecture créole remarquable. Expositions d'art local et international, médiathèque riche, événements culturels réguliers (concerts, pièces de théâtre, projections). Lieu d'échange culturel franco-malgache. Entrée libre pour la médiathèque.",
+    "description_summary": "Centre culturel à l'architecture créole remarquable. Expositions d'art local et international, médiathèque riche, événements culturels réguliers (concerts, pièces de théâtre, projections). Lieu d'échange culturel franco-malgache. Entrée libre pour la médiathèque. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸"
   },
@@ -30365,7 +30374,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Plage de surfeurs réputée au nord de Tamatave. Vagues puissantes et régulières, spot prisé des surfeurs locaux et internationaux. Plage sauvage et authentique, peu touristique. Location de planches possible. Ambiance décontractée et sportive.",
+    "description_summary": "Plage de surfeurs réputée au nord de Tamatave. Vagues puissantes et régulières, spot prisé des surfeurs locaux et internationaux. Plage sauvage et authentique, peu touristique. Location de planches possible. Ambiance décontractée et sportive. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃"
   },
@@ -30483,7 +30492,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Réserve privée luxueuse sur les bords du Canal des Pangalanes. Observation de l'Aye-Aye (lémurien nocturne rare), balades en forêt primaire, pirogue traditionnelle sur le canal. Hébergement en bungalows écologiques. Expérience nature premium et exclusive.",
+    "description_summary": "Réserve privée luxueuse sur les bords du Canal des Pangalanes. Observation de l'Aye-Aye (lémurien nocturne rare), balades en forêt primaire, pirogue traditionnelle sur le canal. Hébergement en bungalows écologiques. Expérience nature premium et exclusive. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿"
   },
@@ -30601,7 +30610,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Excursion maritime vers la mythique Île Sainte-Marie. Traversée spectaculaire sur l'océan Indien, observation possible de baleines à bosse (juillet-septembre), plages paradisiaques, cimetière des pirates. Journée complète all-inclusive avec déjeuner fruits de mer.",
+    "description_summary": "Excursion maritime vers la mythique Île Sainte-Marie. Traversée spectaculaire sur l'océan Indien, observation possible de baleines à bosse (juillet-septembre), plages paradisiaques, cimetière des pirates. Journée complète all-inclusive avec déjeuner fruits de mer. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
   },
@@ -30718,7 +30727,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Tour des distilleries artisanales de rhum et liqueurs locales autour de Tamatave. Découverte du processus de fabrication traditionnel, dégustation de rhums arrangés aux fruits et épices, visite des plantations de canne à sucre. Expérience authentique et savoureuse.",
+    "description_summary": "Tour des distilleries artisanales de rhum et liqueurs locales autour de Tamatave. Découverte du processus de fabrication traditionnel, dégustation de rhums arrangés aux fruits et épices, visite des plantations de canne à sucre. Expérience authentique et savoureuse. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
   },
@@ -30835,7 +30844,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Sortie en mer pour observer les baleines à bosse dans leur habitat naturel. Migration annuelle spectaculaire, sauts et chants des baleines, dauphins parfois présents. Guide naturaliste expert inclus. Expérience marine inoubliable et respectueuse de l'environnement.",
+    "description_summary": "Sortie en mer pour observer les baleines à bosse dans leur habitat naturel. Migration annuelle spectaculaire, sauts et chants des baleines, dauphins parfois présents. Guide naturaliste expert inclus. Expérience marine inoubliable et respectueuse de l'environnement. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
   },
@@ -30954,7 +30963,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Descente en kayak du Canal des Pangalanes sur plusieurs heures. Exploration autonome des lagunes et canaux, rencontre avec pêcheurs locaux, observation faune et flore aquatique. Activité sportive et contemplative. Location kayaks simple ou double disponible.",
+    "description_summary": "Descente en kayak du Canal des Pangalanes sur plusieurs heures. Exploration autonome des lagunes et canaux, rencontre avec pêcheurs locaux, observation faune et flore aquatique. Activité sportive et contemplative. Location kayaks simple ou double disponible. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃"
   },
@@ -31071,7 +31080,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Jardin botanique privé avec collection impressionnante de plantes tropicales rares et orchidées endémiques. Sentiers ombragés, étangs avec nénuphars, volière avec oiseaux colorés. Havre de paix et de beauté naturelle. Parfait pour amoureux de botanique.",
+    "description_summary": "Jardin botanique privé avec collection impressionnante de plantes tropicales rares et orchidées endémiques. Sentiers ombragés, étangs avec nénuphars, volière avec oiseaux colorés. Havre de paix et de beauté naturelle. Parfait pour amoureux de botanique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃"
   },
@@ -31189,7 +31198,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Survol panoramique en hélicoptère de la côte Est malgache. Vue aérienne spectaculaire sur le Canal des Pangalanes, forêts tropicales, villages côtiers, récifs coralliens. Expérience VIP luxueuse et inoubliable. Photos aériennes époustouflantes garanties.",
+    "description_summary": "Survol panoramique en hélicoptère de la côte Est malgache. Vue aérienne spectaculaire sur le Canal des Pangalanes, forêts tropicales, villages côtiers, récifs coralliens. Expérience VIP luxueuse et inoubliable. Photos aériennes époustouflantes garanties. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
   },
@@ -31306,7 +31315,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Sortie de pêche sportive en haute mer au large de Tamatave. Pêche au gros (marlin, thon, dorade coryphène), matériel professionnel fourni, capitaine expérimenté. Poissons pêchés peuvent être cuisinés au retour. Aventure marine sportive et authentique.",
+    "description_summary": "Sortie de pêche sportive en haute mer au large de Tamatave. Pêche au gros (marlin, thon, dorade coryphène), matériel professionnel fourni, capitaine expérimenté. Poissons pêchés peuvent être cuisinés au retour. Aventure marine sportive et authentique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨"
   },
@@ -31422,7 +31431,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Club emblématique de Tamatave ouvert mercredis et samedis dès 22h. DJ résident créant une ambiance énergique et festive. Piste de danse spacieuse, bar bien fourni, système son professionnel. Incontournable de la vie nocturne locale.",
+    "description_summary": "Club emblématique de Tamatave ouvert mercredis et samedis dès 22h. DJ résident créant une ambiance énergique et festive. Piste de danse spacieuse, bar bien fourni, système son professionnel. Incontournable de la vie nocturne locale. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
   },
@@ -31769,7 +31778,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Bar-club populaire dans le quartier Bazar Be. Ouvert 7 jours sur 7, entrée gratuite, boissons à prix doux. Ambiance locale authentique et conviviale. Idéal pour danser, socialiser et faire la fête sans se ruiner. Très prisé des jeunes.",
+    "description_summary": "Bar-club populaire dans le quartier Bazar Be. Ouvert 7 jours sur 7, entrée gratuite, boissons à prix doux. Ambiance locale authentique et conviviale. Idéal pour danser, socialiser et faire la fête sans se ruiner. Très prisé des jeunes. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑"
   },
@@ -32467,7 +32476,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Bar les pieds dans le sable en bordure de plage. Ambiance tropicale décontractée, cocktails fruités, barbecue le soir, musique reggae et salsa. Parfait pour after-beach, sunset drinks. Vue mer exceptionnelle, brise marine rafraîchissante.",
+    "description_summary": "Bar les pieds dans le sable en bordure de plage. Ambiance tropicale décontractée, cocktails fruités, barbecue le soir, musique reggae et salsa. Parfait pour after-beach, sunset drinks. Vue mer exceptionnelle, brise marine rafraîchissante. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
     "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃"
   },
@@ -32837,7 +32846,7 @@ window.LIEUX_DATA = [
     "prixNum": 5000,
     "note": 4.4,
     "description": "Une belle chute d'eau accessible après une marche agréable à travers la forêt de girofliers et de vanille. Possibilité de se baigner dans le bassin frais au pied de la cascade. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Sainte-Marie. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
-    "image": "images/tana/ampefy_chute_lily.jpg",
+    "image": "images/spots/chute-lily.jpg",
     "tags": [
       "Nature",
       "saintemarie",
@@ -32855,7 +32864,7 @@ window.LIEUX_DATA = [
     "categorie": "Nature",
     "galerie_photos": [
       {
-        "url": "images/tana/ampefy_chute_lily.jpg",
+        "url": "images/spots/chute-lily.jpg",
         "alt": "Cascade d'Antanandava",
         "type": "principale"
       }
@@ -33059,7 +33068,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "De juillet à septembre, le canal de Sainte-Marie accueille des centaines de baleines à bosse. Une expérience inoubliable pour observer leurs sauts et écouter leur chant. Le spectacle de la nature à l'état pur.",
+    "description_summary": "De juillet à septembre, le canal de Sainte-Marie accueille des centaines de baleines à bosse. Une expérience inoubliable pour observer leurs sauts et écouter leur chant. Le spectacle de la nature à l'état pur. Ce site emblématique figure parmi les attractions phares de Sainte-Marie, attirant des visiteurs du monde entier grâce à son caractère exceptionnel.",
     "has_expandable_description": true,
     "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵"
   },
@@ -33074,7 +33083,7 @@ window.LIEUX_DATA = [
     "prixNum": 30000,
     "note": 4.3,
     "description": "Restaurant convivial spécialisé dans les fruits de mer et la cuisine locale. Langoustes, calamars et poissons grillés sont à l'honneur. Ambiance décontractée typique des îles. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis. Les portions généreuses et la fraîcheur des ingrédients garantissent une expérience culinaire mémorable, reflet authentique de la gastronomie malgache. Le cadre soigné et la vue (selon l'emplacement) ajoutent une dimension supplémentaire à votre repas, faisant de chaque visite un moment privilégié. Réservation recommandée, surtout le week-end, pour profiter pleinement de cette adresse incontournable de Sainte-Marie.",
-    "image": "images/circuits/circuit-cacao.jpg",
+    "image": "images/restaurants/placeholder-resto.jpg",
     "tags": [
       "Restaurant",
       "saintemarie",
@@ -33091,7 +33100,7 @@ window.LIEUX_DATA = [
     "categorie": "Restaurant",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-cacao.jpg",
+        "url": "images/restaurants/placeholder-resto.jpg",
         "alt": "La Bigorne",
         "type": "principale"
       }
@@ -33188,7 +33197,7 @@ window.LIEUX_DATA = [
     "prixNum": 45000,
     "note": 4.6,
     "description": "Restaurant de plage raffiné offrant une cuisine fusion franco-malgache. Le cadre est magnifique pour un déjeuner les pieds dans le sable ou un dîner romantique au coucher du soleil. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis. Les portions généreuses et la fraîcheur des ingrédients garantissent une expérience culinaire mémorable, reflet authentique de la gastronomie malgache. Le cadre soigné et la vue (selon l'emplacement) ajoutent une dimension supplémentaire à votre repas, faisant de chaque visite un moment privilégié. Réservation recommandée, surtout le week-end, pour profiter pleinement de cette adresse incontournable de Sainte-Marie.",
-    "image": "images/circuits/circuit-cacao.jpg",
+    "image": "images/restaurants/placeholder-resto.jpg",
     "tags": [
       "Restaurant",
       "saintemarie",
@@ -33206,7 +33215,7 @@ window.LIEUX_DATA = [
     "categorie": "Restaurant",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-cacao.jpg",
+        "url": "images/restaurants/placeholder-resto.jpg",
         "alt": "Idylle Beach",
         "type": "principale"
       }
@@ -33303,7 +33312,7 @@ window.LIEUX_DATA = [
     "prixNum": 20000,
     "note": 4.2,
     "description": "Une adresse authentique sur l'Île aux Nattes. Nath cuisine avec amour des plats malgaches généreux (romazava, porc aux brèdes) à prix doux. Simple, bon et chaleureux. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis. Les portions généreuses et la fraîcheur des ingrédients garantissent une expérience culinaire mémorable, reflet authentique de la gastronomie malgache. Le cadre soigné et la vue (selon l'emplacement) ajoutent une dimension supplémentaire à votre repas, faisant de chaque visite un moment privilégié. Réservation recommandée, surtout le week-end, pour profiter pleinement de cette adresse incontournable de Sainte-Marie.",
-    "image": "images/circuits/circuit-cacao.jpg",
+    "image": "images/restaurants/placeholder-resto.jpg",
     "tags": [
       "Restaurant",
       "saintemarie",
@@ -33320,7 +33329,7 @@ window.LIEUX_DATA = [
     "categorie": "Restaurant",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-cacao.jpg",
+        "url": "images/restaurants/placeholder-resto.jpg",
         "alt": "Chez Nath",
         "type": "principale"
       }
@@ -33417,7 +33426,7 @@ window.LIEUX_DATA = [
     "prixNum": 40000,
     "note": 4.5,
     "description": "Situé au nord, ce restaurant offre une vue imprenable sur le lagon. Cuisine saine et fraîche, utilisant les produits du potager bio. Parfait pour une pause gourmande lors d'un tour de l'île. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis. Les portions généreuses et la fraîcheur des ingrédients garantissent une expérience culinaire mémorable, reflet authentique de la gastronomie malgache. Le cadre soigné et la vue (selon l'emplacement) ajoutent une dimension supplémentaire à votre repas, faisant de chaque visite un moment privilégié. Réservation recommandée, surtout le week-end, pour profiter pleinement de cette adresse incontournable de Sainte-Marie.",
-    "image": "images/circuits/circuit-cacao.jpg",
+    "image": "images/restaurants/placeholder-resto.jpg",
     "tags": [
       "Restaurant",
       "saintemarie",
@@ -33435,7 +33444,7 @@ window.LIEUX_DATA = [
     "categorie": "Restaurant",
     "galerie_photos": [
       {
-        "url": "images/circuits/circuit-cacao.jpg",
+        "url": "images/restaurants/placeholder-resto.jpg",
         "alt": "Samaria Lodge Restaurant",
         "type": "principale"
       }
@@ -33633,7 +33642,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le spot pour boire un verre le soir à Ambodifotatra. Musique, billard et bonne ambiance. C'est le point de rendez-vous des locaux et des voyageurs. Ce lieu présente un intérêt certain pour les visiteurs de Sainte-Marie, offrant une expérience authentique et mémorable.",
+    "description_summary": "Le spot pour boire un verre le soir à Ambodifotatra. Musique, billard et bonne ambiance. C'est le point de rendez-vous des locaux et des voyageurs. Ce lieu présente un intérêt certain pour les visiteurs de Sainte-Marie, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
     "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃"
   },
@@ -33749,7 +33758,7 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Le luxe éco-chic à son apogée. Villas de charme, spa, piscine à débordement et ponton privé. L'hôtel est également très impliqué dans la protection des baleines avec l'association Cétamada.",
+    "description_summary": "Le luxe éco-chic à son apogée. Villas de charme, spa, piscine à débordement et ponton privé. L'hôtel est également très impliqué dans la protection des baleines avec l'association Cétamada. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
     "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚"
   },
@@ -34215,3 +34224,8 @@ window.LIEUX_DATA = [
     "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
   }
 ];
+
+// Export
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = window.LIEUX_DATA;
+}
