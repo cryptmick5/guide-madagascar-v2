@@ -2828,7 +2828,8 @@ window.LIEUX_DATA = [
     ],
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Introuvable en ligne sous ce nom."
     }
   },
   {
@@ -7367,9 +7368,17 @@ window.LIEUX_DATA = [
       "Nosy-Be"
     ],
     "verification": {
-      "statut": "non_confirme",
-      "date": "2026-11-13"
-    }
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Référencé « Cacao Beach by Loulou » (ou « Chez Loulou »), plage d’Andilana."
+    },
+    "sources": [
+      "https://wanderlog.com/place/details/2801706/cacao-beach-chez-loulou"
+    ],
+    "alias": [
+      "Chez Loulou",
+      "Cacao Beach by Loulou"
+    ]
   },
   {
     "id": 215,
@@ -12241,7 +12250,8 @@ window.LIEUX_DATA = [
     ],
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Introuvable en ligne sous ce nom."
     }
   },
   {
@@ -13880,7 +13890,8 @@ window.LIEUX_DATA = [
     "zone": "toliara",
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Aucun restaurant « Le Vezo » trouvé à Anakao ; les guides citent Longo Vezo, Safari Vezo et Chez Émile."
     }
   },
   {
@@ -14401,7 +14412,8 @@ window.LIEUX_DATA = [
     ],
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Introuvable en ligne ; les guides citent le Zaza Club et le Tam Tam Café pour sortir à Tuléar."
     }
   },
   {
@@ -14657,7 +14669,8 @@ window.LIEUX_DATA = [
     "zone": "toliara",
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Introuvable en ligne ; un « Bamboo Club Bar » est référencé à Mangily."
     }
   },
   {
@@ -20277,10 +20290,14 @@ window.LIEUX_DATA = [
     ],
     "image_provisoire": true,
     "verification": {
-      "statut": "non_confirme",
-      "date": "2026-11-13"
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Référencé « Queens Club » par Lonely Planet (club du centre-ville, dans une ancienne maison à véranda) ; l’adresse et l’ambiance « premium » décrites ici ne sont pas confirmées."
     },
-    "position_approx": true
+    "position_approx": true,
+    "sources": [
+      "https://www.lonelyplanet.com/madagascar/eastern-madagascar/toamasina-tamatave/nightlife"
+    ]
   },
   {
     "nom": "Le Taxi Be Club",

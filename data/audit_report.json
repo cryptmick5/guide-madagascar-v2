@@ -185,19 +185,18 @@
     },
     "non_confirmes": {
       "titre": "Lieux dont l’existence n’a pas pu être confirmée (pastille « À confirmer sur place »)",
-      "total": 26,
+      "total": 24,
       "bloquant": false,
       "items": [
         "#527 Taxi Be Antanimena (Antananarivo)",
-        "#530 Le Piment Café (Antananarivo)",
+        "#530 Le Piment Café (Antananarivo) — Introuvable en ligne sous ce nom.",
         "#802 Gîte du Voyageur (Diego-Suarez) — Aucun « Gîte du Voyageur » trouvé à Diego ; il existe un hôtel « La Terrasse du Voyageur ».",
-        "#214 Restaurant Cacao Beach (Nosy Be)",
         "#215 Safari Ambaro (Nosy Be) — Un « Safari Bar Restaurant » existe à Ambatoloaka ; le nom « Safari Ambaro » n’a pas été retrouvé.",
         "#210 Le Bar de la Plage (Nosy Be)",
-        "#311 Chez Marie Zooze (Fianarantsoa)",
-        "#409 Le Vezo (Anakao) (Anakao)",
-        "#415 Le T’Hôtre Chose (Toliara)",
-        "#419 Mangily Beach Bar (Ifaty)",
+        "#311 Chez Marie Zooze (Fianarantsoa) — Introuvable en ligne sous ce nom.",
+        "#409 Le Vezo (Anakao) (Anakao) — Aucun restaurant « Le Vezo » trouvé à Anakao ; les guides citent Longo Vezo, Safari Vezo et Chez Émile.",
+        "#415 Le T’Hôtre Chose (Toliara) — Introuvable en ligne ; les guides citent le Zaza Club et le Tam Tam Café pour sortir à Tuléar.",
+        "#419 Mangily Beach Bar (Ifaty) — Introuvable en ligne ; un « Bamboo Club Bar » est référencé à Mangily.",
         "#641 Gargote Bazar Be (Toamasina)",
         "#642 Fatapera du Bord de Mer (Toamasina)",
         "#643 Snack du Marché Kely (Toamasina)",
@@ -212,7 +211,6 @@
         "#679 Îlot Sable - Plage Secrète (Toamasina)",
         "#680 Randrianasolo Park - Parc Central (Toamasina)",
         "#688 Jardin d'Éden - Jardin Botanique (Toamasina) — Aucun jardin de ce nom trouvé à Toamasina (un « Eden Botanical Garden » existe à Toliara).",
-        "#693 Queen's Club (Toamasina)",
         "#695 La Terrasse Bar Lounge (Toamasina)"
       ]
     },
