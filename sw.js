@@ -1,17 +1,39 @@
-// sw.js - Service Worker Gasikara Explorer V2.4.0
-const CACHE_VERSION = 'gasikara-v2.4.0';
+// sw.js - Service Worker Gasikara Explorer V2.5.0
+// Tous les chemins sont RELATIFS : le site est servi dans un sous-dossier (GitHub Pages /guide-madagascar-v2/).
+const CACHE_VERSION = 'gasikara-v2.5.0';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 
 const CRITICAL_ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json'
+  './',
+  './index.html',
+  './circuit.html',
+  './manifest.json',
+  './images/logo/favicon.png',
+  './css/cards-2026.css',
+  './css/styles-premium.css',
+  './js/app.min.js',
+  './js/gsap-config.js',
+  './js/animations.js',
+  './js/modules/map.js',
+  './js/modules/cities.js',
+  './js/modules/spots.js',
+  './js/modules/itineraries.js',
+  './js/modules/tools.js',
+  './data/lieux.js',
+  './data/itineraires.js',
+  './data/phrases.js',
+  './images/placeholder.jpg',
+  './images/placeholder-hotel.jpg',
+  './images/placeholder-restaurant.jpg',
+  './images/placeholder-bar.jpg',
+  './images/placeholder-nature.jpg',
+  './images/placeholder-spot.jpg'
 ];
 
 // INSTALLATION
 self.addEventListener('install', (event) => {
-  console.log('[SW v2.4.0] Installation...');
+  console.log('[SW v2.5.0] Installation...');
   
   event.waitUntil(
     caches.open(STATIC_CACHE)
@@ -32,7 +54,7 @@ self.addEventListener('install', (event) => {
 
 // ACTIVATION
 self.addEventListener('activate', (event) => {
-  console.log('[SW v2.4.0] Activation...');
+  console.log('[SW v2.5.0] Activation...');
   
   event.waitUntil(
     caches.keys()
@@ -64,12 +86,12 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
   
   const isStaticAsset = /\.(js|css|png|jpg|jpeg|webp|svg|woff2?)$/i.test(url.pathname);
-  const isDocument = request.destination === 'document' || url.pathname === '/';
+  const isDocument = request.destination === 'document' || url.pathname.endsWith('/');
   
   if (isStaticAsset) {
     // CACHE FIRST pour assets
     event.respondWith(
-      caches.match(request)
+      caches.match(request, { ignoreSearch: true })
         .then(cached => {
           if (cached) return cached;
           
@@ -93,7 +115,7 @@ self.addEventListener('fetch', (event) => {
           }
           return response;
         })
-        .catch(() => caches.match(request).then(cached => cached || caches.match('/index.html')))
+        .catch(() => caches.match(request, { ignoreSearch: true }).then(cached => cached || caches.match('./index.html')))
     );
   }
 });

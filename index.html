@@ -12,15 +12,14 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <title>MG Guide Voyage Madagascar - Le guide que seuls les Malgaches connaissent</title>
+    <title>Gasikara Explorer - Le guide de Madagascar que seuls les Malgaches connaissent</title>
 
     <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json">
 
     <!-- Icons -->
     <link rel="icon" type="image/png" href="images/logo/favicon.png">
-    <link rel="apple-touch-icon" href="icons/icon-192.png">
-    <link rel="shortcut icon" href="icons/favicon.ico">
+    <link rel="apple-touch-icon" href="images/logo/favicon.png">
 
     <!-- Fonts (Non-blocking) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -2204,6 +2203,24 @@
                 padding: 16px;
             }
 
+            /* Mobile : pas de débordement horizontal (marge négative alignée sur le padding de 16px,
+               colonnes de grille autorisées à rétrécir sous la largeur de leur contenu) */
+            #page-carte {
+                margin: 0 -16px;
+            }
+
+            .tools-grid {
+                grid-template-columns: minmax(0, 1fr) !important;
+            }
+
+            .tool-card,
+            .converter-input,
+            .taxi-select {
+                min-width: 0;
+                max-width: 100%;
+                box-sizing: border-box;
+            }
+
             #map {
                 height: 400px;
             }
@@ -3050,14 +3067,18 @@
         </button>
     </div>
     <script>
+        // Le bandeau de diagnostic ne s'affiche qu'en mode debug (?debug=1 dans l'URL).
+        // En fonctionnement normal, les erreurs sont seulement journalisées dans la console.
+        window.GASIKARA_DEBUG = /[?&]debug=1/.test(location.search);
         window.onerror = function (msg, url, line, col, error) {
-            document.getElementById('diagnostic-overlay').style.display = 'block';
+            if (window.GASIKARA_DEBUG) document.getElementById('diagnostic-overlay').style.display = 'block';
             document.getElementById('error-log').innerText += `\n[CRASH] ${msg}\nAt: ${url}:${line}:${col}\nStack: ${error ? error.stack : 'N/A'}\n`;
             console.error("Critical Error Trap:", msg, error);
             return false; // Let default handler run too
         };
         window.addEventListener('unhandledrejection', function (event) {
-            document.getElementById('diagnostic-overlay').style.display = 'block';
+            console.error("Promesse rejetée :", event.reason);
+            if (window.GASIKARA_DEBUG) document.getElementById('diagnostic-overlay').style.display = 'block';
             document.getElementById('error-log').innerText += `\n[PROMISE] Reason: ${event.reason}\n`;
         });
     </script>
@@ -3156,8 +3177,8 @@
                     <div class="lieux-grid-hero">
                         <!-- Diego (Antsiranana) -->
                         <div onclick="navigateToPage('antsiranana')" class="province-card-2026">
-                            <img src="images/pain_de_sucre_premium.jpg" class="province-image-2026"
-                                onerror="this.src='images/placeholders/default.jpg'" loading="lazy" decoding="async"
+                            <img src="images/pain_de_sucre_premium.jpg" alt="Nosy Lonjo, le Pain de Sucre, dans la baie de Diego-Suarez" class="province-image-2026"
+                                onerror="this.onerror=null;this.src='images/placeholder.jpg'" loading="lazy" decoding="async"
                                 width="400" height="300">
                             <div class="province-overlay-2026"></div>
 
@@ -3171,8 +3192,8 @@
 
                         <!-- Nosy Be -->
                         <div onclick="navigateToPage('nosybe')" class="province-card-2026">
-                            <img src="images/iles/nosy-komba.jpg" class="province-image-2026"
-                                onerror="this.src='images/placeholders/default.jpg'" loading="lazy" decoding="async"
+                            <img src="images/circuits/circuit-nosybe.jpg" alt="Plage bordée de cocotiers dans l’archipel de Nosy Be" class="province-image-2026"
+                                onerror="this.onerror=null;this.src='images/placeholder.jpg'" loading="lazy" decoding="async"
                                 width="400" height="300">
                             <div class="province-overlay-2026"></div>
                             <div class="province-content-2026">
@@ -3183,8 +3204,8 @@
 
                         <!-- Antananarivo -->
                         <div onclick="navigateToPage('antananarivo')" class="province-card-2026">
-                            <img src="images/villes/palais-reine.jpg" class="province-image-2026"
-                                onerror="this.src='images/placeholders/default.jpg'" loading="lazy" decoding="async"
+                            <img src="images/villes/palais-reine.jpg" alt="Palais de la Reine (Rova) à Antananarivo" class="province-image-2026"
+                                onerror="this.onerror=null;this.src='images/placeholder.jpg'" loading="lazy" decoding="async"
                                 width="400" height="300">
                             <div class="province-overlay-2026"></div>
                             <div class="province-content-2026">
@@ -3195,8 +3216,8 @@
 
                         <!-- Mahajanga -->
                         <div onclick="navigateToPage('mahajanga')" class="province-card-2026">
-                            <img src="images/spots/cirque-rouge.jpg" class="province-image-2026"
-                                onerror="this.src='images/placeholders/default.jpg'" loading="lazy" decoding="async"
+                            <img src="images/spots/cirque-rouge.jpg" alt="Falaises du Cirque Rouge près de Mahajanga" class="province-image-2026"
+                                onerror="this.onerror=null;this.src='images/placeholder.jpg'" loading="lazy" decoding="async"
                                 width="400" height="300">
                             <div class="province-overlay-2026"></div>
                             <div class="province-content-2026">
@@ -3207,8 +3228,8 @@
 
                         <!-- Toamasina -->
                         <div onclick="navigateToPage('toamasina')" class="province-card-2026">
-                            <img src="images/spots/andasibe-mantadia.jpg" class="province-image-2026"
-                                onerror="this.src='images/placeholders/default.jpg'" loading="lazy" decoding="async"
+                            <img src="images/tamatave/pangalanes.jpg" alt="Canal des Pangalanes près de Toamasina" class="province-image-2026"
+                                onerror="this.onerror=null;this.src='images/placeholder.jpg'" loading="lazy" decoding="async"
                                 width="400" height="300">
                             <div class="province-overlay-2026"></div>
                             <div class="province-content-2026">
@@ -3219,8 +3240,8 @@
 
                         <!-- Fianarantsoa -->
                         <div onclick="navigateToPage('fianarantsoa')" class="province-card-2026">
-                            <img src="images/fianarantsoa/fianar_gare_fce.png" class="province-image-2026"
-                                onerror="this.src='images/placeholders/default.jpg'" loading="lazy" decoding="async"
+                            <img src="images/fianarantsoa/fianar_gare_fce.png" alt="Gare du train FCE à Fianarantsoa" class="province-image-2026"
+                                onerror="this.onerror=null;this.src='images/placeholder.jpg'" loading="lazy" decoding="async"
                                 width="400" height="300">
                             <div class="province-overlay-2026"></div>
                             <div class="province-content-2026">
@@ -3231,8 +3252,8 @@
 
                         <!-- Toliara -->
                         <div onclick="navigateToPage('toliara')" class="province-card-2026">
-                            <img src="images/spots/parc-isalo.jpg" class="province-image-2026"
-                                onerror="this.src='images/placeholders/default.jpg'" loading="lazy" decoding="async"
+                            <img src="images/toliara/toliara_arboretum.png" alt="Baobabs de l’arboretum d’Antsokay à Toliara" class="province-image-2026"
+                                onerror="this.onerror=null;this.src='images/placeholder.jpg'" loading="lazy" decoding="async"
                                 width="400" height="300">
                             <div class="province-overlay-2026"></div>
                             <div class="province-content-2026">
@@ -3243,8 +3264,8 @@
 
                         <!-- Sainte Marie (New) -->
                         <div onclick="navigateToPage('saintemarie')" class="province-card-2026">
-                            <img src="images/iles/ile-aux-nattes.jpg" class="province-image-2026"
-                                onerror="this.src='images/placeholders/default.jpg'" loading="lazy" decoding="async"
+                            <img src="images/iles/ile-aux-nattes.jpg" alt="Plage de l’Île aux Nattes, au sud de Sainte-Marie" class="province-image-2026"
+                                onerror="this.onerror=null;this.src='images/placeholder.jpg'" loading="lazy" decoding="async"
                                 width="400" height="300">
                             <div class="province-overlay-2026"></div>
                             <div class="province-content-2026">
@@ -3491,7 +3512,7 @@
                             style="width:1px; background:rgba(0,0,0,0.1); margin:0 4px; height:20px; align-self:center;">
                         </div>
 
-                        <div class="filter-chip-map active" onclick="toggleFilter(this, 'favorites')">
+                        <div class="filter-chip-map" onclick="toggleFilter(this, 'favorites')">
                             <input type="checkbox" id="filter-favorites" class="filter-checkbox">
                             <i class="fa-solid fa-heart"></i> Favoris
                         </div>
@@ -3508,7 +3529,7 @@
                 <div class="shortcut-card" data-goto="spots">
                     <div class="shortcut-icon">🔥</div>
                     <h3 class="shortcut-title">Spots Locaux</h3>
-                    <p class="shortcut-desc">9 lieux secrets accessibles uniquement via contact local</p>
+                    <p class="shortcut-desc">Les adresses confidentielles que seuls les locaux connaissent</p>
                 </div>
 
                 <div class="shortcut-card" data-goto="langue">
@@ -3749,7 +3770,7 @@
         <!-- Toamasina -->
         <section id="page-toamasina" class="page-section">
             <div class="city-header premium-banner-tout"
-                style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('images/iles/ile-aux-nattes.jpg'); background-size: cover; background-position: center; min-height: 300px !important; display: flex !important;">
+                style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('images/tamatave/pangalanes.jpg'); background-size: cover; background-position: center; min-height: 300px !important; display: flex !important;">
                 <div class="banner-content">
                     <button onclick="navigateToHomeDestinations()" class="btn-back-2026">
                         <i class="fas fa-arrow-left"></i> Retour
@@ -3948,7 +3969,7 @@
                     <div
                         style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
                         <h3 class="tool-title" style="margin:0;">💱 Convertisseur</h3>
-                        <div id="converterStatus" class="status-badge manual">Mode Manuel</div>
+                        <div id="converterStatus" class="status-badge manual">Taux indicatif</div>
                     </div>
 
                     <div class="converter-controls" style="margin-bottom: 15px; display: flex; gap: 10px;">
@@ -3976,12 +3997,12 @@
 
                         <div class="converter-row" id="rowLocal">
                             <span class="converter-label">Ar</span>
-                            <input type="number" id="inputLocal" class="converter-input" value="50000" min="0">
+                            <input type="number" id="inputLocal" class="converter-input" value="51000" min="0">
                         </div>
                     </div>
 
                     <div class="rate-info">
-                        <span id="rateText">1 € = 5000 Ar</span>
+                        <span id="rateText">1 € ≈ 5 100 Ar · taux indicatif du 09/11/2026</span>
                         <button id="btnEditRate" class="btn-text-action">Modifier manuellement</button>
                     </div>
                 </div>
@@ -4133,7 +4154,7 @@
     <div id="modal" class="modal">
         <div class="modal-content">
             <button class="modal-close" id="modalClose">×</button>
-            <img id="modalImage" class="modal-image" src="" alt="" loading="lazy">
+            <img id="modalImage" class="modal-image" src="" alt="Photo du lieu" loading="lazy">
             <div class="modal-body">
                 <h2 id="modalTitle" class="modal-title"></h2>
                 <div id="modalBadges" style="margin-bottom: 16px;"></div>
@@ -4163,10 +4184,10 @@
 
     <!-- CORE DATA -->
     <!-- CORE DATA & LOGIC (CLEAN - FINALv1) -->
-    <script src="data/lieux.js?v=2026.FINAL.1" defer></script>
-    <script src="data/itineraires.js?v=2026.FINAL.1" defer></script>
+    <script src="data/lieux.js?v=2026.11.13" defer></script>
+    <script src="data/itineraires.js?v=2026.11.13" defer></script>
     <script src="data/phrases.js?v=1767094000" defer></script>
-    <script src="js/app.min.js?v=2026.FINAL.1" defer></script>
+    <script src="js/app.min.js?v=2026.11.13" defer></script>
 
     <!-- GSAP Animations -->
     <script src="js/gsap-config.js" defer></script>
@@ -4199,9 +4220,6 @@
                     <p id="modal-advice"></p>
                 </div>
 
-                <a id="modal-link-btn" href="#" target="_blank" class="btn-action-primary">
-                    <i class="fas fa-globe"></i> Visiter le site web
-                </a>
             </div>
         </div>
     </div>

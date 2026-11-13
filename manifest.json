@@ -1,7 +1,7 @@
 {
-  "name": "MG Guide Voyage Madagascar",
-  "short_name": "MG Guide",
-  "description": "Guide de voyage complet pour Madagascar avec 55 attractions, carte interactive et mode offline",
+  "name": "Gasikara Explorer",
+  "short_name": "Gasikara",
+  "description": "Gasikara Explorer : guide de voyage à Madagascar avec plus de 250 lieux, carte interactive, circuits et expressions malgaches, utilisable hors ligne.",
   "start_url": "./index.html",
   "scope": ".",
   "display": "standalone",
@@ -11,15 +11,9 @@
   "icons": [
     {
       "src": "images/logo/favicon.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "images/logo/favicon.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "sizes": "1024x1024",
+      "type": "image/jpeg",
+      "purpose": "any"
     }
   ],
   "categories": [
