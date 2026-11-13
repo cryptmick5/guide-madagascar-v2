@@ -46,22 +46,26 @@ window.updateMapMarkers = function () {
     if (!markersLayer) return;
     markersLayer.clearLayers();
 
-    const checkboxes = document.querySelectorAll('.filter-checkbox:checked');
-    const activeFilters = Array.from(checkboxes).map(cb => {
-        let filterText = cb.parentElement.innerText.trim().toLowerCase();
-        if (filterText === '€') return 'budget_1';
-        if (filterText === '€€') return 'budget_2';
-        if (filterText === '€€€') return 'budget_3';
-        return filterText;
-    });
+    // Filtres lus sur l'id des cases (filter-<clé>), répartis en trois groupes.
+    // Un lieu est affiché s'il satisfait CHAQUE groupe (ville ET catégorie ET budget) ;
+    // à l'intérieur d'un groupe, une seule case cochée suffit. Un groupe sans case cochée ne filtre pas.
+    const CATEGORIES = { explorer: 'explorer', manger: 'manger', dodo: 'dormir', sortir: 'sortir', spot: 'spots' };
+    const BUDGETS = { budget1: 'budget_1', budget2: 'budget_2', budget3: 'budget_3' };
+    const actifs = Array.from(document.querySelectorAll('.filter-checkbox:checked')).map(cb => cb.id.replace('filter-', ''));
+    const zones = actifs.filter(k => CITY_COORDINATES[k]);
+    const cats = actifs.filter(k => CATEGORIES[k]).map(k => CATEGORIES[k]);
+    const budgets = actifs.filter(k => BUDGETS[k]).map(k => BUDGETS[k]);
+    const favorisSeuls = actifs.includes('favorites');
 
     const data = window.LIEUX_DATA || [];
 
     const filtered = data.filter(item => {
-        if (activeFilters.length === 0) return true;
-        if (!item.tags) return false;
-        const itemTagsLower = item.tags.map(t => t.toLowerCase());
-        return activeFilters.some(f => itemTagsLower.includes(f));
+        const tags = (item.tags || []).map(t => t.toLowerCase());
+        if (zones.length && !window.getLieuZones(item).slice(0, 1).some(z => zones.includes(z))) return false;
+        if (cats.length && !cats.some(c => tags.includes(c))) return false;
+        if (budgets.length && !budgets.some(b => tags.includes(b))) return false;
+        if (favorisSeuls && !(window.isFavorite && window.isFavorite(item.id))) return false;
+        return true;
     });
 
     console.log(`Map: ${filtered.length} lieux affichés`);
@@ -137,6 +141,8 @@ window.updateMapMarkers = function () {
         marker._lieuId = lieu.id;
     });
 
+    if (markersLayer._spiderListener) return; // une seule fois (évite l'empilement d'écouteurs à chaque filtrage)
+    markersLayer._spiderListener = true;
     markersLayer.on('spiderfied', function (a) {
         a.markers.forEach(function (marker) {
             marker.openPopup();
@@ -146,8 +152,13 @@ window.updateMapMarkers = function () {
 
 window.openMapMarker = function (id) {
     if (!markersLayer) return;
-    document.querySelectorAll('.filter-checkbox').forEach(cb => cb.checked = true);
-    document.querySelectorAll('.filter-chip-map').forEach(chip => chip.classList.add('active'));
+    // Tout réafficher, sauf « Favoris » qui restreint au lieu d'élargir
+    document.querySelectorAll('.filter-chip-map').forEach(chip => {
+        const cb = chip.querySelector('.filter-checkbox');
+        if (!cb) return;
+        cb.checked = cb.id !== 'filter-favorites';
+        chip.classList.toggle('active', cb.checked);
+    });
     updateMapMarkers();
     const layers = markersLayer.getLayers();
     const marker = layers.find(l => l._lieuId == id);

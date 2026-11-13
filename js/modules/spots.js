@@ -57,9 +57,13 @@ window.filterSpotsByRegion = function (region, btn) {
 
     allCards.forEach(card => {
         const ville = (card.dataset.ville || '').toLowerCase();
+        const zoneVoulue = Object.keys(window.GASIKARA_ZONES).find(k => window.GASIKARA_ZONES[k].nom.toLowerCase() === region.toLowerCase());
 
         if (region === 'all') {
             card.style.display = 'flex';
+        } else if (zoneVoulue && card.dataset.zone) {
+            // La zone du lieu fait foi (Ifaty, Isalo… → Toliara)
+            card.style.display = card.dataset.zone.split(' ')[0] === zoneVoulue ? 'flex' : 'none';
         } else {
             // Simple matching (extend with more advanced logic if needed)
             const match = ville.includes(region.toLowerCase());

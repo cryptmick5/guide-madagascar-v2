@@ -7,9 +7,39 @@ console.log('🚀 APP.JS LOADED - STARTING INIT');
 
 // Global State
 window.currentTheme = 'light';
-window.exchangeRate = 4250;
+window.exchangeRate = 5100; // taux indicatif EUR, voir initConverter()
 window.favorites = [];
 window.checklist = [];
+
+// Zones (hubs de province) : source unique pour les pages villes, la carte et les spots.
+// Chaque lieu porte `zone` (clé ci-dessous) et, pour une excursion, `depart_de` (ville de départ).
+window.GASIKARA_ZONES = {
+    antananarivo: { grid: 'Antananarivo', nom: 'Antananarivo' },
+    antsiranana: { grid: 'Antsiranana', nom: 'Diego-Suarez' },
+    nosybe: { grid: 'NosyBe', nom: 'Nosy Be' },
+    mahajanga: { grid: 'Mahajanga', nom: 'Mahajanga' },
+    toamasina: { grid: 'Toamasina', nom: 'Toamasina' },
+    fianarantsoa: { grid: 'Fianarantsoa', nom: 'Fianarantsoa' },
+    toliara: { grid: 'Toliara', nom: 'Toliara' },
+    saintemarie: { grid: 'Saintemarie', nom: 'Sainte-Marie' }
+};
+window.getLieuZones = function (lieu) {
+    const zones = [];
+    if (lieu && lieu.zone && window.GASIKARA_ZONES[lieu.zone]) zones.push(lieu.zone);
+    if (lieu && lieu.depart_de) {
+        const z = Object.keys(window.GASIKARA_ZONES).find(k => window.GASIKARA_ZONES[k].nom === lieu.depart_de);
+        if (z && !zones.includes(z)) zones.push(z);
+    }
+    return zones;
+};
+// Grilles (pages villes) où afficher un lieu ; `fallback` = ancien calcul par nom de ville.
+window.getLieuGridIds = function (lieu, fallback) {
+    const zones = window.getLieuZones(lieu);
+    return zones.length ? zones.map(z => window.GASIKARA_ZONES[z].grid) : [fallback];
+};
+window.normalizeText = function (s) {
+    return String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+};
 
 // ============================================
 // 1. INITIALIZATION & DATA
@@ -67,7 +97,7 @@ window.initData = function () {
         // === SERVICE WORKER REGISTRATION (Single Instance) ===
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js')
+                navigator.serviceWorker.register('./sw.js')
                     .then(reg => {
                         console.log('✅ SW registered:', reg.scope);
                         // Vérifier mises à jour toutes les heures
@@ -788,27 +818,92 @@ window.initOutilsPage = function () {
     initTaxiTool();
     initChecklist(); // New persistent checklist
 
-    // Currency Converter
-    const amountInput = document.getElementById('amountInput');
-    const convertBtn = document.getElementById('convertBtn');
-    const resultDiv = document.getElementById('convertedResult');
-    const rateInput = document.getElementById('exchangeRateInput');
+    initConverter();
+}
 
-    if (rateInput) rateInput.value = window.exchangeRate;
+/* Convertisseur de devises (page Outils).
+   Taux INDICATIFS, en ariary pour 1 unité de devise, relevés à la date TAUX_DATE.
+   Le bouton 🔄 tente une mise à jour en ligne ; hors connexion, on garde le dernier taux connu. */
+const TAUX_DATE = '09/11/2026';
+const TAUX_DEFAUT = { EUR: 5100, USD: 4540, GBP: 6110 }; // CHF et ZAR : pas de valeur par défaut fiable → mise à jour en ligne ou saisie manuelle
+const SYMBOLES = { EUR: '€', USD: '$', GBP: '£', CHF: 'CHF', ZAR: 'R' };
 
-    if (convertBtn && amountInput && resultDiv) {
-        convertBtn.addEventListener('click', () => {
-            const ariary = parseFloat(amountInput.value);
-            const rate = parseFloat(rateInput ? rateInput.value : window.exchangeRate);
-            if (!isNaN(ariary) && !isNaN(rate)) {
-                window.exchangeRate = rate;
-                localStorage.setItem('exchangeRate', rate);
-                const euros = (ariary / rate).toFixed(2);
-                resultDiv.textContent = `${ariary.toLocaleString()} Ar ≈ ${euros} €`;
-                resultDiv.style.color = 'var(--text-primary)';
-            }
-        });
-    }
+function initConverter() {
+    const sel = document.getElementById('currencySelector');
+    const inF = document.getElementById('inputForeign');
+    const inL = document.getElementById('inputLocal');
+    const rateText = document.getElementById('rateText');
+    const status = document.getElementById('converterStatus');
+    const label = document.getElementById('foreignLabel');
+    if (!sel || !inF || !inL || !rateText || sel.dataset.ready) return;
+    sel.dataset.ready = '1';
+
+    let memo = {};
+    try { memo = JSON.parse(localStorage.getItem('tauxChange')) || {}; } catch (e) { memo = {}; }
+    const taux = Object.assign({}, TAUX_DEFAUT, memo.taux || {});
+    let dateTaux = memo.date || TAUX_DATE;
+    let source = memo.source || 'indicatif';
+
+    const sauver = () => { try { localStorage.setItem('tauxChange', JSON.stringify({ taux, date: dateTaux, source })); } catch (e) { /* stockage indisponible */ } };
+    const afficher = () => {
+        const dev = sel.value, t = taux[dev];
+        if (label) label.textContent = SYMBOLES[dev] || dev;
+        if (!t) {
+            rateText.textContent = `Taux ${dev} inconnu : touchez 🔄 ou saisissez-le`;
+        } else {
+            rateText.textContent = `1 ${SYMBOLES[dev]} ≈ ${Math.round(t).toLocaleString('fr-FR')} Ar · taux ${source === 'manuel' ? 'saisi' : 'indicatif'} du ${dateTaux}`;
+        }
+        if (status) status.textContent = source === 'en ligne' ? 'Taux en ligne' : source === 'manuel' ? 'Mode Manuel' : 'Taux indicatif';
+    };
+    const versLocal = () => { const t = taux[sel.value], v = parseFloat(inF.value); inL.value = (t && !isNaN(v)) ? Math.round(v * t) : ''; };
+    const versDevise = () => { const t = taux[sel.value], v = parseFloat(inL.value); inF.value = (t && !isNaN(v)) ? (v / t).toFixed(2) : ''; };
+
+    inF.addEventListener('input', versLocal);
+    inL.addEventListener('input', versDevise);
+    sel.addEventListener('change', () => { afficher(); versLocal(); });
+
+    const btnInvert = document.getElementById('btnInvert');
+    if (btnInvert) btnInvert.addEventListener('click', () => {
+        const box = document.getElementById('converterInputsContainer');
+        if (box) box.style.flexDirection = box.style.flexDirection === 'column-reverse' ? 'column' : 'column-reverse';
+    });
+
+    const btnEdit = document.getElementById('btnEditRate');
+    if (btnEdit) btnEdit.addEventListener('click', () => {
+        // Saisie en ligne (pas de fenêtre prompt) : un champ remplace le texte du taux
+        if (document.getElementById('rateManualInput')) return;
+        const champ = document.createElement('input');
+        champ.type = 'number'; champ.id = 'rateManualInput'; champ.min = '1';
+        champ.value = taux[sel.value] ? Math.round(taux[sel.value]) : '';
+        champ.placeholder = `Ar pour 1 ${SYMBOLES[sel.value]}`;
+        champ.setAttribute('aria-label', 'Taux de change en ariary');
+        champ.className = 'converter-input';
+        champ.style.cssText = 'max-width:140px; margin-right:8px;';
+        rateText.textContent = ''; rateText.appendChild(champ); champ.focus();
+        const valider = () => {
+            const v = parseFloat(champ.value);
+            if (v > 0) { taux[sel.value] = v; source = 'manuel'; dateTaux = new Date().toLocaleDateString('fr-FR'); sauver(); }
+            afficher(); versLocal();
+        };
+        champ.addEventListener('change', valider);
+        champ.addEventListener('blur', valider);
+    });
+
+    const btnRefresh = document.getElementById('btnRefreshRate');
+    if (btnRefresh) btnRefresh.addEventListener('click', () => {
+        if (status) status.textContent = 'Mise à jour…';
+        fetch('https://open.er-api.com/v6/latest/MGA')
+            .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
+            .then(d => {
+                if (!d || !d.rates) throw new Error('réponse vide');
+                Object.keys(SYMBOLES).forEach(dev => { if (d.rates[dev] > 0) taux[dev] = 1 / d.rates[dev]; });
+                source = 'en ligne'; dateTaux = new Date().toLocaleDateString('fr-FR'); sauver();
+                afficher(); versLocal();
+            })
+            .catch(() => { afficher(); if (status) status.textContent = 'Hors ligne : taux conservé'; });
+    });
+
+    afficher(); versLocal();
 }
 
 function initTaxiTool() {
@@ -1601,7 +1696,7 @@ window.showItineraryDetails = function (index) {
     // 4. Render Full View
     content.innerHTML = `
         <div class="itin-header" style="margin-bottom:20px;">
-            <img src="${itin.image || 'images/placeholders/default.jpg'}" style="width:100%; height:250px; object-fit:cover; border-radius:12px; margin-bottom:15px; box-shadow:var(--shadow-sm);">
+            <img src="${itin.image || 'images/placeholders/default.jpg'}" alt="${(itin.nom || 'Circuit').replace(/"/g, '&quot;')}" style="width:100%; height:250px; object-fit:cover; border-radius:12px; margin-bottom:15px; box-shadow:var(--shadow-sm);">
             
             <h2 style="color:var(--laterite); margin-bottom:10px; font-family:var(--font-display);">${title}</h2>
             
@@ -1719,8 +1814,12 @@ window.filterSpotsByRegion = function (region, btn) {
         const regionKey = region.toLowerCase();
 
         let show = false;
+        const zoneVoulue = Object.keys(window.GASIKARA_ZONES).find(k => window.GASIKARA_ZONES[k].nom.toLowerCase() === regionKey);
         if (regionKey === 'all') {
             show = true;
+        } else if (zoneVoulue && card.dataset.zone) {
+            // Données normalisées : la zone du lieu fait foi (Ifaty, Isalo… → Toliara)
+            show = card.dataset.zone.split(' ')[0] === zoneVoulue;
         } else {
             // Check inclusions directly against the data attribute
             if (itemVille.includes(regionKey)) {
@@ -1894,8 +1993,8 @@ window.renderCityData = function () {
             if (v === 'Diego-Suarez') gridId = 'Antsiranana';
             if (v === 'Nosy Be' || v === 'Nosy-Be') gridId = 'NosyBe';
 
-            // Target Grid
-            if (gridId) {
+            // Target Grid(s) : la zone fait foi ; une excursion apparaît aussi dans sa ville de départ
+            window.getLieuGridIds(lieu, gridId).filter(Boolean).forEach(gridId => {
                 const grid = document.getElementById(`grid-${gridId}`);
                 if (grid) {
                     if (typeof window.createLieuCard === 'function') {
@@ -1908,7 +2007,7 @@ window.renderCityData = function () {
                 } else {
                     // console.warn(`Grid not found for ID: grid-${gridId} (Ville: ${v})`);
                 }
-            }
+            });
         });
     }
     console.log(`✅ Rendered ${count} locations across city grids.`);
@@ -2132,6 +2231,7 @@ window.createLieuCard = function (lieu, category = '') {
                  data-tags="${tagsString}" 
                  data-type="${lieu.type}" 
                  data-ville="${lieu.ville}"
+                 data-zone="${window.getLieuZones(lieu).join(' ')}"
                  style="position: relative; cursor: pointer; display: flex; flex-direction: column; background: var(--bg-secondary); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-sm); transition: transform 0.2s; border: 1px solid var(--border-color);">
             
             <!-- Badge Location (Top Left - REQUESTED) -->
@@ -2187,16 +2287,15 @@ window.createLieuCard = function (lieu, category = '') {
  * @param {Array} gallery - Tableau d'objets {url, alt}
  * @returns {string} HTML du carrousel
  */
-window.createSpotMediaCarousel = function (heroImage, gallery = []) {
-    // Construire le tableau complet d'images
+window.createSpotMediaCarousel = function (heroImage, gallery = [], altText = '') {
+    // Construire le tableau complet d'images.
+    // La galerie contient déjà l'image principale : on la retire pour ne pas l'afficher deux fois.
     const allImages = [
-        { url: heroImage, alt: 'Image principale' },
-        ...gallery
+        { url: heroImage, alt: altText || 'Photo du lieu' },
+        ...gallery.filter(g => g && g.url && g.url !== heroImage)
     ];
 
     // Debug log
-    console.log('🎨 Carrousel images:', allImages);
-    console.log('🎨 Nombre d\'images:', allImages.length);
 
     const hasCarousel = allImages.length > 1;
     const carouselId = 'carousel-' + Date.now();
@@ -2478,10 +2577,15 @@ window.openLieuModal = function (lieu) {
     const priceDisplay = lieu.prix ? lieu.prix : (lieu.prixNum === 0 ? 'Gratuit' : (lieu.budgetNum ? 'Sur devis' : 'Variable'));
     const noteDisplay = lieu.note ? `${lieu.note}/5` : '-';
     const dureeDisplay = lieu.duree || 'Variable';
-    const villeDisplay = lieu.ville || 'Madagascar';
+    const villeDisplay = (lieu.ville || 'Madagascar') + (lieu.depart_de && lieu.depart_de !== lieu.ville ? ` · au départ de ${lieu.depart_de}` : '');
 
     // Website Existence Check
     const hasWebsite = lieu.siteWeb && lieu.siteWeb.trim() !== "";
+    // « Y aller » : itinéraire Google Maps vers les coordonnées du lieu
+    const yAllerUrl = lieu.y_aller || `https://www.google.com/maps/search/?api=1&query=${lieu.lat},${lieu.lng}`;
+    // Bouton secondaire masqué tant qu'il pointe vers un contact fictif (numéro WhatsApp d'exemple, « /contact »)
+    const ctaSecUrl = ((lieu.actions_principales || {}).cta_secondaire || {}).url || '';
+    const ctaSecondaireValide = /^https?:\/\//.test(ctaSecUrl) && !/261340001234/.test(ctaSecUrl);
 
     // HTML Construction
     let html = `
@@ -2494,7 +2598,7 @@ window.openLieuModal = function (lieu) {
             </button>
 
             <!-- 1. CARROUSEL D'IMAGES (Moderne) -->
-            ${window.createSpotMediaCarousel(lieu.image, lieu.galerie_photos || [])}
+            ${window.createSpotMediaCarousel(lieu.image, lieu.galerie_photos || [], `${lieu.nom}, ${lieu.ville}`.replace(/"/g, '&quot;'))}
 
             <div style="padding: 0 20px;">
                 <div class="modal-title-block" style="padding: 10px 0 0; position: relative;">
@@ -2528,12 +2632,12 @@ window.openLieuModal = function (lieu) {
                 <!-- ACTIONS PRINCIPALES (New) -->
                 ${actions.cta_principal ? `
                 <div class="modal-actions-container" style="padding: 20px 0; display: flex; gap: 12px;">
-                    <a href="${actions.cta_principal.url}" class="btn-action-primary" style="flex: 2; background: var(--laterite); color: white; text-align: center; padding: 14px; border-radius: 12px; font-weight: 700; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 10px rgba(211, 84, 0, 0.3); transition: transform 0.2s;">
-                        ${actions.cta_principal.icone || ''} ${actions.cta_principal.texte}
+                    <a href="${yAllerUrl}" target="_blank" rel="noopener" class="btn-action-primary" style="flex: 2; background: var(--laterite); color: white; text-align: center; padding: 14px; border-radius: 12px; font-weight: 700; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 10px rgba(211, 84, 0, 0.3); transition: transform 0.2s;">
+                        <i class="fas fa-location-arrow"></i> Y aller
                     </a>
-                    ${actions.cta_secondaire ? `
+                    ${ctaSecondaireValide ? `
                     <a href="${actions.cta_secondaire.url}" target="_blank" class="btn-action-secondary" style="flex: 1; background: var(--bg-secondary); color: var(--text-primary); border: 1px solid var(--border-color); text-align: center; padding: 12px; border-radius: 12px; font-weight: 600; text-decoration: none; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">
-                        <i class="fab fa-whatsapp" style="color:#25D366;"></i>
+                        ${/wa\.me|whatsapp/.test(ctaSecUrl) ? '<i class="fab fa-whatsapp" style="color:#25D366;"></i>' : '<i class="fas fa-globe"></i>'}
                     </a>` : ''}
                 </div>` : ''}
 
@@ -3164,15 +3268,13 @@ function initGlobalSearch() {
 
             // Filter Logic
             const matches = window.LIEUX_DATA.filter(item => {
-                const name = (item.nom || '').toLowerCase();
-                const city = (item.ville || '').toLowerCase();
-                const tags = (item.tags || []).join(' ').toLowerCase();
-                const type = (item.type || '').toLowerCase();
-
-                return name.includes(query) ||
-                    city.includes(query) ||
-                    tags.includes(query) ||
-                    type.includes(query);
+                // Recherche insensible aux accents, alias inclus (Tuléar → Toliara, Reniala → Mangily…)
+                const q = window.normalizeText(query);
+                const haystack = window.normalizeText([
+                    item.nom, item.ville, item.type, item.sous_type, item.depart_de,
+                    (item.alias || []).join(' '), (item.ville_alias || []).join(' '), (item.tags || []).join(' ')
+                ].join(' '));
+                return haystack.includes(q);
             }).slice(0, 20); // Limit to 20 results (Performance)
 
             renderSearchResults(matches, resultsContainer);
@@ -3190,7 +3292,7 @@ function renderSearchResults(results, container) {
 
     const html = results.map(item => `
         <div class="search-result-item" onclick="openLieuFromSearch(${item.id})">
-            <img src="${item.image}" class="search-result-thumb" onerror="this.src='images/placeholders/default.jpg'">
+            <img src="${item.image}" alt="" class="search-result-thumb" onerror="this.onerror=null;this.src='images/placeholders/default.jpg'">
             <div class="search-result-info">
                 <h4>${item.nom}</h4>
                 <p>${item.ville} • ${item.type}</p>

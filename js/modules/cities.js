@@ -86,13 +86,14 @@ window.renderCityData = function () {
             if (v === 'Diego-Suarez') gridId = 'Antsiranana';
             if (v === 'Nosy Be' || v === 'Nosy-Be') gridId = 'NosyBe';
 
-            if (gridId) {
+            // La zone fait foi ; une excursion apparaît aussi dans sa ville de départ
+            window.getLieuGridIds(lieu, gridId).filter(Boolean).forEach(gridId => {
                 const grid = document.getElementById(`grid-${gridId}`);
                 if (grid && typeof window.createLieuCard === 'function') {
                     const card = window.createLieuCard(lieu);
                     grid.insertAdjacentHTML('beforeend', card);
                 }
-            }
+            });
         });
     }
 
