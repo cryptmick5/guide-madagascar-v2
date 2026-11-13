@@ -76,7 +76,7 @@ window.updateMapMarkers = function () {
         const icon = L.divIcon({ className: 'custom-marker', html: lieu.spotLocal ? '📍' : '📌', iconSize: [24, 24], iconAnchor: [12, 24], popupAnchor: [0, -24] });
         const marker = L.marker([lieu.lat, lieu.lng], { icon });
 
-        const sImg = safeStr(lieu.image || 'images/placeholders/default.jpg');
+        const sImg = safeStr((window.imgOpt || (x => x))(lieu.image || 'images/placeholders/default.jpg'));
         const sNom = safeStr(lieu.nom);
         const sId = String(lieu.id);
         const sVille = safeStr(lieu.ville);

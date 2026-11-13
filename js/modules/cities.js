@@ -1,62 +1,17 @@
 
 /* CITIES LOGIC - MODULE EXTRACTED */
 
-window.initCityPages = function () {
-    renderCityData();
-    const citySections = document.querySelectorAll('.province-section, .page-section');
-    citySections.forEach(section => {
-        if (!section.id.startsWith('page-')) return;
-        const cityKey = section.id.replace('page-', '');
-        const ignored = ['circuit', 'itineraires', 'langue', 'outils', 'carte', 'spots'];
-        if (ignored.some(k => cityKey.includes(k))) return;
+/* ============================================
+   PAGES VILLES — rendu à la demande
+   Seule la destination ouverte est construite (≈30 cartes au lieu de 260).
+   ============================================ */
+window._cityPagesReady = window._cityPagesReady || {};
 
-        const btnAll = section.querySelector('.nav-pill');
-        if (btnAll) filterProvinceItems(cityKey, 'all', btnAll);
-
-        updatePremiumInfo(getCityNameFromKey(cityKey), cityKey);
-
-        const navPills = section.querySelector('.nav-pills');
-        if (navPills && !section.querySelector('.budget-pills-container')) {
-            const budgetContainer = document.createElement('div');
-            budgetContainer.className = 'budget-pills-container';
-            budgetContainer.style.cssText = 'margin-top: 16px; margin-bottom: 20px;';
-            const title = document.createElement('div');
-            title.className = 'filter-title';
-            title.style.cssText = 'font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 10px; text-align: center;';
-            title.innerHTML = '<i class="fas fa-wallet"></i> Budget';
-            budgetContainer.appendChild(title);
-            const pills = document.createElement('div');
-            pills.className = 'nav-pills';
-            pills.style.justifyContent = 'center';
-            const budgets = [
-                { level: '1', label: '€', desc: '(- 25k)', icon: 'fa-coins' },
-                { level: '2', label: '€€', desc: '(25k-80k)', icon: 'fa-money-bill-wave' },
-                { level: '3', label: '€€€', desc: '(+ 80k)', icon: 'fa-gem' }
-            ];
-            budgets.forEach(b => {
-                const btn = document.createElement('button');
-                btn.className = 'budget-btn nav-pill';
-                btn.setAttribute('data-level', b.level);
-                btn.onclick = function () { toggleProvinceBudget(cityKey, b.level, this); };
-                btn.innerHTML = `<i class="fas ${b.icon}"></i> ${b.label} <span style="font-size: 0.75rem; opacity: 0.8;">${b.desc}</span>`;
-                pills.appendChild(btn);
-            });
-            budgetContainer.appendChild(pills);
-            navPills.parentNode.insertBefore(budgetContainer, navPills.nextSibling);
-        }
-    });
-};
-
-window.renderCityData = function () {
-    let data = window.LIEUX_DATA;
-    if (!data || data.length === 0) {
-        data = window.LIEUX_DATA || window.initData || [];
-    }
-    if (!window.LIEUX_DATA) return;
-
+// Grille (id sans le préfixe "grid-") → lieux, calculé une seule fois
+window.getLieuxParGrille = function () {
+    if (window._lieuxParGrille) return window._lieuxParGrille;
     const citiesStub = {
-        'Diego-Suarez': 'Antsiranana',
-        'Antsiranana': 'Antsiranana',
+        'Diego-Suarez': 'Antsiranana', 'Antsiranana': 'Antsiranana',
         'Nosy Be': 'NosyBe', 'Nosy-Be': 'NosyBe',
         'Mahajanga': 'Mahajanga', 'Majunga': 'Mahajanga',
         'Antananarivo': 'Antananarivo', 'Tana': 'Antananarivo',
@@ -71,35 +26,82 @@ window.renderCityData = function () {
         'Anivorano': 'Antsiranana', 'Ambanja': 'Antsiranana',
         'Ramena': 'Antsiranana', 'Joffreville': 'Antsiranana'
     };
-
-    Object.values(citiesStub).forEach(id => {
-        const el = document.getElementById(`grid-${id}`);
-        if (el) el.innerHTML = '';
-    });
-
-    if (window.LIEUX_DATA) {
-        window.LIEUX_DATA.forEach(lieu => {
-            let v = lieu.ville ? lieu.ville.trim() : 'Inconnu';
-            let stubKey = Object.keys(citiesStub).find(k => k.toLowerCase() === v.toLowerCase());
-            let gridId = citiesStub[v] || (stubKey ? citiesStub[stubKey] : null);
-
-            if (v === 'Diego-Suarez') gridId = 'Antsiranana';
-            if (v === 'Nosy Be' || v === 'Nosy-Be') gridId = 'NosyBe';
-
-            // La zone fait foi ; une excursion apparaît aussi dans sa ville de départ
-            window.getLieuGridIds(lieu, gridId).filter(Boolean).forEach(gridId => {
-                const grid = document.getElementById(`grid-${gridId}`);
-                if (grid && typeof window.createLieuCard === 'function') {
-                    const card = window.createLieuCard(lieu);
-                    grid.insertAdjacentHTML('beforeend', card);
-                }
-            });
+    const index = {};
+    (window.LIEUX_DATA || []).forEach(lieu => {
+        const v = lieu.ville ? lieu.ville.trim() : 'Inconnu';
+        const stubKey = Object.keys(citiesStub).find(k => k.toLowerCase() === v.toLowerCase());
+        const repli = citiesStub[v] || (stubKey ? citiesStub[stubKey] : null);
+        // La zone fait foi ; une excursion apparaît aussi dans sa ville de départ
+        window.getLieuGridIds(lieu, repli).filter(Boolean).forEach(gridId => {
+            (index[gridId] = index[gridId] || []).push(lieu);
         });
+    });
+    window._lieuxParGrille = index;
+    return index;
+};
+
+// Construit la grille d'une destination en une seule écriture dans le DOM
+window.renderCityGrid = function (cityKey) {
+    const zone = (window.GASIKARA_ZONES || {})[cityKey];
+    if (!zone || !window.LIEUX_DATA || typeof window.createLieuCard !== 'function') return false;
+    const grid = document.getElementById(`grid-${zone.grid}`);
+    if (!grid) return false;
+    const lieux = window.getLieuxParGrille()[zone.grid] || [];
+    grid.innerHTML = lieux.map(l => window.createLieuCard(l)).join('');
+    return true;
+};
+
+window.ensureCityPage = function (cityKey) {
+    if (window._cityPagesReady[cityKey]) return true;
+    const section = document.getElementById(`page-${cityKey}`);
+    if (!section || !window.renderCityGrid(cityKey)) return false;
+    window._cityPagesReady[cityKey] = true;
+
+    const navPills = section.querySelector('.nav-pills');
+    if (navPills && !section.querySelector('.budget-pills-container')) {
+        const budgetContainer = document.createElement('div');
+        budgetContainer.className = 'budget-pills-container';
+        budgetContainer.style.cssText = 'margin-top: 16px; margin-bottom: 20px;';
+        const title = document.createElement('div');
+        title.className = 'filter-title';
+        title.style.cssText = 'font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 10px; text-align: center;';
+        title.innerHTML = '<i class="fas fa-wallet"></i> Budget';
+        budgetContainer.appendChild(title);
+        const pills = document.createElement('div');
+        pills.className = 'nav-pills';
+        pills.style.justifyContent = 'center';
+        [
+            { level: '1', label: '€', desc: '(- 25k)', icon: 'fa-coins' },
+            { level: '2', label: '€€', desc: '(25k-80k)', icon: 'fa-money-bill-wave' },
+            { level: '3', label: '€€€', desc: '(+ 80k)', icon: 'fa-gem' }
+        ].forEach(b => {
+            const btn = document.createElement('button');
+            btn.className = 'budget-btn nav-pill';
+            btn.setAttribute('data-level', b.level);
+            btn.onclick = function () { toggleProvinceBudget(cityKey, b.level, this); };
+            btn.innerHTML = `<i class="fas ${b.icon}"></i> ${b.label} <span style="font-size: 0.75rem; opacity: 0.8;">${b.desc}</span>`;
+            pills.appendChild(btn);
+        });
+        budgetContainer.appendChild(pills);
+        navPills.parentNode.insertBefore(budgetContainer, navPills.nextSibling);
     }
 
-    if (window.GasikaraAnimations && typeof window.GasikaraAnimations.init === 'function') {
-        window.GasikaraAnimations.init();
-    }
+    const btnAll = section.querySelector('.nav-pill');
+    if (btnAll) filterProvinceItems(cityKey, 'all', btnAll);
+    updatePremiumInfo(getCityNameFromKey(cityKey), cityKey);
+    return true;
+};
+
+// Compatibilité : sans argument, prépare toutes les destinations
+window.initCityPages = function (cityKey) {
+    if (cityKey) return window.ensureCityPage(cityKey);
+    Object.keys(window.GASIKARA_ZONES || {}).forEach(k => window.ensureCityPage(k));
+};
+
+// Compatibilité : reconstruit les grilles déjà affichées (ex. après changement de données)
+window.renderCityData = function () {
+    window._lieuxParGrille = null;
+    Object.keys(window._cityPagesReady).forEach(k => window.renderCityGrid(k));
 };
 
 window.getCityNameFromKey = function (key) {

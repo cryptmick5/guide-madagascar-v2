@@ -19,8 +19,7 @@ class GasikaraAnimations {
             return;
         }
 
-        // Apply force 3D to cards for better performance
-        applyForce3D('.lieu-card');
+        // (force3D retiré : une couche GPU par carte × 260 cartes ralentissait les mobiles)
 
         // Initialize all animation systems
         this.initCardHovers();
@@ -39,12 +38,9 @@ class GasikaraAnimations {
         // Kill existing ScrollTriggers
         ScrollTrigger.getAll().forEach(trigger => trigger.kill());
 
-        // Re-initialize
+        // Re-initialize (les survols ne sont branchés qu'une fois)
         this.initCardHovers();
         this.initScrollReveals();
-
-        // Refresh ScrollTrigger
-        ScrollTrigger.refresh();
 
         console.log('✅ Animations refreshed');
     }
@@ -57,37 +53,37 @@ class GasikaraAnimations {
      * Initialize hover effects on location cards
      */
     static initCardHovers() {
-        const cards = document.querySelectorAll('.lieu-card');
+        // Une seule paire d'écouteurs pour toutes les cartes (délégation), et seulement
+        // sur les appareils qui ont un vrai survol (pas les écrans tactiles).
+        if (this._hoversReady) return;
+        this._hoversReady = true;
+        if (!window.matchMedia || !window.matchMedia('(hover: hover)').matches) return;
 
-        cards.forEach(card => {
-            // Hover in
-            card.addEventListener('mouseenter', () => {
-                if (shouldReduceMotion()) return;
+        const carte = e => (e.target && e.target.closest) ? e.target.closest('.lieu-card') : null;
 
-                gsap.to(card, {
-                    y: GSAP_CONFIG.cards.hoverLift,
-                    scale: GSAP_CONFIG.cards.hoverScale,
-                    boxShadow: GSAP_CONFIG.cards.hoverShadow,
-                    duration: GSAP_CONFIG.cards.hoverDuration,
-                    ease: GSAP_CONFIG.cards.hoverEase
-                });
-            });
-
-            // Hover out
-            card.addEventListener('mouseleave', () => {
-                if (shouldReduceMotion()) return;
-
-                gsap.to(card, {
-                    y: 0,
-                    scale: 1,
-                    boxShadow: 'var(--shadow)',
-                    duration: GSAP_CONFIG.cards.hoverDuration,
-                    ease: GSAP_CONFIG.cards.hoverEase
-                });
+        document.addEventListener('mouseover', e => {
+            const card = carte(e);
+            if (!card || (e.relatedTarget && card.contains(e.relatedTarget)) || shouldReduceMotion()) return;
+            gsap.to(card, {
+                y: GSAP_CONFIG.cards.hoverLift,
+                scale: GSAP_CONFIG.cards.hoverScale,
+                boxShadow: GSAP_CONFIG.cards.hoverShadow,
+                duration: GSAP_CONFIG.cards.hoverDuration,
+                ease: GSAP_CONFIG.cards.hoverEase
             });
         });
 
-        console.log(`  ✓ Card hovers initialized (${cards.length} cards)`);
+        document.addEventListener('mouseout', e => {
+            const card = carte(e);
+            if (!card || (e.relatedTarget && card.contains(e.relatedTarget)) || shouldReduceMotion()) return;
+            gsap.to(card, {
+                y: 0,
+                scale: 1,
+                boxShadow: 'var(--shadow)',
+                duration: GSAP_CONFIG.cards.hoverDuration,
+                ease: GSAP_CONFIG.cards.hoverEase
+            });
+        });
     }
 
     /**
@@ -322,8 +318,13 @@ class GasikaraAnimations {
     static initScrollReveals() {
         if (shouldReduceMotion()) return;
 
-        // Use ScrollTrigger.batch for better performance with many cards
-        ScrollTrigger.batch('.lieu-card', {
+        // Uniquement les cartes de la page affichée, et jamais deux fois la même carte
+        const cards = Array.from(document.querySelectorAll('.page-section.active .lieu-card'))
+            .filter(c => !c.dataset.revealed && c.offsetParent !== null);
+        if (!cards.length) return;
+        cards.forEach(c => { c.dataset.revealed = '1'; });
+
+        ScrollTrigger.batch(cards, {
             onEnter: batch => {
                 gsap.from(batch, {
                     opacity: 0,

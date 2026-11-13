@@ -1,6 +1,6 @@
 // sw.js - Service Worker Gasikara Explorer V2.5.3
 // Tous les chemins sont RELATIFS : le site est servi dans un sous-dossier (GitHub Pages /guide-madagascar-v2/).
-const CACHE_VERSION = 'gasikara-v2.5.3';
+const CACHE_VERSION = 'gasikara-v2.5.4';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 

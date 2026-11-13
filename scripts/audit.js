@@ -87,7 +87,14 @@ section('medias_manquants', `Médias référencés mais absents (sur ${refs.size
 const surDisque = ['images', 'audio'].flatMap(d => walk(path.join(ROOT, d))).map(rel)
   .filter(p => /\.(jpe?g|png|webp|svg|gif|mp3|ogg|wav|m4a)$/i.test(p));
 section('medias_inutilises', 'Médias présents sur le disque mais jamais référencés',
-  surDisque.filter(p => !refs.has(p)).sort());
+  surDisque.filter(p => !refs.has(p) && !p.startsWith('images/opt/')
+    // un original est « utilisé » si c'est sa version allégée qui est référencée
+    && ![...refs.keys()].some(r => /^images\/opt\/\d+\//.test(r) && r.replace(/^images\/opt\/\d+\//, 'images/').replace(/\.webp$/, '') === p.replace(/\.[^.]+$/, ''))).sort());
+
+// Versions allégées (scripts/generer-vignettes.py) : chaque image JPG/PNG doit avoir sa vignette WebP
+section('vignettes_manquantes', 'Images sans version allégée dans images/opt/800 (relancer python3 scripts/generer-vignettes.py)',
+  surDisque.filter(p => /^images\/(?!opt\/|logo\/).+\.(jpe?g|png)$/i.test(p)
+    && !fs.existsSync(path.join(ROOT, 'images/opt/800', p.replace(/^images\//, '').replace(/\.[^.]+$/, '.webp')))).sort());
 
 // ---------- 2. Coordonnées ----------
 const L = loadLieux();

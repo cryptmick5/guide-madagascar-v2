@@ -37,6 +37,28 @@ window.getLieuGridIds = function (lieu, fallback) {
     const zones = window.getLieuZones(lieu);
     return zones.length ? zones.map(z => window.GASIKARA_ZONES[z].grid) : [fallback];
 };
+/* --- Images allégées : images/opt/<taille>/<chemin>.webp (générées par scripts/generer-vignettes.py) --- */
+window.imgOpt = function (src, taille) {
+    const m = /^(?:\.\/)?images\/(?!opt\/|logo\/)(.+)\.(?:jpe?g|png)$/i.exec(String(src || ''));
+    return m ? `images/opt/${taille || '800'}/${m[1]}.webp` : src;
+};
+// Repli : version allégée absente → original, puis image de remplacement
+window.imgRepli = function (img) {
+    const orig = img.getAttribute('data-orig');
+    if (orig && img.getAttribute('src') !== orig && !img.dataset.repli) {
+        img.dataset.repli = '1';
+        img.src = orig;
+        return;
+    }
+    img.onerror = null;
+    const ph = img.getAttribute('data-ph');
+    if (ph) img.src = ph; else img.style.display = 'none';
+};
+window.imgAttrs = function (src, placeholder) {
+    const esc = v => String(v || '').replace(/"/g, '&quot;');
+    return `src="${esc(window.imgOpt(src))}" data-orig="${esc(src)}" data-ph="${esc(placeholder || '')}" onerror="imgRepli(this)" decoding="async"`;
+};
+
 window.normalizeText = function (s) {
     return String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 };
@@ -264,9 +286,15 @@ window.navigateToPage = async function (pageName) {
     // --- SHOW TARGET ---
     const newSection = document.getElementById(targetId);
     if (newSection) {
+        // Destination : on construit sa grille avant de l'afficher (rien d'autre n'est rendu)
+        const zoneKey = targetId.replace('page-', '');
+        if (window.GASIKARA_ZONES[zoneKey]) {
+            try { window.ensureCityPage(zoneKey); } catch (e) { console.error('ensureCityPage', e); }
+        }
         newSection.style.display = 'block';
-        setTimeout(() => newSection.classList.add('active'), 10);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        newSection.classList.add('active');
+        // Défilement immédiat : un défilement animé pendant le changement de page donnait une impression de lenteur
+        window.scrollTo(0, 0);
 
         // Map Specifics
         if (pageName === 'carte') {
@@ -294,9 +322,9 @@ window.navigateToPage = async function (pageName) {
         }
 
         // GSAP Refresh
-        setTimeout(() => {
+        requestAnimationFrame(() => {
             if (window.GasikaraAnimations) window.GasikaraAnimations.refresh();
-        }, 100);
+        });
     }
 
     const rawName = pageName.replace('page-', '');
@@ -315,13 +343,10 @@ window.navigateToPage = async function (pageName) {
             window._modulesLoaded.map = true;
         }
 
-        // 2. CITIES (Hubs)
-        const cityKeys = ['antsiranana', 'nosybe', 'mahajanga', 'toamasina', 'toliara', 'fianarantsoa', 'antananarivo', 'saintemarie'];
-        if (cityKeys.some(k => rawName.includes(k)) && !window._modulesLoaded.cities) {
-            console.log("Lazy Loading: Cities Module...");
-            await import('./modules/cities.js');
-            if (typeof window.initCityPages === 'function') window.initCityPages();
+        // 2. CITIES (Hubs) — le rendu est fait à l'affichage, sans attendre ce module
+        if (window.GASIKARA_ZONES[rawName] && !window._modulesLoaded.cities) {
             window._modulesLoaded.cities = true;
+            import('./modules/cities.js').then(() => window.ensureCityPage(rawName)).catch(e => console.warn('cities.js', e));
         }
 
         // 3. ITINERARIES
@@ -390,7 +415,7 @@ window.initItinerariesPage = function () {
 
     container.innerHTML = circuits.map((c, i) => `
         <div class="lieu-card fade-in-up hover-lift" style="animation-delay: ${i * 0.1}s;">
-             <div class="lieu-image" style="${c.image ? `background-image: url('${c.image}'); background-size: cover; background-position: center;` : `background: linear-gradient(to bottom right, var(--laterite), var(--foret)); display:flex; align-items:center; justify-content:center; color:white; font-size:3rem;`}">
+             <div class="lieu-image" style="${c.image ? `background-image: url('${window.imgOpt(c.image)}'); background-size: cover; background-position: center;` : `background: linear-gradient(to bottom right, var(--laterite), var(--foret)); display:flex; align-items:center; justify-content:center; color:white; font-size:3rem;`}">
                 ${!c.image ? '<i class="fas fa-route"></i>' : ''}
              </div>
              <div class="lieu-content">
@@ -1412,9 +1437,8 @@ window.initItinerariesPage = function () {
         return `
         <article class="lieu-card" onclick="showItineraryDetails(${index})" style="cursor: pointer;">
             <div class="lieu-image" style="height:200px; position:relative;">
-                <img src="${img}" alt="${title}" 
-                     style="width:100%; height:100%; object-fit:cover;"
-                     onerror="this.src='images/placeholders/default.jpg'">
+                <img ${window.imgAttrs(img, 'images/placeholders/default.jpg')} alt="${title}" loading="lazy"
+                     style="width:100%; height:100%; object-fit:cover;">
                 <div class="lieu-badge" style="position:absolute; bottom:10px; left:10px; background:var(--laterite); color:white; padding:4px 12px; border-radius:4px; font-weight:bold;">
                     ${itin.duree}
                 </div>
@@ -1627,7 +1651,7 @@ window.showItineraryDetails = function (index) {
                         
                         <!-- Thumbnail (Clickable) -->
                         <div class="timeline-thumb-container" ${imageClickAction} title="Voir le lieu">
-                            <img src="${stepImage}" class="timeline-thumb" alt="Etape" onerror="this.style.display='none'">
+                            <img ${window.imgAttrs(stepImage, '')} class="timeline-thumb" alt="Etape" loading="lazy">
                         </div>
                         
                         <i class="fas fa-chevron-down timeline-chevron"></i>
@@ -1645,7 +1669,7 @@ window.showItineraryDetails = function (index) {
 
                             <!-- Large Image (Clickable) -->
                             <div class="timeline-body-image-container" ${cardClickAction}>
-                                <img src="${stepImage}" class="timeline-body-image" alt="Visualisation Etape" onerror="this.src='images/placeholders/default.jpg'">
+                                <img ${window.imgAttrs(stepImage, 'images/placeholders/default.jpg')} class="timeline-body-image" alt="Visualisation Etape" loading="lazy">
                                 <div class="timeline-body-image-overlay">
                                     <i class="fas fa-map-pin"></i> ${locationName}
                                 </div>
@@ -1696,7 +1720,7 @@ window.showItineraryDetails = function (index) {
     // 4. Render Full View
     content.innerHTML = `
         <div class="itin-header" style="margin-bottom:20px;">
-            <img src="${itin.image || 'images/placeholders/default.jpg'}" alt="${(itin.nom || 'Circuit').replace(/"/g, '&quot;')}" style="width:100%; height:250px; object-fit:cover; border-radius:12px; margin-bottom:15px; box-shadow:var(--shadow-sm);">
+            <img ${window.imgAttrs(itin.image || 'images/placeholders/default.jpg', 'images/placeholders/default.jpg')} alt="${(itin.nom || 'Circuit').replace(/"/g, '&quot;')}" style="width:100%; height:250px; object-fit:cover; border-radius:12px; margin-bottom:15px; box-shadow:var(--shadow-sm);">
             
             <h2 style="color:var(--laterite); margin-bottom:10px; font-family:var(--font-display);">${title}</h2>
             
@@ -1847,176 +1871,109 @@ window.filterSpotsByRegion = function (region, btn) {
    7. PROVINCE & CITY PAGES (RESTORED logic)
    ============================================ */
 
-window.initCityPages = function () {
-    // 1. HYDRATION: Populate grids with data from LIEUX_DATA
-    renderCityData();
-
-    // 2. Filter logic for ALL province sections
-    const citySections = document.querySelectorAll('.province-section, .page-section');
-
-    citySections.forEach(section => {
-        // Exclude non-city sections like home/outils
-        if (!section.id.startsWith('page-')) return;
-        const cityKey = section.id.replace('page-', ''); // e.g., 'diego', 'nosybe'
-
-        // Skip "special" pages that use page- logic but aren't cities
-        const ignored = ['circuit', 'itineraires', 'langue', 'outils', 'carte', 'spots'];
-        if (ignored.some(k => cityKey.includes(k))) return;
-
-        // A. Init Filters
-        const btnAll = section.querySelector('.nav-pill'); // Default first pill
-        if (btnAll) {
-            filterProvinceItems(cityKey, 'all', btnAll);
-        }
-
-        // B. Update premium info
-        updatePremiumInfo(getCityNameFromKey(cityKey), cityKey);
-
-        // C. Inject Budget Buttons (Only if missing)
-        const navPills = section.querySelector('.nav-pills');
-        if (navPills && !section.querySelector('.budget-pills-container')) {
-            // Create budget buttons container
-            const budgetContainer = document.createElement('div');
-            budgetContainer.className = 'budget-pills-container';
-            budgetContainer.style.cssText = 'margin-top: 16px; margin-bottom: 20px;';
-
-            // Title
-            const title = document.createElement('div');
-            title.className = 'filter-title';
-            title.style.cssText = 'font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 10px; text-align: center;';
-            title.innerHTML = '<i class="fas fa-wallet"></i> Budget';
-            budgetContainer.appendChild(title);
-
-            // Pills container
-            const pills = document.createElement('div');
-            pills.className = 'nav-pills';
-            pills.style.justifyContent = 'center';
-
-            // Create 3 buttons
-            const budgets = [
-                { level: '1', label: '€', desc: '(- 25k)', icon: 'fa-coins' },
-                { level: '2', label: '€€', desc: '(25k-80k)', icon: 'fa-money-bill-wave' },
-                { level: '3', label: '€€€', desc: '(+ 80k)', icon: 'fa-gem' }
-            ];
-
-            budgets.forEach(b => {
-                const btn = document.createElement('button');
-                btn.className = 'budget-btn nav-pill';
-                btn.setAttribute('data-level', b.level);
-                btn.onclick = function () { toggleProvinceBudget(cityKey, b.level, this); };
-                btn.innerHTML = `<i class="fas ${b.icon}"></i> ${b.label} <span style="font-size: 0.75rem; opacity: 0.8;">${b.desc}</span>`;
-                pills.appendChild(btn);
-            });
-
-            budgetContainer.appendChild(pills);
-            navPills.parentNode.insertBefore(budgetContainer, navPills.nextSibling);
-        }
-    });
-};
-
 /* ============================================
-   NEW: HYDRATION LOGIC (Fixing Empty Pages)
+   PAGES VILLES — rendu à la demande
+   Seule la destination ouverte est construite (≈30 cartes au lieu de 260).
    ============================================ */
-window.renderCityData = function () {
-    // --- SECURITY FALLBACK START (AXIS A) ---
-    // Si la fonction reçoit des données vides, on force l'usage de la réserve globale.
-    let data = window.LIEUX_DATA;
-    if (!data || data.length === 0) {
-        console.warn("⚠️ Data vide détectée. Bascule sur la réserve globale...");
-        // Tente de récupérer les données injectées précédemment
-        data = window.LIEUX_DATA || window.initData || [];
-    }
-    console.log("🔥 AFFICHAGE EN COURS : " + (data ? data.length : 0) + " fiches.");
-    // --- SECURITY FALLBACK END ---
+window._cityPagesReady = window._cityPagesReady || {};
 
-    console.log("1. Fonction Render appelée.");
-    // Log container check
-    const checkId = 'grid-Mahajanga';
-    const containerCheck = document.getElementById(checkId);
-    console.log(`2. Test Target ID '${checkId}' found?`, containerCheck);
-
-    if (!window.LIEUX_DATA) return;
-
-    // DEBUG: INVENTAIRE STRICT (173 Items Required)
-    console.log("🔥 INVENTAIRE TOTAL :", window.LIEUX_DATA.length);
-    if (window.LIEUX_DATA.length !== 173) {
-        console.error(`🚨 ALERT: DATA MISMATCH. FOUND ${window.LIEUX_DATA.length} (Expected 173)`);
-    } else {
-        console.log("✅ DATA INTEGRITY VERIFIED: 173 ITEMS.");
-    }
-
-
-    // Clear all grids first
-    // Note: Keys match the 'ville' property in data/lieux.js OR mapped via logic
+// Grille (id sans le préfixe "grid-") → lieux, calculé une seule fois
+window.getLieuxParGrille = function () {
+    if (window._lieuxParGrille) return window._lieuxParGrille;
     const citiesStub = {
-        'Diego-Suarez': 'Antsiranana',
-        'Antsiranana': 'Antsiranana',
+        'Diego-Suarez': 'Antsiranana', 'Antsiranana': 'Antsiranana',
         'Nosy Be': 'NosyBe', 'Nosy-Be': 'NosyBe',
         'Mahajanga': 'Mahajanga', 'Majunga': 'Mahajanga',
         'Antananarivo': 'Antananarivo', 'Tana': 'Antananarivo',
         'Toamasina': 'Toamasina', 'Tamatave': 'Toamasina',
         'Fianarantsoa': 'Fianarantsoa', 'Fianar': 'Fianarantsoa',
         'Toliara': 'Toliara', 'Tuléar': 'Toliara', 'Tulear': 'Toliara',
-        // MISSING CITIES MAPPED TO HUBS
         'Isalo': 'Toliara', 'Ifaty': 'Toliara', 'Anakao': 'Toliara',
         'Andasibe': 'Toamasina', 'Mananara': 'Toamasina',
-        'Sainte-Marie': 'Saintemarie', 'Ile aux Nattes': 'Saintemarie', // New Independent Hub
+        'Sainte-Marie': 'Saintemarie', 'Ile aux Nattes': 'Saintemarie',
         'Ankarana': 'Antsiranana', 'Sambava': 'Antsiranana', 'Antalaha': 'Antsiranana', 'Vohémar': 'Antsiranana', 'Ambilobe': 'Antsiranana',
-        // NEW ORPHANS
         'Ampefy': 'Antananarivo', 'Antsirabe': 'Antananarivo',
         'Anivorano': 'Antsiranana', 'Ambanja': 'Antsiranana',
         'Ramena': 'Antsiranana', 'Joffreville': 'Antsiranana'
     };
-
-    // Clean containers
-    Object.values(citiesStub).forEach(id => {
-        const el = document.getElementById(`grid-${id}`);
-        if (el) el.innerHTML = '';
-    });
-
-    // Populate
-    let count = 0;
-    if (!window.LIEUX_DATA || window.LIEUX_DATA.length === 0) {
-        console.warn("⚠️ LIEUX_DATA is empty in renderCityData!");
-    } else {
-        window.LIEUX_DATA.forEach(lieu => {
-            let v = lieu.ville ? lieu.ville.trim() : 'Inconnu';
-
-            // NORD LOGIC: Both Diego and Nosy Be go to Antsiranana (The Hub) - Logic Adjusted
-            // Using citiesStub for mapping
-            let stubKey = Object.keys(citiesStub).find(k => k.toLowerCase() === v.toLowerCase());
-            let gridId = citiesStub[v] || (stubKey ? citiesStub[stubKey] : null);
-
-            // Specific overrides for consistency with index.html IDs
-            if (v === 'Diego-Suarez') gridId = 'Antsiranana';
-            if (v === 'Nosy Be' || v === 'Nosy-Be') gridId = 'NosyBe';
-
-            // Target Grid(s) : la zone fait foi ; une excursion apparaît aussi dans sa ville de départ
-            window.getLieuGridIds(lieu, gridId).filter(Boolean).forEach(gridId => {
-                const grid = document.getElementById(`grid-${gridId}`);
-                if (grid) {
-                    if (typeof window.createLieuCard === 'function') {
-                        const card = window.createLieuCard(lieu);
-                        grid.insertAdjacentHTML('beforeend', card);
-                        count++;
-                    } else {
-                        console.error("createLieuCard missing!", lieu);
-                    }
-                } else {
-                    // console.warn(`Grid not found for ID: grid-${gridId} (Ville: ${v})`);
-                }
-            });
+    const index = {};
+    (window.LIEUX_DATA || []).forEach(lieu => {
+        const v = lieu.ville ? lieu.ville.trim() : 'Inconnu';
+        const stubKey = Object.keys(citiesStub).find(k => k.toLowerCase() === v.toLowerCase());
+        const repli = citiesStub[v] || (stubKey ? citiesStub[stubKey] : null);
+        // La zone fait foi ; une excursion apparaît aussi dans sa ville de départ
+        window.getLieuGridIds(lieu, repli).filter(Boolean).forEach(gridId => {
+            (index[gridId] = index[gridId] || []).push(lieu);
         });
-    }
-    console.log(`✅ Rendered ${count} locations across city grids.`);
+    });
+    window._lieuxParGrille = index;
+    return index;
+};
 
-    // ✨ GSAP: Re-initialize animations after cards are rendered
-    if (window.GasikaraAnimations && typeof window.GasikaraAnimations.init === 'function') {
-        window.GasikaraAnimations.init();
-    }
-}
+// Construit la grille d'une destination en une seule écriture dans le DOM
+window.renderCityGrid = function (cityKey) {
+    const zone = (window.GASIKARA_ZONES || {})[cityKey];
+    if (!zone || !window.LIEUX_DATA || typeof window.createLieuCard !== 'function') return false;
+    const grid = document.getElementById(`grid-${zone.grid}`);
+    if (!grid) return false;
+    const lieux = window.getLieuxParGrille()[zone.grid] || [];
+    grid.innerHTML = lieux.map(l => window.createLieuCard(l)).join('');
+    return true;
+};
 
-// Helper for mapped names
+window.ensureCityPage = function (cityKey) {
+    if (window._cityPagesReady[cityKey]) return true;
+    const section = document.getElementById(`page-${cityKey}`);
+    if (!section || !window.renderCityGrid(cityKey)) return false;
+    window._cityPagesReady[cityKey] = true;
+
+    const navPills = section.querySelector('.nav-pills');
+    if (navPills && !section.querySelector('.budget-pills-container')) {
+        const budgetContainer = document.createElement('div');
+        budgetContainer.className = 'budget-pills-container';
+        budgetContainer.style.cssText = 'margin-top: 16px; margin-bottom: 20px;';
+        const title = document.createElement('div');
+        title.className = 'filter-title';
+        title.style.cssText = 'font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 10px; text-align: center;';
+        title.innerHTML = '<i class="fas fa-wallet"></i> Budget';
+        budgetContainer.appendChild(title);
+        const pills = document.createElement('div');
+        pills.className = 'nav-pills';
+        pills.style.justifyContent = 'center';
+        [
+            { level: '1', label: '€', desc: '(- 25k)', icon: 'fa-coins' },
+            { level: '2', label: '€€', desc: '(25k-80k)', icon: 'fa-money-bill-wave' },
+            { level: '3', label: '€€€', desc: '(+ 80k)', icon: 'fa-gem' }
+        ].forEach(b => {
+            const btn = document.createElement('button');
+            btn.className = 'budget-btn nav-pill';
+            btn.setAttribute('data-level', b.level);
+            btn.onclick = function () { toggleProvinceBudget(cityKey, b.level, this); };
+            btn.innerHTML = `<i class="fas ${b.icon}"></i> ${b.label} <span style="font-size: 0.75rem; opacity: 0.8;">${b.desc}</span>`;
+            pills.appendChild(btn);
+        });
+        budgetContainer.appendChild(pills);
+        navPills.parentNode.insertBefore(budgetContainer, navPills.nextSibling);
+    }
+
+    const btnAll = section.querySelector('.nav-pill');
+    if (btnAll) filterProvinceItems(cityKey, 'all', btnAll);
+    updatePremiumInfo(getCityNameFromKey(cityKey), cityKey);
+    return true;
+};
+
+// Compatibilité : sans argument, prépare toutes les destinations
+window.initCityPages = function (cityKey) {
+    if (cityKey) return window.ensureCityPage(cityKey);
+    Object.keys(window.GASIKARA_ZONES || {}).forEach(k => window.ensureCityPage(k));
+};
+
+// Compatibilité : reconstruit les grilles déjà affichées (ex. après changement de données)
+window.renderCityData = function () {
+    window._lieuxParGrille = null;
+    Object.keys(window._cityPagesReady).forEach(k => window.renderCityGrid(k));
+};
+
 window.getCityNameFromKey = function (key) {
     const map = {
         'antananarivo': 'Antananarivo',
@@ -2323,7 +2280,7 @@ window.createLieuCard = function (lieu, category = '') {
             
             <!-- Image -->
             <div class="lieu-image" onclick="showLieuDetailsByID(${lieu.id})" style="position: relative; height: 180px; overflow: hidden;">
-                <img src="${lieu.image}" alt="${lieu.nom.replace(/"/g, '&quot;')}" loading="lazy" onerror="this.src='images/placeholder.jpg'" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s;">
+                <img ${window.imgAttrs(lieu.image, 'images/placeholder.jpg')} alt="${lieu.nom.replace(/"/g, '&quot;')}" loading="lazy" width="400" height="180" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s;">
                 ${window.badgeVerification(lieu, false)}
                 <!-- Type Badge (Bottom Left) -->
                 <div class="lieu-badge" style="position: absolute; bottom: 10px; left: 10px; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; ${badgeStyle}">${badgeIcon}${badgeText}</div>
@@ -2382,11 +2339,11 @@ window.createSpotMediaCarousel = function (heroImage, gallery = [], altText = ''
     // Images (toutes rendues, première avec classe active)
     allImages.forEach((img, index) => {
         html += `
-            <img src="${img.url}" 
+            <img ${window.imgAttrs(img.url, 'images/placeholder.jpg')}
                  alt="${img.alt || ''}" 
                  class="hero-image ${index === 0 ? 'active' : ''}" 
                  data-index="${index}"
-                 onerror="this.onerror=null; this.src='images/placeholder.jpg';">`;
+                 ${index === 0 ? '' : 'loading="lazy"'}>`;
     });
 
     // Navigation gauche (seulement si carousel)
@@ -3338,7 +3295,7 @@ function renderSearchResults(results, container) {
 
     const html = results.map(item => `
         <div class="search-result-item" onclick="openLieuFromSearch(${item.id})">
-            <img src="${item.image}" alt="" class="search-result-thumb" onerror="this.onerror=null;this.src='images/placeholders/default.jpg'">
+            <img ${window.imgAttrs(item.image, 'images/placeholders/default.jpg')} alt="" class="search-result-thumb" loading="lazy">
             <div class="search-result-info">
                 <h4>${item.nom}</h4>
                 <p>${item.ville} • ${item.type}</p>
