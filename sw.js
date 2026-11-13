@@ -1,6 +1,6 @@
-// sw.js - Service Worker Gasikara Explorer V2.5.2
+// sw.js - Service Worker Gasikara Explorer V2.5.3
 // Tous les chemins sont RELATIFS : le site est servi dans un sous-dossier (GitHub Pages /guide-madagascar-v2/).
-const CACHE_VERSION = 'gasikara-v2.5.2';
+const CACHE_VERSION = 'gasikara-v2.5.3';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 
@@ -34,7 +34,7 @@ const CRITICAL_ASSETS = [
 
 // INSTALLATION
 self.addEventListener('install', (event) => {
-  console.log('[SW v2.5.2] Installation...');
+  console.log('[SW v2.5.3] Installation...');
   
   event.waitUntil(
     caches.open(STATIC_CACHE)
@@ -55,7 +55,7 @@ self.addEventListener('install', (event) => {
 
 // ACTIVATION
 self.addEventListener('activate', (event) => {
-  console.log('[SW v2.5.2] Activation...');
+  console.log('[SW v2.5.3] Activation...');
   
   event.waitUntil(
     caches.keys()

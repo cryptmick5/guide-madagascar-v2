@@ -2559,9 +2559,17 @@ window.LIEUX_DATA = [
       "Tananarive"
     ],
     "verification": {
-      "statut": "non_confirme",
-      "date": "2026-11-13"
-    }
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Discothèque « Taxi Be Tana », Lot IVG 205 Antanimena, ouverte en 2018."
+    },
+    "sources": [
+      "https://www.petitfute.com/v42539-tana-antananarivo/c1169-s-amuser-sortir/c1045-club-discotheque/c214-club-discotheque/1749608-taxi-be-tana.html"
+    ],
+    "alias": [
+      "Taxi Be Tana",
+      "Taxi Be Tananarive"
+    ]
   },
   {
     "id": 528,
@@ -2827,10 +2835,14 @@ window.LIEUX_DATA = [
       "Tananarive"
     ],
     "verification": {
-      "statut": "non_confirme",
+      "statut": "confirme",
       "date": "2026-11-13",
-      "note": "Introuvable en ligne sous ce nom."
-    }
+      "note": "Bar-restaurant et cabaret à Behoririka, inscrit à l’annuaire du ministère du Tourisme."
+    },
+    "sources": [
+      "https://annuaire.tourisme.gov.mg/etablissement-de-restauration/piment-cafe",
+      "https://www.facebook.com/pimscafe/"
+    ]
   },
   {
     "id": 531,
@@ -5257,7 +5269,7 @@ window.LIEUX_DATA = [
     "verification": {
       "statut": "non_confirme",
       "date": "2026-11-13",
-      "note": "Aucun « Gîte du Voyageur » trouvé à Diego ; il existe un hôtel « La Terrasse du Voyageur »."
+      "note": "Aucun « Gîte du Voyageur » à Diego ; l’adresse des petits budgets s’appelle « La Terrasse du Voyageur » (angle rue du Mozambique et Justin Bezara)."
     }
   },
   {
@@ -7470,7 +7482,7 @@ window.LIEUX_DATA = [
     "verification": {
       "statut": "non_confirme",
       "date": "2026-11-13",
-      "note": "Un « Safari Bar Restaurant » existe à Ambatoloaka ; le nom « Safari Ambaro » n’a pas été retrouvé."
+      "note": "Introuvable. Le restaurant italien de la plage d’Ambaro s’appelle « Sambatra Beach » ; « Le Safari » est à Ambatoloaka."
     }
   },
   {
@@ -7560,7 +7572,8 @@ window.LIEUX_DATA = [
     ],
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Aucun « Bar de la Plage » trouvé ; il s’agit probablement du « Beach Bar Restaurant » d’Ambatoloaka, bien référencé."
     }
   },
   {
@@ -12249,10 +12262,13 @@ window.LIEUX_DATA = [
       "Fianar"
     ],
     "verification": {
-      "statut": "non_confirme",
+      "statut": "confirme",
       "date": "2026-11-13",
-      "note": "Introuvable en ligne sous ce nom."
-    }
+      "note": "Bar référencé par le Petit Futé à Ampasambazaha."
+    },
+    "sources": [
+      "https://www.petitfute.com/v57492-fianarantsoa/c1169-s-amuser-sortir/"
+    ]
   },
   {
     "id": 312,
@@ -13891,7 +13907,7 @@ window.LIEUX_DATA = [
     "verification": {
       "statut": "non_confirme",
       "date": "2026-11-13",
-      "note": "Aucun restaurant « Le Vezo » trouvé à Anakao ; les guides citent Longo Vezo, Safari Vezo et Chez Émile."
+      "note": "Aucun restaurant « Le Vezo » à Anakao ; les guides citent Longo Vezo, Safari Vezo, Chez Émile et Chez Lulu."
     }
   },
   {
@@ -14413,7 +14429,7 @@ window.LIEUX_DATA = [
     "verification": {
       "statut": "non_confirme",
       "date": "2026-11-13",
-      "note": "Introuvable en ligne ; les guides citent le Zaza Club et le Tam Tam Café pour sortir à Tuléar."
+      "note": "Introuvable sous aucune orthographe ; pour sortir à Tuléar, les sources citent le Zaza Club et le Tam Tam Café."
     }
   },
   {
@@ -14670,7 +14686,7 @@ window.LIEUX_DATA = [
     "verification": {
       "statut": "non_confirme",
       "date": "2026-11-13",
-      "note": "Introuvable en ligne ; un « Bamboo Club Bar » est référencé à Mangily."
+      "note": "Introuvable ; à Mangily les sources citent Chez Freddy et le Pata-Pata Bar."
     }
   },
   {
@@ -15779,7 +15795,8 @@ window.LIEUX_DATA = [
     "image_provisoire": true,
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Appellation générique : aucune enseigne de ce nom trouvée. Les gargotes du marché et les brochettes du bord de mer existent bien, mais pas comme établissement identifiable."
     },
     "position_approx": true
   },
@@ -15870,7 +15887,8 @@ window.LIEUX_DATA = [
     "image_provisoire": true,
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Appellation générique : aucune enseigne de ce nom trouvée. Les gargotes du marché et les brochettes du bord de mer existent bien, mais pas comme établissement identifiable."
     },
     "position_approx": true
   },
@@ -15957,7 +15975,8 @@ window.LIEUX_DATA = [
     "image_provisoire": true,
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Appellation générique : aucune enseigne de ce nom trouvée. Les gargotes du marché et les brochettes du bord de mer existent bien, mais pas comme établissement identifiable."
     },
     "position_approx": true
   },
@@ -16044,7 +16063,8 @@ window.LIEUX_DATA = [
     "image_provisoire": true,
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Appellation générique : aucune enseigne de ce nom trouvée. Les gargotes du marché et les brochettes du bord de mer existent bien, mais pas comme établissement identifiable."
     },
     "position_approx": true
   },
@@ -16133,7 +16153,8 @@ window.LIEUX_DATA = [
     "image_provisoire": true,
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Appellation générique : aucune enseigne de ce nom trouvée. Les gargotes du marché et les brochettes du bord de mer existent bien, mais pas comme établissement identifiable."
     },
     "position_approx": true
   },
@@ -17279,10 +17300,14 @@ window.LIEUX_DATA = [
     ],
     "image_provisoire": true,
     "verification": {
-      "statut": "non_confirme",
-      "date": "2026-11-13"
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Chambres d’hôtes à Salazamay Nord (6 chambres)."
     },
-    "position_approx": true
+    "position_approx": true,
+    "sources": [
+      "https://www.petitfute.com/v57563-tamatave-toamasina/c1166-hebergement/c151-chambre-d-hotes/634266-chambres-d-hotes-evasion.html"
+    ]
   },
   {
     "nom": "Pension Lalao",
@@ -17366,10 +17391,14 @@ window.LIEUX_DATA = [
     ],
     "image_provisoire": true,
     "verification": {
-      "statut": "non_confirme",
-      "date": "2026-11-13"
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Un hébergement « Lalao » existe au 71 boulevard Joffre : c’est un appartement meublé, pas la « pension avec jardin fleuri » décrite ici."
     },
-    "position_approx": true
+    "position_approx": true,
+    "sources": [
+      "https://www.booking.com/hotel/mg/lalao.html"
+    ]
   },
   {
     "nom": "Hôtel H1 Tamatave",
@@ -17879,10 +17908,14 @@ window.LIEUX_DATA = [
     ],
     "image_provisoire": true,
     "verification": {
-      "statut": "non_confirme",
-      "date": "2026-11-13"
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Chambres d’hôtes rue Victor Hugo."
     },
-    "position_approx": true
+    "position_approx": true,
+    "sources": [
+      "https://www.petitfute.com/v57563-tamatave-toamasina/c1166-hebergement/c151-chambre-d-hotes/678697-residence-magali.html"
+    ]
   },
   {
     "nom": "Calypso Hôtel & SPA",
@@ -18317,10 +18350,14 @@ window.LIEUX_DATA = [
     ],
     "image_provisoire": true,
     "verification": {
-      "statut": "non_confirme",
-      "date": "2026-11-13"
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Chambre d’hôtes à Ivoloina, au nord de la ville (3 chambres) : « simple et conviviale » d’après les annuaires, pas « exclusive »."
     },
-    "position_approx": true
+    "position_approx": true,
+    "sources": [
+      "https://www.petitfute.com/v57563-tamatave-toamasina/c1166-hebergement/c151-chambre-d-hotes/1555405-la-case-a-ianou.html"
+    ]
   },
   {
     "nom": "Parc Zoologique d'Ivoloina",
@@ -18833,10 +18870,14 @@ window.LIEUX_DATA = [
     ],
     "image_provisoire": true,
     "verification": {
-      "statut": "non_confirme",
-      "date": "2026-11-13"
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Éco-site à 30 km au sud de Toamasina par la RN2."
     },
-    "position_approx": true
+    "position_approx": true,
+    "sources": [
+      "https://discovery-tours-toamasina.com/tamatave-et-ses-environs/"
+    ]
   },
   {
     "nom": "Ampasinambo Verger",
@@ -18923,7 +18964,7 @@ window.LIEUX_DATA = [
     "verification": {
       "statut": "non_confirme",
       "date": "2026-11-13",
-      "note": "Un « Ampasinambo Agro camping » existe à Fanandrana, à une vingtaine de km de la ville ; le « verger » décrit ici n’a pas été retrouvé."
+      "note": "Aucun verger de ce nom près de Toamasina. Ampasinambo est une commune du district de Nosy Varika, à plusieurs centaines de km."
     },
     "position_approx": true
   },
@@ -19096,7 +19137,8 @@ window.LIEUX_DATA = [
     "image_provisoire": true,
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Aucun îlot de ce nom face au port. Les « îlots aux Sables » des guides sont à Sainte-Marie."
     },
     "position_approx": true
   },
@@ -19183,7 +19225,8 @@ window.LIEUX_DATA = [
     "image_provisoire": true,
     "verification": {
       "statut": "non_confirme",
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "note": "Cité par un seul site, dont la description (parc de 20 hectares avec lac et pédalos en centre-ville) n’est reprise par aucun guide."
     },
     "position_approx": true
   },
@@ -19866,7 +19909,7 @@ window.LIEUX_DATA = [
     "verification": {
       "statut": "non_confirme",
       "date": "2026-11-13",
-      "note": "Aucun jardin de ce nom trouvé à Toamasina (un « Eden Botanical Garden » existe à Toliara)."
+      "note": "Cité par le même site unique que le « Randrianasolo Park » ; aucun guide ne le mentionne. Le Jardin d’Éden connu est à La Réunion."
     },
     "position_approx": true
   },
@@ -20469,10 +20512,14 @@ window.LIEUX_DATA = [
     ],
     "image_provisoire": true,
     "verification": {
-      "statut": "non_confirme",
-      "date": "2026-11-13"
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Bar-restaurant « La Terrasse », boulevard Joffre : une brasserie de centre-ville, pas un « lounge panoramique avec vue sur l’océan »."
     },
-    "position_approx": true
+    "position_approx": true,
+    "sources": [
+      "https://www.madadecouverte.com/tamatave-madagascar/laterrasse-prestataires-detail_type_etablissement-reg.htm"
+    ]
   },
   {
     "nom": "Le Feeling Bar Karaoké",
