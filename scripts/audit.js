@@ -119,7 +119,7 @@ L.forEach(l => (parCoord[l.lat + ',' + l.lng] = parCoord[l.lat + ',' + l.lng] ||
 section('coords_identiques', 'Lieux différents posés exactement au même point',
   Object.entries(parCoord).filter(([, v]) => v.length > 1).map(([c, v]) => `${c} ← ${v.map(l => `#${l.id} ${l.nom}`).join(' | ')}`));
 section('y_aller_incoherent', 'Lien « Y aller » dont les coordonnées diffèrent de lat/lng',
-  L.filter(l => { const m = /query=(-?[\d.]+),(-?[\d.]+)/.exec(l.y_aller || ''); return m && (Math.abs(+m[1] - l.lat) > 1e-4 || Math.abs(+m[2] - l.lng) > 1e-4); }).map(desc));
+  L.filter(l => { const m = /query=(-?[\d.]+),(-?[\d.]+)$/.exec(l.y_aller || ''); if (m) return Math.abs(+m[1] - l.lat) > 1e-4 || Math.abs(+m[2] - l.lng) > 1e-4; return !/query=[^&]*Madagascar/.test(l.y_aller || ''); /* recherche par nom acceptée */ }).map(desc));
 
 // ---------- 3. Types, doublons, ids ----------
 const horsTaxo = {};
@@ -168,6 +168,17 @@ section('villes', 'Villes distinctes (contrôle visuel des variantes)', villes.s
     if (o && typeof o === 'object') for (const k in o) { if (k === 'lieux_ids') o[k].filter(x => !ids.has(x)).forEach(x => orphelins.push(`${circuit} → lieu #${x} introuvable`)); else parcours(o[k], o.id && typeof o.id === 'string' ? o.id : circuit); }
   })(w.ITINERAIRES_DATA, '?');
   section('circuits_lieux_introuvables', 'Étapes de circuits pointant vers une fiche inexistante', orphelins, { bloquant: true });
+}
+
+section('non_confirmes', 'Lieux dont l’existence n’a pas pu être confirmée (pastille « À confirmer sur place »)',
+  L.filter(l => l.verification && l.verification.statut === 'non_confirme').map(l => desc(l) + (l.verification.note ? ' — ' + l.verification.note : '')));
+section('position_approx', 'Lieux à position approximative (signalée dans la fiche)', L.filter(l => l.position_approx).map(desc));
+section('avis_generes', 'Fiches contenant encore des avis générés', L.filter(l => l.avis).map(desc), { bloquant: true });
+{
+  const parZone = {}; ZONES.forEach(z => parZone[z] = 0);
+  L.filter(l => (l.tags || []).includes('spots')).forEach(l => parZone[l.zone]++);
+  section('spots_par_destination', 'Destinations avec moins de 5 spots', Object.entries(parZone).filter(([, n]) => n < 5).map(([z, n]) => `${z} : ${n}`));
+  console.log('   Spots par destination : ' + Object.entries(parZone).map(([z, n]) => `${z} ${n}`).join(', '));
 }
 
 // ---------- 4. Images des lieux ----------
