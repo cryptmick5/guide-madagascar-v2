@@ -1763,9 +1763,7 @@ window.initSpotsPage = function () {
 
     // 🔒 STRICT FILTER: ONLY Secret/Authentic Spots
     // Must have 'secret_spot' tag (added by surgical update)
-    const spots = window.LIEUX_DATA.filter(l =>
-        l.tags && l.tags.includes('secret_spot')
-    );
+    const spots = window.LIEUX_DATA.filter(l => l.tags && l.tags.includes('spots'));
 
     console.log(`🕵️ Spots Page: Found ${spots.length} authentic secret spots.`);
 
@@ -2142,15 +2140,13 @@ window.toggleProvinceBudget = function (cityKey, level, btn) {
     const container = document.getElementById(`page-${cityKey}`);
     if (!container) return;
 
-    // Toggle logic
+    // Un second clic sur le budget actif le désactive (retour à tous les budgets)
     const isActive = btn.classList.contains('active');
     container.querySelectorAll('[data-level], .budget-btn').forEach(b => b.classList.remove('active'));
+    if (!isActive) btn.classList.add('active');
 
-    // Always activate the clicked button (even if was already active)
-    btn.classList.add('active');
-
-    // Re-run filter based on current active category
-    const activeCatBtn = container.querySelector('.nav-pill.active'); // Was .filter-btn
+    // Catégorie active : uniquement parmi les boutons de catégorie (les boutons budget sont aussi des .nav-pill)
+    const activeCatBtn = [...container.querySelectorAll('.nav-pill.active')].find(b => (b.getAttribute('onclick') || '').includes('filterProvinceItems'));
     // Extract filter type from button logic or text
     let filterType = 'all';
     if (activeCatBtn) {
@@ -2175,6 +2171,86 @@ function getCityNameFromKey(key) {
 /* ============================================
    CORE UI: CARDS & MODULES (Continued)
    ============================================ */
+
+/* ============================================
+   VÉRIFICATION & AVIS
+   ============================================ */
+
+// Pastille affichée quand l'existence du lieu n'a pas pu être confirmée (champ verification.statut).
+window.badgeVerification = function (lieu, grand) {
+    if (!lieu || !lieu.verification || lieu.verification.statut !== 'non_confirme') return '';
+    const style = grand
+        ? 'display:inline-block; margin-bottom:8px; background:#fff3cd; color:#7a5b00; border:1px solid #f0d58c; padding:4px 10px; border-radius:12px; font-size:0.8rem; font-weight:600;'
+        : 'position:absolute; top:10px; left:50%; transform:translateX(-50%); z-index:4; background:#fff3cd; color:#7a5b00; padding:3px 8px; border-radius:10px; font-size:0.7rem; font-weight:700; white-space:nowrap;';
+    return `<span class="badge-a-confirmer" style="${style}" title="Nous n'avons pas pu confirmer ce lieu : renseignez-vous sur place"><i class="fas fa-circle-question"></i> À confirmer sur place</span>`;
+};
+
+// Avis : le guide n'affiche que des avis réels. Deux voies : lire les avis publiés sur Google Maps,
+// et noter soi-même le lieu (enregistré sur l'appareil du visiteur, jamais présenté comme un avis public).
+window.getMonAvis = function (id) {
+    try { return (JSON.parse(localStorage.getItem('mesAvis')) || {})[id] || null; } catch (e) { return null; }
+};
+window.renderAvisBlock = function (lieu) {
+    const mien = window.getMonAvis(lieu.id) || {};
+    const q = encodeURIComponent(`${lieu.nom}, ${lieu.ville}, Madagascar`);
+    const etoiles = [1, 2, 3, 4, 5].map(n => `<button type="button" class="avis-etoile" data-n="${n}" onclick="window.setMaNote(${lieu.id}, ${n})" aria-label="${n} étoile${n > 1 ? 's' : ''}" style="background:none; border:none; cursor:pointer; font-size:1.6rem; padding:2px; color:${n <= (mien.note || 0) ? '#f1c40f' : '#c8c8c8'};">★</button>`).join('');
+    // Avis réels publiés par le guide (data/avis.js), jamais générés
+    const esc = t => String(t == null ? '' : t).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const publies = ((window.AVIS_DATA || {})[lieu.id] || []).map(a => `
+                    <div class="avis-publie" style="background: var(--bg-secondary); padding: 14px 16px; border-radius: 12px; margin-bottom: 10px;">
+                        <div style="display:flex; justify-content:space-between; gap:10px; font-size:0.9rem;"><strong>${esc(a.auteur)}</strong><span style="color:#f1c40f;" aria-label="${Number(a.note) || 0} sur 5">${'★'.repeat(Math.max(0, Math.min(5, Number(a.note) || 0)))}</span></div>
+                        <p style="margin:6px 0 4px; font-size:0.9rem; line-height:1.5;">${esc(a.texte)}</p>
+                        <div style="font-size:0.75rem; color:var(--text-secondary);">${esc(a.date)}${a.source ? ' · ' + esc(a.source) : ''}</div>
+                    </div>`).join('');
+    const envoi = window.AVIS_ENVOI_URL ? `<button type="button" onclick="window.envoyerMonAvis(${lieu.id})" style="margin-top:10px; padding:10px 14px; border:none; border-radius:10px; background:var(--laterite); color:#fff; font-weight:600; cursor:pointer;"><i class="fas fa-paper-plane"></i> Envoyer mon avis au guide</button>` : '';
+    const sources = (lieu.sources || []).map((u, i) => `<a href="${u}" target="_blank" rel="noopener" style="color:var(--laterite);">source ${i + 1}</a>`).join(' · ');
+    return `
+                <div class="modal-reviews" id="avis-bloc-${lieu.id}" style="margin-bottom: 25px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 12px; font-family: var(--font-display);">Avis des voyageurs</h3>
+                    <a href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener"
+                       style="display:flex; align-items:center; justify-content:center; gap:8px; padding:12px; border:1px solid var(--border-color); border-radius:12px; color:var(--text-primary); font-weight:600; text-decoration:none; margin-bottom:14px;">
+                        <i class="fas fa-comments"></i> Lire les avis sur Google Maps
+                    </a>
+                    ${publies}
+                    <div style="background: var(--bg-secondary); padding: 16px; border-radius: 12px;">
+                        <div style="font-weight:700; margin-bottom:6px;">Votre avis</div>
+                        <div role="group" aria-label="Votre note">${etoiles}</div>
+                        <textarea id="avis-texte-${lieu.id}" rows="2" maxlength="500" placeholder="Vos notes sur ce lieu (facultatif)" aria-label="Votre commentaire"
+                                  onchange="window.setMonCommentaire(${lieu.id}, this.value)"
+                                  style="width:100%; box-sizing:border-box; margin-top:8px; padding:10px; border:1px solid var(--border-color); border-radius:8px; font-family:inherit; font-size:0.9rem; background:var(--bg-body); color:var(--text-primary);">${(mien.texte || '').replace(/</g, '&lt;')}</textarea>
+                        <div id="avis-etat-${lieu.id}" style="font-size:0.75rem; color:var(--text-secondary); margin-top:6px;">${mien.note || mien.texte ? 'Enregistré sur cet appareil.' : 'Votre note reste sur cet appareil : elle n’est pas publiée.'}</div>
+                        ${envoi}
+                    </div>
+                    ${lieu.position_approx ? '<p style="font-size:0.8rem; color:var(--text-secondary); margin-top:10px;"><i class="fas fa-location-dot"></i> Position sur la carte approximative : fiez-vous au bouton « Y aller ».</p>' : ''}
+                    ${sources ? `<p style="font-size:0.8rem; color:var(--text-secondary); margin-top:6px;">Informations recoupées : ${sources}</p>` : ''}
+                </div>`;
+};
+function sauverMonAvis(id, champ, valeur) {
+    let tous = {};
+    try { tous = JSON.parse(localStorage.getItem('mesAvis')) || {}; } catch (e) { tous = {}; }
+    tous[id] = Object.assign({}, tous[id], { [champ]: valeur, date: new Date().toISOString().slice(0, 10) });
+    try { localStorage.setItem('mesAvis', JSON.stringify(tous)); } catch (e) { /* stockage indisponible */ }
+    const etat = document.getElementById('avis-etat-' + id);
+    if (etat) etat.textContent = 'Enregistré sur cet appareil.';
+}
+window.setMaNote = function (id, n) {
+    sauverMonAvis(id, 'note', n);
+    document.querySelectorAll(`#avis-bloc-${id} .avis-etoile`).forEach(b => { b.style.color = Number(b.dataset.n) <= n ? '#f1c40f' : '#c8c8c8'; });
+};
+// Ouvre le formulaire d'envoi (AVIS_ENVOI_URL) prérempli avec la note et le commentaire du visiteur
+window.envoyerMonAvis = function (id) {
+    const lieu = (window.LIEUX_DATA || []).find(l => l.id === id);
+    const ta = document.getElementById('avis-texte-' + id);
+    if (ta) window.setMonCommentaire(id, ta.value);
+    const mien = window.getMonAvis(id) || {};
+    if (!lieu || !window.AVIS_ENVOI_URL) return;
+    const url = window.AVIS_ENVOI_URL
+        .replace('{lieu}', encodeURIComponent(`${lieu.nom} (${lieu.ville}) #${lieu.id}`))
+        .replace('{note}', encodeURIComponent(mien.note || ''))
+        .replace('{texte}', encodeURIComponent(mien.texte || ''));
+    window.open(url, '_blank', 'noopener');
+};
+window.setMonCommentaire = function (id, texte) { sauverMonAvis(id, 'texte', String(texte).slice(0, 500)); };
 
 window.createLieuCard = function (lieu, category = '') {
     // 1. Logic & Safety
@@ -2248,6 +2324,7 @@ window.createLieuCard = function (lieu, category = '') {
             <!-- Image -->
             <div class="lieu-image" onclick="showLieuDetailsByID(${lieu.id})" style="position: relative; height: 180px; overflow: hidden;">
                 <img src="${lieu.image}" alt="${lieu.nom.replace(/"/g, '&quot;')}" loading="lazy" onerror="this.src='images/placeholder.jpg'" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s;">
+                ${window.badgeVerification(lieu, false)}
                 <!-- Type Badge (Bottom Left) -->
                 <div class="lieu-badge" style="position: absolute; bottom: 10px; left: 10px; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; ${badgeStyle}">${badgeIcon}${badgeText}</div>
             </div>
@@ -2258,7 +2335,7 @@ window.createLieuCard = function (lieu, category = '') {
                 <div class="lieu-header" style="display: flex; justify-content: space-between; align-items: flex-start; margin: 0;">
                     <h3 class="lieu-title" style="margin: 0; font-size: 1.1rem; color: var(--text-primary); line-height: 1.3; font-weight: 700;">${lieu.nom}</h3>
                     <div class="lieu-rating" style="display: flex; align-items: center; gap: 4px; font-size: 0.85rem; color: var(--text-primary); background: var(--bg-body); padding: 2px 6px; border-radius: 6px; border: 1px solid var(--border-color);">
-                        <i class="fas fa-star" style="color: #f1c40f; font-size: 0.8rem;"></i> ${lieu.note}
+                        <i class="fas fa-star" style="color: #f1c40f; font-size: 0.8rem;"></i> ${lieu.note || '–'}
                     </div>
                 </div>
 
@@ -2575,7 +2652,7 @@ window.openLieuModal = function (lieu) {
     // Grid Data
     // Force specific display if available, else fallback
     const priceDisplay = lieu.prix ? lieu.prix : (lieu.prixNum === 0 ? 'Gratuit' : (lieu.budgetNum ? 'Sur devis' : 'Variable'));
-    const noteDisplay = lieu.note ? `${lieu.note}/5` : '-';
+    const noteDisplay = lieu.note ? `${lieu.note}/5` : 'à venir';
     const dureeDisplay = lieu.duree || 'Variable';
     const villeDisplay = (lieu.ville || 'Madagascar') + (lieu.depart_de && lieu.depart_de !== lieu.ville ? ` · au départ de ${lieu.depart_de}` : '');
 
@@ -2602,6 +2679,7 @@ window.openLieuModal = function (lieu) {
 
             <div style="padding: 0 20px;">
                 <div class="modal-title-block" style="padding: 10px 0 0; position: relative;">
+                    ${window.badgeVerification(lieu, true)}
                     <h2 class="modal-main-title" style="font-size: 1.6rem; line-height: 1.2; margin-bottom: 8px; font-weight: 800; font-family: var(--font-display); color: var(--text-primary); padding-right: 40px;">${lieu.nom}</h2>
                     <span class="modal-category-badge" style="background: var(--laterite); color: white; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase;">${lieu.ville || badgeType}</span>
                      
@@ -2620,7 +2698,7 @@ window.openLieuModal = function (lieu) {
                         <div style="font-weight:700; font-size:0.9rem; margin-top: 4px;">${priceDisplay}</div>
                     </div>
                     <div class="modal-info-box">
-                         <div style="color:var(--text-secondary); font-size:0.75rem; text-transform: uppercase; letter-spacing: 0.5px;">Note</div>
+                         <div style="color:var(--text-secondary); font-size:0.75rem; text-transform: uppercase; letter-spacing: 0.5px;" title="Appréciation de la rédaction du guide, pas une moyenne d'avis">Note du guide</div>
                         <div style="font-weight:700; font-size:0.9rem; margin-top: 4px; color: #f1c40f;">⭐ ${noteDisplay}</div>
                     </div>
                     <div class="modal-info-box">
@@ -2630,7 +2708,7 @@ window.openLieuModal = function (lieu) {
                 </div>
 
                 <!-- ACTIONS PRINCIPALES (New) -->
-                ${actions.cta_principal ? `
+                ${yAllerUrl ? `
                 <div class="modal-actions-container" style="padding: 20px 0; display: flex; gap: 12px;">
                     <a href="${yAllerUrl}" target="_blank" rel="noopener" class="btn-action-primary" style="flex: 2; background: var(--laterite); color: white; text-align: center; padding: 14px; border-radius: 12px; font-weight: 700; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 10px rgba(211, 84, 0, 0.3); transition: transform 0.2s;">
                         <i class="fas fa-location-arrow"></i> Y aller
@@ -2766,40 +2844,8 @@ window.openLieuModal = function (lieu) {
                     <div id="modal-map-container" style="height: 250px; border-radius: 12px; overflow: hidden; background: #eee; border: 1px solid var(--border-color);"></div>
                 </div>` : ''}
 
-                <!-- AVIS -->
-                ${avis ? `
-                <div class="modal-reviews" style="margin-bottom: 25px;">
-                    <h3 style="font-size: 1.1rem; margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; font-family: var(--font-display);">
-                        Avis Voyageurs
-                        <span style="font-size: 0.85rem; color: var(--text-secondary); font-family: var(--font-body); font-weight: 400;">(${avis.nombre_avis} avis)</span>
-                    </h3>
-                    
-                    <div style="margin-bottom: 20px; background: var(--bg-secondary); padding: 20px; border-radius: 12px; display: flex; align-items: center; gap: 20px;">
-                        <div style="text-align: center;">
-                             <div style="font-size: 2.5rem; font-weight: 800; color: var(--laterite); line-height: 1;">${avis.note_globale}</div>
-                             <div style="color: #f1c40f; font-size: 0.8rem; margin-top: 5px;">⭐⭐⭐⭐⭐</div>
-                        </div>
-                        <div style="flex: 1; border-left: 1px solid var(--border-color); padding-left: 20px;">
-                            ${Object.entries(avis.detail_notes || {}).slice(0, 3).map(([key, val]) => `
-                                <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.85rem;">
-                                    <span style="text-transform: capitalize; color: var(--text-secondary);">${key.replace(/_/g, ' ')}</span>
-                                    <span style="font-weight: 600;">${val}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-
-                    ${(avis.avis_recents || []).slice(0, 2).map(a => `
-                    <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid var(--border-color);">
-                        <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
-                            <strong style="font-size: 0.95rem;">${a.auteur}</strong>
-                            <span style="font-size: 0.8rem; color: var(--text-secondary);">${a.date}</span>
-                        </div>
-                        <div style="color: #f1c40f; font-size: 0.8rem; margin-bottom: 8px;">${'⭐'.repeat(Math.round(a.note))}</div>
-                        <p style="font-size: 0.9rem; font-style: italic; color: var(--text-primary); line-height: 1.5;">"${a.commentaire}"</p>
-                    </div>
-                    `).join('')}
-                </div>` : ''}
+                <!-- AVIS : aucun avis inventé. Lien vers les vrais avis + avis personnel du visiteur. -->
+                ${window.renderAvisBlock(lieu)}
 
                  <!-- STANDARD FOOTER ACTIONS (FIXED & SIMPLIFIED) -->
                 <div class="modal-footer-actions" style="padding: 20px 0; display: flex; flex-direction: column; gap: 12px; border-top: 1px solid var(--border-color);">
@@ -3359,7 +3405,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // 7. Event Listeners for Chips (Moved here from old multiple blocks)
     // Map Buttons
+    // Ces gestionnaires génériques ne concernent que les boutons SANS onclick : ceux qui en ont un
+    // (filtres de la carte, des pages villes, des spots) gèrent eux-mêmes leur état actif. Les cumuler
+    // faisait passer un budget pour une catégorie et affichait des puces actives à contresens des cases cochées.
     document.querySelectorAll('.filter-chip-map').forEach(btn => {
+        if (btn.hasAttribute('onclick')) return;
         btn.addEventListener('click', (e) => {
             const parent = btn.parentElement;
             parent.querySelectorAll('.filter-chip-map').forEach(sib => sib.classList.remove('active'));
@@ -3368,6 +3418,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
     // City Nav Pills
     document.querySelectorAll('.nav-pill').forEach(btn => {
+        if (btn.hasAttribute('onclick')) return;
         btn.addEventListener('click', function (e) {
             const parent = this.parentElement;
             parent.querySelectorAll('.nav-pill').forEach(sib => sib.classList.remove('active'));

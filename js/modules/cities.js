@@ -186,11 +186,13 @@ window.filterProvinceItems = function (cityKey, filterType, btn) {
 window.toggleProvinceBudget = function (cityKey, level, btn) {
     const container = document.getElementById(`page-${cityKey}`);
     if (!container) return;
+    // Un second clic sur le budget actif le désactive (retour à tous les budgets)
     const isActive = btn.classList.contains('active');
     container.querySelectorAll('[data-level], .budget-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
+    if (!isActive) btn.classList.add('active');
 
-    const activeCatBtn = container.querySelector('.nav-pill.active');
+    // Catégorie active : uniquement parmi les boutons de catégorie (les boutons budget sont aussi des .nav-pill)
+    const activeCatBtn = [...container.querySelectorAll('.nav-pill.active')].find(b => (b.getAttribute('onclick') || '').includes('filterProvinceItems'));
     let filterType = 'all';
     if (activeCatBtn) {
         const txt = activeCatBtn.innerText.toLowerCase().trim();
