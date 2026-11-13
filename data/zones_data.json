@@ -1869,7 +1869,7 @@
                     "type": "Fusion",
                     "note": 4.7,
                     "prix": "Cher",
-                    "image": "images/restaurants/majunga-coco.jpg",
+                    "image": "images/placeholder-restaurant.jpg",
                     "description": "Une institution pour les gourmets. Langouste et foie gras au menu."
                 }
             ],
@@ -2460,7 +2460,7 @@
                     "type": "Fruits de mer",
                     "note": 4.6,
                     "prix": "Moyen",
-                    "image": "images/restaurants/tamatave-terrasse.jpg",
+                    "image": "images/placeholder-restaurant.jpg",
                     "description": "Vue sur l'océan et poissons ultra-frais."
                 }
             ],
@@ -2892,7 +2892,7 @@
                     "type": "Gastronomique",
                     "note": 4.8,
                     "prix": "Moyen",
-                    "image": "images/restaurants/fianar-tsara.jpg",
+                    "image": "images/placeholder-restaurant.jpg",
                     "description": "La meilleure table de la ville avec vue sur la vieille ville."
                 }
             ],
@@ -3446,7 +3446,7 @@
                     "type": "Italien",
                     "note": 4.7,
                     "prix": "Moyen",
-                    "image": "images/restaurants/tulear-etoile.jpg",
+                    "image": "images/placeholder-restaurant.jpg",
                     "description": "Pizzas au feu de bois et poisson grillé face au canal."
                 }
             ],

@@ -1,0 +1,4579 @@
+{
+  "date": "2026-11-13",
+  "fusions": [
+    {
+      "garde": {
+        "id": 7,
+        "nom": "Mer d’Émeraude"
+      },
+      "absorbe": {
+        "id": 602,
+        "nom": "Mer d'Émeraude"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 602,
+        "ville": "Diego-Suarez",
+        "nom": "Mer d'Émeraude",
+        "type": "Incontournable",
+        "lat": -12.164,
+        "lng": 49.352,
+        "image": "images/iles/mer-emeraude.jpg",
+        "description": "La Mer d'Émeraude, c'est LA carte postale mauricienne... mais à Madagascar ! Un lagon immense, peu profond, d'un turquoise qui fait mal aux yeux (dans le bon sens).\n\n⛵ Accès : On y va en boutre traditionnel depuis Ramena. La traversée est déjà une aventure.\n🐠 Snorkeling : L'eau est si claire que vous verrez les poissons depuis le bateau. Parfait pour une initiation.\n🏝️ Déjeuner : Grillades de poissons frais sur un îlot désert. Le luxe, le vrai : les pieds dans le sable.\n\n⚠️ Attention au soleil, ça tape fort sur l'eau !",
+        "tags": [
+          "Incontournable",
+          "diego",
+          "mer",
+          "nature",
+          "incontournable",
+          "budget_1"
+        ],
+        "prix": "30 000 Ar",
+        "prixNum": 30000,
+        "note": 4.8,
+        "duree": "Demi-journée / Journée",
+        "conseil": "Arrivez tôt le matin (8h-9h) pour profiter des eaux calmes et de la lumière parfaite. Négociez le prix du bateau directement avec les pêcheurs à Ramena (environ 30 000 Ar pour un groupe). Apportez votre propre snorkel si possible, la location sur place est limitée.",
+        "acces": "Départ en bateau depuis la plage de Ramena (30 min de Diego en taxi). Traversée environ 20-30 minutes.",
+        "horaires": "Accessible toute la journée (Départ conseillé 8h-9h)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.164,49.352",
+        "siteWeb": "https://www.diego-suarez-tourisme.com",
+        "galerie_photos": [
+          {
+            "url": "images/iles/mer-emeraude.jpg",
+            "alt": "Mer d'Émeraude",
+            "type": "principale"
+          },
+          {
+            "url": "images/spots/mer-emeraude-plage.jpg",
+            "alt": "Mer d'Émeraude - Vue 2",
+            "type": "galerie"
+          },
+          {
+            "url": "images/spots/mer-emeraude-bateau.jpg",
+            "alt": "Mer d'Émeraude - Vue 3",
+            "type": "galerie"
+          },
+          {
+            "url": "images/spots/mer-emeraude-snorkeling.jpg",
+            "alt": "Mer d'Émeraude - Vue 4",
+            "type": "galerie"
+          }
+        ],
+        "avis": {
+          "note_globale": 4.8,
+          "nombre_avis": 156,
+          "detail_notes": {
+            "accessibilite": 4.5,
+            "rapport_qualite_prix": 4.9,
+            "experience_globale": 4.8,
+            "beaute_naturelle": 5
+          },
+          "avis_recents": [
+            {
+              "auteur": "Sophie D.",
+              "origine": "France",
+              "date": "2025-12-05",
+              "note": 5,
+              "commentaire": "Eau incroyablement claire ! Le lagon est à couper le souffle. N'oubliez pas votre masque et tuba !",
+              "verifie": true
+            },
+            {
+              "auteur": "Jean-Claude R.",
+              "origine": "Madagascar",
+              "date": "2025-11-20",
+              "note": 4.5,
+              "commentaire": "Magnifique mais très fréquenté le weekend. Privilégiez la semaine pour plus de tranquillité.",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "plage_lagon",
+          "cta_principal": {
+            "texte": "Réserver une Sortie Bateau",
+            "url": "/contact",
+            "couleur": "bleu",
+            "icone": "⛵"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "infos_pratiques": {
+          "horaires": {
+            "tous_jours": "8h-17h",
+            "note": "Départs bateau selon marée"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Avril à Novembre (mer calme)",
+            "a_eviter": "Janvier-Mars (période cyclonique)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Crème solaire haute protection",
+              "Maillot de bain",
+              "Serviette",
+              "Masque et tuba",
+              "Chapeau",
+              "Eau potable"
+            ],
+            "budget_supplementaire": "Bateau: 20k-40k Ar par personne"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.164,
+          "longitude": 49.352,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "categorie": "Incontournable",
+        "hasCarousel": true,
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.092Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "description_summary": "La Mer d'Émeraude, c'est LA carte postale mauricienne... mais à Madagascar ! Un lagon immense, peu profond, d'un turquoise qui fait mal aux yeux (dans le bon sens).",
+        "has_expandable_description": true,
+        "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
+      }
+    },
+    {
+      "garde": {
+        "id": 10,
+        "nom": "Tsingy Rouge"
+      },
+      "absorbe": {
+        "id": 603,
+        "nom": "Tsingy Rouge"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 603,
+        "ville": "Diego-Suarez",
+        "nom": "Tsingy Rouge",
+        "type": "Incontournable",
+        "lat": -12.633,
+        "lng": 49.483,
+        "image": "images/spots/tsingy-rouge.jpg",
+        "prix": "15 000 Ar",
+        "prixNum": 15000,
+        "note": 4.6,
+        "duree": "2h à 3h",
+        "description": "Oubliez la roche grise, ici la terre saigne ! Les Tsingy Rouges sont un canyon éphémère sculpté par la pluie dans de la latérite et du grès.\n\n🎨 Couleurs : Un dégradé spectaculaire du blanc à l'ocre rouge. C'est le paradis des photographes.\n⏳ Fragile : Contrairement aux Tsingy de pierre, ceux-ci sont fragiles. On regarde avec les yeux, on touche pas !\n☀️ Moment : Idéal en fin d'après-midi quand le soleil rasant enflamme les couleurs.\n\nUn paysage martien au milieu de la brousse.",
+        "tags": [
+          "Incontournable",
+          "diego",
+          "nature",
+          "explorer",
+          "incontournable",
+          "budget_1"
+        ],
+        "conseil": "Visitez en fin d'après-midi (16h-17h) pour capturer les couleurs flamboyantes du coucher de soleil sur le grès rouge. Apportez de l'eau et un chapeau, il n'y a pas d'ombre. Le guard local vous guidera gratuitement (pourboire apprécié).",
+        "acces": "65 km au sud de Diego via RN6 (1h30 en voiture). Route praticable toute l'année.",
+        "horaires": "7h-17h tous les jours",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.633,49.483",
+        "siteWeb": "https://www.madagascar-tourisme.com/tsingy-rouge",
+        "galerie_photos": [
+          {
+            "url": "images/spots/tsingy-rouge.jpg",
+            "alt": "Tsingy Rouge",
+            "type": "principale"
+          },
+          {
+            "url": "images/spots/tsingy-rouge-sunset.jpg",
+            "alt": "Tsingy Rouge - Vue 2",
+            "type": "galerie"
+          },
+          {
+            "url": "images/spots/tsingy-rouge-formations.jpg",
+            "alt": "Tsingy Rouge - Vue 3",
+            "type": "galerie"
+          },
+          {
+            "url": "images/spots/tsingy-rouge-panorama.jpg",
+            "alt": "Tsingy Rouge - Vue 4",
+            "type": "galerie"
+          }
+        ],
+        "avis": {
+          "note_globale": 4.6,
+          "nombre_avis": 124,
+          "detail_notes": {
+            "accessibilite": 4.8,
+            "rapport_qualite_prix": 4.9,
+            "experience_globale": 4.6,
+            "beaute_naturelle": 4.7
+          },
+          "avis_recents": [
+            {
+              "auteur": "Claire P.",
+              "origine": "France",
+              "date": "2025-12-20",
+              "note": 5,
+              "commentaire": "Incroyable ! Les couleurs au coucher du soleil sont magiques. Site facilement accessible, parfait pour les familles.",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "date": "2025-12-12",
+              "note": 4.5,
+              "commentaire": "Un paysage unique à Madagascar. Le gardien est très sympathique et connaît bien le site. Pensez au pourboire !",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "site_naturel",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "rouge",
+            "icone": "🏔️"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "infos_pratiques": {
+          "horaires": {
+            "ouverture": "7h-17h",
+            "note": "Meilleur moment: 16h-17h pour le coucher de soleil"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "a_eviter": "Janvier-Mars (risque de pluie intense)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Chaussures fermées",
+              "Chapeau et lunettes de soleil",
+              "Eau potable (1,5L minimum)",
+              "Appareil photo",
+              "Crème solaire",
+              "Petite monnaie pour pourboire au gardien"
+            ],
+            "budget_supplementaire": "Pourboire gardien: 5k-10k Ar"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.633,
+          "longitude": 49.483,
+          "zoom_defaut": 14,
+          "afficher_dans_fiche": true
+        },
+        "price": "15 000 Ar",
+        "rating": 4.6,
+        "duration": "2h à 3h",
+        "categorie": "Incontournable",
+        "hasCarousel": true,
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.094Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "description_summary": "Oubliez la roche grise, ici la terre saigne ! Les Tsingy Rouges sont un canyon éphémère sculpté par la pluie dans de la latérite et du grès.",
+        "has_expandable_description": true,
+        "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
+      }
+    },
+    {
+      "garde": {
+        "id": 9,
+        "nom": "Montagne d’Ambre"
+      },
+      "absorbe": {
+        "id": 604,
+        "nom": "Montagne d'Ambre"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 604,
+        "ville": "Diego-Suarez",
+        "nom": "Montagne d'Ambre",
+        "type": "Nature",
+        "lat": -12.516,
+        "lng": 49.166,
+        "image": "images/spots/montagne-ambre.jpg",
+        "description": "La Montagne d'Ambre, c'est votre climatiseur naturel ! Une forêt pluviale d'altitude qui tranche avec la chaleur de la côte.\n\n🦎 Faune : Cherchez bien, le plus petit caméléon du monde (Brookesia) se cache dans les feuilles mortes.\n💦 Fraîcheur : Cascades sacrées et lacs de cratère. Ça fait un bien fou de respirer l'air frais.\n🌿 Flore : Des fougères arborescentes géantes comme à l'époque des dinosaures.\n\nPrévoyez un K-way, ici la météo est capricieuse !",
+        "tags": [
+          "Nature",
+          "diego",
+          "nature",
+          "randonnee",
+          "incontournable",
+          "budget_1"
+        ],
+        "prix": "45 000 Ar",
+        "prixNum": 45000,
+        "note": 4.7,
+        "duree": "4h à 6h",
+        "conseil": "Prenez un guide local à l'entrée, c'est obligatoire et indispensable pour repérer les caméléons minuscules (Brookesia).",
+        "acces": "Accessible en 4x4 ou taxi-brousse depuis Joffreville (environ 1h de Diego). La piste finale est cahoteuse.",
+        "horaires": "Accessible toute la journée (Conseillé le matin à 7h)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.516,49.166",
+        "siteWeb": "https://www.parcs-madagascar.com",
+        "galerie_photos": [
+          {
+            "url": "images/spots/montagne-ambre.jpg",
+            "alt": "Montagne d'Ambre",
+            "type": "principale"
+          },
+          {
+            "url": "images/spots/montagne-ambre-cameleon.jpg",
+            "alt": "Montagne d'Ambre - Vue 2",
+            "type": "galerie"
+          },
+          {
+            "url": "images/spots/montagne-ambre-foret.jpg",
+            "alt": "Montagne d'Ambre - Vue 3",
+            "type": "galerie"
+          }
+        ],
+        "avis": {
+          "note_globale": 4.7,
+          "nombre_avis": 124,
+          "detail_notes": {
+            "accessibilite": 4.5,
+            "rapport_qualite_prix": 4.8,
+            "experience_globale": 4.7,
+            "authenticite": 5
+          },
+          "avis_recents": [
+            {
+              "auteur": "Marie L.",
+              "origine": "France",
+              "date": "2025-11-15",
+              "note": 5,
+              "commentaire": "Une forêt magique ! Les cascades sont magnifiques et nous avons vu le Brookesia. Guide local top !",
+              "verifie": true
+            },
+            {
+              "auteur": "Rakoto M.",
+              "origine": "Madagascar",
+              "date": "2025-10-28",
+              "note": 4.5,
+              "commentaire": "Très beau parc. Prévoir de bonnes chaussures car ça glisse quand c'est humide.",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "parc_national",
+          "cta_principal": {
+            "texte": "Réserver un Guide",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "🎫"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "7h-18h",
+            "note": "Dernière entrée 1h avant fermeture"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "a_eviter": "Janvier-Mars (pluies intenses)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Bonnes chaussures de randonnée",
+              "Imperméable léger",
+              "Appareil photo"
+            ],
+            "budget_supplementaire": "Guide local : 20k-40k Ar"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.516,
+          "longitude": 49.166,
+          "zoom_defaut": 12,
+          "afficher_dans_fiche": true
+        },
+        "categorie": "Nature",
+        "hasCarousel": true,
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.095Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "description_summary": "La Montagne d'Ambre, c'est votre climatiseur naturel ! Une forêt pluviale d'altitude qui tranche avec la chaleur de la côte.",
+        "has_expandable_description": true,
+        "humour_grok": "Tu vas marcher 3h dans la boue pour voir une cascade... qui est juste de l'eau qui tombe. Mais 'c'est l'aventure' qu'ils disent. 🤠"
+      }
+    },
+    {
+      "garde": {
+        "id": 100,
+        "nom": "Le Grand Hôtel"
+      },
+      "absorbe": {
+        "id": 100,
+        "nom": "Le Grand Hôtel"
+      },
+      "raison": "même hôtel saisi trois fois",
+      "fiche_absorbee": {
+        "id": 100,
+        "ville": "Diego-Suarez",
+        "nom": "Le Grand Hôtel",
+        "type": "Hotel",
+        "lat": -12.2714,
+        "lng": 49.2917,
+        "prix": "250 000 Ar",
+        "prixEur": "55 €",
+        "prixNum": 250000,
+        "note": 4.5,
+        "description": "L’adresse de référence pour le luxe à Diego. Situé en plein centre-ville, cet hôtel historique offre des prestations haut de gamme : grande piscine, spa, casino et chambres spacieuses. Idéal pour ceux qui cherchent confort et services irréprochables. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "image": "images/hotels/grand-hotel-diego.jpg",
+        "acces": "Rue Colbert, centre-ville",
+        "horaires": "Réception 24h/24",
+        "conseil": "La pâtisserie de l’hôtel est réputée comme la meilleure de la ville, parfaite pour le goûter.",
+        "duree": "Séjour",
+        "siteWeb": "http://www.grand-hotel-diego.com",
+        "tags": [
+          "Hotel",
+          "diego",
+          "dormir",
+          "budget_3",
+          "luxe",
+          "detente"
+        ],
+        "price": "250 000 Ar",
+        "rating": 4.5,
+        "duration": "Séjour",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.2714,49.2917",
+        "categorie": "Hotel",
+        "galerie_photos": [
+          {
+            "url": "images/hotels/grand-hotel-diego.jpg",
+            "alt": "Le Grand Hôtel",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.126Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.5,
+          "nombre_avis": 82,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": 4.6,
+            "experience_globale": 4.5,
+            "beaute_naturelle": 4.5
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.2714,
+          "longitude": 49.2917,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "L’adresse de référence pour le luxe à Diego. Situé en plein centre-ville, cet hôtel historique offre des prestations haut de gamme : grande piscine, spa, casino et chambres spacieuses. Idéal pour ceux qui cherchent confort et services irréprochables.",
+        "has_expandable_description": true,
+        "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎"
+      }
+    },
+    {
+      "garde": {
+        "id": 100,
+        "nom": "Le Grand Hôtel"
+      },
+      "absorbe": {
+        "id": 612,
+        "nom": "Grand Hôtel"
+      },
+      "raison": "même hôtel saisi trois fois",
+      "fiche_absorbee": {
+        "id": 612,
+        "ville": "Diego-Suarez",
+        "nom": "Grand Hôtel",
+        "type": "Hébergement",
+        "note": 4.6,
+        "prix": "Luxe",
+        "description": "La grande dame de Diego. Un établissement historique qui a su garder son prestige. Le service y est impeccable, la piscine immense, et c’est le centre névralgique de la vie sociale chic de la ville. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "image": "images/hotels/grand-hotel.jpg",
+        "conseil": "Leur petit-déjeuner buffet est le meilleur de la ville.",
+        "duree": "Nuit",
+        "tags": [
+          "Hébergement",
+          "diego",
+          "dormir",
+          "budget_1"
+        ],
+        "price": "Luxe",
+        "rating": 4.6,
+        "duration": "Nuit",
+        "lat": -12.291848485528677,
+        "lng": 49.29843897985259,
+        "generated_gps": true,
+        "prixNum": 0,
+        "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
+        "horaires": "8h00 - 18h00",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.291848485528677,49.29843897985259",
+        "categorie": "Hébergement",
+        "galerie_photos": [
+          {
+            "url": "images/hotels/grand-hotel.jpg",
+            "alt": "Grand Hôtel",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.132Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.6,
+          "nombre_avis": 121,
+          "detail_notes": {
+            "accessibilite": 4.4,
+            "rapport_qualite_prix": 4.7,
+            "experience_globale": 4.6,
+            "beaute_naturelle": 4.6
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.291848485528677,
+          "longitude": 49.29843897985259,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "La grande dame de Diego. Un établissement historique qui a su garder son prestige. Le service y est impeccable, la piscine immense, et c’est le centre névralgique de la vie sociale chic de la ville. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
+        "has_expandable_description": true,
+        "humour_grok": "Le WiFi fonctionne... quand il a envie. Un peu comme le personnel, finalement. 📶"
+      }
+    },
+    {
+      "garde": {
+        "id": 18,
+        "nom": "Nosy Komba"
+      },
+      "absorbe": {
+        "id": 250,
+        "nom": "Nosy Komba"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 250,
+        "ville": "Nosy Be",
+        "nom": "Nosy Komba",
+        "type": "Incontournable",
+        "lat": -13.4667,
+        "lng": 48.35,
+        "image": "images/iles/nosy-komba.jpg",
+        "description": "Nosy Komba, c'est l'île granitique qui veille sur Nosy Be. Ici, pas de voitures, pas de stress, juste la nature.\n\n🐒 Makis : Les Lémurs Macaco sont les rois. Ils viendront vous manger des bananes sur l'épaule (photos garanties !).\n🧵 Artisanat : Les femmes du village brodent des nappes magnifiques ('Richelieu'). C'est fin et local.\n🚶 Rando : Ça grimpe ! Mais la vue depuis le sommet vaut chaque goutte de sueur.\n\nUne parenthèse enchantée où l'homme et l'animal cohabitent.",
+        "tags": [
+          "Incontournable",
+          "nosybe",
+          "ile",
+          "nature",
+          "budget_1"
+        ],
+        "conseil": "Négociez toujours le prix du taxi avant de monter.",
+        "acces": "Accessible en taxi ou scooter de location. Route goudronnée en bon état.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4667,48.35",
+        "prix": "Gratuit",
+        "note": 4.5,
+        "duree": "2h à 4h",
+        "categorie": "Incontournable",
+        "galerie_photos": [
+          {
+            "url": "images/iles/nosy-komba.jpg",
+            "alt": "Nosy Komba",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.108Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.5,
+          "nombre_avis": 71,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": 4.6,
+            "experience_globale": 4.5,
+            "beaute_naturelle": 4.5
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -13.4667,
+          "longitude": 48.35,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Nosy Komba, c'est l'île granitique qui veille sur Nosy Be. Ici, pas de voitures, pas de stress, juste la nature.",
+        "has_expandable_description": true,
+        "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
+      }
+    },
+    {
+      "garde": {
+        "id": 19,
+        "nom": "Parc Marin Nosy Tanikely"
+      },
+      "absorbe": {
+        "id": 251,
+        "nom": "Nosy Tanikely"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 251,
+        "ville": "Nosy Be",
+        "nom": "Nosy Tanikely",
+        "type": "Incontournable",
+        "lat": -13.4833,
+        "lng": 48.2333,
+        "image": "images/iles/nosy-tanikely.jpg",
+        "description": "Nosy Tanikely, c'est un aquarium géant... sans les vitres ! Réserve marine protégée, c'est le spot de snorkeling ultime.\n\n🐢 Tortues : Elles sont là, tranquilles, à brouter les coraux. Nagez avec elles (sans les toucher !).\n🐠 Poissons : Des milliers de poissons colorés dès qu'on met la tête sous l'eau. Même pour les débutants.\n🏝️ Phare : Grimpez au vieux phare pour une vue panoramique à 360° sur l'archipel.\n\nPrenez votre masque et tuba, c'est le meilleur film que vous verrez.",
+        "tags": [
+          "Incontournable",
+          "nosybe",
+          "ile",
+          "mer",
+          "budget_1"
+        ],
+        "conseil": "Négociez toujours le prix du taxi avant de monter.",
+        "acces": "Accessible en taxi ou scooter de location. Route goudronnée en bon état.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4833,48.2333",
+        "prix": "Gratuit",
+        "note": 4.5,
+        "duree": "2h à 4h",
+        "categorie": "Incontournable",
+        "galerie_photos": [
+          {
+            "url": "images/iles/nosy-tanikely.jpg",
+            "alt": "Nosy Tanikely",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.108Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.5,
+          "nombre_avis": 148,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": 4.6,
+            "experience_globale": 4.5,
+            "beaute_naturelle": 4.5
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -13.4833,
+          "longitude": 48.2333,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Nosy Tanikely, c'est un aquarium géant... sans les vitres ! Réserve marine protégée, c'est le spot de snorkeling ultime.",
+        "has_expandable_description": true,
+        "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
+      }
+    },
+    {
+      "garde": {
+        "id": 19,
+        "nom": "Parc Marin Nosy Tanikely"
+      },
+      "absorbe": {
+        "id": 619,
+        "nom": "Nosy Tanikely"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 619,
+        "nom": "Nosy Tanikely",
+        "ville": "Nosy Be",
+        "type": "Nature",
+        "prix": "45 000 Ar",
+        "prixNum": 45000,
+        "note": "4.9",
+        "image": "images/iles/nosy-tanikely.jpg",
+        "description": "Réserve marine protégée. Aquarium naturel parfait pour le snorkeling. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Nosy Be. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
+        "tags": [
+          "Nature",
+          "nosybe",
+          "explorer",
+          "budget_2",
+          "nature",
+          "aventure"
+        ],
+        "lat": -13.4833,
+        "lng": 48.2389,
+        "price": "45 000 Ar",
+        "rating": "4.9",
+        "duration": "Libre",
+        "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
+        "acces": "Tuk-tuk facile depuis Hell-Ville ou Ambatoloaka.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4833,48.2389",
+        "duree": "4h à 6h",
+        "categorie": "Nature",
+        "galerie_photos": [
+          {
+            "url": "images/iles/nosy-tanikely.jpg",
+            "alt": "Nosy Tanikely",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h (fermé le lundi)",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "eviter": "Janvier-Mars (pluies intenses)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Bonnes chaussures de randonnée",
+              "Eau (2L min)",
+              "Crème solaire",
+              "Appareil photo",
+              "Anti-moustiques"
+            ],
+            "conseils": "Guide local recommandé pour découvrir la faune"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.184Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.9",
+          "nombre_avis": 105,
+          "detail_notes": {
+            "accessibilite": 4.7,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.9",
+            "beaute_naturelle": null
+          },
+          "avis_recents": [
+            {
+              "auteur": "Sophie M.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Rakoto F.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "parc_national",
+          "cta_principal": {
+            "texte": "Réserver un Guide",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "🎫"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -13.4833,
+          "longitude": 48.2389,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Réserve marine protégée. Aquarium naturel parfait pour le snorkeling. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Nosy Be.",
+        "has_expandable_description": true,
+        "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵"
+      }
+    },
+    {
+      "garde": {
+        "id": 22,
+        "nom": "Mont Passot"
+      },
+      "absorbe": {
+        "id": 252,
+        "nom": "Mont Passot"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 252,
+        "ville": "Nosy Be",
+        "nom": "Mont Passot",
+        "type": "Spot Local",
+        "lat": -13.3222,
+        "lng": 48.2431,
+        "image": "images/spots/mont-passot.jpg",
+        "description": "Le Mont Passot, c'est le balcon de Nosy Be. Le point de rendez-vous obligatoire pour finir la journée en beauté.\n\n🌅 Sunset : Le coucher de soleil y est légendaire. Le ciel s'embrase sur l'océan.\n🌋 Lacs Sacrés : On domine les lacs de cratère. Attention, ils sont sacrés (et habités par des crocodiles, paraît-il).\n🍹 Apéro : Siroter un cocktail en regardant le soleil plonger dans la mer... What else ?\n\nArrivez tôt pour avoir une bonne place !",
+        "tags": [
+          "Spot Local",
+          "nosybe",
+          "nature",
+          "budget_1"
+        ],
+        "conseil": "Négociez toujours le prix du taxi avant de monter.",
+        "acces": "Tuk-tuk facile depuis Hell-Ville ou Ambatoloaka.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.3222,48.2431",
+        "prix": "Gratuit",
+        "note": 4.5,
+        "duree": "2h à 4h",
+        "categorie": "Spot Local",
+        "galerie_photos": [
+          {
+            "url": "images/spots/mont-passot.jpg",
+            "alt": "Mont Passot",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.108Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.5,
+          "nombre_avis": 83,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": 4.6,
+            "experience_globale": 4.5,
+            "beaute_naturelle": 4.5
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -13.3222,
+          "longitude": 48.2431,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Le Mont Passot, c'est le balcon de Nosy Be. Le point de rendez-vous obligatoire pour finir la journée en beauté.",
+        "has_expandable_description": true,
+        "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
+      }
+    },
+    {
+      "garde": {
+        "id": 20,
+        "nom": "Nosy Iranja"
+      },
+      "absorbe": {
+        "id": 253,
+        "nom": "Nosy Iranja"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 253,
+        "ville": "Nosy Be",
+        "nom": "Nosy Iranja",
+        "type": "Incontournable",
+        "lat": -13.5833,
+        "lng": 47.8167,
+        "image": "images/iles/nosy-iranja.jpg",
+        "description": "Nosy Iranja, c'est la star d'Instagram. Deux îlots reliés par une langue de sable blanc aveuglant.\n\n🏖️ Sable : Une marche sur l'eau (presque) à marée basse. C'est magique.\n🐢 Ponte : C'est un lieu de nidification pour les tortues marines. Respectez leur tranquillité.\n💎 Eau : Un bleu turquoise impossible à décrire. C'est le paradis, littéralement.\n\nC'est loin (1h30 de bateau), mais c'est l'excursion d'une vie.",
+        "tags": [
+          "Incontournable",
+          "nosybe",
+          "ile",
+          "mer",
+          "budget_1"
+        ],
+        "conseil": "Négociez toujours le prix du taxi avant de monter.",
+        "acces": "Accessible en taxi ou scooter de location. Route goudronnée en bon état.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.5833,47.8167",
+        "prix": "Gratuit",
+        "note": 4.5,
+        "duree": "2h à 4h",
+        "categorie": "Incontournable",
+        "galerie_photos": [
+          {
+            "url": "images/iles/nosy-iranja.jpg",
+            "alt": "Nosy Iranja",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.109Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.5,
+          "nombre_avis": 142,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": 4.6,
+            "experience_globale": 4.5,
+            "beaute_naturelle": 4.5
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -13.5833,
+          "longitude": 47.8167,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Nosy Iranja, c'est la star d'Instagram. Deux îlots reliés par une langue de sable blanc aveuglant.",
+        "has_expandable_description": true,
+        "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
+      }
+    },
+    {
+      "garde": {
+        "id": 17,
+        "nom": "Plage d’Andilana"
+      },
+      "absorbe": {
+        "id": 255,
+        "nom": "Plage d'Andilana"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 255,
+        "ville": "Nosy Be",
+        "nom": "Plage d'Andilana",
+        "type": "Spot Local",
+        "lat": -13.2667,
+        "lng": 48.1833,
+        "image": "images/circuits/circuit-nosybe.jpg",
+        "description": "Andilana, c'est LA plage carte postale du dimanche. La plus belle plage publique de l'île, et de loin.\n\n🌴 Cadre : Cocotiers, sable fin, eau calme. Tout y est pour le farniente.\n🎉 Ambiance : Le dimanche, c'est la fête ! Musique, grillades, familles... C'est la vie malgache joyeuse.\n🍽️ Miam : Mangez des langoustes grillées les pieds dans le sable dans les paillotes.\n\nLe spot parfait pour déconnecter et bronzer 'Tsara'.",
+        "tags": [
+          "Spot Local",
+          "nosybe",
+          "mer",
+          "budget_1"
+        ],
+        "conseil": "Attention aux marées pour la baignade. Crème solaire indispensable !",
+        "acces": "Tuk-tuk facile depuis Hell-Ville ou Ambatoloaka.",
+        "horaires": "8h00 - 18h00",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.2667,48.1833",
+        "prix": "Gratuit",
+        "note": 4.5,
+        "duree": "2h à 4h",
+        "categorie": "Spot Local",
+        "galerie_photos": [
+          {
+            "url": "images/circuits/circuit-nosybe.jpg",
+            "alt": "Plage d'Andilana",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.109Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.5,
+          "nombre_avis": 110,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": 4.6,
+            "experience_globale": 4.5,
+            "beaute_naturelle": 4.5
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -13.2667,
+          "longitude": 48.1833,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Andilana, c'est LA plage carte postale du dimanche. La plus belle plage publique de l'île, et de loin.",
+        "has_expandable_description": true,
+        "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
+      }
+    },
+    {
+      "garde": {
+        "id": 21,
+        "nom": "Réserve Naturelle de Lokobe"
+      },
+      "absorbe": {
+        "id": 254,
+        "nom": "Réserve de Lokobe"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 254,
+        "ville": "Nosy Be",
+        "nom": "Réserve de Lokobe",
+        "type": "Nature",
+        "lat": -13.4167,
+        "lng": 48.3167,
+        "image": "images/spots/lokobe.jpg",
+        "description": "Lokobe, c'est la forêt originelle de Nosy Be. La jungle comme elle était avant l'homme.\n\n🛶 Accès : On y arrive en pirogue à balancier. Silence, on glisse sur l'eau.\n🐍 Faune : Boas (gentils), lémuriens nocturnes, caméléons... C'est un festival de biodiversité.\n🌳 Atmosphère : Humide, dense, mystérieuse. On se sent tout petit sous les arbres géants.\n\nGuide obligatoire pour voir les animaux camouflés !",
+        "tags": [
+          "Nature",
+          "nosybe",
+          "nature",
+          "budget_1"
+        ],
+        "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
+        "acces": "Tuk-tuk facile depuis Hell-Ville ou Ambatoloaka.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4167,48.3167",
+        "prix": "Gratuit",
+        "note": 4.5,
+        "duree": "4h à 6h",
+        "categorie": "Nature",
+        "galerie_photos": [
+          {
+            "url": "images/spots/lokobe.jpg",
+            "alt": "Réserve de Lokobe",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h (fermé le lundi)",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "eviter": "Janvier-Mars (pluies intenses)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Bonnes chaussures de randonnée",
+              "Eau (2L min)",
+              "Crème solaire",
+              "Appareil photo",
+              "Anti-moustiques"
+            ],
+            "conseils": "Guide local recommandé pour découvrir la faune"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.109Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.5,
+          "nombre_avis": 92,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": 4.6,
+            "experience_globale": 4.5,
+            "beaute_naturelle": 4.7
+          },
+          "avis_recents": [
+            {
+              "auteur": "Sophie M.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Rakoto F.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "parc_national",
+          "cta_principal": {
+            "texte": "Réserver un Guide",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "🎫"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -13.4167,
+          "longitude": 48.3167,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Lokobe, c'est la forêt originelle de Nosy Be. La jungle comme elle était avant l'homme.",
+        "has_expandable_description": true,
+        "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿"
+      }
+    },
+    {
+      "garde": {
+        "id": 21,
+        "nom": "Réserve Naturelle de Lokobe"
+      },
+      "absorbe": {
+        "id": 622,
+        "nom": "Lokobe Special Reserve"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 622,
+        "nom": "Lokobe Special Reserve",
+        "ville": "Nosy Be",
+        "type": "Nature",
+        "prix": "50 000 Ar",
+        "prixNum": 50000,
+        "note": "4.6",
+        "image": "images/spots/lokobe.jpg",
+        "description": "Dernière forêt primaire de l’île. Accès en pirogue, observation de caméléons et boas. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Nosy Be. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
+        "tags": [
+          "Nature",
+          "nosybe",
+          "explorer",
+          "budget_2",
+          "nature",
+          "aventure"
+        ],
+        "lat": -13.4,
+        "lng": 48.3,
+        "price": "50 000 Ar",
+        "rating": "4.6",
+        "duration": "Libre",
+        "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
+        "acces": "Tuk-tuk facile depuis Hell-Ville ou Ambatoloaka.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4,48.3",
+        "duree": "4h à 6h",
+        "categorie": "Nature",
+        "galerie_photos": [
+          {
+            "url": "images/spots/lokobe.jpg",
+            "alt": "Lokobe Special Reserve",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h (fermé le lundi)",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "eviter": "Janvier-Mars (pluies intenses)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Bonnes chaussures de randonnée",
+              "Eau (2L min)",
+              "Crème solaire",
+              "Appareil photo",
+              "Anti-moustiques"
+            ],
+            "conseils": "Guide local recommandé pour découvrir la faune"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.185Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.6",
+          "nombre_avis": 128,
+          "detail_notes": {
+            "accessibilite": 4.4,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.6",
+            "beaute_naturelle": null
+          },
+          "avis_recents": [
+            {
+              "auteur": "Sophie M.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Rakoto F.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "parc_national",
+          "cta_principal": {
+            "texte": "Réserver un Guide",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "🎫"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -13.4,
+          "longitude": 48.3,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Dernière forêt primaire de l’île. Accès en pirogue, observation de caméléons et boas. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Nosy Be.",
+        "has_expandable_description": true,
+        "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
+      }
+    },
+    {
+      "garde": {
+        "id": 102,
+        "nom": "Allamanda Hôtel"
+      },
+      "absorbe": {
+        "id": 611,
+        "nom": "Allamanda Hotel"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 611,
+        "ville": "Diego-Suarez",
+        "nom": "Allamanda Hotel",
+        "type": "Hébergement",
+        "note": 4.5,
+        "prix": "Confort",
+        "description": "Le Fleuve Sambirano, c'est l'artère vitale de la région. Une balade en pirogue pour déconnecter totalement.\n\n🐊 Faune : Ouvrez l'œil, des crocodiles se dorent parfois sur les berges (de loin, c'est mieux !).\n🌳 Paysage : Des berges verdoyantes, des oiseaux pêcheurs... c'est le calme absolu.\n🛶 Authentique : La pirogue, c'est le moyen de transport local. Laissez-vous glisser au fil de l'eau.\n\nUn moment de pure zénitude au cœur de la nature.",
+        "image": "images/hotels/allamanda.jpg",
+        "conseil": "Demandez une chambre à l’étage pour une meilleure vue sur la baie.",
+        "duree": "Nuit",
+        "tags": [
+          "Hébergement",
+          "diego",
+          "dormir",
+          "budget_1"
+        ],
+        "price": "Confort",
+        "rating": 4.5,
+        "duration": "Nuit",
+        "lat": -12.282662977289531,
+        "lng": 49.286306596611105,
+        "generated_gps": true,
+        "prixNum": 0,
+        "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
+        "horaires": "8h00 - 18h00",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.282662977289531,49.286306596611105",
+        "categorie": "Hébergement",
+        "galerie_photos": [
+          {
+            "url": "images/hotels/allamanda.jpg",
+            "alt": "Allamanda Hotel",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.132Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.5,
+          "nombre_avis": 82,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": 4.6,
+            "experience_globale": 4.5,
+            "beaute_naturelle": 4.5
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.282662977289531,
+          "longitude": 49.286306596611105,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Le Fleuve Sambirano, c'est l'artère vitale de la région. Une balade en pirogue pour déconnecter totalement.",
+        "has_expandable_description": true,
+        "humour_grok": "Si tu trouves une bête bizarre dans ta chambre, donne-lui un prénom. Ça fait moins peur. 🕷️"
+      }
+    },
+    {
+      "garde": {
+        "id": 702,
+        "nom": "Île aux Nattes"
+      },
+      "absorbe": {
+        "id": 633,
+        "nom": "Île aux Nattes"
+      },
+      "raison": "même île ; la fiche 633 était rattachée à Toamasina (134 km)",
+      "fiche_absorbee": {
+        "id": 633,
+        "nom": "Île aux Nattes",
+        "ville": "Toamasina",
+        "type": "Spot Local",
+        "prix": "Gratuit",
+        "prixNum": 0,
+        "note": "4.9",
+        "image": "images/iles/ile-aux-nattes.jpg",
+        "description": "Le paradis tropical par excellence, sans voitures, juste du sable blanc. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "tags": [
+          "Spot Local",
+          "tamatave",
+          "explorer",
+          "budget_1",
+          "spots",
+          "secret_spot"
+        ],
+        "lat": -17,
+        "lng": 49.8,
+        "price": "Gratuit",
+        "rating": "4.9",
+        "duration": "Libre",
+        "local_access_required": true,
+        "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
+        "acces": "Pousse-pousse ou Tuk-tuk sont les rois ici. Négociez la course.",
+        "horaires": "8h00 - 18h00",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-17,49.8",
+        "duree": "2h à 4h",
+        "categorie": "Spot Local",
+        "galerie_photos": [
+          {
+            "url": "images/iles/ile-aux-nattes.jpg",
+            "alt": "Île aux Nattes",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.189Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.9",
+          "nombre_avis": 145,
+          "detail_notes": {
+            "accessibilite": 4.7,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.9",
+            "beaute_naturelle": "4.9"
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -17,
+          "longitude": 49.8,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Le paradis tropical par excellence, sans voitures, juste du sable blanc. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
+        "has_expandable_description": true,
+        "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
+      }
+    },
+    {
+      "garde": {
+        "id": 35,
+        "nom": "Parc National d’Ankarafantsika"
+      },
+      "absorbe": {
+        "id": 627,
+        "nom": "Parc Ankarafantsika"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 627,
+        "nom": "Parc Ankarafantsika",
+        "ville": "Mahajanga",
+        "type": "Nature",
+        "prix": "45 000 Ar",
+        "prixNum": 45000,
+        "note": "4.8",
+        "image": "images/spots/ankarafantsika.jpg",
+        "description": "Royaume des oiseaux et des Sifakas. Paysages de canyon et de lacs. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Mahajanga. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
+        "tags": [
+          "Nature",
+          "majunga",
+          "explorer",
+          "budget_2",
+          "nature",
+          "famille"
+        ],
+        "lat": -16.3167,
+        "lng": 46.8167,
+        "price": "45 000 Ar",
+        "rating": "4.8",
+        "duration": "Libre",
+        "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
+        "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-16.3167,46.8167",
+        "duree": "4h à 6h",
+        "categorie": "Nature",
+        "galerie_photos": [
+          {
+            "url": "images/spots/ankarafantsika.jpg",
+            "alt": "Parc Ankarafantsika",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h (fermé le lundi)",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "eviter": "Janvier-Mars (pluies intenses)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Bonnes chaussures de randonnée",
+              "Eau (2L min)",
+              "Crème solaire",
+              "Appareil photo",
+              "Anti-moustiques"
+            ],
+            "conseils": "Guide local recommandé pour découvrir la faune"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.187Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.8",
+          "nombre_avis": 130,
+          "detail_notes": {
+            "accessibilite": 4.6,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.8",
+            "beaute_naturelle": null
+          },
+          "avis_recents": [
+            {
+              "auteur": "Sophie M.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Rakoto F.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "parc_national",
+          "cta_principal": {
+            "texte": "Réserver un Guide",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "🎫"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -16.3167,
+          "longitude": 46.8167,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Royaume des oiseaux et des Sifakas. Paysages de canyon et de lacs. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Mahajanga.",
+        "has_expandable_description": true,
+        "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
+      }
+    },
+    {
+      "garde": {
+        "id": 41,
+        "nom": "Parc National Andasibe-Mantadia"
+      },
+      "absorbe": {
+        "id": 630,
+        "nom": "Parc Andasibe-Mantadia"
+      },
+      "raison": "même parc ; la fiche 630 était rattachée à Toamasina (136 km)",
+      "fiche_absorbee": {
+        "id": 630,
+        "nom": "Parc Andasibe-Mantadia",
+        "ville": "Toamasina",
+        "type": "Nature",
+        "prix": "45 000 Ar",
+        "prixNum": 45000,
+        "note": "4.8",
+        "image": "images/spots/andasibe-mantadia.jpg",
+        "description": "La maison de l’Indri Indri. Forêt humide et chant des lémuriens. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Toamasina. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
+        "tags": [
+          "Nature",
+          "tamatave",
+          "explorer",
+          "budget_2",
+          "nature",
+          "famille"
+        ],
+        "lat": -18.9333,
+        "lng": 48.4167,
+        "price": "45 000 Ar",
+        "rating": "4.8",
+        "duration": "Libre",
+        "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
+        "acces": "Pousse-pousse ou Tuk-tuk sont les rois ici. Négociez la course.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.9333,48.4167",
+        "duree": "4h à 6h",
+        "categorie": "Nature",
+        "galerie_photos": [
+          {
+            "url": "images/spots/andasibe-mantadia.jpg",
+            "alt": "Parc Andasibe-Mantadia",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h (fermé le lundi)",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "eviter": "Janvier-Mars (pluies intenses)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Bonnes chaussures de randonnée",
+              "Eau (2L min)",
+              "Crème solaire",
+              "Appareil photo",
+              "Anti-moustiques"
+            ],
+            "conseils": "Guide local recommandé pour découvrir la faune"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.188Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.8",
+          "nombre_avis": 85,
+          "detail_notes": {
+            "accessibilite": 4.6,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.8",
+            "beaute_naturelle": null
+          },
+          "avis_recents": [
+            {
+              "auteur": "Sophie M.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Rakoto F.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "parc_national",
+          "cta_principal": {
+            "texte": "Réserver un Guide",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "🎫"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -18.9333,
+          "longitude": 48.4167,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "La maison de l’Indri Indri. Forêt humide et chant des lémuriens. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Toamasina.",
+        "has_expandable_description": true,
+        "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵"
+      }
+    },
+    {
+      "garde": {
+        "id": 47,
+        "nom": "Plage d’Ifaty / Mangily"
+      },
+      "absorbe": {
+        "id": 634,
+        "nom": "Plage d’Ifaty"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 634,
+        "nom": "Plage d’Ifaty",
+        "ville": "Toliara",
+        "type": "Spot Local",
+        "prix": "Gratuit",
+        "prixNum": 0,
+        "note": "4.5",
+        "image": "images/iles/plage-ifaty.jpg",
+        "description": "Station balnéaire et village de pêcheurs Vezo. Baignade et détente. Ce lieu présente un intérêt certain pour les visiteurs de Toliara, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "tags": [
+          "Spot Local",
+          "tulear",
+          "explorer",
+          "budget_1",
+          "spots",
+          "nature",
+          "detente",
+          "secret_spot"
+        ],
+        "lat": -23.15,
+        "lng": 43.6167,
+        "price": "Gratuit",
+        "rating": "4.5",
+        "duration": "Libre",
+        "local_access_required": true,
+        "conseil": "Attention aux marées pour la baignade. Crème solaire indispensable !",
+        "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.15,43.6167",
+        "duree": "2h à 4h",
+        "categorie": "Spot Local",
+        "galerie_photos": [
+          {
+            "url": "images/iles/plage-ifaty.jpg",
+            "alt": "Plage d’Ifaty",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.190Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.5",
+          "nombre_avis": 111,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.5",
+            "beaute_naturelle": "4.5"
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -23.15,
+          "longitude": 43.6167,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Station balnéaire et village de pêcheurs Vezo. Baignade et détente. Ce lieu présente un intérêt certain pour les visiteurs de Toliara, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
+        "has_expandable_description": true,
+        "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
+      }
+    },
+    {
+      "garde": {
+        "id": 50,
+        "nom": "Réserve Spéciale de l’Ankarana"
+      },
+      "absorbe": {
+        "id": 613,
+        "nom": "Ankarana"
+      },
+      "raison": "quatre fiches pour le massif de l’Ankarana",
+      "fiche_absorbee": {
+        "id": 613,
+        "nom": "Ankarana",
+        "ville": "Diego-Suarez",
+        "type": "nature",
+        "lat": -12.9167,
+        "lng": 49.0833,
+        "prix": ">= 10 000 Ar",
+        "note": "4.5",
+        "description": "Une réserve spéciale célèbre pour ses tsingy, ses grottes et ses canyons. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "image": "images/spots/ankarana.jpg",
+        "is_recovered_spot": true,
+        "price": ">= 10 000 Ar",
+        "rating": "4.5",
+        "duration": "Libre",
+        "tags": [
+          "diego",
+          "explorer",
+          "budget_1",
+          "nature"
+        ],
+        "prixNum": 10000,
+        "conseil": "Le vent Varatraza souffle fort l'après-midi, prévoyez un coupe-vent.",
+        "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.9167,49.0833",
+        "duree": "2h à 4h",
+        "categorie": "nature",
+        "galerie_photos": [
+          {
+            "url": "images/spots/ankarana.jpg",
+            "alt": "Ankarana",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.182Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.5",
+          "nombre_avis": 63,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.5",
+            "beaute_naturelle": "4.5"
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.9167,
+          "longitude": 49.0833,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Une réserve spéciale célèbre pour ses tsingy, ses grottes et ses canyons. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
+        "has_expandable_description": true,
+        "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿"
+      }
+    },
+    {
+      "garde": {
+        "id": 50,
+        "nom": "Réserve Spéciale de l’Ankarana"
+      },
+      "absorbe": {
+        "id": 617,
+        "nom": "Réserve Ankarana"
+      },
+      "raison": "quatre fiches pour le massif de l’Ankarana",
+      "fiche_absorbee": {
+        "id": 617,
+        "nom": "Réserve Ankarana",
+        "ville": "Diego-Suarez",
+        "type": "nature",
+        "lat": -12.8333,
+        "lng": 49.1167,
+        "prix": ">= 10 000 Ar",
+        "note": "4.5",
+        "description": "Une réserve spéciale célèbre pour ses tsingy, ses grottes et ses canyons. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "image": "images/spots/ankarana.jpg",
+        "is_recovered_spot": true,
+        "price": ">= 10 000 Ar",
+        "rating": "4.5",
+        "duration": "Libre",
+        "tags": [
+          "diego",
+          "explorer",
+          "budget_1",
+          "nature"
+        ],
+        "prixNum": 10000,
+        "conseil": "Le vent Varatraza souffle fort l'après-midi, prévoyez un coupe-vent.",
+        "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.8333,49.1167",
+        "duree": "2h à 4h",
+        "categorie": "nature",
+        "galerie_photos": [
+          {
+            "url": "images/spots/ankarana.jpg",
+            "alt": "Réserve Ankarana",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.183Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.5",
+          "nombre_avis": 111,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.5",
+            "beaute_naturelle": "4.5"
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.8333,
+          "longitude": 49.1167,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Une réserve spéciale célèbre pour ses tsingy, ses grottes et ses canyons. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
+        "has_expandable_description": true,
+        "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵"
+      }
+    },
+    {
+      "garde": {
+        "id": 50,
+        "nom": "Réserve Spéciale de l’Ankarana"
+      },
+      "absorbe": {
+        "id": 605,
+        "nom": "Parc National Ankarana"
+      },
+      "raison": "quatre fiches pour le massif de l’Ankarana",
+      "fiche_absorbee": {
+        "id": 605,
+        "ville": "Ambilobe",
+        "nom": "Parc National Ankarana",
+        "type": "Nature",
+        "lat": -12.916,
+        "lng": 49.116,
+        "image": "images/spots/ankarana.jpg",
+        "description": "L'Ankarana, c'est le Mordor version tropicale. Des formations calcaires acérées à perte de vue (les Tsingy) qui cachent un monde souterrain.\n\n🦇 Grottes : Explorez des cathédrales souterraines habitées par des colonies de chauves-souris. Indiana Jones, c'est vous !\n🌉 Pont Suspendu : Oserez-vous traverser au-dessus du vide ? La vue sur le canyon est imprenable.\n🐒 Lémuriens : Les Lémurs couronnés sont chez eux ici. Ils sont curieux, mais gardez vos distances.\n\nC'est physique, il fait chaud, mais c'est inoubliable.",
+        "tags": [
+          "Nature",
+          "diego",
+          "nature",
+          "aventure",
+          "budget_1"
+        ],
+        "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
+        "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.916,49.116",
+        "prix": "Gratuit",
+        "note": 4.5,
+        "duree": "4h à 6h",
+        "categorie": "Nature",
+        "galerie_photos": [
+          {
+            "url": "images/spots/ankarana.jpg",
+            "alt": "Parc National Ankarana",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h (fermé le lundi)",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "eviter": "Janvier-Mars (pluies intenses)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Bonnes chaussures de randonnée",
+              "Eau (2L min)",
+              "Crème solaire",
+              "Appareil photo",
+              "Anti-moustiques"
+            ],
+            "conseils": "Guide local recommandé pour découvrir la faune"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.097Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.5,
+          "nombre_avis": 123,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": 4.6,
+            "experience_globale": 4.5,
+            "beaute_naturelle": 4.7
+          },
+          "avis_recents": [
+            {
+              "auteur": "Sophie M.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Rakoto F.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "parc_national",
+          "cta_principal": {
+            "texte": "Réserver un Guide",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "🎫"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.916,
+          "longitude": 49.116,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "L'Ankarana, c'est le Mordor version tropicale. Des formations calcaires acérées à perte de vue (les Tsingy) qui cachent un monde souterrain.",
+        "has_expandable_description": true,
+        "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾"
+      }
+    },
+    {
+      "garde": {
+        "id": 601,
+        "nom": "Diego-Suarez (Antsiranana)"
+      },
+      "absorbe": {
+        "id": 614,
+        "nom": "Diego-Suarez"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 614,
+        "nom": "Diego-Suarez",
+        "ville": "Diego-Suarez",
+        "type": "ville",
+        "lat": -12.2792,
+        "lng": 49.2919,
+        "prix": "gratuit",
+        "note": "4.5",
+        "description": "Une ville portuaire animée avec une architecture coloniale et une baie spectaculaire. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "image": "images/villes/diego-suarez.jpg",
+        "is_recovered_spot": true,
+        "price": "gratuit",
+        "rating": "4.5",
+        "duration": "Libre",
+        "tags": [
+          "ville",
+          "diego",
+          "budget_1",
+          "explorer",
+          "explorer"
+        ],
+        "prixNum": 0,
+        "conseil": "Le vent Varatraza souffle fort l'après-midi, prévoyez un coupe-vent.",
+        "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
+        "horaires": "8h00 - 18h00",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.2792,49.2919",
+        "duree": "2h à 4h",
+        "categorie": "ville",
+        "galerie_photos": [
+          {
+            "url": "images/villes/diego-suarez.jpg",
+            "alt": "Diego-Suarez",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.182Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.5",
+          "nombre_avis": 139,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.5",
+            "beaute_naturelle": "4.5"
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.2792,
+          "longitude": 49.2919,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Une ville portuaire animée avec une architecture coloniale et une baie spectaculaire. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
+        "has_expandable_description": true,
+        "humour_grok": "Le code de la route est une suggestion vague. Le klaxon est ton seul bouclier. 🚗"
+      }
+    },
+    {
+      "garde": {
+        "id": 15,
+        "nom": "Nosy Lonjo (Pain de Sucre)"
+      },
+      "absorbe": {
+        "id": 616,
+        "nom": "Pain de Sucre"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 616,
+        "nom": "Pain de Sucre",
+        "ville": "Diego-Suarez",
+        "type": "spot-local",
+        "lat": -12.2667,
+        "lng": 49.3333,
+        "prix": "gratuit",
+        "note": "4.5",
+        "description": "Un îlot emblématique au milieu de la baie de Diego-Suarez, offrant une vue panoramique. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "image": "images/spots/pain-de-sucre.jpg",
+        "is_recovered_spot": true,
+        "price": "gratuit",
+        "rating": "4.5",
+        "duration": "Libre",
+        "tags": [
+          "spot-local",
+          "diego",
+          "spots",
+          "budget_1"
+        ],
+        "prixNum": 0,
+        "conseil": "Le vent Varatraza souffle fort l'après-midi, prévoyez un coupe-vent.",
+        "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
+        "horaires": "8h00 - 18h00",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.2667,49.3333",
+        "duree": "2h à 4h",
+        "categorie": "spot-local",
+        "galerie_photos": [
+          {
+            "url": "images/spots/pain-de-sucre.jpg",
+            "alt": "Pain de Sucre",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.183Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.5",
+          "nombre_avis": 58,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.5",
+            "beaute_naturelle": "4.5"
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.2667,
+          "longitude": 49.3333,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Un îlot emblématique au milieu de la baie de Diego-Suarez, offrant une vue panoramique. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
+        "has_expandable_description": true,
+        "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚"
+      }
+    },
+    {
+      "garde": {
+        "id": 13,
+        "nom": "Restaurant Le Melville"
+      },
+      "absorbe": {
+        "id": 16,
+        "nom": "Le Melville"
+      },
+      "raison": "même restaurant (la fiche 16 était typée « Nature »)",
+      "fiche_absorbee": {
+        "id": 16,
+        "ville": "Diego-Suarez",
+        "nom": "Le Melville",
+        "type": "Nature",
+        "lat": -12.282,
+        "lng": 49.294,
+        "prix": "40 000 Ar",
+        "prixEur": "9 €",
+        "prixNum": 40000,
+        "note": 4.6,
+        "description": "Une institution historique face à la baie. Cuisine raffinée (crabes, camarons) servie sur une magnifique terrasse coloniale. Le coucher de soleil y est spectaculaire. Un lieu chargé d’histoire. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Diego-Suarez. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
+        "image": "images/restaurants/diego_le_melville.png",
+        "acces": "Rue Richelieu, Centre-ville",
+        "horaires": "11h-22h",
+        "conseil": "Réservez la table au coin de la terrasse pour la meilleure vue.",
+        "duree": "2h",
+        "siteWeb": "https://www.facebook.com/LeMelvilleDiego",
+        "spotLocal": true,
+        "contactLocal": "Paul, pêcheur au marché central de Diego (matin 6h-9h)",
+        "respect": "Retirer chaussures à l'entrée, ne pas toucher aux offrandes, silence",
+        "tags": [
+          "Nature",
+          "diego",
+          "manger",
+          "spots",
+          "budget_2",
+          "nature",
+          "culture"
+        ],
+        "price": "40 000 Ar",
+        "rating": 4.6,
+        "duration": "2h",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.282,49.294",
+        "categorie": "Nature",
+        "galerie_photos": [
+          {
+            "url": "images/restaurants/diego_le_melville.png",
+            "alt": "Le Melville",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h (fermé le lundi)",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "eviter": "Janvier-Mars (pluies intenses)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Bonnes chaussures de randonnée",
+              "Eau (2L min)",
+              "Crème solaire",
+              "Appareil photo",
+              "Anti-moustiques"
+            ],
+            "conseils": "Guide local recommandé pour découvrir la faune"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.125Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.6,
+          "nombre_avis": 108,
+          "detail_notes": {
+            "accessibilite": 4.4,
+            "rapport_qualite_prix": 4.7,
+            "experience_globale": 4.6,
+            "beaute_naturelle": 4.8
+          },
+          "avis_recents": [
+            {
+              "auteur": "Sophie M.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Rakoto F.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "parc_national",
+          "cta_principal": {
+            "texte": "Réserver un Guide",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "🎫"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -12.282,
+          "longitude": 49.294,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Une institution historique face à la baie. Cuisine raffinée (crabes, camarons) servie sur une magnifique terrasse coloniale. Le coucher de soleil y est spectaculaire. Un lieu chargé d’histoire. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
+        "has_expandable_description": true,
+        "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
+      }
+    },
+    {
+      "garde": {
+        "id": 36,
+        "nom": "Katsepy et le Phare"
+      },
+      "absorbe": {
+        "id": 628,
+        "nom": "Katsepy"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 628,
+        "nom": "Katsepy",
+        "ville": "Mahajanga",
+        "type": "Nature",
+        "prix": "15 000 Ar",
+        "prixNum": 15000,
+        "note": "4.5",
+        "image": "images/spots/katsepy-phare.jpg",
+        "description": "Village de pêcheurs accessible en bac. Lémuriens et phare historique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Mahajanga. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
+        "tags": [
+          "Nature",
+          "majunga",
+          "explorer",
+          "budget_1"
+        ],
+        "lat": -15.7456,
+        "lng": 46.2234,
+        "price": "15 000 Ar",
+        "rating": "4.5",
+        "duration": "Libre",
+        "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
+        "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.7456,46.2234",
+        "duree": "4h à 6h",
+        "categorie": "Nature",
+        "galerie_photos": [
+          {
+            "url": "images/spots/katsepy-phare.jpg",
+            "alt": "Katsepy",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h (fermé le lundi)",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "eviter": "Janvier-Mars (pluies intenses)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Bonnes chaussures de randonnée",
+              "Eau (2L min)",
+              "Crème solaire",
+              "Appareil photo",
+              "Anti-moustiques"
+            ],
+            "conseils": "Guide local recommandé pour découvrir la faune"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.188Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.5",
+          "nombre_avis": 98,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.5",
+            "beaute_naturelle": null
+          },
+          "avis_recents": [
+            {
+              "auteur": "Sophie M.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Rakoto F.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "parc_national",
+          "cta_principal": {
+            "texte": "Réserver un Guide",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "🎫"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -15.7456,
+          "longitude": 46.2234,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Village de pêcheurs accessible en bac. Lémuriens et phare historique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Mahajanga.",
+        "has_expandable_description": true,
+        "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃"
+      }
+    },
+    {
+      "garde": {
+        "id": 535,
+        "nom": "Cathédrale Notre-Dame de la Salette"
+      },
+      "absorbe": {
+        "id": 638,
+        "nom": "Cathédrale d’Antsirabe"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 638,
+        "nom": "Cathédrale d’Antsirabe",
+        "ville": "Antsirabe",
+        "type": "Culture",
+        "prix": "Gratuit",
+        "prixNum": 0,
+        "note": "4.6",
+        "image": "images/tana/antsirabe_cathedrale.jpg",
+        "description": "Majestueuse cathédrale et balade en pousse-pousse. Ce lieu présente un intérêt certain pour les visiteurs de Antsirabe, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "tags": [
+          "Culture",
+          "explorer",
+          "budget_1"
+        ],
+        "lat": -19.8667,
+        "lng": 47.0333,
+        "price": "Gratuit",
+        "rating": "4.6",
+        "duration": "Libre",
+        "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
+        "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
+        "horaires": "9h00 - 17h00 (Fermé le dimanche)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-19.8667,47.0333",
+        "duree": "2h à 4h",
+        "categorie": "Culture",
+        "galerie_photos": [
+          {
+            "url": "images/tana/antsirabe_cathedrale.jpg",
+            "alt": "Cathédrale d’Antsirabe",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.191Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.6",
+          "nombre_avis": 100,
+          "detail_notes": {
+            "accessibilite": 4.4,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.6",
+            "beaute_naturelle": "4.6"
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -19.8667,
+          "longitude": 47.0333,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Majestueuse cathédrale et balade en pousse-pousse. Ce lieu présente un intérêt certain pour les visiteurs de Antsirabe, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
+        "has_expandable_description": true,
+        "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
+      }
+    },
+    {
+      "garde": {
+        "id": 523,
+        "nom": "Le Sakamanga"
+      },
+      "absorbe": {
+        "id": 624,
+        "nom": "Sakamanga"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 624,
+        "nom": "Sakamanga",
+        "ville": "Antananarivo",
+        "type": "Hotel",
+        "prix": "150 000 Ar",
+        "prixNum": 150000,
+        "note": "4.5",
+        "image": "images/hotels/sakamanga.jpg",
+        "description": "Une institution ! Musée-hôtel plein de charme et d’histoire. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "tags": [
+          "Hotel",
+          "explorer",
+          "tana",
+          "dormir",
+          "budget_3",
+          "culture"
+        ],
+        "lat": -18.9,
+        "lng": 47.5,
+        "price": "150 000 Ar",
+        "rating": "4.5",
+        "duration": "Libre",
+        "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
+        "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
+        "horaires": "8h00 - 18h00",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.9,47.5",
+        "duree": "2h à 4h",
+        "categorie": "Hotel",
+        "galerie_photos": [
+          {
+            "url": "images/hotels/sakamanga.jpg",
+            "alt": "Sakamanga",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.186Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.5",
+          "nombre_avis": 81,
+          "detail_notes": {
+            "accessibilite": 4.3,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.5",
+            "beaute_naturelle": "4.5"
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 4.5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -18.9,
+          "longitude": 47.5,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Une institution ! Musée-hôtel plein de charme et d’histoire. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
+        "has_expandable_description": true,
+        "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
+      }
+    },
+    {
+      "garde": {
+        "id": 683,
+        "nom": "Palmarium Reserve - Lodge Nature"
+      },
+      "absorbe": {
+        "id": 632,
+        "nom": "Palmarium Reserve"
+      },
+      "raison": "même lieu",
+      "fiche_absorbee": {
+        "id": 632,
+        "nom": "Palmarium Reserve",
+        "ville": "Toamasina",
+        "type": "Lodge",
+        "prix": "200 000 Ar",
+        "prixNum": 200000,
+        "note": "4.8",
+        "image": "images/hotels/palmarium.jpg",
+        "description": "Dormez au milieu des lémuriens. Visite de l’Aye-Aye nocturne. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "tags": [
+          "Lodge",
+          "tamatave",
+          "explorer",
+          "dormir",
+          "budget_3"
+        ],
+        "lat": -18.6,
+        "lng": 49.2,
+        "price": "200 000 Ar",
+        "rating": "4.8",
+        "duration": "Libre",
+        "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
+        "acces": "Pousse-pousse ou Tuk-tuk sont les rois ici. Négociez la course.",
+        "horaires": "8h00 - 18h00",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.6,49.2",
+        "duree": "2h à 4h",
+        "categorie": "Lodge",
+        "galerie_photos": [
+          {
+            "url": "images/hotels/palmarium.jpg",
+            "alt": "Palmarium Reserve",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.189Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.8",
+          "nombre_avis": 96,
+          "detail_notes": {
+            "accessibilite": 4.6,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.8",
+            "beaute_naturelle": "4.8"
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -18.6,
+          "longitude": 49.2,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Dormez au milieu des lémuriens. Visite de l’Aye-Aye nocturne. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
+        "has_expandable_description": true,
+        "humour_grok": "Le petit-déjeuner est inclus, mais la bataille pour le dernier croissant ne l'est pas. 🥐"
+      }
+    },
+    {
+      "garde": {
+        "id": 410,
+        "nom": "Bakouba Concept Hotel"
+      },
+      "absorbe": {
+        "id": 637,
+        "nom": "Bakuba Lodge"
+      },
+      "raison": "même établissement (Bakuba / Bakouba)",
+      "fiche_absorbee": {
+        "id": 637,
+        "nom": "Bakuba Lodge",
+        "ville": "Toliara",
+        "type": "Lodge",
+        "prix": "500 000 Ar",
+        "prixNum": 500000,
+        "note": "4.9",
+        "image": "images/toliara/toliara_anakao.png",
+        "description": "Architecture Gaudi-esque incroyable en plein bush. Ce lieu présente un intérêt certain pour les visiteurs de Toliara, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "tags": [
+          "Lodge",
+          "tulear",
+          "dormir",
+          "budget_3"
+        ],
+        "lat": -23.3,
+        "lng": 43.7,
+        "price": "500 000 Ar",
+        "rating": "4.9",
+        "duration": "Libre",
+        "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
+        "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
+        "horaires": "8h00 - 18h00",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.3,43.7",
+        "duree": "2h à 4h",
+        "categorie": "Lodge",
+        "galerie_photos": [
+          {
+            "url": "images/toliara/toliara_anakao.png",
+            "alt": "Bakuba Lodge",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.190Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.9",
+          "nombre_avis": 80,
+          "detail_notes": {
+            "accessibilite": 4.7,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.9",
+            "beaute_naturelle": "4.9"
+          },
+          "avis_recents": [
+            {
+              "auteur": "Pascal R.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Miora T.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general",
+          "cta_principal": {
+            "texte": "Organiser une Visite",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "📍"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -23.3,
+          "longitude": 43.7,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Architecture Gaudi-esque incroyable en plein bush. Ce lieu présente un intérêt certain pour les visiteurs de Toliara, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
+        "has_expandable_description": true,
+        "humour_grok": "5 étoiles en local, ça vaut un 2 étoiles chez toi. Ajuste tes attentes et tout ira bien. ⭐"
+      }
+    },
+    {
+      "garde": {
+        "id": 48,
+        "nom": "Forêt de Baobabs de Mangily"
+      },
+      "absorbe": {
+        "id": 635,
+        "nom": "Forêt des Baobabs (Reniala)"
+      },
+      "raison": "la forêt de baobabs de Mangily est la réserve de Reniala",
+      "fiche_absorbee": {
+        "id": 635,
+        "nom": "Forêt des Baobabs (Reniala)",
+        "ville": "Toliara",
+        "type": "Nature",
+        "prix": "15 000 Ar",
+        "prixNum": 15000,
+        "note": "4.6",
+        "image": "images/spots/foret-baobabs-mangily.jpg",
+        "description": "Forêt épineuse spectaculaire avec des baobabs bouteilles. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Toliara. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
+        "tags": [
+          "Nature",
+          "tulear",
+          "explorer",
+          "budget_1",
+          "nature"
+        ],
+        "lat": -23.1667,
+        "lng": 43.6,
+        "price": "15 000 Ar",
+        "rating": "4.6",
+        "duration": "Libre",
+        "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
+        "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
+        "horaires": "Accessible toute la journée (Conseillé le matin)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.1667,43.6",
+        "duree": "4h à 6h",
+        "categorie": "Nature",
+        "galerie_photos": [
+          {
+            "url": "images/spots/foret-baobabs-mangily.jpg",
+            "alt": "Forêt des Baobabs (Reniala)",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h (fermé le lundi)",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "eviter": "Janvier-Mars (pluies intenses)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Bonnes chaussures de randonnée",
+              "Eau (2L min)",
+              "Crème solaire",
+              "Appareil photo",
+              "Anti-moustiques"
+            ],
+            "conseils": "Guide local recommandé pour découvrir la faune"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.190Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": "4.6",
+          "nombre_avis": 72,
+          "detail_notes": {
+            "accessibilite": 4.4,
+            "rapport_qualite_prix": null,
+            "experience_globale": "4.6",
+            "beaute_naturelle": null
+          },
+          "avis_recents": [
+            {
+              "auteur": "Sophie M.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Rakoto F.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "parc_national",
+          "cta_principal": {
+            "texte": "Réserver un Guide",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "🎫"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -23.1667,
+          "longitude": 43.6,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Forêt épineuse spectaculaire avec des baobabs bouteilles. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Toliara.",
+        "has_expandable_description": true,
+        "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
+      }
+    },
+    {
+      "garde": {
+        "id": 48,
+        "nom": "Forêt de Baobabs de Mangily"
+      },
+      "absorbe": {
+        "id": 403,
+        "nom": "Forêt de Baobabs Mangily"
+      },
+      "raison": "la forêt de baobabs de Mangily est la réserve de Reniala",
+      "fiche_absorbee": {
+        "id": 403,
+        "ville": "Tuléar",
+        "nom": "Forêt de Baobabs Mangily",
+        "type": "Nature",
+        "lat": -23.1167,
+        "lng": 43.6167,
+        "prix": "20 000 Ar",
+        "prixEur": "5 €",
+        "prixNum": 20000,
+        "note": 4.6,
+        "description": "Réserve de Reniala : forêt de baobabs bouteilles, tortues radiata et oiseaux. Sentier facile pour découvrir ces géants millénaires. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Tuléar. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
+        "image": "images/toliara/toliara_baobabs_mangily.png",
+        "acces": "Mangily / Ifaty (30 km nord)",
+        "horaires": "6h - 17h",
+        "conseil": "Cherchez le fameux ’Baobab théière’.",
+        "duree": "1h30",
+        "siteWeb": "https://reniala-ecotourisme.jimdo.com",
+        "tags": [
+          "Nature",
+          "tulear",
+          "explorer",
+          "budget_1",
+          "nature"
+        ],
+        "price": "20 000 Ar",
+        "rating": 4.6,
+        "duration": "1h30",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.1167,43.6167",
+        "categorie": "Nature",
+        "galerie_photos": [
+          {
+            "url": "images/toliara/toliara_baobabs_mangily.png",
+            "alt": "Forêt de Baobabs Mangily",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h (fermé le lundi)",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Mai à Octobre (saison sèche)",
+            "eviter": "Janvier-Mars (pluies intenses)"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Bonnes chaussures de randonnée",
+              "Eau (2L min)",
+              "Crème solaire",
+              "Appareil photo",
+              "Anti-moustiques"
+            ],
+            "conseils": "Guide local recommandé pour découvrir la faune"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.175Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "avis",
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "avis": {
+          "note_globale": 4.6,
+          "nombre_avis": 84,
+          "detail_notes": {
+            "accessibilite": 4.4,
+            "rapport_qualite_prix": 4.7,
+            "experience_globale": 4.6,
+            "beaute_naturelle": 4.8
+          },
+          "avis_recents": [
+            {
+              "auteur": "Sophie M.",
+              "origine": "France",
+              "note": 5,
+              "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
+              "date": "2025-12-18",
+              "verifie": true
+            },
+            {
+              "auteur": "Rakoto F.",
+              "origine": "Madagascar",
+              "note": 4.5,
+              "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
+              "date": "2025-12-03",
+              "verifie": true
+            }
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "parc_national",
+          "cta_principal": {
+            "texte": "Réserver un Guide",
+            "url": "/contact",
+            "couleur": "orange",
+            "icone": "🎫"
+          },
+          "cta_secondaire": {
+            "texte": "Contacter un guide local",
+            "url": "https://wa.me/261340001234",
+            "type": "whatsapp"
+          }
+        },
+        "carte_interactive": {
+          "latitude": -23.1167,
+          "longitude": 43.6167,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Réserve de Reniala : forêt de baobabs bouteilles, tortues radiata et oiseaux. Sentier facile pour découvrir ces géants millénaires. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
+        "has_expandable_description": true,
+        "humour_grok": "Tu vas payer pour marcher dans la boue et chercher un lézard de 2cm invisible. Et tu vas adorer ça. Masochiste. 🤠"
+      }
+    }
+  ],
+  "ids_renumerotes": [
+    {
+      "nom": "Ancien Hôtel de la Marine",
+      "avant": 601,
+      "apres": 801
+    },
+    {
+      "nom": "Gîte du Voyageur",
+      "avant": 610,
+      "apres": 802
+    },
+    {
+      "nom": "Ravintsara Wellness Hotel",
+      "avant": 201,
+      "apres": 803
+    },
+    {
+      "nom": "Cimetière des Pirates",
+      "avant": 701,
+      "apres": 804
+    },
+    {
+      "nom": "Île aux Nattes",
+      "avant": 702,
+      "apres": 805
+    },
+    {
+      "nom": "Piscine Naturelle Ambodiatafana",
+      "avant": 703,
+      "apres": 806
+    },
+    {
+      "nom": "Cascade d'Antanandava",
+      "avant": 704,
+      "apres": 807
+    },
+    {
+      "nom": "Safari Baleines",
+      "avant": 705,
+      "apres": 808
+    }
+  ],
+  "descriptions_restaurees": [
+    {
+      "id": 601,
+      "nom": "Ancien Hôtel de la Marine",
+      "source": "data/lieux_backup_1767806302561.js"
+    },
+    {
+      "id": 602,
+      "nom": "Marché Bazarikely",
+      "source": "data/lieux_backup_1767806302561.js"
+    },
+    {
+      "id": 603,
+      "nom": "Place Joffre",
+      "source": "data/lieux_backup_1767806302561.js"
+    },
+    {
+      "id": 610,
+      "nom": "Gîte du Voyageur",
+      "source": "data/lieux_backup_1767806302561.js"
+    },
+    {
+      "id": 201,
+      "nom": "Ravintsara Wellness Hotel",
+      "source": "data/lieux_backup_1767806302561.js"
+    }
+  ],
+  "types_corriges": [
+    {
+      "id": 519,
+      "nom": "Lokanga Boutique Hotel",
+      "avant": "Restaurant",
+      "apres": "Hôtel"
+    },
+    {
+      "id": 11,
+      "nom": "Windsor Castle",
+      "avant": "Découverte",
+      "apres": "Culture"
+    },
+    {
+      "id": 603,
+      "nom": "Place Joffre",
+      "avant": "Point de Vue",
+      "apres": "Culture"
+    },
+    {
+      "id": 23,
+      "nom": "Lemuria Land",
+      "avant": "Culture",
+      "apres": "Nature"
+    },
+    {
+      "id": 28,
+      "nom": "Plongée Nosy Be",
+      "avant": "Culture",
+      "apres": "Excursion"
+    },
+    {
+      "id": 210,
+      "nom": "Le Bar de la Plage",
+      "avant": "Nature",
+      "apres": "Bar & Sortir"
+    },
+    {
+      "id": 36,
+      "nom": "Katsepy et le Phare",
+      "avant": "Bar",
+      "apres": "Nature"
+    },
+    {
+      "id": 40,
+      "nom": "Complexe Sportif Ankorondrano",
+      "avant": "Bar",
+      "apres": "Spot Local"
+    },
+    {
+      "id": 503,
+      "nom": "Coco Lodge Majunga",
+      "avant": "Bar",
+      "apres": "Hôtel"
+    },
+    {
+      "id": 46,
+      "nom": "Point de Vue Secret du Canyon",
+      "avant": "Bar",
+      "apres": "Spot Local"
+    },
+    {
+      "id": 316,
+      "nom": "Marché d’Anjoma",
+      "avant": "Bar",
+      "apres": "Culture"
+    },
+    {
+      "id": 645,
+      "nom": "Stand Fruits de Mer du Port",
+      "avant": "Nature",
+      "apres": "Restaurant"
+    }
+  ],
+  "villes_corrigees": [
+    {
+      "note": "« Tuléar » (18 fiches) fusionné dans « Toliara » ; « Tuléar » reste un alias de recherche (champ ville_alias)."
+    },
+    {
+      "id": 10,
+      "nom": "Tsingy Rouge",
+      "avant": "Diego-Suarez",
+      "apres": "Sadjoavato",
+      "depart_de": "Diego-Suarez"
+    },
+    {
+      "id": 35,
+      "nom": "Parc National d’Ankarafantsika",
+      "avant": "Mahajanga",
+      "apres": "Ankarafantsika",
+      "depart_de": "Mahajanga"
+    },
+    {
+      "id": 37,
+      "nom": "Grotte d’Anjohibe",
+      "avant": "Mahajanga",
+      "apres": "Anjohibe",
+      "depart_de": "Mahajanga"
+    },
+    {
+      "id": 684,
+      "nom": "Excursion Île Sainte-Marie en Bateau",
+      "avant": "Toamasina",
+      "apres": "Sainte-Marie",
+      "depart_de": "Toamasina"
+    },
+    {
+      "id": 675,
+      "nom": "Foulpointe Village et Plage",
+      "avant": "Toamasina",
+      "apres": "Foulpointe",
+      "depart_de": "Toamasina"
+    },
+    {
+      "id": 682,
+      "nom": "Mahambo Beach",
+      "avant": "Toamasina",
+      "apres": "Mahambo",
+      "depart_de": "Toamasina"
+    },
+    {
+      "id": 683,
+      "nom": "Palmarium Reserve - Lodge Nature",
+      "avant": "Toamasina",
+      "apres": "Ankanin'ny Nofy",
+      "depart_de": "Toamasina"
+    },
+    {
+      "id": 639,
+      "nom": "Ranomafana National Park",
+      "avant": "Fianarantsoa",
+      "apres": "Ranomafana",
+      "depart_de": "Fianarantsoa"
+    },
+    {
+      "id": 413,
+      "nom": "Le Paradisier",
+      "avant": "Toliara",
+      "apres": "Ifaty",
+      "depart_de": "Toliara"
+    },
+    {
+      "id": 414,
+      "nom": "Les Dunes d’Ifaty",
+      "avant": "Toliara",
+      "apres": "Ifaty",
+      "depart_de": "Toliara"
+    },
+    {
+      "id": 419,
+      "nom": "Mangily Beach Bar",
+      "avant": "Toliara",
+      "apres": "Ifaty",
+      "depart_de": "Toliara"
+    },
+    {
+      "id": 402,
+      "nom": "Plage d’Anakao",
+      "avant": "Toliara",
+      "apres": "Anakao",
+      "depart_de": "Toliara"
+    },
+    {
+      "id": 409,
+      "nom": "Le Vezo (Anakao)",
+      "avant": "Toliara",
+      "apres": "Anakao",
+      "depart_de": "Toliara"
+    },
+    {
+      "id": 412,
+      "nom": "Peter Pan",
+      "avant": "Toliara",
+      "apres": "Anakao",
+      "depart_de": "Toliara"
+    },
+    {
+      "id": 636,
+      "nom": "Anakao Ocean Lodge",
+      "avant": "Toliara",
+      "apres": "Anakao",
+      "depart_de": "Toliara"
+    }
+  ],
+  "coords_corrigees": [
+    {
+      "id": 7,
+      "nom": "Mer d’Émeraude",
+      "avant": [
+        -12.3333,
+        49.4833
+      ],
+      "apres": [
+        -12.164,
+        49.352
+      ],
+      "raison": "coordonnées de la fiche fusionnée, plus proches du site réel"
+    },
+    {
+      "id": 10,
+      "nom": "Tsingy Rouge",
+      "avant": [
+        -12.9165,
+        49.2936
+      ],
+      "apres": [
+        -12.633,
+        49.483
+      ],
+      "raison": "coordonnées de la fiche fusionnée, plus proches du site réel"
+    },
+    {
+      "id": 683,
+      "nom": "Palmarium Reserve - Lodge Nature",
+      "avant": [
+        -17.9845,
+        49.3567
+      ],
+      "apres": [
+        -18.6,
+        49.2
+      ],
+      "raison": "coordonnées de la fiche fusionnée, plus proches du site réel"
+    }
+  ],
+  "budgets_corriges": [
+    {
+      "id": 7,
+      "nom": "Mer d’Émeraude",
+      "prix": "80 000 Ar",
+      "avant": "budget_3",
+      "apres": "budget_2"
+    },
+    {
+      "id": 658,
+      "nom": "Chambres d'hôtes Evasion",
+      "prix": "25 000 Ar",
+      "avant": "budget_1",
+      "apres": "budget_2"
+    },
+    {
+      "id": 671,
+      "nom": "Parc Zoologique d'Ivoloina",
+      "prix": "15 000 Ar",
+      "avant": "budget_2",
+      "apres": "budget_1"
+    },
+    {
+      "id": 675,
+      "nom": "Foulpointe Village et Plage",
+      "prix": "5 000 Ar",
+      "avant": "budget_2",
+      "apres": "budget_1"
+    },
+    {
+      "id": 682,
+      "nom": "Mahambo Beach",
+      "prix": "15 000 Ar",
+      "avant": "budget_2",
+      "apres": "budget_1"
+    },
+    {
+      "id": 688,
+      "nom": "Jardin d'Éden - Jardin Botanique",
+      "prix": "12 000 Ar",
+      "avant": "budget_2",
+      "apres": "budget_1"
+    },
+    {
+      "id": 691,
+      "nom": "Le Neptune - Havana Club",
+      "prix": "10 000 Ar",
+      "avant": "budget_2",
+      "apres": "budget_1"
+    },
+    {
+      "id": 692,
+      "nom": "Le Pandora Club",
+      "prix": "15 000 Ar",
+      "avant": "budget_2",
+      "apres": "budget_1"
+    },
+    {
+      "id": 693,
+      "nom": "Queen's Club",
+      "prix": "25 000 Ar",
+      "avant": "budget_3",
+      "apres": "budget_2"
+    },
+    {
+      "id": 695,
+      "nom": "La Terrasse Bar Lounge",
+      "prix": "20 000 Ar",
+      "avant": "budget_3",
+      "apres": "budget_1"
+    },
+    {
+      "id": 697,
+      "nom": "Chez Moi Bar & Grill",
+      "prix": "12 000 Ar",
+      "avant": "budget_2",
+      "apres": "budget_1"
+    },
+    {
+      "id": 698,
+      "nom": "No Comment Bar Tamatave",
+      "prix": "15 000 Ar",
+      "avant": "budget_2",
+      "apres": "budget_1"
+    },
+    {
+      "id": 699,
+      "nom": "Belle Aire Rooftop Bar",
+      "prix": "30 000 Ar",
+      "avant": "budget_3",
+      "apres": "budget_2"
+    },
+    {
+      "id": 700,
+      "nom": "Bar Mananara Beach",
+      "prix": "10 000 Ar",
+      "avant": "budget_2",
+      "apres": "budget_1"
+    },
+    {
+      "id": 712,
+      "nom": "Libertalia Hotel",
+      "prix": "180 000 Ar",
+      "avant": "budget_2",
+      "apres": "budget_3"
+    },
+    {
+      "id": 714,
+      "nom": "Vohilava",
+      "prix": "120 000 Ar",
+      "avant": "budget_2",
+      "apres": "budget_3"
+    },
+    {
+      "id": 715,
+      "nom": "Lakana Hotel",
+      "prix": "90 000 Ar",
+      "avant": "budget_1",
+      "apres": "budget_3"
+    }
+  ],
+  "images_provisoires": [
+    {
+      "id": 100,
+      "nom": "Le Grand Hôtel",
+      "manquante": "images/hotels/grand-hotel-piscine.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 100,
+      "nom": "Le Grand Hôtel",
+      "manquante": "images/hotels/grand-hotel-chambre.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 100,
+      "nom": "Le Grand Hôtel",
+      "manquante": "images/hotels/grand-hotel-spa.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 7,
+      "nom": "Mer d’Émeraude",
+      "manquante": "images/spots/mer-emeraude-plage.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 7,
+      "nom": "Mer d’Émeraude",
+      "manquante": "images/spots/mer-emeraude-bateau.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 7,
+      "nom": "Mer d’Émeraude",
+      "manquante": "images/spots/mer-emeraude-snorkeling.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 10,
+      "nom": "Tsingy Rouge",
+      "manquante": "images/spots/tsingy-rouge-sunset.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 10,
+      "nom": "Tsingy Rouge",
+      "manquante": "images/spots/tsingy-rouge-formations.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 10,
+      "nom": "Tsingy Rouge",
+      "manquante": "images/spots/tsingy-rouge-panorama.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 13,
+      "nom": "Restaurant Le Melville",
+      "manquante": "images/restaurants/melville-plat.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 13,
+      "nom": "Restaurant Le Melville",
+      "manquante": "images/restaurants/melville-sunset.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 13,
+      "nom": "Restaurant Le Melville",
+      "manquante": "images/restaurants/melville-interieur.jpg",
+      "remplacee_par": "(retirée de la galerie, listée dans galerie_a_creer)"
+    },
+    {
+      "id": 711,
+      "nom": "Princesse Bora Lodge",
+      "manquante": "images/hotels/placeholder-hotel.jpg",
+      "remplacee_par": "images/placeholder-hotel.jpg"
+    },
+    {
+      "id": 712,
+      "nom": "Libertalia Hotel",
+      "manquante": "images/hotels/placeholder-hotel.jpg",
+      "remplacee_par": "images/placeholder-hotel.jpg"
+    },
+    {
+      "id": 713,
+      "nom": "Soanambo Hotel",
+      "manquante": "images/hotels/placeholder-hotel.jpg",
+      "remplacee_par": "images/placeholder-hotel.jpg"
+    },
+    {
+      "id": 714,
+      "nom": "Vohilava",
+      "manquante": "images/hotels/placeholder-hotel.jpg",
+      "remplacee_par": "images/placeholder-hotel.jpg"
+    },
+    {
+      "id": 715,
+      "nom": "Lakana Hotel",
+      "manquante": "images/hotels/placeholder-hotel.jpg",
+      "remplacee_par": "images/placeholder-hotel.jpg"
+    }
+  ]
+}

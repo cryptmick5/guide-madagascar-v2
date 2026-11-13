@@ -106,7 +106,7 @@ window.ITINERAIRES_DATA = {
         },
         "gourmandise": "Poisson frais au feu de bois sur le bivouac.",
         "lieux_ids": [
-          602
+          7
         ],
         "astuce": "Prenez un chapeau qui tient bien, le vent peut souffler fort (c'est le spot mondial de Kite !)."
       },
@@ -137,7 +137,7 @@ window.ITINERAIRES_DATA = {
         "astuce": "Allez-y en fin d'aprem pour la 'Golden Hour', les couleurs explosent.",
         "gourmandise": "Pique-nique avec vue panoramique.",
         "lieux_ids": [
-          603
+          10
         ]
       },
       {
@@ -167,7 +167,7 @@ window.ITINERAIRES_DATA = {
         },
         "astuce": "Prenez un K-Way, même s'il fait grand soleil à Diego. La montagne a son propre micro-climat.",
         "lieux_ids": [
-          604
+          9
         ]
       },
       {
@@ -190,7 +190,7 @@ window.ITINERAIRES_DATA = {
         },
         "gourmandise": "Calmars sautés à l'ail.",
         "lieux_ids": [
-          605
+          50
         ]
       },
       {
@@ -421,7 +421,7 @@ window.ITINERAIRES_DATA = {
         "jour": 4,
         "titre": "Remontée du Fleuve",
         "lieux_ids": [
-          611
+          102
         ],
         "description": "Pirogue sur le fleuve. On remonte le courant comme les explorateurs d'antan. La nature est reine, on se fait tout petit et on observe.",
         "transports_details": [
@@ -739,8 +739,8 @@ window.ITINERAIRES_DATA = {
         "jour": 2,
         "titre": "Nosy Komba & Tanikely",
         "lieux_ids": [
-          250,
-          251
+          18,
+          19
         ],
         "description": "Duo de choc : Komba et Tanikely. Lémuriens le matin, tortues l'après-midi. C'est la journée 'National Geographic' mais en vrai.",
         "transports_details": [
@@ -763,7 +763,7 @@ window.ITINERAIRES_DATA = {
         "jour": 3,
         "titre": "Tour de l'île en Scooter",
         "lieux_ids": [
-          252
+          22
         ],
         "description": "Scooter trip ! On fait le tour de l'île cheveux au vent. On s'arrête où on veut, on parle aux gens. Liberté totale jusqu'au coucher de soleil au Mont Passot.",
         "transports_details": [
@@ -782,7 +782,7 @@ window.ITINERAIRES_DATA = {
         "jour": 4,
         "titre": "Nosy Iranja",
         "lieux_ids": [
-          253
+          20
         ],
         "description": "L'apothéose : Nosy Iranja. Deux îles, un banc de sable, et l'eau la plus bleue que vous ayez jamais vue. C'est le paradis, point final.",
         "incontournables": [
@@ -799,7 +799,7 @@ window.ITINERAIRES_DATA = {
         "jour": 5,
         "titre": "Réserve de Lokobe",
         "lieux_ids": [
-          254
+          21
         ],
         "description": "Immersion nature à Lokobe. On laisse le moteur pour la pagaie. La forêt primaire nous attend avec ses mystères et ses boas. Chut, on écoute la jungle.",
         "transports_details": [
@@ -818,7 +818,7 @@ window.ITINERAIRES_DATA = {
         "jour": 6,
         "titre": "Plage d'Andilana & Détente",
         "lieux_ids": [
-          255
+          17
         ],
         "description": "Dimanche à Andilana. On fait comme les locaux : pique-nique géant, musique et baignade. C'est convivial, c'est joyeux, c'est Madagascar.",
         "gourmandise": "Langouste et Coco."

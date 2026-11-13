@@ -110,414 +110,26 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Bienvenue à Diego (Antsiranana), la belle endormie du Nord ! C'est un mélange unique d'histoire coloniale et de douceur de vivre tropicale.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas acheter des souvenirs moches que tu cacheras au fond d'un placard. C'est la tradition. 🗿"
-  },
-  {
-    "id": 602,
-    "ville": "Diego-Suarez",
-    "nom": "Mer d'Émeraude",
-    "type": "Incontournable",
-    "lat": -12.164,
-    "lng": 49.352,
-    "image": "images/iles/mer-emeraude.jpg",
-    "description": "La Mer d'Émeraude, c'est LA carte postale mauricienne... mais à Madagascar ! Un lagon immense, peu profond, d'un turquoise qui fait mal aux yeux (dans le bon sens).\n\n⛵ Accès : On y va en boutre traditionnel depuis Ramena. La traversée est déjà une aventure.\n🐠 Snorkeling : L'eau est si claire que vous verrez les poissons depuis le bateau. Parfait pour une initiation.\n🏝️ Déjeuner : Grillades de poissons frais sur un îlot désert. Le luxe, le vrai : les pieds dans le sable.\n\n⚠️ Attention au soleil, ça tape fort sur l'eau !",
-    "tags": [
-      "Incontournable",
-      "diego",
-      "mer",
-      "nature",
-      "incontournable",
-      "budget_1"
+    "humour_grok": "Tu vas acheter des souvenirs moches que tu cacheras au fond d'un placard. C'est la tradition. 🗿",
+    "alias": [
+      "Diego-Suarez"
     ],
-    "prix": "30 000 Ar",
-    "prixNum": 30000,
-    "note": 4.8,
-    "duree": "Demi-journée / Journée",
-    "conseil": "Arrivez tôt le matin (8h-9h) pour profiter des eaux calmes et de la lumière parfaite. Négociez le prix du bateau directement avec les pêcheurs à Ramena (environ 30 000 Ar pour un groupe). Apportez votre propre snorkel si possible, la location sur place est limitée.",
-    "acces": "Départ en bateau depuis la plage de Ramena (30 min de Diego en taxi). Traversée environ 20-30 minutes.",
-    "horaires": "Accessible toute la journée (Départ conseillé 8h-9h)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.164,49.352",
-    "siteWeb": "https://www.diego-suarez-tourisme.com",
-    "galerie_photos": [
-      {
-        "url": "images/iles/mer-emeraude.jpg",
-        "alt": "Mer d'Émeraude",
-        "type": "principale"
-      },
-      {
-        "url": "images/spots/mer-emeraude-plage.jpg",
-        "alt": "Mer d'Émeraude - Vue 2",
-        "type": "galerie"
-      },
-      {
-        "url": "images/spots/mer-emeraude-bateau.jpg",
-        "alt": "Mer d'Émeraude - Vue 3",
-        "type": "galerie"
-      },
-      {
-        "url": "images/spots/mer-emeraude-snorkeling.jpg",
-        "alt": "Mer d'Émeraude - Vue 4",
-        "type": "galerie"
-      }
+    "fusion_de": [
+      614
     ],
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 156,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie D.",
-          "origine": "France",
-          "date": "2025-12-05",
-          "note": 5,
-          "commentaire": "Eau incroyablement claire ! Le lagon est à couper le souffle. N'oubliez pas votre masque et tuba !",
-          "verifie": true
-        },
-        {
-          "auteur": "Jean-Claude R.",
-          "origine": "Madagascar",
-          "date": "2025-11-20",
-          "note": 4.5,
-          "commentaire": "Magnifique mais très fréquenté le weekend. Privilégiez la semaine pour plus de tranquillité.",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "plage_lagon",
-      "cta_principal": {
-        "texte": "Réserver une Sortie Bateau",
-        "url": "/contact",
-        "couleur": "bleu",
-        "icone": "⛵"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "infos_pratiques": {
-      "horaires": {
-        "tous_jours": "8h-17h",
-        "note": "Départs bateau selon marée"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Avril à Novembre (mer calme)",
-        "a_eviter": "Janvier-Mars (période cyclonique)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Crème solaire haute protection",
-          "Maillot de bain",
-          "Serviette",
-          "Masque et tuba",
-          "Chapeau",
-          "Eau potable"
-        ],
-        "budget_supplementaire": "Bateau: 20k-40k Ar par personne"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.164,
-      "longitude": 49.352,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "categorie": "Incontournable",
-    "hasCarousel": true,
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.092Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "description_summary": "La Mer d'Émeraude, c'est LA carte postale mauricienne... mais à Madagascar ! Un lagon immense, peu profond, d'un turquoise qui fait mal aux yeux (dans le bon sens).",
-    "has_expandable_description": true,
-    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
-  },
-  {
-    "id": 603,
-    "ville": "Diego-Suarez",
-    "nom": "Tsingy Rouge",
-    "type": "Incontournable",
-    "lat": -12.633,
-    "lng": 49.483,
-    "image": "images/spots/tsingy-rouge.jpg",
-    "prix": "15 000 Ar",
-    "prixNum": 15000,
-    "note": 4.6,
-    "duree": "2h à 3h",
-    "description": "Oubliez la roche grise, ici la terre saigne ! Les Tsingy Rouges sont un canyon éphémère sculpté par la pluie dans de la latérite et du grès.\n\n🎨 Couleurs : Un dégradé spectaculaire du blanc à l'ocre rouge. C'est le paradis des photographes.\n⏳ Fragile : Contrairement aux Tsingy de pierre, ceux-ci sont fragiles. On regarde avec les yeux, on touche pas !\n☀️ Moment : Idéal en fin d'après-midi quand le soleil rasant enflamme les couleurs.\n\nUn paysage martien au milieu de la brousse.",
-    "tags": [
-      "Incontournable",
-      "diego",
-      "nature",
-      "explorer",
-      "incontournable",
-      "budget_1"
+    "sous_type": "Ville",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
     ],
-    "conseil": "Visitez en fin d'après-midi (16h-17h) pour capturer les couleurs flamboyantes du coucher de soleil sur le grès rouge. Apportez de l'eau et un chapeau, il n'y a pas d'ombre. Le guard local vous guidera gratuitement (pourboire apprécié).",
-    "acces": "65 km au sud de Diego via RN6 (1h30 en voiture). Route praticable toute l'année.",
-    "horaires": "7h-17h tous les jours",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.633,49.483",
-    "siteWeb": "https://www.madagascar-tourisme.com/tsingy-rouge",
-    "galerie_photos": [
-      {
-        "url": "images/spots/tsingy-rouge.jpg",
-        "alt": "Tsingy Rouge",
-        "type": "principale"
-      },
-      {
-        "url": "images/spots/tsingy-rouge-sunset.jpg",
-        "alt": "Tsingy Rouge - Vue 2",
-        "type": "galerie"
-      },
-      {
-        "url": "images/spots/tsingy-rouge-formations.jpg",
-        "alt": "Tsingy Rouge - Vue 3",
-        "type": "galerie"
-      },
-      {
-        "url": "images/spots/tsingy-rouge-panorama.jpg",
-        "alt": "Tsingy Rouge - Vue 4",
-        "type": "galerie"
-      }
-    ],
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 124,
-      "detail_notes": {
-        "accessibilite": 4.8,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Claire P.",
-          "origine": "France",
-          "date": "2025-12-20",
-          "note": 5,
-          "commentaire": "Incroyable ! Les couleurs au coucher du soleil sont magiques. Site facilement accessible, parfait pour les familles.",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "date": "2025-12-12",
-          "note": 4.5,
-          "commentaire": "Un paysage unique à Madagascar. Le gardien est très sympathique et connaît bien le site. Pensez au pourboire !",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "site_naturel",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🏔️"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "infos_pratiques": {
-      "horaires": {
-        "ouverture": "7h-17h",
-        "note": "Meilleur moment: 16h-17h pour le coucher de soleil"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "a_eviter": "Janvier-Mars (risque de pluie intense)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Chaussures fermées",
-          "Chapeau et lunettes de soleil",
-          "Eau potable (1,5L minimum)",
-          "Appareil photo",
-          "Crème solaire",
-          "Petite monnaie pour pourboire au gardien"
-        ],
-        "budget_supplementaire": "Pourboire gardien: 5k-10k Ar"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.633,
-      "longitude": 49.483,
-      "zoom_defaut": 14,
-      "afficher_dans_fiche": true
-    },
-    "price": "15 000 Ar",
-    "rating": 4.6,
-    "duration": "2h à 3h",
-    "categorie": "Incontournable",
-    "hasCarousel": true,
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.094Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "description_summary": "Oubliez la roche grise, ici la terre saigne ! Les Tsingy Rouges sont un canyon éphémère sculpté par la pluie dans de la latérite et du grès.",
-    "has_expandable_description": true,
-    "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
-  },
-  {
-    "id": 604,
-    "ville": "Diego-Suarez",
-    "nom": "Montagne d'Ambre",
-    "type": "Nature",
-    "lat": -12.516,
-    "lng": 49.166,
-    "image": "images/spots/montagne-ambre.jpg",
-    "description": "La Montagne d'Ambre, c'est votre climatiseur naturel ! Une forêt pluviale d'altitude qui tranche avec la chaleur de la côte.\n\n🦎 Faune : Cherchez bien, le plus petit caméléon du monde (Brookesia) se cache dans les feuilles mortes.\n💦 Fraîcheur : Cascades sacrées et lacs de cratère. Ça fait un bien fou de respirer l'air frais.\n🌿 Flore : Des fougères arborescentes géantes comme à l'époque des dinosaures.\n\nPrévoyez un K-way, ici la météo est capricieuse !",
-    "tags": [
-      "Nature",
-      "diego",
-      "nature",
-      "randonnee",
-      "incontournable",
-      "budget_1"
-    ],
-    "prix": "45 000 Ar",
-    "prixNum": 45000,
-    "note": 4.7,
-    "duree": "4h à 6h",
-    "conseil": "Prenez un guide local à l'entrée, c'est obligatoire et indispensable pour repérer les caméléons minuscules (Brookesia).",
-    "acces": "Accessible en 4x4 ou taxi-brousse depuis Joffreville (environ 1h de Diego). La piste finale est cahoteuse.",
-    "horaires": "Accessible toute la journée (Conseillé le matin à 7h)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.516,49.166",
-    "siteWeb": "https://www.parcs-madagascar.com",
-    "galerie_photos": [
-      {
-        "url": "images/spots/montagne-ambre.jpg",
-        "alt": "Montagne d'Ambre",
-        "type": "principale"
-      },
-      {
-        "url": "images/spots/montagne-ambre-cameleon.jpg",
-        "alt": "Montagne d'Ambre - Vue 2",
-        "type": "galerie"
-      },
-      {
-        "url": "images/spots/montagne-ambre-foret.jpg",
-        "alt": "Montagne d'Ambre - Vue 3",
-        "type": "galerie"
-      }
-    ],
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 124,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "authenticite": 5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie L.",
-          "origine": "France",
-          "date": "2025-11-15",
-          "note": 5,
-          "commentaire": "Une forêt magique ! Les cascades sont magnifiques et nous avons vu le Brookesia. Guide local top !",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto M.",
-          "origine": "Madagascar",
-          "date": "2025-10-28",
-          "note": 4.5,
-          "commentaire": "Très beau parc. Prévoir de bonnes chaussures car ça glisse quand c'est humide.",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "7h-18h",
-        "note": "Dernière entrée 1h avant fermeture"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "a_eviter": "Janvier-Mars (pluies intenses)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Bonnes chaussures de randonnée",
-          "Imperméable léger",
-          "Appareil photo"
-        ],
-        "budget_supplementaire": "Guide local : 20k-40k Ar"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.516,
-      "longitude": 49.166,
-      "zoom_defaut": 12,
-      "afficher_dans_fiche": true
-    },
-    "categorie": "Nature",
-    "hasCarousel": true,
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.095Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "description_summary": "La Montagne d'Ambre, c'est votre climatiseur naturel ! Une forêt pluviale d'altitude qui tranche avec la chaleur de la côte.",
-    "has_expandable_description": true,
-    "humour_grok": "Tu vas marcher 3h dans la boue pour voir une cascade... qui est juste de l'eau qui tombe. Mais 'c'est l'aventure' qu'ils disent. 🤠"
+    "prixNum": 0
   },
   {
     "id": 100,
     "ville": "Diego-Suarez",
     "nom": "Le Grand Hôtel",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -12.2714,
     "lng": 49.2917,
     "prix": "250 000 Ar",
@@ -532,7 +144,7 @@ window.LIEUX_DATA = [
     "conseil": "Négociez un upgrade si vous restez plusieurs nuits. La piscine est le spot parfait pour un apéro en fin de journée. La pâtisserie de l'hôtel est réputée comme la meilleure de la ville, parfaite pour le goûter.",
     "siteWeb": "http://www.grand-hotel-diego.com",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "diego",
       "dormir",
       "budget_3",
@@ -547,19 +159,9 @@ window.LIEUX_DATA = [
         "type": "principale"
       },
       {
-        "url": "images/hotels/grand-hotel-piscine.jpg",
-        "alt": "Le Grand Hôtel - Vue 2",
-        "type": "galerie"
-      },
-      {
-        "url": "images/hotels/grand-hotel-chambre.jpg",
-        "alt": "Le Grand Hôtel - Vue 3",
-        "type": "galerie"
-      },
-      {
-        "url": "images/hotels/grand-hotel-spa.jpg",
-        "alt": "Le Grand Hôtel - Vue 4",
-        "type": "galerie"
+        "url": "images/hotels/grand-hotel.jpg",
+        "alt": "Grand Hôtel",
+        "type": "secondaire"
       }
     ],
     "avis": {
@@ -637,7 +239,7 @@ window.LIEUX_DATA = [
     "rating": 4.5,
     "duration": "Séjour",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.2714,49.2917",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "hasCarousel": true,
     "_metadata": {
       "standardized": true,
@@ -653,123 +255,25 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L'adresse de référence pour le luxe à Diego. Situé en plein centre-ville, cet hôtel historique offre des prestations haut de gamme : grande piscine, spa, casino et chambres spacieuses. Idéal pour ceux qui cherchent confort et services irréprochables. Un établissement emblématique qui allie élégance coloniale et installations modernes.",
     "has_expandable_description": true,
-    "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎"
-  },
-  {
-    "id": 605,
-    "ville": "Ambilobe",
-    "nom": "Parc National Ankarana",
-    "type": "Nature",
-    "lat": -12.916,
-    "lng": 49.116,
-    "image": "images/spots/ankarana.jpg",
-    "description": "L'Ankarana, c'est le Mordor version tropicale. Des formations calcaires acérées à perte de vue (les Tsingy) qui cachent un monde souterrain.\n\n🦇 Grottes : Explorez des cathédrales souterraines habitées par des colonies de chauves-souris. Indiana Jones, c'est vous !\n🌉 Pont Suspendu : Oserez-vous traverser au-dessus du vide ? La vue sur le canyon est imprenable.\n🐒 Lémuriens : Les Lémurs couronnés sont chez eux ici. Ils sont curieux, mais gardez vos distances.\n\nC'est physique, il fait chaud, mais c'est inoubliable.",
-    "tags": [
-      "Nature",
-      "diego",
-      "nature",
-      "aventure",
-      "budget_1"
+    "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎",
+    "fusion_de": [
+      100,
+      612
     ],
-    "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
-    "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.916,49.116",
-    "prix": "Gratuit",
-    "note": 4.5,
-    "duree": "4h à 6h",
-    "categorie": "Nature",
-    "galerie_photos": [
-      {
-        "url": "images/spots/ankarana.jpg",
-        "alt": "Parc National Ankarana",
-        "type": "principale"
-      }
+    "alias": [
+      "Grand Hôtel"
     ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h (fermé le lundi)",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "eviter": "Janvier-Mars (pluies intenses)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Bonnes chaussures de randonnée",
-          "Eau (2L min)",
-          "Crème solaire",
-          "Appareil photo",
-          "Anti-moustiques"
-        ],
-        "conseils": "Guide local recommandé pour découvrir la faune"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.097Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 123,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.916,
-      "longitude": 49.116,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "L'Ankarana, c'est le Mordor version tropicale. Des formations calcaires acérées à perte de vue (les Tsingy) qui cachent un monde souterrain.",
-    "has_expandable_description": true,
-    "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾"
+    "sous_type": "Hotel",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ],
+    "galerie_a_creer": [
+      "images/hotels/grand-hotel-piscine.jpg",
+      "images/hotels/grand-hotel-chambre.jpg",
+      "images/hotels/grand-hotel-spa.jpg"
+    ]
   },
   {
     "id": 606,
@@ -785,7 +289,8 @@ window.LIEUX_DATA = [
       "ambanja",
       "culture",
       "gastronomie",
-      "budget_1"
+      "budget_1",
+      "explorer"
     ],
     "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
     "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
@@ -883,7 +388,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Ambanja, c'est la capitale du cacao fin ! Ici, l'air sent le chocolat et l'ylang-ylang. Une étape sensorielle obligatoire.",
     "has_expandable_description": true,
-    "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔"
+    "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔",
+    "sous_type": "Incontournable",
+    "zone": "antsiranana",
+    "prixNum": 0
   },
   {
     "id": 607,
@@ -898,7 +406,9 @@ window.LIEUX_DATA = [
       "Spot Local",
       "ambanja",
       "mer",
-      "budget_1"
+      "budget_1",
+      "spots",
+      "explorer"
     ],
     "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
     "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
@@ -996,7 +506,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Ankify n'est pas qu'un port d'embarquement, c'est un petit village paisible posé sur l'eau.",
     "has_expandable_description": true,
-    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
+    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀",
+    "sous_type": "Spot Local",
+    "zone": "antsiranana",
+    "prixNum": 0
   },
   {
     "id": 610,
@@ -1011,8 +524,8 @@ window.LIEUX_DATA = [
       "Incontournable",
       "ambanja",
       "culture",
-      "nature",
-      "budget_1"
+      "budget_1",
+      "explorer"
     ],
     "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
     "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
@@ -1110,7 +623,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Les Plantations Millot, c'est l'histoire vivante d'Ambanja. Une institution centenaire qui produit cacao, épices et parfums.",
     "has_expandable_description": true,
-    "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
+    "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞",
+    "sous_type": "Incontournable",
+    "zone": "antsiranana",
+    "prixNum": 0
   },
   {
     "id": 611,
@@ -1124,9 +640,9 @@ window.LIEUX_DATA = [
     "tags": [
       "Nature",
       "ambanja",
-      "nature",
       "aventure",
-      "budget_1"
+      "budget_1",
+      "explorer"
     ],
     "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
     "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
@@ -1226,7 +742,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le Fleuve Sambirano, c'est l'artère vitale de la région. Une balade en pirogue pour déconnecter totalement.",
     "has_expandable_description": true,
-    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
+    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟",
+    "sous_type": "Nature",
+    "zone": "antsiranana",
+    "prixNum": 0
   },
   {
     "id": 201,
@@ -1240,8 +759,8 @@ window.LIEUX_DATA = [
     "tags": [
       "Ville",
       "nosybe",
-      "ville",
-      "budget_1"
+      "budget_1",
+      "explorer"
     ],
     "conseil": "Négociez toujours le prix du taxi avant de monter.",
     "acces": "Tuk-tuk facile depuis Hell-Ville ou Ambatoloaka.",
@@ -1339,7 +858,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Hell-Ville, c'est le cœur bouillonnant de Nosy Be. Une capitale de poche où tout le monde se croise.",
     "has_expandable_description": true,
-    "humour_grok": "Le code de la route est une suggestion vague. Le klaxon est ton seul bouclier. 🚗"
+    "humour_grok": "Le code de la route est une suggestion vague. Le klaxon est ton seul bouclier. 🚗",
+    "sous_type": "Ville",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ],
+    "prixNum": 0
   },
   {
     "id": 1,
@@ -1461,7 +986,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le Rova, c'est l'âme de l'Imerina. Perché sur la plus haute colline, il veille sur Tana depuis des siècles.",
     "has_expandable_description": true,
-    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
+    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐",
+    "sous_type": "Incontournable",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 2,
@@ -1581,7 +1112,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le Marché de la Digue, c'est la caverne d'Ali Baba de l'artisanat. Préparez vos valises, vous allez craquer !",
     "has_expandable_description": true,
-    "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
+    "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞",
+    "sous_type": "Culture",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 3,
@@ -1606,7 +1143,6 @@ window.LIEUX_DATA = [
       "tana",
       "explorer",
       "budget_1",
-      "nature",
       "famille"
     ],
     "price": "5 000 Ar",
@@ -1704,7 +1240,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un havre de paix inattendu en plein cœur de la ville. Ce parc privé classé RAMSAR est un refuge vital pour de nombreuses espèces d’oiseaux endémiques, dont le héron de Humblot. Parfait pour une pause nature loin du tumulte urbain. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas payer pour marcher dans la boue et chercher un lézard de 2cm invisible. Et tu vas adorer ça. Masochiste. 🤠"
+    "humour_grok": "Tu vas payer pour marcher dans la boue et chercher un lézard de 2cm invisible. Et tu vas adorer ça. Masochiste. 🤠",
+    "sous_type": "Nature",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 4,
@@ -1730,7 +1272,8 @@ window.LIEUX_DATA = [
       "spots",
       "culture",
       "budget_1",
-      "secret_spot"
+      "secret_spot",
+      "explorer"
     ],
     "horaires": "8h00 - 18h00",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.9151,47.5283",
@@ -1823,7 +1366,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une source mystique chargée de légendes, vénérée par les habitants du quartier. On dit que son eau possède des vertus purificatrices. C’est un lieu secret, hors des guides touristiques classiques, où l’on ressent la spiritualité quotidienne malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
+    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻",
+    "sous_type": "Spot Local",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 701,
@@ -1837,8 +1386,8 @@ window.LIEUX_DATA = [
     "tags": [
       "Ville",
       "sava",
-      "ville",
-      "budget_1"
+      "budget_1",
+      "explorer"
     ],
     "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
     "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
@@ -1936,7 +1485,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Capitale de la vanille, entre mer et montagne. Cette ville dynamique mêle harmonieusement héritage colonial et vie moderne, offrant aux visiteurs un aperçu fascinant de l'histoire et de la culture malgaches. Les marchés locaux, colorés et animés, sont le cœur battant de la ville où l'on trouve artisanat, produits frais et ambiance chaleureuse.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas transpirer juste en restant debout. Accepte ta nouvelle condition d'humain moite. 💦"
+    "humour_grok": "Tu vas transpirer juste en restant debout. Accepte ta nouvelle condition d'humain moite. 💦",
+    "sous_type": "Ville",
+    "zone": "antsiranana",
+    "prixNum": 0
   },
   {
     "id": 702,
@@ -1950,9 +1502,9 @@ window.LIEUX_DATA = [
     "tags": [
       "Nature",
       "sava",
-      "nature",
       "randonnee",
-      "budget_1"
+      "budget_1",
+      "explorer"
     ],
     "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
     "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
@@ -2052,7 +1604,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Sanctuaire du Sifaka Soyeux, jungle dense et sommets. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Andapa.",
     "has_expandable_description": true,
-    "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵"
+    "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵",
+    "sous_type": "Nature",
+    "zone": "antsiranana",
+    "prixNum": 0
   },
   {
     "id": 703,
@@ -2066,8 +1621,8 @@ window.LIEUX_DATA = [
     "tags": [
       "Ville",
       "sava",
-      "ville",
-      "budget_1"
+      "budget_1",
+      "explorer"
     ],
     "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
     "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
@@ -2165,7 +1720,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "La Mecque de la vanille mondiale. Chic et tropical. Cette ville dynamique mêle harmonieusement héritage colonial et vie moderne, offrant aux visiteurs un aperçu fascinant de l'histoire et de la culture malgaches.",
     "has_expandable_description": true,
-    "humour_grok": "Les trottoirs sont des parcours d'obstacles. C'est comme Koh-Lanta, mais en ville. 🏃‍♂️"
+    "humour_grok": "Les trottoirs sont des parcours d'obstacles. C'est comme Koh-Lanta, mais en ville. 🏃‍♂️",
+    "sous_type": "Ville",
+    "zone": "antsiranana",
+    "prixNum": 0
   },
   {
     "id": 704,
@@ -2180,7 +1738,9 @@ window.LIEUX_DATA = [
       "Spot Local",
       "sava",
       "mer",
-      "budget_1"
+      "budget_1",
+      "spots",
+      "explorer"
     ],
     "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
     "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
@@ -2278,7 +1838,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le point le plus oriental de l'Afrique. Sauvage. Ce lieu présente un intérêt certain pour les visiteurs de Antalaha, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Respire par la bouche si ça sent fort. Par le nez si ça sent bon. C'est la base de la survie ici. 👃"
+    "humour_grok": "Respire par la bouche si ça sent fort. Par le nez si ça sent bon. C'est la base de la survie ici. 👃",
+    "sous_type": "Spot Local",
+    "zone": "antsiranana",
+    "prixNum": 0
   },
   {
     "id": 705,
@@ -2292,8 +1855,8 @@ window.LIEUX_DATA = [
     "tags": [
       "Nature",
       "sava",
-      "nature",
-      "budget_1"
+      "budget_1",
+      "explorer"
     ],
     "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
     "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
@@ -2393,690 +1956,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Jardin botanique avec vue spectaculaire. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Antalaha.",
     "has_expandable_description": true,
-    "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾"
-  },
-  {
-    "id": 250,
-    "ville": "Nosy Be",
-    "nom": "Nosy Komba",
-    "type": "Incontournable",
-    "lat": -13.4667,
-    "lng": 48.35,
-    "image": "images/iles/nosy-komba.jpg",
-    "description": "Nosy Komba, c'est l'île granitique qui veille sur Nosy Be. Ici, pas de voitures, pas de stress, juste la nature.\n\n🐒 Makis : Les Lémurs Macaco sont les rois. Ils viendront vous manger des bananes sur l'épaule (photos garanties !).\n🧵 Artisanat : Les femmes du village brodent des nappes magnifiques ('Richelieu'). C'est fin et local.\n🚶 Rando : Ça grimpe ! Mais la vue depuis le sommet vaut chaque goutte de sueur.\n\nUne parenthèse enchantée où l'homme et l'animal cohabitent.",
-    "tags": [
-      "Incontournable",
-      "nosybe",
-      "ile",
-      "nature",
-      "budget_1"
-    ],
-    "conseil": "Négociez toujours le prix du taxi avant de monter.",
-    "acces": "Accessible en taxi ou scooter de location. Route goudronnée en bon état.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4667,48.35",
-    "prix": "Gratuit",
-    "note": 4.5,
-    "duree": "2h à 4h",
-    "categorie": "Incontournable",
-    "galerie_photos": [
-      {
-        "url": "images/iles/nosy-komba.jpg",
-        "alt": "Nosy Komba",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.108Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 71,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -13.4667,
-      "longitude": 48.35,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Nosy Komba, c'est l'île granitique qui veille sur Nosy Be. Ici, pas de voitures, pas de stress, juste la nature.",
-    "has_expandable_description": true,
-    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
-  },
-  {
-    "id": 251,
-    "ville": "Nosy Be",
-    "nom": "Nosy Tanikely",
-    "type": "Incontournable",
-    "lat": -13.4833,
-    "lng": 48.2333,
-    "image": "images/iles/nosy-tanikely.jpg",
-    "description": "Nosy Tanikely, c'est un aquarium géant... sans les vitres ! Réserve marine protégée, c'est le spot de snorkeling ultime.\n\n🐢 Tortues : Elles sont là, tranquilles, à brouter les coraux. Nagez avec elles (sans les toucher !).\n🐠 Poissons : Des milliers de poissons colorés dès qu'on met la tête sous l'eau. Même pour les débutants.\n🏝️ Phare : Grimpez au vieux phare pour une vue panoramique à 360° sur l'archipel.\n\nPrenez votre masque et tuba, c'est le meilleur film que vous verrez.",
-    "tags": [
-      "Incontournable",
-      "nosybe",
-      "ile",
-      "mer",
-      "budget_1"
-    ],
-    "conseil": "Négociez toujours le prix du taxi avant de monter.",
-    "acces": "Accessible en taxi ou scooter de location. Route goudronnée en bon état.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4833,48.2333",
-    "prix": "Gratuit",
-    "note": 4.5,
-    "duree": "2h à 4h",
-    "categorie": "Incontournable",
-    "galerie_photos": [
-      {
-        "url": "images/iles/nosy-tanikely.jpg",
-        "alt": "Nosy Tanikely",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.108Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 148,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -13.4833,
-      "longitude": 48.2333,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Nosy Tanikely, c'est un aquarium géant... sans les vitres ! Réserve marine protégée, c'est le spot de snorkeling ultime.",
-    "has_expandable_description": true,
-    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
-  },
-  {
-    "id": 252,
-    "ville": "Nosy Be",
-    "nom": "Mont Passot",
-    "type": "Spot Local",
-    "lat": -13.3222,
-    "lng": 48.2431,
-    "image": "images/spots/mont-passot.jpg",
-    "description": "Le Mont Passot, c'est le balcon de Nosy Be. Le point de rendez-vous obligatoire pour finir la journée en beauté.\n\n🌅 Sunset : Le coucher de soleil y est légendaire. Le ciel s'embrase sur l'océan.\n🌋 Lacs Sacrés : On domine les lacs de cratère. Attention, ils sont sacrés (et habités par des crocodiles, paraît-il).\n🍹 Apéro : Siroter un cocktail en regardant le soleil plonger dans la mer... What else ?\n\nArrivez tôt pour avoir une bonne place !",
-    "tags": [
-      "Spot Local",
-      "nosybe",
-      "nature",
-      "budget_1"
-    ],
-    "conseil": "Négociez toujours le prix du taxi avant de monter.",
-    "acces": "Tuk-tuk facile depuis Hell-Ville ou Ambatoloaka.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.3222,48.2431",
-    "prix": "Gratuit",
-    "note": 4.5,
-    "duree": "2h à 4h",
-    "categorie": "Spot Local",
-    "galerie_photos": [
-      {
-        "url": "images/spots/mont-passot.jpg",
-        "alt": "Mont Passot",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.108Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 83,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -13.3222,
-      "longitude": 48.2431,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Le Mont Passot, c'est le balcon de Nosy Be. Le point de rendez-vous obligatoire pour finir la journée en beauté.",
-    "has_expandable_description": true,
-    "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
-  },
-  {
-    "id": 253,
-    "ville": "Nosy Be",
-    "nom": "Nosy Iranja",
-    "type": "Incontournable",
-    "lat": -13.5833,
-    "lng": 47.8167,
-    "image": "images/iles/nosy-iranja.jpg",
-    "description": "Nosy Iranja, c'est la star d'Instagram. Deux îlots reliés par une langue de sable blanc aveuglant.\n\n🏖️ Sable : Une marche sur l'eau (presque) à marée basse. C'est magique.\n🐢 Ponte : C'est un lieu de nidification pour les tortues marines. Respectez leur tranquillité.\n💎 Eau : Un bleu turquoise impossible à décrire. C'est le paradis, littéralement.\n\nC'est loin (1h30 de bateau), mais c'est l'excursion d'une vie.",
-    "tags": [
-      "Incontournable",
-      "nosybe",
-      "ile",
-      "mer",
-      "budget_1"
-    ],
-    "conseil": "Négociez toujours le prix du taxi avant de monter.",
-    "acces": "Accessible en taxi ou scooter de location. Route goudronnée en bon état.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.5833,47.8167",
-    "prix": "Gratuit",
-    "note": 4.5,
-    "duree": "2h à 4h",
-    "categorie": "Incontournable",
-    "galerie_photos": [
-      {
-        "url": "images/iles/nosy-iranja.jpg",
-        "alt": "Nosy Iranja",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.109Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 142,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -13.5833,
-      "longitude": 47.8167,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Nosy Iranja, c'est la star d'Instagram. Deux îlots reliés par une langue de sable blanc aveuglant.",
-    "has_expandable_description": true,
-    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
-  },
-  {
-    "id": 254,
-    "ville": "Nosy Be",
-    "nom": "Réserve de Lokobe",
-    "type": "Nature",
-    "lat": -13.4167,
-    "lng": 48.3167,
-    "image": "images/spots/lokobe.jpg",
-    "description": "Lokobe, c'est la forêt originelle de Nosy Be. La jungle comme elle était avant l'homme.\n\n🛶 Accès : On y arrive en pirogue à balancier. Silence, on glisse sur l'eau.\n🐍 Faune : Boas (gentils), lémuriens nocturnes, caméléons... C'est un festival de biodiversité.\n🌳 Atmosphère : Humide, dense, mystérieuse. On se sent tout petit sous les arbres géants.\n\nGuide obligatoire pour voir les animaux camouflés !",
-    "tags": [
-      "Nature",
-      "nosybe",
-      "nature",
-      "budget_1"
-    ],
-    "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
-    "acces": "Tuk-tuk facile depuis Hell-Ville ou Ambatoloaka.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4167,48.3167",
-    "prix": "Gratuit",
-    "note": 4.5,
-    "duree": "4h à 6h",
-    "categorie": "Nature",
-    "galerie_photos": [
-      {
-        "url": "images/spots/lokobe.jpg",
-        "alt": "Réserve de Lokobe",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h (fermé le lundi)",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "eviter": "Janvier-Mars (pluies intenses)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Bonnes chaussures de randonnée",
-          "Eau (2L min)",
-          "Crème solaire",
-          "Appareil photo",
-          "Anti-moustiques"
-        ],
-        "conseils": "Guide local recommandé pour découvrir la faune"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.109Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 92,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -13.4167,
-      "longitude": 48.3167,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Lokobe, c'est la forêt originelle de Nosy Be. La jungle comme elle était avant l'homme.",
-    "has_expandable_description": true,
-    "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿"
-  },
-  {
-    "id": 255,
-    "ville": "Nosy Be",
-    "nom": "Plage d'Andilana",
-    "type": "Spot Local",
-    "lat": -13.2667,
-    "lng": 48.1833,
-    "image": "images/circuits/circuit-nosybe.jpg",
-    "description": "Andilana, c'est LA plage carte postale du dimanche. La plus belle plage publique de l'île, et de loin.\n\n🌴 Cadre : Cocotiers, sable fin, eau calme. Tout y est pour le farniente.\n🎉 Ambiance : Le dimanche, c'est la fête ! Musique, grillades, familles... C'est la vie malgache joyeuse.\n🍽️ Miam : Mangez des langoustes grillées les pieds dans le sable dans les paillotes.\n\nLe spot parfait pour déconnecter et bronzer 'Tsara'.",
-    "tags": [
-      "Spot Local",
-      "nosybe",
-      "mer",
-      "budget_1"
-    ],
-    "conseil": "Attention aux marées pour la baignade. Crème solaire indispensable !",
-    "acces": "Tuk-tuk facile depuis Hell-Ville ou Ambatoloaka.",
-    "horaires": "8h00 - 18h00",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.2667,48.1833",
-    "prix": "Gratuit",
-    "note": 4.5,
-    "duree": "2h à 4h",
-    "categorie": "Spot Local",
-    "galerie_photos": [
-      {
-        "url": "images/circuits/circuit-nosybe.jpg",
-        "alt": "Plage d'Andilana",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.109Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 110,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -13.2667,
-      "longitude": 48.1833,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Andilana, c'est LA plage carte postale du dimanche. La plus belle plage publique de l'île, et de loin.",
-    "has_expandable_description": true,
-    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
+    "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾",
+    "sous_type": "Nature",
+    "zone": "antsiranana",
+    "prixNum": 0
   },
   {
     "id": 5,
@@ -3101,8 +1984,7 @@ window.LIEUX_DATA = [
       "tana",
       "manger",
       "budget_2",
-      "gastronomie",
-      "nature"
+      "gastronomie"
     ],
     "price": "40 000 Ar",
     "rating": 4.7,
@@ -3195,7 +2077,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une institution gastronomique à Tana. Installé dans une magnifique villa coloniale remplie d’antiquités, ce restaurant propose une cuisine fusion raffinée. Le cadre est aussi exquis que les plats, avec une collection d’objets d’art hétéroclite fascinante.",
     "has_expandable_description": true,
-    "humour_grok": "Le menu est à titre indicatif. Il y a ce qu'il y a, et tu vas dire merci. 🤷‍♂️"
+    "humour_grok": "Le menu est à titre indicatif. Il y a ce qu'il y a, et tu vas dire merci. 🤷‍♂️",
+    "sous_type": "Restaurant",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 515,
@@ -3315,7 +2203,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le berceau de la royauté Merina, classé à l’UNESCO. Une cité interdite préservée avec ses palais en bois précieux, ses tombeaux royaux et ses ficus sacrés. Un lieu chargé de spiritualité et d’histoire, indispensable pour comprendre Madagascar.",
     "has_expandable_description": true,
-    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
+    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻",
+    "sous_type": "Culture",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 516,
@@ -3339,9 +2233,7 @@ window.LIEUX_DATA = [
       "Nature",
       "tana",
       "explorer",
-      "sortir",
-      "budget_2",
-      "nature"
+      "budget_2"
     ],
     "price": "75 000 Ar",
     "rating": 4.6,
@@ -3438,13 +2330,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une réserve botanique privée où 9 espèces de lémuriens vivent en semi-liberté. C’est le meilleur endroit près de Tana pour observer les Makis Cattas, les Sifakas danseurs et les lémuriens nocturnes dans un cadre verdoyant au bord de la rivière. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨"
+    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨",
+    "sous_type": "Nature",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 517,
     "ville": "Antananarivo",
     "nom": "Le Carré",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -18.904,
     "lng": 47.526,
     "prix": "35 000 Ar",
@@ -3459,18 +2357,18 @@ window.LIEUX_DATA = [
     "duree": "2h",
     "siteWeb": "https://www.facebook.com/lecarretana",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "manger",
       "tana",
-      "sortir",
       "spots",
-      "budget_2"
+      "budget_2",
+      "sortir"
     ],
     "price": "35 000 Ar",
     "rating": 4.5,
     "duration": "2h",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.904,47.526",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/tana/tana_le_carre_restaurant_1765475346465.png",
@@ -3559,7 +2457,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le spot branché d’Antanimena. Un cadre moderne très végétalisé, une belle terrasse et une carte immense qui plaira à tout le monde (bons burgers, sushis, grillades). L’ambiance y est toujours animée et cosmopolite. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas boire, tu vas danser, tu vas oublier. Demain matin sera un problème pour le 'Toi du Futur'. 🍻"
+    "humour_grok": "Tu vas boire, tu vas danser, tu vas oublier. Demain matin sera un problème pour le 'Toi du Futur'. 🍻",
+    "sous_type": "Bar",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 518,
@@ -3583,7 +2487,6 @@ window.LIEUX_DATA = [
       "Restaurant",
       "manger",
       "tana",
-      "sortir",
       "explorer",
       "budget_2",
       "gastronomie"
@@ -3679,13 +2582,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Chic et tendance. Situé au Carlton, le Kudeta est à la fois un excellent restaurant gastronomique et un lounge bar sophistiqué le soir. Le décor mélange art malgache contemporain et design industriel. Incontournable pour la jeunesse dorée.",
     "has_expandable_description": true,
-    "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹"
+    "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹",
+    "sous_type": "Restaurant",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 519,
     "ville": "Antananarivo",
     "nom": "Lokanga Boutique Hotel",
-    "type": "Restaurant",
+    "type": "Hôtel",
     "lat": -18.922,
     "lng": 47.531,
     "prix": "60 000 Ar",
@@ -3700,19 +2609,18 @@ window.LIEUX_DATA = [
     "duree": "2h",
     "siteWeb": "https://lokanga-hotel.mg",
     "tags": [
-      "Restaurant",
+      "Hôtel",
       "tana",
       "manger",
       "dormir",
       "budget_2",
-      "nature",
       "luxe"
     ],
     "price": "60 000 Ar",
     "rating": 4.8,
     "duration": "2h",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.922,47.531",
-    "categorie": "Restaurant",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/tana/tana_lokanga_terrace_view_1765475379611.png",
@@ -3799,7 +2707,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "La plus belle vue de Tana. Perché sur la colline royale, ce restaurant offre un panorama époustouflant, surtout au coucher du soleil. Dans un cadre colonial raffiné, on y déguste une cuisine fine et des desserts maison squis (profiteroles, tartes).",
     "has_expandable_description": true,
-    "humour_grok": "Prends le poisson. Il nageait encore ce matin. Contrairement au steak qui a fait plus d'avion que toi. 🐟"
+    "humour_grok": "Prends le poisson. Il nageait encore ce matin. Contrairement au steak qui a fait plus d'avion que toi. 🐟",
+    "sous_type": "Restaurant",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 520,
@@ -3917,7 +2831,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L’Italie authentique à Tana. Une trattoria chaleureuse où le patron italien veille au grain. Pizzas au feu de bois à la pâte fine, pâtes fraîches maison et tiramisu crémeux. On s’y sent comme à Rome, l’accueil malgache en plus. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳"
+    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳",
+    "sous_type": "Restaurant",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 521,
@@ -3940,7 +2860,6 @@ window.LIEUX_DATA = [
     "tags": [
       "Hôtel",
       "tana",
-      "sortir",
       "dormir",
       "budget_3"
     ],
@@ -4036,7 +2955,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le chic colonial revisité. Façade blanche immaculée, parquets en bois sombre et design épuré. C’est l’un des hôtels de charme les plus élégants du centre-ville, avec un rooftop bar très prisé pour les afterworks.",
     "has_expandable_description": true,
-    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
+    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸",
+    "sous_type": "Hôtel",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 522,
@@ -4156,7 +3081,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le standing international 4 étoiles. Un bâtiment moderne vitré qui tranche avec l’architecture locale. Chambres spacieuses et sobres, spa complet et surtout ’La Canopée’, son rooftop offrant une vue panoramique sur tout Tana.",
     "has_expandable_description": true,
-    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
+    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃",
+    "sous_type": "Hôtel",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 523,
@@ -4179,7 +3110,6 @@ window.LIEUX_DATA = [
     "tags": [
       "Hôtel",
       "tana",
-      "sortir",
       "explorer",
       "dormir",
       "budget_3",
@@ -4195,9 +3125,14 @@ window.LIEUX_DATA = [
         "url": "images/tana/tana_sakamanga_pool.jpg",
         "alt": "Le Sakamanga",
         "type": "principale"
+      },
+      {
+        "url": "images/hotels/sakamanga.jpg",
+        "alt": "Sakamanga",
+        "type": "secondaire"
       }
     ],
-    "hasCarousel": false,
+    "hasCarousel": true,
     "infos_pratiques": {
       "horaires": {
         "lundi_vendredi": "Check-in: 14h | Check-out: 11h",
@@ -4277,7 +3212,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Plus qu’un hôtel, une institution. Un véritable musée vivant rempli d’objets historiques et de photos anciennes. L’ambiance y est unique, avec une petite piscine dans un patio végétalisé. C’est le point de chute préféré des voyageurs depuis des décennies.",
     "has_expandable_description": true,
-    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
+    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏",
+    "alias": [
+      "Sakamanga"
+    ],
+    "fusion_de": [
+      624
+    ],
+    "sous_type": "Hôtel",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 524,
@@ -4302,7 +3249,6 @@ window.LIEUX_DATA = [
       "tana",
       "dormir",
       "budget_3",
-      "nature",
       "culture"
     ],
     "price": "380 000 Ar",
@@ -4397,7 +3343,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L’élégance intimiste au bord du lac. Situé dans une maison traditionnelle rénovée face au lac Anosy, il offre seulement quelques chambres sublimes et une terrasse en bois parfaite pour un dîner romantique avec vue sur le Rova illuminé.",
     "has_expandable_description": true,
-    "humour_grok": "Le silence est d'or. Et ici, il est obligatoire. Range ton téléphone et écoute l'histoire (même si c'est compliqué). 🤫"
+    "humour_grok": "Le silence est d'or. Et ici, il est obligatoire. Range ton téléphone et écoute l'histoire (même si c'est compliqué). 🤫",
+    "sous_type": "Hôtel",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 525,
@@ -4517,13 +3469,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le luxe confidentiel. Cette ancienne banque coloniale en briques rouges transformée en maison d’hôtes exclusive propose un jardin tropical avec piscine et une vue imprenable. Un havre de paix absolu sur les hauteurs de la ville.",
     "has_expandable_description": true,
-    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
+    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸",
+    "sous_type": "Hôtel",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 526,
     "ville": "Antananarivo",
     "nom": "No Comment Bar",
-    "type": "sortir",
+    "type": "Bar & Sortir",
     "lat": -18.9155,
     "lng": 47.5235,
     "prix": "15 000 Ar",
@@ -4538,16 +3496,17 @@ window.LIEUX_DATA = [
     "duree": "Soirée",
     "siteWeb": "https://www.nocomment.mg",
     "tags": [
+      "Bar & Sortir",
       "explorer",
       "tana",
-      "sortir",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "price": "15 000 Ar",
     "rating": 4.6,
     "duration": "Soirée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.9155,47.5235",
-    "categorie": "sortir",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/tana/tana_no_comment_bar.jpg",
@@ -4636,13 +3595,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L’afterwork incontournable d’Isoraka. Ambiance pub cosy à l’étage pour déguster un bon whisky et club animé au sous-sol pour danser. Les concerts live (jazz, rock, fusion) y sont fréquents et de très bonne qualité. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
+    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸",
+    "sous_type": "Bar",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 527,
     "ville": "Antananarivo",
     "nom": "Taxi Be Antanimena",
-    "type": "sortir",
+    "type": "Bar & Sortir",
     "lat": -18.905,
     "lng": 47.524,
     "prix": "20 000 Ar",
@@ -4657,15 +3622,16 @@ window.LIEUX_DATA = [
     "duree": "Nuit blanche",
     "siteWeb": "https://www.facebook.com",
     "tags": [
+      "Bar & Sortir",
       "tana",
-      "sortir",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "price": "20 000 Ar",
     "rating": 4.4,
     "duration": "Nuit blanche",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.905,47.524",
-    "categorie": "sortir",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/tana/tana_taxi_be.jpg",
@@ -4754,13 +3720,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L’ambiance ’chaude’ à la malgache. Un grand club populaire où tout le monde se mélange pour danser sur du Salegy et de l’électro jusqu’au petit matin. C’est bruyant, joyeux et intense. Animation garantie toute la semaine. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Chaque nid de poule est une occasion de vérifier si tes vertèbres sont bien attachées. 🦴"
+    "humour_grok": "Chaque nid de poule est une occasion de vérifier si tes vertèbres sont bien attachées. 🦴",
+    "sous_type": "Bar",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 528,
     "ville": "Antananarivo",
     "nom": "La Teinturerie",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -18.925,
     "lng": 47.535,
     "prix": "10 000 Ar",
@@ -4775,19 +3747,19 @@ window.LIEUX_DATA = [
     "duree": "2h",
     "siteWeb": "https://www.facebook.com/LaTeinturerieAssociation",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "tana",
-      "sortir",
       "spots",
       "explorer",
       "budget_1",
-      "culture"
+      "culture",
+      "sortir"
     ],
     "price": "10 000 Ar",
     "rating": 4.7,
     "duration": "2h",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.925,47.535",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/tana/tana_la_teinturerie.jpg",
@@ -4876,13 +3848,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le spot arty et culturel. Une galerie d’art qui fait bar et salle de concert. L’ambiance y est alternative, détendue et créative. Idéal pour ceux qui cherchent autre chose que les boîtes de nuit classiques : expos, débats et musique indé.",
     "has_expandable_description": true,
-    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
+    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏",
+    "sous_type": "Bar",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 529,
     "ville": "Antananarivo",
     "nom": "Le Glacier",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -18.908,
     "lng": 47.5255,
     "prix": "15 000 Ar",
@@ -4897,18 +3875,18 @@ window.LIEUX_DATA = [
     "duree": "Soirée",
     "siteWeb": "https://www.hotel-glacier.com",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "tana",
-      "sortir",
       "budget_1",
       "spots",
-      "famille"
+      "famille",
+      "sortir"
     ],
     "price": "15 000 Ar",
     "rating": 4.2,
     "duration": "Soirée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.908,47.5255",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/tana/tana_le_glacier.jpg",
@@ -4997,13 +3975,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Mythique et sulfureux. Situé en plein Analakely, c’est le cabaret le plus célèbre de Tana. Concerts de Tsapiky et Salegy tous les soirs. L’ambiance est très locale, parfois un peu interlope, mais c’est une expérience brute de la nuit malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Attention au rhum coco. Il a le goût de jus de fruit, mais il frappe comme un boxeur poids lourd. 🥊"
+    "humour_grok": "Attention au rhum coco. Il a le goût de jus de fruit, mais il frappe comme un boxeur poids lourd. 🥊",
+    "sous_type": "Bar",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 530,
     "ville": "Antananarivo",
     "nom": "Le Piment Café",
-    "type": "sortir",
+    "type": "Bar & Sortir",
     "lat": -18.91,
     "lng": 47.528,
     "prix": "25 000 Ar",
@@ -5018,17 +4002,17 @@ window.LIEUX_DATA = [
     "duree": "Soirée",
     "siteWeb": "https://www.facebook.com/pimentcafe",
     "tags": [
+      "Bar & Sortir",
       "tana",
-      "sortir",
       "budget_2",
-      "nature",
-      "culture"
+      "culture",
+      "sortir"
     ],
     "price": "25 000 Ar",
     "rating": 4.6,
     "duration": "Soirée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.91,47.528",
-    "categorie": "sortir",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/tana/tana_piment_cafe.jpg",
@@ -5117,7 +4101,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le temple du cabaret. Un lieu convivial où les plus grands artistes de variété malgache viennent jouer en acoustique ou en groupe. L’ambiance est respectueuse de la musique, on y vient pour écouter et chanter en chœur. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸"
+    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸",
+    "sous_type": "Bar",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 531,
@@ -5142,7 +4132,6 @@ window.LIEUX_DATA = [
       "spots",
       "explorer",
       "budget_1",
-      "nature",
       "detente",
       "secret_spot"
     ],
@@ -5239,7 +4228,9 @@ window.LIEUX_DATA = [
     },
     "description_summary": "La star d’Ampefy. Une cascade spectaculaire de 26m de haut qui gronde au milieu des collines verdoyantes volcaniques. La légende raconte qu’une jeune fille nommée Lily y a disparu. C’est un spot photo magnifique et rafraîchissant. Ce lieu présente un intérêt certain pour les visiteurs de Ampefy, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
+    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩",
+    "sous_type": "Spot Local",
+    "zone": "antananarivo"
   },
   {
     "id": 532,
@@ -5262,8 +4253,7 @@ window.LIEUX_DATA = [
     "tags": [
       "Nature",
       "explorer",
-      "budget_1",
-      "nature"
+      "budget_1"
     ],
     "price": "Gratuit",
     "rating": 4.5,
@@ -5360,7 +4350,9 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un phénomène géologique curieux. Ce ne sont pas des geysers volcaniques chauds, mais des puits artésiens d’eau froide riche en gaz carbonique qui jaillissent du sol, créant des formations de travertin jaune et rouge étonnantes. On peut s’y doucher ! Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas payer pour marcher dans la boue et chercher un lézard de 2cm invisible. Et tu vas adorer ça. Masochiste. 🤠"
+    "humour_grok": "Tu vas payer pour marcher dans la boue et chercher un lézard de 2cm invisible. Et tu vas adorer ça. Masochiste. 🤠",
+    "sous_type": "Nature",
+    "zone": "antananarivo"
   },
   {
     "id": 533,
@@ -5478,7 +4470,9 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le centre spirituel et géographique. Considéré comme le centre de gravité de Madagascar, cet îlot sur le lac Itasy offre une vue panoramique époustouflante sur toute la région. Une statue de la Vierge veille au sommet. Silence et contemplation.",
     "has_expandable_description": true,
-    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
+    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️",
+    "sous_type": "Culture",
+    "zone": "antananarivo"
   },
   {
     "id": 534,
@@ -5598,7 +4592,9 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le lac mystérieux. Un cratère volcanique profond aux eaux vert émeraude sombre. La légende des ’amants maudits’ (Romeo & Juliette malgaches) qui s’y sont noyés hante les lieux. La forme du lac ressemble à la carte de Madagascar. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
+    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩",
+    "sous_type": "Nature",
+    "zone": "antananarivo"
   },
   {
     "id": 535,
@@ -5718,7 +4714,15 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un chef-d’œuvre architectural. Cette immense cathédrale fait la fierté de la ’Ville d’Eau’. Son architecture mêlant gothique et roman, avec ses briques rouges typiques des Hautes Terres, est majestueuse. Le parvis est un lieu de vie animé.",
     "has_expandable_description": true,
-    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
+    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸",
+    "alias": [
+      "Cathédrale d’Antsirabe"
+    ],
+    "fusion_de": [
+      638
+    ],
+    "sous_type": "Spot Local",
+    "zone": "antananarivo"
   },
   {
     "id": 6,
@@ -5742,10 +4746,8 @@ window.LIEUX_DATA = [
       "Plage",
       "diego",
       "explorer",
-      "sortir",
       "budget_1",
-      "spots",
-      "nature"
+      "spots"
     ],
     "price": "Gratuit",
     "rating": 4.5,
@@ -5842,15 +4844,21 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Bien plus qu’une simple plage, Ramena est un village de pêcheurs vibrant. La plage de sable blanc s’étire sur des kilomètres, bordée de gargotes servant du poisson grillé fraîchement pêché. L’ambiance y est détendue et festive le dimanche.",
     "has_expandable_description": true,
-    "humour_grok": "Attention, les noix de coco sont des tueuses silencieuses. La gravité ne prend pas de vacances. 🥥"
+    "humour_grok": "Attention, les noix de coco sont des tueuses silencieuses. La gravité ne prend pas de vacances. 🥥",
+    "sous_type": "Plage",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 7,
     "ville": "Diego-Suarez",
     "nom": "Mer d’Émeraude",
-    "type": "Spot Local",
-    "lat": -12.3333,
-    "lng": 49.4833,
+    "type": "Incontournable",
+    "lat": -12.164,
+    "lng": 49.352,
     "prix": "80 000 Ar",
     "prixEur": "18 €",
     "prixNum": 80000,
@@ -5863,19 +4871,21 @@ window.LIEUX_DATA = [
     "duree": "Journée",
     "siteWeb": "http://www.office-tourisme-diego-suarez.com",
     "tags": [
-      "Spot Local",
+      "Incontournable",
       "diego",
       "explorer",
-      "budget_3",
+      "budget_2",
       "spots",
       "aventure",
-      "secret_spot"
+      "secret_spot",
+      "mer",
+      "incontournable"
     ],
     "price": "80 000 Ar",
     "rating": 4.8,
     "duration": "Journée",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.3333,49.4833",
-    "categorie": "Spot Local",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.164,49.352",
+    "categorie": "Incontournable",
     "galerie_photos": [
       {
         "url": "images/iles/mer-emeraude.jpg",
@@ -5957,14 +4967,31 @@ window.LIEUX_DATA = [
       }
     },
     "carte_interactive": {
-      "latitude": -12.3333,
-      "longitude": 49.4833,
+      "latitude": -12.164,
+      "longitude": 49.352,
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
     "description_summary": "Un lagon aux couleurs irréelles, digne des plus belles cartes postales. L’eau peu profonde et turquoise est idéale pour le snorkeling et le kitesurf. Le déjeuner se prend souvent sur un îlot désert avec au menu : poisson grillé et riz coco.",
     "has_expandable_description": true,
-    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
+    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸",
+    "alias": [
+      "Mer d'Émeraude"
+    ],
+    "fusion_de": [
+      602
+    ],
+    "sous_type": "Incontournable",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ],
+    "galerie_a_creer": [
+      "images/spots/mer-emeraude-plage.jpg",
+      "images/spots/mer-emeraude-bateau.jpg",
+      "images/spots/mer-emeraude-snorkeling.jpg"
+    ]
   },
   {
     "id": 8,
@@ -5989,8 +5016,7 @@ window.LIEUX_DATA = [
       "diego",
       "explorer",
       "budget_1",
-      "spots",
-      "nature"
+      "spots"
     ],
     "price": "Gratuit",
     "rating": 4.6,
@@ -6087,7 +5113,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une succession spectaculaire de baies sauvages : la Baie des Dunes, la Baie des Pigeons et la Baie des Sakalava. C’est un paradis pour les marcheurs et les photographes, offrant des panoramas contrastés entre sable blanc, eau turquoise et rochers sombres.",
     "has_expandable_description": true,
-    "humour_grok": "Le sable s'infiltre partout. Vraiment partout. On en reparle dans 3 jours aux urgences. 🏖️"
+    "humour_grok": "Le sable s'infiltre partout. Vraiment partout. On en reparle dans 3 jours aux urgences. 🏖️",
+    "sous_type": "Plage",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 9,
@@ -6112,7 +5144,8 @@ window.LIEUX_DATA = [
       "diego",
       "explorer",
       "budget_2",
-      "nature"
+      "randonnee",
+      "incontournable"
     ],
     "price": "45 000 Ar",
     "rating": 4.7,
@@ -6124,9 +5157,19 @@ window.LIEUX_DATA = [
         "url": "images/spots/montagne-ambre.jpg",
         "alt": "Montagne d’Ambre",
         "type": "principale"
+      },
+      {
+        "url": "images/spots/montagne-ambre-cameleon.jpg",
+        "alt": "Montagne d'Ambre - Vue 2",
+        "type": "secondaire"
+      },
+      {
+        "url": "images/spots/montagne-ambre-foret.jpg",
+        "alt": "Montagne d'Ambre - Vue 3",
+        "type": "secondaire"
       }
     ],
-    "hasCarousel": false,
+    "hasCarousel": true,
     "infos_pratiques": {
       "horaires": {
         "lundi_vendredi": "8h-17h (fermé le lundi)",
@@ -6209,15 +5252,27 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une oasis de fraîcheur tropicale qui contraste avec la chaleur de Diego. Cette forêt pluviale abrite des cascades sacrées, des lacs de cratère et une biodiversité incroyable, dont le plus petit caméléon du monde, le Brookesia. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Si tu vois du tissu rouge, c'est pas de la déco. C'est sacré. Recule doucement et fais un sourire gêné. 🔴"
+    "humour_grok": "Si tu vois du tissu rouge, c'est pas de la déco. C'est sacré. Recule doucement et fais un sourire gêné. 🔴",
+    "alias": [
+      "Montagne d'Ambre"
+    ],
+    "fusion_de": [
+      604
+    ],
+    "sous_type": "Nature",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 10,
-    "ville": "Diego-Suarez",
+    "ville": "Sadjoavato",
     "nom": "Tsingy Rouge",
-    "type": "Découverte",
-    "lat": -12.9165,
-    "lng": 49.2936,
+    "type": "Incontournable",
+    "lat": -12.633,
+    "lng": 49.483,
     "prix": "50 000 Ar",
     "prixEur": "12 €",
     "prixNum": 50000,
@@ -6230,16 +5285,18 @@ window.LIEUX_DATA = [
     "duree": "2h",
     "siteWeb": "http://www.office-tourisme-diego-suarez.com",
     "tags": [
-      "Découverte",
+      "Incontournable",
       "diego",
       "spots",
-      "budget_2"
+      "budget_2",
+      "explorer",
+      "incontournable"
     ],
     "price": "50 000 Ar",
     "rating": 4.8,
     "duration": "2h",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.9165,49.2936",
-    "categorie": "Découverte",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.633,49.483",
+    "categorie": "Incontournable",
     "galerie_photos": [
       {
         "url": "images/spots/tsingy-rouge.jpg",
@@ -6321,20 +5378,31 @@ window.LIEUX_DATA = [
       }
     },
     "carte_interactive": {
-      "latitude": -12.9165,
-      "longitude": 49.2936,
+      "latitude": -12.633,
+      "longitude": 49.483,
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
     "description_summary": "Une curiosité géologique unique, différente des Tsingy gris. Ici, l’érosion a sculpté le grès rouge et la latérite pour former des cheminées de fée aux couleurs flamboyantes. Le contraste avec la végétation verte est saisissant.",
     "has_expandable_description": true,
-    "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
+    "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞",
+    "fusion_de": [
+      603
+    ],
+    "sous_type": "Incontournable",
+    "depart_de": "Diego-Suarez",
+    "zone": "antsiranana",
+    "galerie_a_creer": [
+      "images/spots/tsingy-rouge-sunset.jpg",
+      "images/spots/tsingy-rouge-formations.jpg",
+      "images/spots/tsingy-rouge-panorama.jpg"
+    ]
   },
   {
     "id": 11,
     "ville": "Diego-Suarez",
     "nom": "Windsor Castle",
-    "type": "Découverte",
+    "type": "Culture",
     "lat": -12.35,
     "lng": 49.3,
     "prix": "Gratuit",
@@ -6349,17 +5417,18 @@ window.LIEUX_DATA = [
     "duree": "3h",
     "siteWeb": "http://www.office-tourisme-diego-suarez.com",
     "tags": [
-      "Découverte",
+      "Culture",
       "diego",
       "spots",
       "budget_1",
-      "aventure"
+      "aventure",
+      "explorer"
     ],
     "price": "Gratuit",
     "rating": 4.5,
     "duration": "3h",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.35,49.3",
-    "categorie": "Découverte",
+    "categorie": "Culture",
     "galerie_photos": [
       {
         "url": "images/spots/windsor-castle.jpg",
@@ -6448,7 +5517,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un ancien fort militaire perché sur un énorme monolithe rocheux. L’ascension est un peu raide mais la récompense est là : une vue panoramique époustouflante sur le Canal du Mozambique, l’Océan Indien et la baie de Diego. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
+    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀",
+    "sous_type": "Découverte",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 12,
@@ -6474,7 +5549,6 @@ window.LIEUX_DATA = [
       "spots",
       "explorer",
       "budget_1",
-      "nature",
       "aventure"
     ],
     "price": "20 000 Ar",
@@ -6572,7 +5646,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un chemin de croix grimpe le long de cette montagne calcaire recouverte de forêt sèche et de baobabs. Au sommet, les ruines d’un fort colonial et une vue imprenable sur toute la baie de Diego vous attendent. C’est aussi un spot d’escalade réputé. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
+    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽",
+    "sous_type": "Nature",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 13,
@@ -6598,7 +5678,9 @@ window.LIEUX_DATA = [
       "manger",
       "budget_2",
       "gastronomie",
-      "incontournable"
+      "incontournable",
+      "spots",
+      "culture"
     ],
     "galerie_photos": [
       {
@@ -6607,19 +5689,9 @@ window.LIEUX_DATA = [
         "type": "principale"
       },
       {
-        "url": "images/restaurants/melville-plat.jpg",
-        "alt": "Restaurant Le Melville - Vue 2",
-        "type": "galerie"
-      },
-      {
-        "url": "images/restaurants/melville-sunset.jpg",
-        "alt": "Restaurant Le Melville - Vue 3",
-        "type": "galerie"
-      },
-      {
-        "url": "images/restaurants/melville-interieur.jpg",
-        "alt": "Restaurant Le Melville - Vue 4",
-        "type": "galerie"
+        "url": "images/restaurants/diego_le_melville.png",
+        "alt": "Le Melville",
+        "type": "secondaire"
       }
     ],
     "avis": {
@@ -6712,7 +5784,24 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une adresse historique avec vue sur la baie. Le Melville propose une cuisine généreuse centrée sur les produits de la mer. Le cadre, un peu hors du temps, rappelle l'époque coloniale avec ses boiseries et sa grande terrasse. Un incontournable de Diego où tradition et saveurs se rencontrent face à l'océan.",
     "has_expandable_description": true,
-    "humour_grok": "L'addition arrivera... un jour. Peut-être. Profite pour digérer. 🧾"
+    "humour_grok": "L'addition arrivera... un jour. Peut-être. Profite pour digérer. 🧾",
+    "alias": [
+      "Le Melville"
+    ],
+    "fusion_de": [
+      16
+    ],
+    "sous_type": "Restaurant",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ],
+    "galerie_a_creer": [
+      "images/restaurants/melville-plat.jpg",
+      "images/restaurants/melville-sunset.jpg",
+      "images/restaurants/melville-interieur.jpg"
+    ]
   },
   {
     "id": 14,
@@ -6736,7 +5825,6 @@ window.LIEUX_DATA = [
       "Restaurant",
       "diego",
       "manger",
-      "sortir",
       "budget_2"
     ],
     "price": "40 000 Ar",
@@ -6830,7 +5918,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le repaire des gourmands. Tenu par des Italiens, ce restaurant allie la fraîcheur des produits malgaches au savoir-faire italien. Pizzas au feu de bois excellentes et pâtes fraîches maison, le tout dans une ambiance bistro décontractée.",
     "has_expandable_description": true,
-    "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗"
+    "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗",
+    "sous_type": "Restaurant",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 15,
@@ -6854,9 +5948,9 @@ window.LIEUX_DATA = [
       "Nature",
       "diego",
       "explorer",
-      "sortir",
       "budget_2",
-      "culture"
+      "culture",
+      "spots"
     ],
     "price": "40 000 Ar",
     "rating": 4.6,
@@ -6868,9 +5962,14 @@ window.LIEUX_DATA = [
         "url": "images/pain_de_sucre_premium.jpg",
         "alt": "Nosy Lonjo (Pain de Sucre)",
         "type": "principale"
+      },
+      {
+        "url": "images/spots/pain-de-sucre.jpg",
+        "alt": "Pain de Sucre",
+        "type": "secondaire"
       }
     ],
-    "hasCarousel": false,
+    "hasCarousel": true,
     "infos_pratiques": {
       "horaires": {
         "lundi_vendredi": "8h-17h (fermé le lundi)",
@@ -6953,261 +6052,25 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Ce cône volcanique parfait émerge de la baie tel un gardien sacré. Appelé ’Pain de Sucre’ pour sa forme, il est couvert de végétation et abrite des rituels traditionnels. On ne peut généralement pas y débarquer, mais en faire le tour en bateau est magique.",
     "has_expandable_description": true,
-    "humour_grok": "Le silence est d'or. Et ici, il est obligatoire. Range ton téléphone et écoute l'histoire (même si c'est compliqué). 🤫"
-  },
-  {
-    "id": 16,
-    "ville": "Diego-Suarez",
-    "nom": "Le Melville",
-    "type": "Nature",
-    "lat": -12.282,
-    "lng": 49.294,
-    "prix": "40 000 Ar",
-    "prixEur": "9 €",
-    "prixNum": 40000,
-    "note": 4.6,
-    "description": "Une institution historique face à la baie. Cuisine raffinée (crabes, camarons) servie sur une magnifique terrasse coloniale. Le coucher de soleil y est spectaculaire. Un lieu chargé d’histoire. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Diego-Suarez. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
-    "image": "images/restaurants/diego_le_melville.png",
-    "acces": "Rue Richelieu, Centre-ville",
-    "horaires": "11h-22h",
-    "conseil": "Réservez la table au coin de la terrasse pour la meilleure vue.",
-    "duree": "2h",
-    "siteWeb": "https://www.facebook.com/LeMelvilleDiego",
-    "spotLocal": true,
-    "contactLocal": "Paul, pêcheur au marché central de Diego (matin 6h-9h)",
-    "respect": "Retirer chaussures à l'entrée, ne pas toucher aux offrandes, silence",
-    "tags": [
-      "Nature",
-      "diego",
-      "manger",
-      "spots",
-      "budget_2",
-      "nature",
-      "culture"
+    "humour_grok": "Le silence est d'or. Et ici, il est obligatoire. Range ton téléphone et écoute l'histoire (même si c'est compliqué). 🤫",
+    "alias": [
+      "Pain de Sucre"
     ],
-    "price": "40 000 Ar",
-    "rating": 4.6,
-    "duration": "2h",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.282,49.294",
-    "categorie": "Nature",
-    "galerie_photos": [
-      {
-        "url": "images/restaurants/diego_le_melville.png",
-        "alt": "Le Melville",
-        "type": "principale"
-      }
+    "fusion_de": [
+      616
     ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h (fermé le lundi)",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "eviter": "Janvier-Mars (pluies intenses)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Bonnes chaussures de randonnée",
-          "Eau (2L min)",
-          "Crème solaire",
-          "Appareil photo",
-          "Anti-moustiques"
-        ],
-        "conseils": "Guide local recommandé pour découvrir la faune"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.125Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 108,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.282,
-      "longitude": 49.294,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Une institution historique face à la baie. Cuisine raffinée (crabes, camarons) servie sur une magnifique terrasse coloniale. Le coucher de soleil y est spectaculaire. Un lieu chargé d’histoire. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
-    "has_expandable_description": true,
-    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
-  },
-  {
-    "id": 100,
-    "ville": "Diego-Suarez",
-    "nom": "Le Grand Hôtel",
-    "type": "Hotel",
-    "lat": -12.2714,
-    "lng": 49.2917,
-    "prix": "250 000 Ar",
-    "prixEur": "55 €",
-    "prixNum": 250000,
-    "note": 4.5,
-    "description": "L’adresse de référence pour le luxe à Diego. Situé en plein centre-ville, cet hôtel historique offre des prestations haut de gamme : grande piscine, spa, casino et chambres spacieuses. Idéal pour ceux qui cherchent confort et services irréprochables. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "image": "images/hotels/grand-hotel-diego.jpg",
-    "acces": "Rue Colbert, centre-ville",
-    "horaires": "Réception 24h/24",
-    "conseil": "La pâtisserie de l’hôtel est réputée comme la meilleure de la ville, parfaite pour le goûter.",
-    "duree": "Séjour",
-    "siteWeb": "http://www.grand-hotel-diego.com",
-    "tags": [
-      "Hotel",
-      "diego",
-      "dormir",
-      "budget_3",
-      "luxe",
-      "detente"
-    ],
-    "price": "250 000 Ar",
-    "rating": 4.5,
-    "duration": "Séjour",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.2714,49.2917",
-    "categorie": "Hotel",
-    "galerie_photos": [
-      {
-        "url": "images/hotels/grand-hotel-diego.jpg",
-        "alt": "Le Grand Hôtel",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.126Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 82,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.2714,
-      "longitude": 49.2917,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "L’adresse de référence pour le luxe à Diego. Situé en plein centre-ville, cet hôtel historique offre des prestations haut de gamme : grande piscine, spa, casino et chambres spacieuses. Idéal pour ceux qui cherchent confort et services irréprochables.",
-    "has_expandable_description": true,
-    "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎"
+    "sous_type": "Nature",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 101,
     "ville": "Diego-Suarez",
     "nom": "Suarez Hotel",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -12.3056,
     "lng": 49.2917,
     "prix": "180 000 Ar",
@@ -7222,8 +6085,7 @@ window.LIEUX_DATA = [
     "duree": "Séjour",
     "siteWeb": "http://www.suarez-hotel.com",
     "tags": [
-      "Hotel",
-      "sortir",
+      "Hôtel",
       "dormir",
       "diego",
       "budget_3",
@@ -7234,7 +6096,7 @@ window.LIEUX_DATA = [
     "rating": 4.6,
     "duration": "Séjour",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.3056,49.2917",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/hotels/suarez-hotel.jpg",
@@ -7323,13 +6185,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un havre de paix niché dans un jardin tropical luxuriant. Les bungalows offrent une intimité totale avec vue sur le Pain de Sucre. L’ambiance y est zen et raffinée, loin du tumulte du centre-ville (tout en restant proche). Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Le WiFi fonctionne... quand il a envie. Un peu comme le personnel, finalement. 📶"
+    "humour_grok": "Le WiFi fonctionne... quand il a envie. Un peu comme le personnel, finalement. 📶",
+    "sous_type": "Hotel",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 102,
     "ville": "Diego-Suarez",
     "nom": "Allamanda Hôtel",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -12.2789,
     "lng": 49.2934,
     "prix": "200 000 Ar",
@@ -7344,7 +6212,7 @@ window.LIEUX_DATA = [
     "duree": "Séjour",
     "siteWeb": "http://www.allamanda-hotel.com",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "diego",
       "dormir",
       "budget_3",
@@ -7354,15 +6222,20 @@ window.LIEUX_DATA = [
     "rating": 4.4,
     "duration": "Séjour",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.2789,49.2934",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/hotels/allamanda-hotel.jpg",
         "alt": "Allamanda Hôtel",
         "type": "principale"
+      },
+      {
+        "url": "images/hotels/allamanda.jpg",
+        "alt": "Allamanda Hotel",
+        "type": "secondaire"
       }
     ],
-    "hasCarousel": false,
+    "hasCarousel": true,
     "infos_pratiques": {
       "horaires": {
         "lundi_vendredi": "8h-17h",
@@ -7443,7 +6316,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le charme colonial au bord de l’eau. Situé en front de mer, l’Allamanda propose des chambres confortables avec balcon donnant sur la baie. C’est un excellent compromis entre standing et authenticité. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "5 étoiles en local, ça vaut un 2 étoiles chez toi. Ajuste tes attentes et tout ira bien. ⭐"
+    "humour_grok": "5 étoiles en local, ça vaut un 2 étoiles chez toi. Ajuste tes attentes et tout ira bien. ⭐",
+    "alias": [
+      "Allamanda Hotel"
+    ],
+    "fusion_de": [
+      611
+    ],
+    "sous_type": "Hotel",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 103,
@@ -7563,13 +6448,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une table incontournable pour les gourmets. Ce restaurant propose une cuisine fusion métissée, mettant à l’honneur les produits locaux (crabe, zébu, vanille) avec une touche française. Le cadre est élégant et le service attentionné.",
     "has_expandable_description": true,
-    "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔"
+    "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔",
+    "sous_type": "Restaurant",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 104,
     "ville": "Diego-Suarez",
     "nom": "Taxi Be",
-    "type": "Boîte de nuit",
+    "type": "Bar & Sortir",
     "lat": -12.271,
     "lng": 49.289,
     "prix": "10 000 Ar",
@@ -7585,17 +6476,17 @@ window.LIEUX_DATA = [
     "duree": "Soirée",
     "siteWeb": "https://www.facebook.com/taxibediego",
     "tags": [
-      "Boîte de nuit",
+      "Bar & Sortir",
       "diego",
-      "sortir",
       "budget_1",
-      "culture"
+      "culture",
+      "sortir"
     ],
     "price": "10 000 Ar",
     "rating": 4.3,
     "duration": "Soirée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.271,49.289",
-    "categorie": "Boîte de nuit",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/nightlife/taxi-be.jpg",
@@ -7684,13 +6575,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le temple de la nuit majungaise. Une ambiance survoltée, de la musique live tous les soirs (Salegy, Slow, Variété) et une foule cosmopolite. C’est l’endroit où tout Majunga se retrouve pour danser et faire la fête jusqu’au bout de la nuit.",
     "has_expandable_description": true,
-    "humour_grok": "Le silence est d'or. Et ici, il est obligatoire. Range ton téléphone et écoute l'histoire (même si c'est compliqué). 🤫"
+    "humour_grok": "Le silence est d'or. Et ici, il est obligatoire. Range ton téléphone et écoute l'histoire (même si c'est compliqué). 🤫",
+    "sous_type": "Boîte de nuit",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 105,
     "ville": "Diego-Suarez",
     "nom": "La Bodega",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -12.2715,
     "lng": 49.2895,
     "prix": "15 000 Ar",
@@ -7705,17 +6602,17 @@ window.LIEUX_DATA = [
     "duree": "2h",
     "siteWeb": "https://www.facebook.com/labodegadiego",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "diego",
-      "sortir",
       "budget_1",
-      "spots"
+      "spots",
+      "sortir"
     ],
     "price": "15 000 Ar",
     "rating": 4.5,
     "duration": "2h",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.2715,49.2895",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/nightlife/la-bodega.jpg",
@@ -7804,13 +6701,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le repaire cool et branché de la rue Colbert. Ambiance tapas, cocktails soignés et musique latine/rock. C’est l’endroit parfait pour commencer la soirée (before) avant d’aller danser. La terrasse permet d’observer l’animation de la rue.",
     "has_expandable_description": true,
-    "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃"
+    "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃",
+    "sous_type": "Bar",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 106,
     "ville": "Diego-Suarez",
     "nom": "Nouvel Hôtel (New Bar)",
-    "type": "Boîte de nuit",
+    "type": "Bar & Sortir",
     "lat": -12.2725,
     "lng": 49.2885,
     "prix": "20 000 Ar",
@@ -7825,17 +6728,17 @@ window.LIEUX_DATA = [
     "duree": "Nuit",
     "siteWeb": "https://www.facebook.com",
     "tags": [
-      "Boîte de nuit",
+      "Bar & Sortir",
       "diego",
       "dormir",
-      "sortir",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "price": "20 000 Ar",
     "rating": 4.2,
     "duration": "Nuit",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.2725,49.2885",
-    "categorie": "Boîte de nuit",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/nightlife/nouvel-hotel-club.jpg",
@@ -7924,7 +6827,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un club plus sélect et climatisé, souvent préféré pour finir la soirée dans une ambiance plus ’clubbing’ international. Le cadre est plus moderne que le Taxi Be, attirant une jeunesse dorée et les touristes. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas boire, tu vas danser, tu vas oublier. Demain matin sera un problème pour le 'Toi du Futur'. 🍻"
+    "humour_grok": "Tu vas boire, tu vas danser, tu vas oublier. Demain matin sera un problème pour le 'Toi du Futur'. 🍻",
+    "sous_type": "Boîte de nuit",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 56,
@@ -7951,7 +6860,7 @@ window.LIEUX_DATA = [
       "diego",
       "spots",
       "budget_1",
-      "nature"
+      "explorer"
     ],
     "price": "10 000 Ar",
     "rating": 4.6,
@@ -8049,7 +6958,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un paysage lunaire fascinant de 700 hectares. Les bassins de sel s’étendent à perte de vue, changeant de couleur du blanc aveuglant au rose selon la concentration. Un contraste saisissant avec la mangrove verte environnante. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
+    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️",
+    "sous_type": "Nature",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 600,
@@ -8068,7 +6983,6 @@ window.LIEUX_DATA = [
       "Culture",
       "diego",
       "explorer",
-      "sortir",
       "budget_1",
       "culture"
     ],
@@ -8168,10 +7082,16 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L'artère vitale de Diego. Bordée de bâtiments coloniaux aux façades pastel, cette rue raconte l'histoire de la ville. Commerces, rencontres, flâneries. Ambiance unique mêlant nostalgie et effervescence. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
+    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️",
+    "sous_type": "Culture",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
-    "id": 601,
+    "id": 801,
     "ville": "Diego-Suarez",
     "nom": "Ancien Hôtel de la Marine",
     "type": "Culture",
@@ -8179,14 +7099,13 @@ window.LIEUX_DATA = [
     "lng": 49.29,
     "prix": "Gratuit",
     "note": 4.7,
-    "description": "Bienvenue à Diego (Antsiranana), la belle endormie du Nord ! C'est un mélange unique d'histoire coloniale et de douceur de vivre tropicale.\n\n🏙️ Architecture : Flânez rue Colbert pour admirer les vieilles bâtisses coloniales, témoins d'une époque révolue.\n🚙 Transport : Ici, on se déplace en Bajaj (les tuk-tuks jaunes). C'est fun, ça passe partout et ça coûte rien !\n🌅 Ambiance : C'est 'Mora Mora' (doucement). Prenez le temps de boire un café en terrasse et de regarder la vie passer.\n\nUne ville authentique qui vous séduira par son charme nostalgique.",
+    "description": "Une ruine majestueuse qui trône face à la mer. Cet immense bâtiment fantomatique est l’un des symboles les plus photogéniques de Diego. Bien qu’abandonné, il dégage une aura puissante et romantique, témoignage de la grandeur passée du port. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/diego/hotel-marine.jpg",
     "conseil": "Idéal pour des photos d’ambiance ’urbex’ au coucher du soleil.",
     "duree": "30 min",
     "tags": [
       "Culture",
       "diego",
-      "dormir",
       "explorer",
       "budget_1"
     ],
@@ -8284,9 +7203,15 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Bienvenue à Diego (Antsiranana), la belle endormie du Nord ! C'est un mélange unique d'histoire coloniale et de douceur de vivre tropicale.",
+    "description_summary": "Une ruine majestueuse qui trône face à la mer. Cet immense bâtiment fantomatique est l’un des symboles les plus photogéniques de Diego. Bien qu’abandonné, il dégage une aura puissante et romantique, témoignage de la grandeur passée du port. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑"
+    "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑",
+    "sous_type": "Culture",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 602,
@@ -8297,7 +7222,7 @@ window.LIEUX_DATA = [
     "lng": 49.3,
     "prix": "Gratuit",
     "note": 4.4,
-    "description": "La Mer d'Émeraude, c'est LA carte postale mauricienne... mais à Madagascar ! Un lagon immense, peu profond, d'un turquoise qui fait mal aux yeux (dans le bon sens).\n\n⛵ Accès : On y va en boutre traditionnel depuis Ramena. La traversée est déjà une aventure.\n🐠 Snorkeling : L'eau est si claire que vous verrez les poissons depuis le bateau. Parfait pour une initiation.\n🏝️ Déjeuner : Grillades de poissons frais sur un îlot désert. Le luxe, le vrai : les pieds dans le sable.\n\n⚠️ Attention au soleil, ça tape fort sur l'eau !",
+    "description": "Le cœur battant de la vie locale. Moins touristique que le grand bazar, c’est ici que les Diégo-mananets font leurs courses. Épices, fruits tropicaux, crabes, tissus... C’est un festival de couleurs et d’odeurs. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/diego/marche-bazarikely.jpg",
     "conseil": "Achetez-y votre poivre vert de Madagascar et de la vanille.",
     "duree": "1h",
@@ -8404,28 +7329,33 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "La Mer d'Émeraude, c'est LA carte postale mauricienne... mais à Madagascar ! Un lagon immense, peu profond, d'un turquoise qui fait mal aux yeux (dans le bon sens).",
+    "description_summary": "Le cœur battant de la vie locale. Moins touristique que le grand bazar, c’est ici que les Diégo-mananets font leurs courses. Épices, fruits tropicaux, crabes, tissus... C’est un festival de couleurs et d’odeurs. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
+    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐",
+    "sous_type": "Spot Local",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 603,
     "ville": "Diego-Suarez",
     "nom": "Place Joffre",
-    "type": "Point de Vue",
+    "type": "Culture",
     "lat": -12.25,
     "lng": 49.29,
     "prix": "Gratuit",
     "note": 4.6,
-    "description": "Oubliez la roche grise, ici la terre saigne ! Les Tsingy Rouges sont un canyon éphémère sculpté par la pluie dans de la latérite et du grès.\n\n🎨 Couleurs : Un dégradé spectaculaire du blanc à l'ocre rouge. C'est le paradis des photographes.\n⏳ Fragile : Contrairement aux Tsingy de pierre, ceux-ci sont fragiles. On regarde avec les yeux, on touche pas !\n☀️ Moment : Idéal en fin d'après-midi quand le soleil rasant enflamme les couleurs.\n\nUn paysage martien au milieu de la brousse.",
+    "description": "Le belvédère de la ville. Située à la pointe de Diego, cette place offre une vue panoramique imprenable sur la baie et le port. La statue du Maréchal Joffre y veille toujours. C’est le lieu de rendez-vous des amoureux le soir. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/diego/place-joffre.jpg",
     "conseil": "Le meilleur endroit pour observer les mouvements des bateaux dans la baie.",
     "duree": "45 min",
     "tags": [
-      "Point de Vue",
+      "Culture",
       "diego",
       "budget_1",
-      "explorer",
       "explorer"
     ],
     "price": "Gratuit",
@@ -8435,7 +7365,7 @@ window.LIEUX_DATA = [
     "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
     "horaires": "8h00 - 18h00",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.25,49.29",
-    "categorie": "Point de Vue",
+    "categorie": "Culture",
     "galerie_photos": [
       {
         "url": "images/diego/place-joffre.jpg",
@@ -8522,27 +7452,32 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Oubliez la roche grise, ici la terre saigne ! Les Tsingy Rouges sont un canyon éphémère sculpté par la pluie dans de la latérite et du grès.",
+    "description_summary": "Le belvédère de la ville. Située à la pointe de Diego, cette place offre une vue panoramique imprenable sur la baie et le port. La statue du Maréchal Joffre y veille toujours. C’est le lieu de rendez-vous des amoureux le soir. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "L'aventure commence là où le goudron s'arrête. Et ici, il s'arrête souvent. 🛑"
+    "humour_grok": "L'aventure commence là où le goudron s'arrête. Et ici, il s'arrête souvent. 🛑",
+    "sous_type": "Point de Vue",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
-    "id": 610,
+    "id": 802,
     "ville": "Diego-Suarez",
     "nom": "Gîte du Voyageur",
-    "type": "Hébergement",
+    "type": "Hôtel",
     "note": 4.3,
     "prix": "Convivial",
-    "description": "Les Plantations Millot, c'est l'histoire vivante d'Ambanja. Une institution centenaire qui produit cacao, épices et parfums.\n\n👨‍🌾 Savoir-faire : Découvrez comment on transforme la fève brute en or noir. C'est tout un art.\n🌸 Parfums : L'Ylang-Ylang embaume l'air. On l'appelle la fleur des fleurs.\n🍽️ Dégustation : Le clou du spectacle : goûter le chocolat à la source. Attention, c'est puissant !\n\nUne visite pédagogique passionnante pour comprendre la richesse du terroir malgache.",
+    "description": "Une institution pour les routards. Simple, propre et incroyablement convivial. Le patio intérieur est un lieu de rencontre génial pour échanger des infos avec d’autres voyageurs. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/hotels/gite-voyageur.jpg",
     "conseil": "Réservez à l’avance, c’est souvent complet.",
     "duree": "Nuit",
     "tags": [
-      "Hébergement",
+      "Hôtel",
       "diego",
       "dormir",
-      "budget_1",
-      "nature"
+      "budget_1"
     ],
     "price": "Convivial",
     "rating": 4.3,
@@ -8554,7 +7489,7 @@ window.LIEUX_DATA = [
     "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
     "horaires": "Accessible toute la journée (Conseillé le matin)",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.27300778403283,49.309440490434945",
-    "categorie": "Hébergement",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/hotels/gite-voyageur.jpg",
@@ -8641,245 +7576,15 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Les Plantations Millot, c'est l'histoire vivante d'Ambanja. Une institution centenaire qui produit cacao, épices et parfums.",
+    "description_summary": "Une institution pour les routards. Simple, propre et incroyablement convivial. Le patio intérieur est un lieu de rencontre génial pour échanger des infos avec d’autres voyageurs. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Vue sur mer ? Si tu te penches beaucoup et que tu fermes un œil, oui, absolument. 🌊"
-  },
-  {
-    "id": 611,
-    "ville": "Diego-Suarez",
-    "nom": "Allamanda Hotel",
-    "type": "Hébergement",
-    "note": 4.5,
-    "prix": "Confort",
-    "description": "Le Fleuve Sambirano, c'est l'artère vitale de la région. Une balade en pirogue pour déconnecter totalement.\n\n🐊 Faune : Ouvrez l'œil, des crocodiles se dorent parfois sur les berges (de loin, c'est mieux !).\n🌳 Paysage : Des berges verdoyantes, des oiseaux pêcheurs... c'est le calme absolu.\n🛶 Authentique : La pirogue, c'est le moyen de transport local. Laissez-vous glisser au fil de l'eau.\n\nUn moment de pure zénitude au cœur de la nature.",
-    "image": "images/hotels/allamanda.jpg",
-    "conseil": "Demandez une chambre à l’étage pour une meilleure vue sur la baie.",
-    "duree": "Nuit",
-    "tags": [
-      "Hébergement",
-      "diego",
-      "dormir",
-      "budget_1"
-    ],
-    "price": "Confort",
-    "rating": 4.5,
-    "duration": "Nuit",
-    "lat": -12.282662977289531,
-    "lng": 49.286306596611105,
-    "generated_gps": true,
-    "prixNum": 0,
-    "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
-    "horaires": "8h00 - 18h00",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.282662977289531,49.286306596611105",
-    "categorie": "Hébergement",
-    "galerie_photos": [
-      {
-        "url": "images/hotels/allamanda.jpg",
-        "alt": "Allamanda Hotel",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.132Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 82,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.282662977289531,
-      "longitude": 49.286306596611105,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Le Fleuve Sambirano, c'est l'artère vitale de la région. Une balade en pirogue pour déconnecter totalement.",
-    "has_expandable_description": true,
-    "humour_grok": "Si tu trouves une bête bizarre dans ta chambre, donne-lui un prénom. Ça fait moins peur. 🕷️"
-  },
-  {
-    "id": 612,
-    "ville": "Diego-Suarez",
-    "nom": "Grand Hôtel",
-    "type": "Hébergement",
-    "note": 4.6,
-    "prix": "Luxe",
-    "description": "La grande dame de Diego. Un établissement historique qui a su garder son prestige. Le service y est impeccable, la piscine immense, et c’est le centre névralgique de la vie sociale chic de la ville. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "image": "images/hotels/grand-hotel.jpg",
-    "conseil": "Leur petit-déjeuner buffet est le meilleur de la ville.",
-    "duree": "Nuit",
-    "tags": [
-      "Hébergement",
-      "diego",
-      "dormir",
-      "budget_1"
-    ],
-    "price": "Luxe",
-    "rating": 4.6,
-    "duration": "Nuit",
-    "lat": -12.291848485528677,
-    "lng": 49.29843897985259,
-    "generated_gps": true,
-    "prixNum": 0,
-    "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
-    "horaires": "8h00 - 18h00",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.291848485528677,49.29843897985259",
-    "categorie": "Hébergement",
-    "galerie_photos": [
-      {
-        "url": "images/hotels/grand-hotel.jpg",
-        "alt": "Grand Hôtel",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.132Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 121,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.291848485528677,
-      "longitude": 49.29843897985259,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "La grande dame de Diego. Un établissement historique qui a su garder son prestige. Le service y est impeccable, la piscine immense, et c’est le centre névralgique de la vie sociale chic de la ville. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
-    "has_expandable_description": true,
-    "humour_grok": "Le WiFi fonctionne... quand il a envie. Un peu comme le personnel, finalement. 📶"
+    "humour_grok": "Vue sur mer ? Si tu te penches beaucoup et que tu fermes un œil, oui, absolument. 🌊",
+    "sous_type": "Hébergement",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 60,
@@ -8997,7 +7702,9 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un lieu chargé de mystère et de légendes. Selon la croyance, ce lac serait un ancien village dont les habitants, ayant refusé de l’eau à un voyageur assoiffé (un sorcier déguisé), furent maudits et transformés en crocodiles. Le village fut englouti par les eaux.",
     "has_expandable_description": true,
-    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸"
+    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸",
+    "sous_type": "Culture",
+    "zone": "antsiranana"
   },
   {
     "id": 17,
@@ -9023,9 +7730,9 @@ window.LIEUX_DATA = [
       "nosybe",
       "explorer",
       "budget_1",
-      "nature",
       "famille",
-      "secret_spot"
+      "secret_spot",
+      "mer"
     ],
     "price": "Gratuit",
     "rating": 4.8,
@@ -9037,9 +7744,14 @@ window.LIEUX_DATA = [
         "url": "images/iles/plage-andilana.jpg",
         "alt": "Plage d’Andilana",
         "type": "principale"
+      },
+      {
+        "url": "images/circuits/circuit-nosybe.jpg",
+        "alt": "Plage d'Andilana",
+        "type": "secondaire"
       }
     ],
-    "hasCarousel": false,
+    "hasCarousel": true,
     "infos_pratiques": {
       "horaires": {
         "lundi_vendredi": "8h-17h",
@@ -9120,7 +7832,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Sans doute la plage la plus célèbre de l’île aux Parfums. Andilana offre deux baies aux eaux cristallines, séparées par une pointe rocheuse. C’est le spot baignade par excellence, avec des eaux calmes et peu profondes, idéales pour les familles.",
     "has_expandable_description": true,
-    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨"
+    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨",
+    "alias": [
+      "Plage d'Andilana"
+    ],
+    "fusion_de": [
+      255
+    ],
+    "sous_type": "Spot Local",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 18,
@@ -9146,7 +7869,7 @@ window.LIEUX_DATA = [
       "nosybe",
       "explorer",
       "budget_1",
-      "nature"
+      "ile"
     ],
     "price": "20 000 Ar",
     "rating": 4.7,
@@ -9241,13 +7964,21 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Surnommée l’île aux lémuriens, Nosy Komba est une montagne volcanique émergée de la forêt. Ici, pas de voitures, tout se fait à pied. Les lémuriens Macaco viennent manger dans votre main, et le village d’Ampangorinana est célèbre pour ses nappes brodées.",
     "has_expandable_description": true,
-    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
+    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟",
+    "fusion_de": [
+      250
+    ],
+    "sous_type": "Incontournable",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 19,
     "ville": "Nosy Be",
     "nom": "Parc Marin Nosy Tanikely",
-    "type": "Nature",
+    "type": "Incontournable",
     "lat": -13.4833,
     "lng": 48.2389,
     "prix": "45 000 Ar",
@@ -9262,18 +7993,20 @@ window.LIEUX_DATA = [
     "duree": "Demi-journée",
     "siteWeb": "https://www.parcs-madagascar.com/parcs/nosy-tanikely.php",
     "tags": [
-      "Nature",
+      "Incontournable",
       "nosybe",
       "explorer",
       "budget_2",
-      "nature",
-      "famille"
+      "famille",
+      "ile",
+      "mer",
+      "aventure"
     ],
     "price": "45 000 Ar",
     "rating": 4.9,
     "duration": "Demi-journée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4833,48.2389",
-    "categorie": "Nature",
+    "categorie": "Incontournable",
     "galerie_photos": [
       {
         "url": "images/iles/nosy-tanikely.jpg",
@@ -9364,7 +8097,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un véritable aquarium naturel protégé. Nosy Tanikely est une réserve marine où il suffit d’un masque et d’un tuba pour nager avec des tortues imbriquées, des mérous et des milliers de poissons colorés à quelques mètres du bord. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
+    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟",
+    "alias": [
+      "Nosy Tanikely"
+    ],
+    "fusion_de": [
+      251,
+      619
+    ],
+    "sous_type": "Incontournable",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 20,
@@ -9388,7 +8133,9 @@ window.LIEUX_DATA = [
       "Incontournable",
       "explorer",
       "nosybe",
-      "budget_3"
+      "budget_3",
+      "ile",
+      "mer"
     ],
     "price": "150 000 Ar",
     "rating": 4.9,
@@ -9483,7 +8230,15 @@ window.LIEUX_DATA = [
     },
     "description_summary": "La perle de Madagascar. Deux îlots (Nosy Iranja Be et Nosy Iranja Kely) reliés par un banc de sable blanc d’un kilomètre, submergé à marée haute. L’eau y est d’un bleu turquoise irréel. C’est aussi un lieu de ponte important pour les tortues.",
     "has_expandable_description": true,
-    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
+    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃",
+    "fusion_de": [
+      253
+    ],
+    "sous_type": "Incontournable",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 21,
@@ -9508,8 +8263,8 @@ window.LIEUX_DATA = [
       "nosybe",
       "explorer",
       "budget_2",
-      "nature",
-      "culture"
+      "culture",
+      "aventure"
     ],
     "price": "45 000 Ar",
     "rating": 4.6,
@@ -9521,9 +8276,14 @@ window.LIEUX_DATA = [
         "url": "images/spots/reserve-lokobe.jpg",
         "alt": "Réserve Naturelle de Lokobe",
         "type": "principale"
+      },
+      {
+        "url": "images/spots/lokobe.jpg",
+        "alt": "Réserve de Lokobe",
+        "type": "secondaire"
       }
     ],
-    "hasCarousel": false,
+    "hasCarousel": true,
     "infos_pratiques": {
       "horaires": {
         "lundi_vendredi": "8h-17h (fermé le lundi)",
@@ -9606,7 +8366,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Dernier vestige de la forêt primaire sambirano qui recouvrait autrefois l’île. Lokobe est un sanctuaire accessible en pirogue traditionnelle. Vous y verrez le lémurien nocturne (Lepilemur), des boas, des caméléons et une flore exubérante. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Ici, on ne pointe pas du doigt. Sauf si tu veux pointer vers ta propre malchance future. 👉"
+    "humour_grok": "Ici, on ne pointe pas du doigt. Sauf si tu veux pointer vers ta propre malchance future. 👉",
+    "alias": [
+      "Réserve de Lokobe",
+      "Lokobe Special Reserve"
+    ],
+    "fusion_de": [
+      254,
+      622
+    ],
+    "sous_type": "Nature",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 22,
@@ -9725,13 +8498,21 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le toit de Nosy Be. Ce point culminant offre une vue à 360 degrés sur toute l’île et ses lacs sacrés volcaniques. C’est le rendez-vous incontournable pour un coucher de soleil spectaculaire, un cocktail à la main.",
     "has_expandable_description": true,
-    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
+    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️",
+    "fusion_de": [
+      252
+    ],
+    "sous_type": "Incontournable",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 23,
     "ville": "Nosy Be",
     "nom": "Lemuria Land",
-    "type": "Culture",
+    "type": "Nature",
     "lat": -13.3556,
     "lng": 48.2834,
     "prix": "30 000 Ar",
@@ -9746,18 +8527,17 @@ window.LIEUX_DATA = [
     "duree": "2h",
     "siteWeb": "https://lemurialand.com",
     "tags": [
-      "Culture",
+      "Nature",
       "nosybe",
       "explorer",
       "budget_2",
-      "nature",
       "culture"
     ],
     "price": "30 000 Ar",
     "rating": 4.6,
     "duration": "2h",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.3556,48.2834",
-    "categorie": "Culture",
+    "categorie": "Nature",
     "galerie_photos": [
       {
         "url": "images/spots/lemuria-land.jpg",
@@ -9846,7 +8626,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une réserve zoologique et botanique privée très bien entretenue. Vous pourrez y voir de près de nombreuses espèces de lémuriens, des crocodiles impressionnants et visiter une distillerie d’ylang-ylang traditionnelle toujours en activité.",
     "has_expandable_description": true,
-    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
+    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐",
+    "sous_type": "Culture",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 24,
@@ -9870,10 +8655,8 @@ window.LIEUX_DATA = [
       "Incontournable",
       "manger",
       "nosybe",
-      "sortir",
       "explorer",
-      "budget_1",
-      "nature"
+      "budget_1"
     ],
     "price": "Gratuit",
     "rating": 4.2,
@@ -9968,7 +8751,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le quartier général de la vie nocturne et touristique. C’est ici que tout se passe : départs d’excursions, restaurants les pieds dans le sable, bars animés. L’ambiance y est festive, bruyante et colorée, mélangeant touristes et locaux.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃"
+    "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃",
+    "sous_type": "Incontournable",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 25,
@@ -9994,7 +8782,6 @@ window.LIEUX_DATA = [
       "explorer",
       "budget_1",
       "spots",
-      "nature",
       "secret_spot"
     ],
     "price": "Gratuit",
@@ -10090,7 +8877,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L’île tranquille. Sakatia est authentique, avec ses sentiers de randonnée traversant les champs de vanille et d’orchidées. La plage aux tortues permet de nager avec d’immenses tortues vertes qui viennent brouter les herbiers à marée haute.",
     "has_expandable_description": true,
-    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
+    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️",
+    "sous_type": "Spot Local",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 27,
@@ -10115,7 +8907,6 @@ window.LIEUX_DATA = [
       "manger",
       "nosybe",
       "budget_2",
-      "nature",
       "gastronomie"
     ],
     "price": "50 000 Ar",
@@ -10209,13 +9000,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le restaurant pour un dîner romantique par excellence. Perché sur une colline dominant la baie de Madirokely, la vue est imprenable. La cuisine est l’une des meilleures de l’île, mêlant gastronomie française et produits locaux. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️"
+    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️",
+    "sous_type": "Restaurant",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 28,
     "ville": "Nosy Be",
     "nom": "Plongée Nosy Be",
-    "type": "Culture",
+    "type": "Excursion",
     "lat": -13.3634,
     "lng": 48.2789,
     "prix": "75 000 Ar",
@@ -10230,19 +9026,18 @@ window.LIEUX_DATA = [
     "duree": "Demi-journée",
     "siteWeb": "https://nosybe-tourisme.com",
     "tags": [
-      "Culture",
+      "Excursion",
       "spots",
       "nosybe",
       "explorer",
       "budget_2",
-      "nature",
       "aventure"
     ],
     "price": "75 000 Ar",
     "rating": 4.9,
     "duration": "Demi-journée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.3634,48.2789",
-    "categorie": "Culture",
+    "categorie": "Excursion",
     "galerie_photos": [
       {
         "url": "images/iles/plongee-nosy-be.webp",
@@ -10331,7 +9126,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Découvrez les fonds marins exceptionnels de Nosy Be. Ce centre professionnel vous emmène sur les meilleurs spots : tombants, épaves, et réserve de Tanikely. En saison (octobre-novembre), c’est le spot mondial pour nager avec les requins-baleines.",
     "has_expandable_description": true,
-    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
+    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻",
+    "sous_type": "Culture",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 29,
@@ -10355,8 +9155,7 @@ window.LIEUX_DATA = [
       "Culture",
       "nosybe",
       "explorer",
-      "budget_1",
-      "nature"
+      "budget_1"
     ],
     "price": "15 000 Ar",
     "rating": 4.5,
@@ -10451,7 +9250,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Nosy Be n’est pas l’île aux Parfums pour rien. Visiter une distillerie permet de comprendre le processus ancestral d’extraction de l’essence d’Ylang-Ylang. L’odeur entêtante des fleurs jaunes fraîchement cueillies est inoubliable. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
+    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️",
+    "sous_type": "Culture",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 30,
@@ -10478,9 +9282,9 @@ window.LIEUX_DATA = [
       "spots",
       "nosybe",
       "budget_1",
-      "nature",
       "culture",
-      "secret_spot"
+      "secret_spot",
+      "explorer"
     ],
     "price": "5 000 Ar",
     "rating": 4.9,
@@ -10576,25 +9380,30 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un lieu de syncrétisme religieux étonnant. Cette grotte marine abrite une statue de la Vierge, mais est aussi un lieu de culte pour les esprits locaux. L’accès se fait par la mer, ajoutant au mystère. C’est un endroit calme, respecté et très photogénique.",
     "has_expandable_description": true,
-    "humour_grok": "Si tu vois du tissu rouge, c'est pas de la déco. C'est sacré. Recule doucement et fais un sourire gêné. 🔴"
+    "humour_grok": "Si tu vois du tissu rouge, c'est pas de la déco. C'est sacré. Recule doucement et fais un sourire gêné. 🔴",
+    "sous_type": "Spot Local",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
-    "id": 201,
+    "id": 803,
     "ville": "Nosy Be",
     "nom": "Ravintsara Wellness Hotel",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -13.335,
     "lng": 48.185,
     "prix": "Dès 180 €",
     "prixEur": "180 €",
     "prixNum": 800000,
     "note": 4.9,
-    "description": "Hell-Ville, c'est le cœur bouillonnant de Nosy Be. Une capitale de poche où tout le monde se croise.\n\n🏛️ Colonial : Des bâtiments anciens qui ont du cachet, vestiges du passé comptoir de l'île.\n🛒 Marché : Le Bazar Be est incontournable. Épices, vanille, artisanat... négociez avec le sourire !\n🍹 Vie : C'est animé, bruyant, vivant. C'est là que bat le pouls de l'île.\n\nIdéal pour faire ses emplettes souvenirs et sentir l'atmosphère locale.",
+    "description": "Un sanctuaire de bien-être niché dans un jardin luxuriant face à la mer. Bungalows spacieux de grand standing, spa de classe mondiale et gastronomie raffinée. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/hotels/ravintsara.jpg",
     "acces": "Côte Ouest, Dzamandzar",
     "siteWeb": "https://ravintsara.mg",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "manger",
       "nosybe",
       "dormir",
@@ -10609,7 +9418,7 @@ window.LIEUX_DATA = [
     "horaires": "8h00 - 18h00",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.335,48.185",
     "duree": "2h à 4h",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/hotels/ravintsara.jpg",
@@ -10696,15 +9505,20 @@ window.LIEUX_DATA = [
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
-    "description_summary": "Hell-Ville, c'est le cœur bouillonnant de Nosy Be. Une capitale de poche où tout le monde se croise.",
+    "description_summary": "Un sanctuaire de bien-être niché dans un jardin luxuriant face à la mer. Bungalows spacieux de grand standing, spa de classe mondiale et gastronomie raffinée. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "La piscine a l'air propre. 'A l'air' est le mot clé. Plonge, on verra bien. 🏊"
+    "humour_grok": "La piscine a l'air propre. 'A l'air' est le mot clé. Plonge, on verra bien. 🏊",
+    "sous_type": "Hotel",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 202,
     "ville": "Nosy Be",
     "nom": "Vanila Hotel & Spa",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -13.34,
     "lng": 48.18,
     "prix": "Dès 120 €",
@@ -10716,7 +9530,7 @@ window.LIEUX_DATA = [
     "acces": "Ambaro, route de l’Ouest",
     "siteWeb": "https://vanila-hotel.com",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "nosybe",
       "dormir",
       "budget_3",
@@ -10730,7 +9544,7 @@ window.LIEUX_DATA = [
     "horaires": "8h00 - 18h00",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.34,48.18",
     "duree": "2h à 4h",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/hotels/vanila-hotel.jpg",
@@ -10819,13 +9633,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Architecture traditionnelle malgache et confort moderne. Piscines à débordement et vue imprenable sur le coucher de soleil. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸"
+    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸",
+    "sous_type": "Hotel",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 203,
     "ville": "Nosy Be",
     "nom": "Manga Soa Lodge",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -13.3,
     "lng": 48.25,
     "prix": "Dès 200 €",
@@ -10837,12 +9656,11 @@ window.LIEUX_DATA = [
     "acces": "Befefika, Côte Est",
     "siteWeb": "https://mangasoalodge.com",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "nosybe",
       "explorer",
       "dormir",
       "budget_3",
-      "nature",
       "luxe"
     ],
     "price": "Dès 200 €",
@@ -10852,7 +9670,7 @@ window.LIEUX_DATA = [
     "horaires": "Accessible toute la journée (Conseillé le matin)",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.3,48.25",
     "duree": "2h à 4h",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/hotels/manga-soa.jpg",
@@ -10941,13 +9759,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L’élégance à l’état pur. Ecolodge de luxe isolé sur la côte Est, offrant intimité totale et plage privée. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "5 étoiles en local, ça vaut un 2 étoiles chez toi. Ajuste tes attentes et tout ira bien. ⭐"
+    "humour_grok": "5 étoiles en local, ça vaut un 2 étoiles chez toi. Ajuste tes attentes et tout ira bien. ⭐",
+    "sous_type": "Hotel",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 204,
     "ville": "Nosy Be",
     "nom": "Le Grand Bleu",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -13.28,
     "lng": 48.22,
     "prix": "Dès 60 €",
@@ -10959,9 +9782,8 @@ window.LIEUX_DATA = [
     "acces": "Presqu’île d’Andilana, Nord",
     "siteWeb": "https://legrandbleunosybe.com",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "nosybe",
-      "sortir",
       "dormir",
       "budget_3"
     ],
@@ -10972,7 +9794,7 @@ window.LIEUX_DATA = [
     "horaires": "8h00 - 18h00",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.28,48.22",
     "duree": "2h à 4h",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/hotels/grand-bleu.jpg",
@@ -11061,13 +9883,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Perché sur une colline avec une vue panoramique à 180° sur la baie d’Andilana. Ambiance conviviale et décontractée. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Si tu trouves une bête bizarre dans ta chambre, donne-lui un prénom. Ça fait moins peur. 🕷️"
+    "humour_grok": "Si tu trouves une bête bizarre dans ta chambre, donne-lui un prénom. Ça fait moins peur. 🕷️",
+    "sous_type": "Hotel",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 205,
     "ville": "Nosy Be",
     "nom": "Hôtel Clair de Lune",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -13.36,
     "lng": 48.21,
     "prix": "Dès 45 €",
@@ -11079,11 +9906,10 @@ window.LIEUX_DATA = [
     "acces": "Ambatoloaka, à 200m de la plage",
     "siteWeb": "https://clair-de-lune-nosybe.com",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "nosybe",
       "dormir",
-      "budget_3",
-      "nature"
+      "budget_3"
     ],
     "price": "Dès 45 €",
     "rating": 4.5,
@@ -11092,7 +9918,7 @@ window.LIEUX_DATA = [
     "horaires": "Accessible toute la journée (Conseillé le matin)",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.36,48.21",
     "duree": "2h à 4h",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/hotels/clair-de-lune.jpg",
@@ -11181,7 +10007,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un havre de paix au milieu de l’animation d’Ambatoloaka. Bungalows de charme dans un jardin tropical calme. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎"
+    "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎",
+    "sous_type": "Hotel",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 206,
@@ -11299,7 +10130,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Table élégante, cuisine fusion franco-malgache raffinée. Le chef sublime les produits locaux. Cadre soigné. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️"
+    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️",
+    "sous_type": "Restaurant",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 207,
@@ -11415,7 +10251,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une institution à Hell-Ville. Cadre colonial historique et carte variée, célèbre pour ses pizzas et fruits de mer. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗"
+    "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗",
+    "sous_type": "Restaurant",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 208,
@@ -11436,7 +10277,6 @@ window.LIEUX_DATA = [
       "Restaurant",
       "manger",
       "nosybe",
-      "sortir",
       "budget_2"
     ],
     "price": "30 000 Ar",
@@ -11532,7 +10372,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Ambiance italienne chaleureuse. Pâtes fraîches et produits locaux, le tout à prix doux. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée. L'ambiance chaleureuse et le service attentionné créent une atmosphère conviviale, parfaite pour un repas en famille ou entre amis.",
     "has_expandable_description": true,
-    "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗"
+    "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗",
+    "sous_type": "Restaurant",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 209,
@@ -11648,7 +10493,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Restaurant sur pilotis offrant une vue spectaculaire. Spécialités de fruits de mer et cadre romantique. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Ne demande pas ce qu'il y a exactement dans la sauce. Mange, c'est délicieux, pose pas de questions. 🤫"
+    "humour_grok": "Ne demande pas ce qu'il y a exactement dans la sauce. Mange, c'est délicieux, pose pas de questions. 🤫",
+    "sous_type": "Restaurant",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 214,
@@ -11672,9 +10522,7 @@ window.LIEUX_DATA = [
       "Restaurant",
       "manger",
       "nosybe",
-      "sortir",
-      "budget_2",
-      "nature"
+      "budget_2"
     ],
     "price": "45 000 Ar",
     "rating": 4.8,
@@ -11767,7 +10615,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une institution à Andilana. Ce restaurant est littéralement sur le sable. On y mange les pieds dans l’eau des fruits de mer d’une fraîcheur absolue. L’ambiance est décontractée, avec des transats pour la sieste après le repas. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳"
+    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳",
+    "sous_type": "Restaurant",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 215,
@@ -11791,10 +10644,8 @@ window.LIEUX_DATA = [
       "Restaurant",
       "manger",
       "nosybe",
-      "sortir",
       "explorer",
       "budget_2",
-      "nature",
       "aventure"
     ],
     "price": "35 000 Ar",
@@ -11888,13 +10739,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Restaurant de charme sur la plage d’Ambaro. Spécialités italiennes et malgaches. C’est l’endroit idéal pour un déjeuner paisible loin de la foule ou un dîner romantique devant le coucher de soleil sur Sakatia. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️"
+    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️",
+    "sous_type": "Restaurant",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 210,
     "ville": "Nosy Be",
     "nom": "Le Bar de la Plage",
-    "type": "Nature",
+    "type": "Bar & Sortir",
     "lat": -13.361,
     "lng": 48.2105,
     "prix": "10 000 Ar",
@@ -11905,13 +10761,12 @@ window.LIEUX_DATA = [
     "image": "images/nightlife/bar-de-la-plage.jpg",
     "acces": "Plage d’Ambatoloaka",
     "tags": [
-      "Nature",
+      "Bar & Sortir",
       "nosybe",
-      "sortir",
       "spots",
       "explorer",
       "budget_1",
-      "nature"
+      "sortir"
     ],
     "price": "10 000 Ar",
     "rating": 4.6,
@@ -11920,7 +10775,7 @@ window.LIEUX_DATA = [
     "horaires": "Accessible toute la journée (Conseillé le matin)",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.361,48.2105",
     "duree": "4h à 6h",
-    "categorie": "Nature",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/nightlife/bar-de-la-plage.jpg",
@@ -12011,13 +10866,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le spot incontournable pour commencer la soirée. Cocktails les pieds dans le sable et bonne musique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️"
+    "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️",
+    "sous_type": "Nature",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 211,
     "ville": "Nosy Be",
     "nom": "Le Djembe",
-    "type": "Boîte de nuit",
+    "type": "Bar & Sortir",
     "lat": -13.402,
     "lng": 48.272,
     "prix": "Entrée 20 000 Ar",
@@ -12028,10 +10888,10 @@ window.LIEUX_DATA = [
     "image": "images/nightlife/djembe-club.jpg",
     "acces": "Hell-Ville",
     "tags": [
-      "Boîte de nuit",
+      "Bar & Sortir",
       "nosybe",
-      "sortir",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "price": "Entrée 20 000 Ar",
     "rating": 4.4,
@@ -12040,7 +10900,7 @@ window.LIEUX_DATA = [
     "horaires": "8h00 - 18h00",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.402,48.272",
     "duree": "2h à 4h",
-    "categorie": "Boîte de nuit",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/nightlife/djembe-club.jpg",
@@ -12129,13 +10989,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Club mythique pour danser jusqu’au bout de la nuit. Ambiance électrique garantie. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Attention au rhum coco. Il a le goût de jus de fruit, mais il frappe comme un boxeur poids lourd. 🥊"
+    "humour_grok": "Attention au rhum coco. Il a le goût de jus de fruit, mais il frappe comme un boxeur poids lourd. 🥊",
+    "sous_type": "Boîte de nuit",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 212,
     "ville": "Nosy Be",
     "nom": "L’Apero",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -13.363,
     "lng": 48.213,
     "prix": "15 000 Ar",
@@ -12146,10 +11011,10 @@ window.LIEUX_DATA = [
     "image": "images/nightlife/lapero.jpg",
     "acces": "Ambatoloaka",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "nosybe",
-      "sortir",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "price": "15 000 Ar",
     "rating": 4.5,
@@ -12158,7 +11023,7 @@ window.LIEUX_DATA = [
     "horaires": "11h00 - 22h00 (Cuisine en continu)",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.363,48.213",
     "duree": "2h à 4h",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/nightlife/lapero.jpg",
@@ -12247,13 +11112,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Lounge bar cosy pour se détendre. Excellents cocktails et tapas. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹"
+    "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹",
+    "sous_type": "Bar",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 213,
     "ville": "Nosy Be",
     "nom": "Beach Klub",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -13.318,
     "lng": 48.269,
     "prix": "40 000 Ar",
@@ -12264,10 +11134,10 @@ window.LIEUX_DATA = [
     "image": "images/nightlife/beach-klub.jpg",
     "acces": "Andilana",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "nosybe",
-      "sortir",
-      "budget_2"
+      "budget_2",
+      "sortir"
     ],
     "price": "40 000 Ar",
     "rating": 4.7,
@@ -12276,7 +11146,7 @@ window.LIEUX_DATA = [
     "horaires": "11h00 - 22h00 (Cuisine en continu)",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.318,48.269",
     "duree": "2h à 4h",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/nightlife/beach-klub.jpg",
@@ -12365,7 +11235,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Pool party et DJ sets face à la mer. Très prisé le dimanche. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "C'est ici que les légendes naissent et que les dignités meurent. Santé ! 🥂"
+    "humour_grok": "C'est ici que les légendes naissent et que les dignités meurent. Santé ! 🥂",
+    "sous_type": "Bar",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 31,
@@ -12389,8 +11264,7 @@ window.LIEUX_DATA = [
       "Incontournable",
       "majunga",
       "explorer",
-      "budget_1",
-      "nature"
+      "budget_1"
     ],
     "price": "10 000 Ar",
     "rating": 4.8,
@@ -12485,7 +11359,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le Cirque Rouge, c'est de la géologie psychédélique ! Un amphithéâtre naturel où la terre a toutes les couleurs.",
     "has_expandable_description": true,
-    "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾"
+    "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾",
+    "sous_type": "Incontournable",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 32,
@@ -12606,7 +11485,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Au milieu de la route se dressent majestueusement de gigantesques baobabs. L’un d’eux est particulièrement vénéré : c’est un arbre sacré où les habitants viennent déposer des offrandes et faire des vœux aux ancêtres. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Ici, on ne pointe pas du doigt. Sauf si tu veux pointer vers ta propre malchance future. 👉"
+    "humour_grok": "Ici, on ne pointe pas du doigt. Sauf si tu veux pointer vers ta propre malchance future. 👉",
+    "sous_type": "Nature",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 33,
@@ -12633,7 +11517,8 @@ window.LIEUX_DATA = [
       "spots",
       "majunga",
       "budget_1",
-      "secret_spot"
+      "secret_spot",
+      "explorer"
     ],
     "price": "Gratuit",
     "rating": 4.7,
@@ -12729,7 +11614,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Cette source d’eau douce ne tarit jamais et joue un rôle centrale dans la vie spirituelle locale. C’est un lieu de rituels Sakalava où l’on vient demander bénédiction et guérison. L’atmosphère y est paisible et empreinte de respect.",
     "has_expandable_description": true,
-    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
+    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏",
+    "sous_type": "Spot Local",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 34,
@@ -12754,8 +11644,7 @@ window.LIEUX_DATA = [
       "manger",
       "majunga",
       "explorer",
-      "budget_1",
-      "nature"
+      "budget_1"
     ],
     "price": "Gratuit",
     "rating": 4.6,
@@ -12850,11 +11739,16 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le Bord de Majunga, c'est le salon de la ville. Le soir, tout le monde est là. C'est immanquable.",
     "has_expandable_description": true,
-    "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿"
+    "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿",
+    "sous_type": "Incontournable",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 35,
-    "ville": "Mahajanga",
+    "ville": "Ankarafantsika",
     "nom": "Parc National d’Ankarafantsika",
     "type": "Nature",
     "lat": -16.3167,
@@ -12874,9 +11768,7 @@ window.LIEUX_DATA = [
       "Nature",
       "explorer",
       "majunga",
-      "sortir",
       "budget_2",
-      "nature",
       "famille"
     ],
     "price": "45 000 Ar",
@@ -12974,13 +11866,22 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un mix unique de forêt sèche, de savane et de zones humides. Le parc est le royaume des oiseaux (le Pygargue de Madagascar y règne) et des lémuriens (Sifaka Coquereli ’danseurs’). Le lac Ravelobe offre des balades en bateau paisibles. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️"
+    "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️",
+    "alias": [
+      "Parc Ankarafantsika"
+    ],
+    "fusion_de": [
+      627
+    ],
+    "sous_type": "Nature",
+    "depart_de": "Mahajanga",
+    "zone": "mahajanga"
   },
   {
     "id": 36,
     "ville": "Mahajanga",
     "nom": "Katsepy et le Phare",
-    "type": "Bar",
+    "type": "Nature",
     "lat": -15.7456,
     "lng": 46.2234,
     "prix": "15 000 Ar",
@@ -12995,10 +11896,9 @@ window.LIEUX_DATA = [
     "duree": "Demi-journée",
     "siteWeb": "https://tourisme-majunga.com",
     "tags": [
-      "Bar",
+      "Nature",
       "explorer",
       "majunga",
-      "sortir",
       "budget_1",
       "spots"
     ],
@@ -13006,7 +11906,7 @@ window.LIEUX_DATA = [
     "rating": 4.5,
     "duration": "Demi-journée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.7456,46.2234",
-    "categorie": "Bar",
+    "categorie": "Nature",
     "galerie_photos": [
       {
         "url": "images/spots/katsepy-phare.jpg",
@@ -13095,11 +11995,22 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une escapade hors du temps. Après la traversée de l’estuaire en bac, vous arrivez dans un village de brousse paisible. Les lémuriens à couronne viennent saluer près du phare, et l’ambiance est totalement déconnectée de la ville. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "La playlist du chauffeur tourne en boucle. Dans 4h, tu connaîtras les tubes locaux par cœur (et tu les détesteras). 🎶"
+    "humour_grok": "La playlist du chauffeur tourne en boucle. Dans 4h, tu connaîtras les tubes locaux par cœur (et tu les détesteras). 🎶",
+    "alias": [
+      "Katsepy"
+    ],
+    "fusion_de": [
+      628
+    ],
+    "sous_type": "Bar",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 37,
-    "ville": "Mahajanga",
+    "ville": "Anjohibe",
     "nom": "Grotte d’Anjohibe",
     "type": "Spot Local",
     "lat": -15.5234,
@@ -13120,7 +12031,6 @@ window.LIEUX_DATA = [
       "majunga",
       "explorer",
       "budget_2",
-      "nature",
       "spots",
       "secret_spot"
     ],
@@ -13217,7 +12127,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une aventure pour y aller, mais le site est grandiose. Un réseau de grottes immenses, des piscines naturelles d’eau douce vert émeraude et une cascade nichée dans la verdure. Les lémuriens et les perroquets peuplent les arbres alentour.",
     "has_expandable_description": true,
-    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
+    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️",
+    "sous_type": "Spot Local",
+    "depart_de": "Mahajanga",
+    "zone": "mahajanga"
   },
   {
     "id": 38,
@@ -13334,7 +12247,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une institution culinaire face à la mer. Chez Karon est célèbre pour ses fruits de mer ultra-frais et ses plats généreux : langoustes grillées, crabes farcis, crevettes géantes. Le cadre est simple mais l’assiette est royale. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗"
+    "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗",
+    "sous_type": "Restaurant",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 39,
@@ -13359,8 +12277,7 @@ window.LIEUX_DATA = [
       "majunga",
       "explorer",
       "budget_1",
-      "culture",
-      "nature"
+      "culture"
     ],
     "price": "Gratuit",
     "rating": 4.4,
@@ -13455,13 +12372,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Plongez dans l’authenticité de Majunga. Ce marché couvert regorge d’épices odorantes, de fruits exotiques colorés et de poissons séchés. C’est aussi le meilleur endroit pour acheter le célèbre artisanat Sakalava en raphia et en bois.",
     "has_expandable_description": true,
-    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
+    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️",
+    "sous_type": "Culture",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 40,
     "ville": "Mahajanga",
     "nom": "Complexe Sportif Ankorondrano",
-    "type": "Bar",
+    "type": "Spot Local",
     "lat": -15.7234,
     "lng": 46.3212,
     "prix": "5 000 Ar",
@@ -13476,10 +12398,9 @@ window.LIEUX_DATA = [
     "duree": "2h",
     "siteWeb": "https://tourisme-majunga.com",
     "tags": [
-      "Bar",
+      "Spot Local",
       "explorer",
       "majunga",
-      "sortir",
       "budget_1",
       "spots"
     ],
@@ -13487,7 +12408,7 @@ window.LIEUX_DATA = [
     "rating": 4.3,
     "duration": "2h",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.7234,46.3212",
-    "categorie": "Bar",
+    "categorie": "Spot Local",
     "galerie_photos": [
       {
         "url": "images/villes/complexe-sportif-ankorondrano.jpg",
@@ -13576,7 +12497,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le poumon sportif de la ville. Avec sa piscine olympique (rare dans la région) et ses terrains de sport, c’est le lieu de rencontre de la jeunesse locale. L’ambiance y est dynamique et conviviale, parfaite pour une pause active. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Attention au rhum coco. Il a le goût de jus de fruit, mais il frappe comme un boxeur poids lourd. 🥊"
+    "humour_grok": "Attention au rhum coco. Il a le goût de jus de fruit, mais il frappe comme un boxeur poids lourd. 🥊",
+    "sous_type": "Bar",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 500,
@@ -13600,7 +12526,6 @@ window.LIEUX_DATA = [
       "Nature",
       "explorer",
       "majunga",
-      "sortir",
       "budget_1",
       "culture"
     ],
@@ -13699,7 +12624,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un lieu mystique où l’histoire et la légende se rencontrent. Ce lac aux eaux émeraude cristallines abrite des carpes et des anguilles sacrées gigantesques, qui seraient les ancêtres d’un ancien village. L’ambiance y est solennelle et paisible. Les mardis et jeudis sont fady (tabous).",
     "has_expandable_description": true,
-    "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔"
+    "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔",
+    "sous_type": "Nature",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 501,
@@ -13726,7 +12656,6 @@ window.LIEUX_DATA = [
       "majunga",
       "explorer",
       "budget_1",
-      "nature",
       "secret_spot"
     ],
     "price": "Gratuit",
@@ -13822,7 +12751,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "La plage préférée des Majungais pour le week-end. Une longue étendue de sable fin bordée de filaos, animée par les gargotes et la musique. C’est ici que bat le cœur populaire de la ville le dimanche, loin de l’agitation du centre. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
+    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩",
+    "sous_type": "Spot Local",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 502,
@@ -13941,13 +12875,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Probablement la meilleure table de la Corniche. Le Guest propose une cuisine raffinée mélangeant saveurs locales et techniques françaises. La terrasse en bois au-dessus de la mer offre une vue imprenable sur le coucher de soleil.",
     "has_expandable_description": true,
-    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️"
+    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️",
+    "sous_type": "Restaurant",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 503,
     "ville": "Mahajanga",
     "nom": "Coco Lodge Majunga",
-    "type": "Bar",
+    "type": "Hôtel",
     "lat": -15.718,
     "lng": 46.316,
     "prix": "35 000 Ar",
@@ -13962,10 +12901,9 @@ window.LIEUX_DATA = [
     "duree": "2h",
     "siteWeb": "https://cocolodgemajunga-madagascar.com",
     "tags": [
-      "Bar",
+      "Hôtel",
       "manger",
       "majunga",
-      "sortir",
       "dormir",
       "budget_2",
       "spots",
@@ -13975,7 +12913,7 @@ window.LIEUX_DATA = [
     "rating": 4.6,
     "duration": "2h",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.718,46.316",
-    "categorie": "Bar",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/mahajanga/mahajanga_coco_lodge_1765470063441.png",
@@ -14064,7 +13002,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une oasis gourmande en plein centre. Réputé pour sa cuisine fusion malgache-libanaise-française (foie gras, mezzés, langoustes). Le cadre autour de la piscine est relaxant, et les dîners-cabaret du vendredi soir sont une institution locale.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas boire, tu vas danser, tu vas oublier. Demain matin sera un problème pour le 'Toi du Futur'. 🍻"
+    "humour_grok": "Tu vas boire, tu vas danser, tu vas oublier. Demain matin sera un problème pour le 'Toi du Futur'. 🍻",
+    "sous_type": "Bar",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 504,
@@ -14088,10 +13031,8 @@ window.LIEUX_DATA = [
       "Restaurant",
       "manger",
       "majunga",
-      "sortir",
       "explorer",
-      "budget_2",
-      "nature"
+      "budget_2"
     ],
     "price": "25 000 Ar",
     "rating": 4.4,
@@ -14184,7 +13125,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une paillote mythique sur la plage d’Amborovy. Ici, pas de chichis, on mange les pieds dans le sable des produits d’une fraîcheur absolue (poissons, crabes). L’ambiance est conviviale, typique des dimanches à la plage. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳"
+    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳",
+    "sous_type": "Restaurant",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 510,
@@ -14211,7 +13157,6 @@ window.LIEUX_DATA = [
       "majunga",
       "explorer",
       "budget_1",
-      "nature",
       "detente",
       "secret_spot"
     ],
@@ -14308,7 +13253,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Plus intime et paisible que sa grande sœur, la Petite Plage est un joyau bordé de filaos. L’eau y est calme et transparente, idéale pour la baignade en famille. C’est le lieu parfait pour admirer le coucher de soleil en toute tranquillité.",
     "has_expandable_description": true,
-    "humour_grok": "Les lémuriens ne sont pas mignons, ils complotent. Et ils jugent tes chaussures Quechua. 🐒"
+    "humour_grok": "Les lémuriens ne sont pas mignons, ils complotent. Et ils jugent tes chaussures Quechua. 🐒",
+    "sous_type": "Spot Local",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 505,
@@ -14429,7 +13379,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le standing international à Mahajanga. Chambres spacieuses, immense piscine à débordement et spa de qualité. Situé sur la Corniche, c’est l’adresse idéale pour un séjour confort et luxe avec tous les standards modernes.",
     "has_expandable_description": true,
-    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
+    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀",
+    "sous_type": "Hôtel",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 506,
@@ -14550,7 +13505,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Plus qu’un hôtel, une destination écotouristique. Niché entre rivière et mer, loin de tout, cet écolodge offre une déconnexion totale. Bungalows charmants, cuisine bio locale et engagement communautaire fort.",
     "has_expandable_description": true,
-    "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚"
+    "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚",
+    "sous_type": "Hôtel",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 507,
@@ -14572,11 +13532,9 @@ window.LIEUX_DATA = [
     "siteWeb": "http://www.edenakely.com",
     "tags": [
       "Hôtel",
-      "sortir",
       "majunga",
       "dormir",
-      "budget_3",
-      "nature"
+      "budget_3"
     ],
     "price": "120 000 Ar",
     "rating": 4.5,
@@ -14670,7 +13628,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un petit jardin d’Eden. Cet hôtel à taille humaine charme par son jardin tropical luxuriant et son ambiance intimiste. Les bungalows sont décorés avec soin et la piscine est un havre de paix.",
     "has_expandable_description": true,
-    "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
+    "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊",
+    "sous_type": "Hôtel",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 508,
@@ -14789,13 +13752,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une légende de Majunga. Cet hôtel historique offre le panorama le plus spectaculaire de la ville sur la baie de Bombetoka. Son architecture coloniale Art Déco et sa terrasse ’La Rotonde’ sont des incontournables empreints de nostalgie.",
     "has_expandable_description": true,
-    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
+    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃",
+    "sous_type": "Hôtel",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 511,
     "ville": "Mahajanga",
     "nom": "Club 73 (ex-Shakira)",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -15.72,
     "lng": 46.315,
     "prix": "Entrée ~10 000 Ar",
@@ -14810,18 +13778,18 @@ window.LIEUX_DATA = [
     "duree": "Soirée",
     "siteWeb": "https://www.facebook.com",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "majunga",
-      "sortir",
       "spots",
       "explorer",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "price": "Entrée ~10 000 Ar",
     "rating": 4.3,
     "duration": "Soirée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.72,46.315",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/mahajanga/mahajanga_club73_nightclub_1765473978259.png",
@@ -14910,13 +13878,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le spot incontournable du centre-ville pour les noctambules. Avec ses deux ambiances (Lounge pour chiller et Club pour danser), il attire une foule jeune et branchée. Les soirées à thème y sont légendaires. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Le sol colle. Les verres collent. Tout colle. C'est ça l'ambiance authentique. 🦶"
+    "humour_grok": "Le sol colle. Les verres collent. Tout colle. C'est ça l'ambiance authentique. 🦶",
+    "sous_type": "Bar",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 512,
     "ville": "Mahajanga",
     "nom": "Le Zebulon",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -15.665,
     "lng": 46.335,
     "prix": "Cocktails 15 000 Ar",
@@ -14931,18 +13904,17 @@ window.LIEUX_DATA = [
     "duree": "2h",
     "siteWeb": "https://www.facebook.com",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "explorer",
       "majunga",
-      "sortir",
       "budget_1",
-      "nature"
+      "sortir"
     ],
     "price": "Cocktails 15 000 Ar",
     "rating": 4.6,
     "duration": "2h",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.665,46.335",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/mahajanga/mahajanga_zebulon_beach_bar_1765473995356.png",
@@ -15031,13 +14003,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Les pieds dans le sable à Petite Plage. Le Zebulon est l’endroit parfait pour un apéro sunset décontracté. Franck et Miel vous accueillent dans une ambiance rasta-chic très chaleureuse. Bon son, bons cocktails. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Attention au rhum coco. Il a le goût de jus de fruit, mais il frappe comme un boxeur poids lourd. 🥊"
+    "humour_grok": "Attention au rhum coco. Il a le goût de jus de fruit, mais il frappe comme un boxeur poids lourd. 🥊",
+    "sous_type": "Bar",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 513,
     "ville": "Mahajanga",
     "nom": "Bar de la Marine",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -15.715,
     "lng": 46.31,
     "prix": "Bière 4 000 Ar",
@@ -15052,17 +14029,17 @@ window.LIEUX_DATA = [
     "duree": "1h",
     "siteWeb": "",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "majunga",
-      "sortir",
       "budget_1",
-      "spots"
+      "spots",
+      "sortir"
     ],
     "price": "Bière 4 000 Ar",
     "rating": 4.2,
     "duration": "1h",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.715,46.31",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/mahajanga/mahajanga_bar_marine_harbor_1765474012619.png",
@@ -15151,13 +14128,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une institution authentique face au Port aux Boutres. Ici, on boit sa THB au milieu des marins et des locaux. L’ambiance est bruyante, vivante et sans filtre. Idéal pour sentir le pouls réel de la ville. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃"
+    "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃",
+    "sous_type": "Bar",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 514,
     "ville": "Mahajanga",
     "nom": "Cotton Club",
-    "type": "sortir",
+    "type": "Bar & Sortir",
     "lat": -15.719,
     "lng": 46.316,
     "prix": "Verre 20 000 Ar",
@@ -15172,16 +14154,17 @@ window.LIEUX_DATA = [
     "duree": "Soirée",
     "siteWeb": "",
     "tags": [
+      "Bar & Sortir",
       "majunga",
-      "sortir",
       "budget_1",
-      "detente"
+      "detente",
+      "sortir"
     ],
     "price": "Verre 20 000 Ar",
     "rating": 4.5,
     "duration": "Soirée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.719,46.316",
-    "categorie": "sortir",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/mahajanga/mahajanga_cotton_club_jazz_1765474031058.png",
@@ -15270,7 +14253,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une ambiance plus feutrée et jazzy pour des soirées élégantes. Situé près de la Rotonde, c’est un club un peu ’privé’ où l’on vient discuter tranquillement autour d’un bon whisky ou d’un cocktail soigné. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas devenir meilleur ami avec des gens dont tu ne te souviendras plus du prénom demain. C'est la magie. ✨"
+    "humour_grok": "Tu vas devenir meilleur ami avec des gens dont tu ne te souviendras plus du prénom demain. C'est la magie. ✨",
+    "sous_type": "Bar",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 41,
@@ -15293,10 +14281,9 @@ window.LIEUX_DATA = [
     "tags": [
       "Nature",
       "explorer",
-      "sortir",
       "budget_2",
-      "nature",
-      "famille"
+      "famille",
+      "tamatave"
     ],
     "price": "45 000 Ar",
     "rating": 4.8,
@@ -15393,7 +14380,16 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L’un des parcs les plus visités et pour cause : c’est le seul endroit où l’on peut entendre le chant puissant de l’Indri, le plus grand lémurien vivant. La forêt de brume, les orchidées rares et les caméléons de Parson géants créent une ambiance jurassique.",
     "has_expandable_description": true,
-    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
+    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽",
+    "alias": [
+      "Parc Andasibe-Mantadia"
+    ],
+    "fusion_de": [
+      630
+    ],
+    "sous_type": "Nature",
+    "depart_de": "Antananarivo",
+    "zone": "toamasina"
   },
   {
     "id": 42,
@@ -15417,7 +14413,6 @@ window.LIEUX_DATA = [
       "Nature",
       "explorer",
       "budget_2",
-      "nature",
       "famille"
     ],
     "price": "35 000 Ar",
@@ -15515,7 +14510,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une expérience inoubliable pour les familles. Sur « l’île aux lémuriens », les animaux sont en liberté et n’hésitent pas à sauter sur vos épaules pour réclamer une banane. C’est l’occasion unique de voir de très près des espèces difficiles à observer en forêt dense.",
     "has_expandable_description": true,
-    "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️"
+    "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️",
+    "sous_type": "Nature",
+    "depart_de": "Antananarivo",
+    "zone": "toamasina"
   },
   {
     "id": 43,
@@ -15542,7 +14540,6 @@ window.LIEUX_DATA = [
       "spots",
       "explorer",
       "budget_1",
-      "nature",
       "secret_spot"
     ],
     "price": "Gratuit",
@@ -15639,7 +14636,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un secret bien gardé à l’écart des circuits classiques. Cette petite cascade se jette dans un bassin naturel entouré de fougères arborescentes. L’eau y est fraîche et revigorante, idéale pour se baigner en toute tranquillité. Ce lieu présente un intérêt certain pour les visiteurs de Andasibe, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas payer pour marcher dans la boue et chercher un lézard de 2cm invisible. Et tu vas adorer ça. Masochiste. 🤠"
+    "humour_grok": "Tu vas payer pour marcher dans la boue et chercher un lézard de 2cm invisible. Et tu vas adorer ça. Masochiste. 🤠",
+    "sous_type": "Spot Local",
+    "depart_de": "Antananarivo",
+    "zone": "toamasina"
   },
   {
     "id": 44,
@@ -15662,9 +14662,7 @@ window.LIEUX_DATA = [
     "tags": [
       "Incontournable",
       "explorer",
-      "sortir",
       "budget_2",
-      "nature",
       "famille"
     ],
     "price": "45 000 Ar",
@@ -15760,7 +14758,9 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le Colorado malgache. Un paysage ruiniforme de grès jurassique, entaillé de canyons profonds. On passe de la savane aride à des oasis de fraîcheur luxuriantes en quelques pas. C’est un parc grandiose, sacré pour l’ethnie Bara qui y enterre ses morts.",
     "has_expandable_description": true,
-    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
+    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏",
+    "sous_type": "Incontournable",
+    "zone": "toliara"
   },
   {
     "id": 45,
@@ -15784,7 +14784,6 @@ window.LIEUX_DATA = [
       "Nature",
       "explorer",
       "budget_1",
-      "nature",
       "famille"
     ],
     "price": "Inclus parc",
@@ -15882,13 +14881,15 @@ window.LIEUX_DATA = [
     },
     "description_summary": "La récompense après la marche. Une vasque d’eau cristalline alimentée par une cascade, entourée de pandanus et de palmiers, le tout encaissé dans la roche. C’est l’image d’Épinal de l’Isalo, un petit paradis perdu. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨"
+    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨",
+    "sous_type": "Nature",
+    "zone": "toliara"
   },
   {
     "id": 46,
     "ville": "Isalo",
     "nom": "Point de Vue Secret du Canyon",
-    "type": "Bar",
+    "type": "Spot Local",
     "spotLocal": true,
     "lat": -22.5678,
     "lng": 45.3945,
@@ -15905,18 +14906,18 @@ window.LIEUX_DATA = [
     "duree": "1h",
     "siteWeb": "https://www.parcs-madagascar.com",
     "tags": [
-      "Bar",
+      "Spot Local",
       "spots",
-      "sortir",
       "budget_1",
-      "culture"
+      "culture",
+      "explorer"
     ],
     "price": "10 000 Ar",
     "rating": 4.9,
     "duration": "1h",
     "horaires": "11h00 - 22h00 (Cuisine en continu)",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-22.5678,45.3945",
-    "categorie": "Bar",
+    "categorie": "Spot Local",
     "galerie_photos": [
       {
         "url": "images/spots/point-vue-canyon.jpg",
@@ -16005,7 +15006,9 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Pour ceux qui aiment sortir des sentiers battus. Ce point de vue offre une perspective unique et vertigineuse sur l’immensité des canyons de l’Isalo, loin de la foule de la Fenêtre classique. Le silence y est absolu. Ce lieu présente un intérêt certain pour les visiteurs de Isalo, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔"
+    "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔",
+    "sous_type": "Bar",
+    "zone": "toliara"
   },
   {
     "id": 47,
@@ -16030,8 +15033,9 @@ window.LIEUX_DATA = [
       "explorer",
       "budget_1",
       "spots",
-      "nature",
-      "secret_spot"
+      "secret_spot",
+      "tulear",
+      "detente"
     ],
     "price": "Gratuit",
     "rating": 4.5,
@@ -16126,7 +15130,15 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Station balnéaire décontractée protégée par un immense lagon. Ici, on vit au rythme des marées et des pêcheurs Vezo. La forêt épineuse de l’arrière-pays, avec ses baobabs bouteilles, est tout aussi fascinante que le récif corallien. Ce lieu présente un intérêt certain pour les visiteurs de Ifaty, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
+    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩",
+    "alias": [
+      "Plage d’Ifaty"
+    ],
+    "fusion_de": [
+      634
+    ],
+    "sous_type": "Spot Local",
+    "zone": "toliara"
   },
   {
     "id": 48,
@@ -16150,9 +15162,9 @@ window.LIEUX_DATA = [
       "Spot Local",
       "explorer",
       "budget_1",
-      "nature",
       "spots",
-      "secret_spot"
+      "secret_spot",
+      "tulear"
     ],
     "price": "15 000 Ar",
     "rating": 4.6,
@@ -16164,9 +15176,14 @@ window.LIEUX_DATA = [
         "url": "images/spots/foret-baobabs-mangily.jpg",
         "alt": "Forêt de Baobabs de Mangily",
         "type": "principale"
+      },
+      {
+        "url": "images/toliara/toliara_baobabs_mangily.png",
+        "alt": "Forêt de Baobabs Mangily",
+        "type": "secondaire"
       }
     ],
-    "hasCarousel": false,
+    "hasCarousel": true,
     "infos_pratiques": {
       "horaires": {
         "lundi_vendredi": "8h-17h",
@@ -16247,7 +15264,17 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une forêt digne d’un conte de fées. Ici, les baobabs prennent des formes étranges (bouteilles, carottes) pour stocker l’eau. La forêt abrite aussi des oiseaux endémiques rares et des plantes succulentes adaptées à la sécheresse extrême.",
     "has_expandable_description": true,
-    "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿"
+    "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿",
+    "alias": [
+      "Forêt des Baobabs (Reniala)",
+      "Forêt de Baobabs Mangily"
+    ],
+    "fusion_de": [
+      635,
+      403
+    ],
+    "sous_type": "Spot Local",
+    "zone": "toliara"
   },
   {
     "id": 49,
@@ -16371,7 +15398,9 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un géant de la nature. Ce baobab a plus de 1000 ans et une circonférence impressionnante. C’est un arbre sacré pour les Vezo, qui le considèrent comme la demeure des esprits. On y vient pour des cérémonies et des offrandes. Ce lieu présente un intérêt certain pour les visiteurs de Ifaty, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸"
+    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸",
+    "sous_type": "Spot Local",
+    "zone": "toliara"
   },
   {
     "id": 50,
@@ -16396,8 +15425,9 @@ window.LIEUX_DATA = [
       "spots",
       "explorer",
       "budget_2",
-      "nature",
-      "famille"
+      "famille",
+      "diego",
+      "aventure"
     ],
     "price": "45 000 Ar",
     "rating": 4.8,
@@ -16492,7 +15522,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Des Tsingy gris acérés comme des lames de rasoir, une forêt sèche décidue et des grottes immenses abritant des chauves-souris. Ce parc est une aventure géologique. Le ’Pont Suspendu’ au-dessus des Tsingy est le spot photo incontournable.",
     "has_expandable_description": true,
-    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
+    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️",
+    "alias": [
+      "Ankarana",
+      "Réserve Ankarana",
+      "Parc National Ankarana"
+    ],
+    "fusion_de": [
+      613,
+      617,
+      605
+    ],
+    "sous_type": "Incontournable",
+    "depart_de": "Diego-Suarez",
+    "zone": "antsiranana"
   },
   {
     "id": 51,
@@ -16515,9 +15558,7 @@ window.LIEUX_DATA = [
     "tags": [
       "Nature",
       "explorer",
-      "sortir",
       "budget_1",
-      "nature",
       "famille"
     ],
     "price": "Inclus parc",
@@ -16615,7 +15656,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une exploration souterraine fascinante. Ces grottes calcaires sont ornées de stalactites et stalagmites géantes. Elles abritent d’immenses colonies de chauves-souris frugivores qui s’envolent à la tombée de la nuit. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
+    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟",
+    "sous_type": "Nature",
+    "depart_de": "Diego-Suarez",
+    "zone": "antsiranana"
   },
   {
     "id": 52,
@@ -16643,7 +15687,8 @@ window.LIEUX_DATA = [
       "budget_1",
       "culture",
       "gastronomie",
-      "secret_spot"
+      "secret_spot",
+      "explorer"
     ],
     "price": "20 000 Ar",
     "rating": 4.8,
@@ -16739,7 +15784,10 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Grotte sacrée par excellence. Elle abrite les sépultures royales de la tribu Antakarana. L’accès est strictement réglementé et soumis à l’approbation des ancêtres via les gardiens traditionnels. C’est un lieu chargée d’histoire et de mystère.",
     "has_expandable_description": true,
-    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
+    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️",
+    "sous_type": "Spot Local",
+    "depart_de": "Diego-Suarez",
+    "zone": "antsiranana"
   },
   {
     "id": 53,
@@ -16762,9 +15810,7 @@ window.LIEUX_DATA = [
     "tags": [
       "Incontournable",
       "explorer",
-      "sortir",
       "budget_2",
-      "nature",
       "famille"
     ],
     "price": "45 000 Ar",
@@ -16860,7 +15906,9 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L’un des parcs les plus sauvages. Il combine une réserve marine et une forêt humide de basse altitude. C’est le seul endroit où l’on peut espérer voir l’Aye-Aye à l’état sauvage la nuit, ainsi que les baleines à bosse en saison.",
     "has_expandable_description": true,
-    "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
+    "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊",
+    "sous_type": "Incontournable",
+    "zone": "toamasina"
   },
   {
     "id": 54,
@@ -16884,7 +15932,6 @@ window.LIEUX_DATA = [
       "Nature",
       "explorer",
       "budget_1",
-      "nature",
       "famille"
     ],
     "price": "20 000 Ar",
@@ -16982,7 +16029,9 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un parc marin exceptionnel situé au large de la côte Est. Il protège des écosystèmes coralliens préservés. C’est l’un des rares endroits où la forêt humide dense rejoint presque la mer, créant des paysages uniques de jungle et de plage. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
+    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽",
+    "sous_type": "Nature",
+    "zone": "toamasina"
   },
   {
     "id": 55,
@@ -17006,8 +16055,8 @@ window.LIEUX_DATA = [
       "Spot Local",
       "spots",
       "budget_1",
-      "nature",
-      "secret_spot"
+      "secret_spot",
+      "explorer"
     ],
     "price": "Gratuit",
     "rating": 4.8,
@@ -17105,7 +16154,9 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le repaire des ancêtres. Un lac sacré pour l’ethnie Betsimisaraka où les crocodiles sont vénérés comme des aïeux. Les villageois leur font des offrandes de zébu. Une atmosphère mystique règne ici, entre crainte et respect, au cœur de la forêt.",
     "has_expandable_description": true,
-    "humour_grok": "Ici, on ne pointe pas du doigt. Sauf si tu veux pointer vers ta propre malchance future. 👉"
+    "humour_grok": "Ici, on ne pointe pas du doigt. Sauf si tu veux pointer vers ta propre malchance future. 👉",
+    "sous_type": "Spot Local",
+    "zone": "toamasina"
   },
   {
     "id": 300,
@@ -17224,7 +16275,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Classée au patrimoine mondial, la Haute Ville est le cœur historique. C’est un dédale de ruelles pavées et de maisons traditionnelles en briques rouges aux toits de tuiles, rappelant Tana d’autrefois. La vue depuis le sommet est imprenable.",
     "has_expandable_description": true,
-    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
+    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻",
+    "sous_type": "Incontournable",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 301,
@@ -17247,7 +16303,6 @@ window.LIEUX_DATA = [
       "Incontournable",
       "fianar",
       "explorer",
-      "sortir",
       "budget_1"
     ],
     "price": "Gratuit (visite)",
@@ -17343,7 +16398,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le point de départ du mythique train Fianar-Côte Est. Même si vous ne prenez pas le train, l’ambiance de la gare, avec sa Micheline d’époque et son agitation, vaut le détour. Un saut dans le temps colonial.",
     "has_expandable_description": true,
-    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
+    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸",
+    "sous_type": "Incontournable",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 302,
@@ -17366,8 +16426,7 @@ window.LIEUX_DATA = [
       "Nature",
       "fianar",
       "explorer",
-      "budget_1",
-      "nature"
+      "budget_1"
     ],
     "price": "15 000 Ar",
     "rating": 4.7,
@@ -17464,7 +16523,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Les seules plantations de thé de l’île. Un paysage de collines verdoyantes à perte de vue où s’activent les cueilleuses. L’odeur du thé frais et l’usine de transformation (SIDEXAM) offrent une visite unique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
+    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽",
+    "sous_type": "Nature",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 303,
@@ -17582,7 +16646,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Majestueuse, cette cathédrale en briques rouges domine la ville basse. Son escalier monumental et son clocher sont les symboles de Fianarantsoa. L’intérieur est sobre mais empreint de spiritualité. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸"
+    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸",
+    "sous_type": "Culture",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 304,
@@ -17700,7 +16769,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "La galerie du plus célèbre photographe malgache, Pierrot Men. Ses clichés en noir et blanc capturent l’âme de Madagascar. Un lieu de silence et de beauté artistique incontournable. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
+    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻",
+    "sous_type": "Culture",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 305,
@@ -17723,7 +16797,6 @@ window.LIEUX_DATA = [
       "Restaurant",
       "fianar",
       "manger",
-      "sortir",
       "budget_2"
     ],
     "price": "40 000 Ar",
@@ -17817,7 +16890,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une institution. On y vient pour sa fameuse fondue bourguignonne de zébu et son ambiance chaleureuse un peu rétro. C’est le rendez-vous des expatriés et des voyageurs. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳"
+    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳",
+    "sous_type": "Restaurant",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 306,
@@ -17840,10 +16918,8 @@ window.LIEUX_DATA = [
       "Restaurant",
       "fianar",
       "manger",
-      "sortir",
       "explorer",
       "budget_2",
-      "nature",
       "culture"
     ],
     "price": "60 000 Ar",
@@ -17937,7 +17013,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L’adresse de charme incontournable. Une architecture traditionnelle soignée, des briques rouges, et une vue imprenable sur la ville depuis la terrasse. Ambiance cosy et chaleureuse. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
+    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐",
+    "sous_type": "Restaurant",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 307,
@@ -18055,7 +17136,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le restaurant d’application de la célèbre école hôtelière. Service impeccable, plats soignés et créatifs préparés par les futurs grands chefs du pays. Le cadre en briques rouges est magnifique. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳"
+    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳",
+    "sous_type": "Restaurant",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 308,
@@ -18172,7 +17258,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le bon plan populaire. Cuisine chinoise et malgache généreuse, service rapide et prix doux. C’est bruyant, vivant et toujours bon. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗"
+    "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗",
+    "sous_type": "Restaurant",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 309,
@@ -18195,7 +17286,9 @@ window.LIEUX_DATA = [
       "Restaurant",
       "fianar",
       "dormir",
-      "budget_2"
+      "budget_2",
+      "manger",
+      "manger"
     ],
     "price": "35 000 Ar",
     "rating": 4.4,
@@ -18288,13 +17381,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Célèbre pour ses pizzas au feu de bois et ses pâtisseries. Le cadre est celui d’un grand hôtel classique, confortable et climatisé. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗"
+    "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗",
+    "sous_type": "Restaurant",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 310,
     "ville": "Fianarantsoa",
     "nom": "La Chaud’hier",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -21.447,
     "lng": 47.085,
     "prix": "10 000 Ar",
@@ -18308,19 +17406,19 @@ window.LIEUX_DATA = [
     "conseil": "L’ambiance monte vers 22h lors des concerts.",
     "duree": "Soirée",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "fianar",
-      "sortir",
       "spots",
       "explorer",
       "budget_1",
-      "culture"
+      "culture",
+      "sortir"
     ],
     "price": "10 000 Ar",
     "rating": 4.5,
     "duration": "Soirée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-21.447,47.085",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/fianarantsoa/fianar_chaudhier.png",
@@ -18409,13 +17507,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le spot culturel et musical. Concerts live le week-end, ambiance cabaret et rencontres artistiques. L’endroit où il faut être pour sentir le pouls de la ville. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Si tu vois du tissu rouge, c'est pas de la déco. C'est sacré. Recule doucement et fais un sourire gêné. 🔴"
+    "humour_grok": "Si tu vois du tissu rouge, c'est pas de la déco. C'est sacré. Recule doucement et fais un sourire gêné. 🔴",
+    "sous_type": "Bar",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 311,
     "ville": "Fianarantsoa",
     "nom": "Chez Marie Zooze",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -21.4455,
     "lng": 47.0835,
     "prix": "8 000 Ar",
@@ -18428,19 +17531,19 @@ window.LIEUX_DATA = [
     "horaires": "Jusqu'à tard",
     "duree": "2h",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "fianar",
-      "sortir",
       "budget_1",
       "spots",
-      "famille"
+      "famille",
+      "sortir"
     ],
     "price": "8 000 Ar",
     "rating": 4.3,
     "duration": "2h",
     "conseil": "Parfait pour le coucher de soleil. Arrivez vers 17h for la meilleure place.",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-21.4455,47.0835",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/fianarantsoa/fianar_marie_zooze.png",
@@ -18529,13 +17632,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Bar populaire et animé. On y boit de la bière THB bien fraîche et du rhum arrangé au comptoir. Ambiance authentique et sans chichis. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "La patronne t'appelle 'Chéri' ou 'Mon fils'. Fais gaffe, elle peut aussi te gronder si tu finis pas. 👵"
+    "humour_grok": "La patronne t'appelle 'Chéri' ou 'Mon fils'. Fais gaffe, elle peut aussi te gronder si tu finis pas. 👵",
+    "sous_type": "Bar",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 312,
     "ville": "Fianarantsoa",
     "nom": "Discothèque du Soafia",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -21.442,
     "lng": 47.081,
     "prix": "15 000 Ar",
@@ -18548,19 +17656,19 @@ window.LIEUX_DATA = [
     "horaires": "23h - Aube",
     "duree": "Nuit",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "fianar",
       "dormir",
-      "sortir",
       "budget_1",
-      "spots"
+      "spots",
+      "sortir"
     ],
     "price": "15 000 Ar",
     "rating": 4,
     "duration": "Nuit",
     "conseil": "Parfait pour le coucher de soleil. Arrivez vers 17h for la meilleure place.",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-21.442,47.081",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/fianarantsoa/fianar_soafia.png",
@@ -18649,13 +17757,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "La référence pour danser. Située dans l’hôtel Soafia, c’est le club le plus équipé de la ville. Ambiance locale et tubes internationaux. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas devenir meilleur ami avec des gens dont tu ne te souviendras plus du prénom demain. C'est la magie. ✨"
+    "humour_grok": "Tu vas devenir meilleur ami avec des gens dont tu ne te souviendras plus du prénom demain. C'est la magie. ✨",
+    "sous_type": "Bar",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 313,
     "ville": "Fianarantsoa",
     "nom": "Pavillon Bar (La Rizière)",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -21.4605,
     "lng": 47.0905,
     "prix": "12 000 Ar",
@@ -18668,19 +17781,19 @@ window.LIEUX_DATA = [
     "horaires": "Fin d'après-midi",
     "duree": "1h",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "fianar",
       "dormir",
-      "sortir",
       "budget_1",
-      "detente"
+      "detente",
+      "sortir"
     ],
     "price": "12 000 Ar",
     "rating": 4.6,
     "duration": "1h",
     "conseil": "Parfait pour le coucher de soleil. Arrivez vers 17h for la meilleure place.",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-21.4605,47.0905",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/fianarantsoa/fianar_pavillon_bar.png",
@@ -18769,13 +17882,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Pour un verre au calme. Cadre apaisant avec vue sur les jardins de l’école hôtelière. Idéal pour un apéritif tranquille. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas devenir meilleur ami avec des gens dont tu ne te souviendras plus du prénom demain. C'est la magie. ✨"
+    "humour_grok": "Tu vas devenir meilleur ami avec des gens dont tu ne te souviendras plus du prénom demain. C'est la magie. ✨",
+    "sous_type": "Bar",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 314,
     "ville": "Fianarantsoa",
     "nom": "Bar du Sorotel",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -21.444,
     "lng": 47.083,
     "prix": "12 000 Ar",
@@ -18788,18 +17906,18 @@ window.LIEUX_DATA = [
     "horaires": "Soirée",
     "duree": "1h",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "fianar",
       "dormir",
-      "sortir",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "price": "12 000 Ar",
     "rating": 4.2,
     "duration": "1h",
     "conseil": "Parfait pour le coucher de soleil. Arrivez vers 17h for la meilleure place.",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-21.444,47.083",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/fianarantsoa/fianar_sorotel_bar.png",
@@ -18888,7 +18006,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Ambiance lounge et fauteuils confortables. C’est le bar d’hôtel classique pour discuter affaires ou se détendre au frais. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Le sol colle. Les verres collent. Tout colle. C'est ça l'ambiance authentique. 🦶"
+    "humour_grok": "Le sol colle. Les verres collent. Tout colle. C'est ça l'ambiance authentique. 🦶",
+    "sous_type": "Bar",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 315,
@@ -18911,7 +18034,8 @@ window.LIEUX_DATA = [
       "fianar",
       "spots",
       "budget_1",
-      "secret_spot"
+      "secret_spot",
+      "explorer"
     ],
     "price": "Gratuit",
     "rating": 4.7,
@@ -19008,13 +18132,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le défi sportif et photogénique. Ces grands escaliers relient la ville basse à la ville haute. La perspective est magnifique pour les photos. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
+    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸",
+    "sous_type": "Spot Local",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 316,
     "ville": "Fianarantsoa",
     "nom": "Marché d’Anjoma",
-    "type": "Bar",
+    "type": "Culture",
     "spotLocal": true,
     "lat": -21.44,
     "lng": 47.08,
@@ -19029,18 +18158,18 @@ window.LIEUX_DATA = [
     "conseil": "Allez voir la section des vanneries Betsileo.",
     "duree": "1h",
     "tags": [
-      "Bar",
+      "Culture",
       "fianar",
       "spots",
-      "sortir",
       "budget_1",
-      "culture"
+      "culture",
+      "explorer"
     ],
     "price": "Gratuit",
     "rating": 4.4,
     "duration": "1h",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-21.44,47.08",
-    "categorie": "Bar",
+    "categorie": "Culture",
     "galerie_photos": [
       {
         "url": "images/fianarantsoa/fianar_marche_anjoma.png",
@@ -19129,7 +18258,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L’effervescence pure. C’est l’un des plus grands marchés du sud. On y trouve tout : zébus, artisanat, fruits, épices. Attention aux pickpockets, mais l’ambiance est inoubliable. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
+    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️",
+    "sous_type": "Bar",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 317,
@@ -19152,7 +18286,8 @@ window.LIEUX_DATA = [
       "fianar",
       "spots",
       "budget_1",
-      "secret_spot"
+      "secret_spot",
+      "explorer"
     ],
     "price": "Gratuit",
     "rating": 4.6,
@@ -19249,7 +18384,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une colline offrant un panorama à 360° sur toute la ville et les vallées environnantes. Un bol d’air frais à quelques minutes du centre. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
+    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸",
+    "sous_type": "Spot Local",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 318,
@@ -19272,7 +18412,8 @@ window.LIEUX_DATA = [
       "fianar",
       "spots",
       "budget_1",
-      "secret_spot"
+      "secret_spot",
+      "explorer"
     ],
     "price": "Gratuit",
     "rating": 4.2,
@@ -19369,7 +18510,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le poumon vert de la ville basse. Une promenade agréable autour du lac artificiel, bordé de jacarandas (en fleurs en octobre/novembre). Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
+    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀",
+    "sous_type": "Spot Local",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 319,
@@ -19490,13 +18636,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une statue blanche monumentale qui veille sur la ville. Le site offre l’un des meilleurs points de vue pour comprendre la géographie des trois niveaux de la ville. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
+    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃",
+    "sous_type": "Spot Local",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 321,
     "ville": "Fianarantsoa",
     "nom": "Zomatel Hôtel",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -21.443,
     "lng": 47.082,
     "prix": "200 000 Ar",
@@ -19510,7 +18661,7 @@ window.LIEUX_DATA = [
     "conseil": "Profitez de la piscine après une longue journée de route (RN7).",
     "duree": "Nuit",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "fianar",
       "dormir",
       "budget_3",
@@ -19520,7 +18671,7 @@ window.LIEUX_DATA = [
     "rating": 4.5,
     "duration": "Nuit",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-21.443,47.082",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/fianarantsoa/fianar_zomatel.png",
@@ -19609,13 +18760,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le confort international à Fianar. Idéal pour ceux qui cherchent des services complets : grande piscine, spa, chambres modernes et spacieuses. Une valeur sûre pour le business ou la détente. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Vue sur mer ? Si tu te penches beaucoup et que tu fermes un œil, oui, absolument. 🌊"
+    "humour_grok": "Vue sur mer ? Si tu te penches beaucoup et que tu fermes un œil, oui, absolument. 🌊",
+    "sous_type": "Hotel",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 322,
     "ville": "Fianarantsoa",
     "nom": "Hôtel Cotsoyannis",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -21.4465,
     "lng": 47.0845,
     "prix": "140 000 Ar",
@@ -19629,7 +18785,7 @@ window.LIEUX_DATA = [
     "conseil": "Le petit-déjeuner dans le jardin est un moment délicieux.",
     "duree": "Nuit",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "fianar",
       "dormir",
       "budget_3"
@@ -19638,7 +18794,7 @@ window.LIEUX_DATA = [
     "rating": 4.4,
     "duration": "Nuit",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-21.4465,47.0845",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/fianarantsoa/fianar_cotsoyannis.png",
@@ -19727,13 +18883,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un havre de paix en plein centre-ville. Des bungalows disséminés dans un jardin luxuriant et fleuri. Calme, intimiste et très bien situé. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎"
+    "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎",
+    "sous_type": "Hotel",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 323,
     "ville": "Fianarantsoa",
     "nom": "Villa Sylvestre",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -21.448,
     "lng": 47.086,
     "prix": "160 000 Ar",
@@ -19747,18 +18908,17 @@ window.LIEUX_DATA = [
     "conseil": "Réservez à l’avance, il y a peu de chambres.",
     "duree": "Nuit",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "fianar",
       "dormir",
       "budget_3",
-      "nature",
       "famille"
     ],
     "price": "160 000 Ar",
     "rating": 4.7,
     "duration": "Nuit",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-21.448,47.086",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/fianarantsoa/fianar_villa_sylvestre.png",
@@ -19847,11 +19007,16 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une magnifique demeure coloniale des années 1920 restaurée avec goût. Parquets d’époque, varangue, charme fou. On s’y sent comme dans une maison de famille d’antan. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Vue sur mer ? Si tu te penches beaucoup et que tu fermes un œil, oui, absolument. 🌊"
+    "humour_grok": "Vue sur mer ? Si tu te penches beaucoup et que tu fermes un œil, oui, absolument. 🌊",
+    "sous_type": "Hotel",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 400,
-    "ville": "Tuléar",
+    "ville": "Toliara",
     "nom": "Arboretum d’Antsokay",
     "type": "Nature",
     "lat": -23.4167,
@@ -19968,11 +19133,17 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un conservatoire botanique unique regroupant plus de 900 espèces de plantes du sud malgache (90% endémiques). Visite guidée passionnante pour comprendre la flore épineuse. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃"
+    "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃",
+    "sous_type": "Nature",
+    "zone": "toliara",
+    "ville_alias": [
+      "Tuléar",
+      "Tulear"
+    ]
   },
   {
     "id": 401,
-    "ville": "Tuléar",
+    "ville": "Toliara",
     "nom": "Baie de Saint-Augustin",
     "type": "Nature",
     "lat": -23.55,
@@ -19992,8 +19163,7 @@ window.LIEUX_DATA = [
       "tulear",
       "explorer",
       "budget_1",
-      "aventure",
-      "nature"
+      "aventure"
     ],
     "price": "Gratuit",
     "rating": 4.7,
@@ -20090,11 +19260,17 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Site spectaculaire où le fleuve Onilahy se jette dans la mer. Falaises calcaires blanches, mangroves et flamants roses. Un paysage de bout du monde. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨"
+    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨",
+    "sous_type": "Nature",
+    "zone": "toliara",
+    "ville_alias": [
+      "Tuléar",
+      "Tulear"
+    ]
   },
   {
     "id": 402,
-    "ville": "Tuléar",
+    "ville": "Anakao",
     "nom": "Plage d’Anakao",
     "type": "Spot Local",
     "lat": -23.65,
@@ -20116,7 +19292,6 @@ window.LIEUX_DATA = [
       "explorer",
       "budget_1",
       "spots",
-      "nature",
       "secret_spot"
     ],
     "price": "Gratuit",
@@ -20212,133 +19387,14 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Village de pêcheurs Vezo authentique. Plages de sable blanc immaculé, eau turquoise. Accès bateau uniquement, garantissant une tranquillité absolue. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
-  },
-  {
-    "id": 403,
-    "ville": "Tuléar",
-    "nom": "Forêt de Baobabs Mangily",
-    "type": "Nature",
-    "lat": -23.1167,
-    "lng": 43.6167,
-    "prix": "20 000 Ar",
-    "prixEur": "5 €",
-    "prixNum": 20000,
-    "note": 4.6,
-    "description": "Réserve de Reniala : forêt de baobabs bouteilles, tortues radiata et oiseaux. Sentier facile pour découvrir ces géants millénaires. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Tuléar. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
-    "image": "images/toliara/toliara_baobabs_mangily.png",
-    "acces": "Mangily / Ifaty (30 km nord)",
-    "horaires": "6h - 17h",
-    "conseil": "Cherchez le fameux ’Baobab théière’.",
-    "duree": "1h30",
-    "siteWeb": "https://reniala-ecotourisme.jimdo.com",
-    "tags": [
-      "Nature",
-      "tulear",
-      "explorer",
-      "budget_1",
-      "nature"
-    ],
-    "price": "20 000 Ar",
-    "rating": 4.6,
-    "duration": "1h30",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.1167,43.6167",
-    "categorie": "Nature",
-    "galerie_photos": [
-      {
-        "url": "images/toliara/toliara_baobabs_mangily.png",
-        "alt": "Forêt de Baobabs Mangily",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h (fermé le lundi)",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "eviter": "Janvier-Mars (pluies intenses)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Bonnes chaussures de randonnée",
-          "Eau (2L min)",
-          "Crème solaire",
-          "Appareil photo",
-          "Anti-moustiques"
-        ],
-        "conseils": "Guide local recommandé pour découvrir la faune"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.175Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 84,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -23.1167,
-      "longitude": 43.6167,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Réserve de Reniala : forêt de baobabs bouteilles, tortues radiata et oiseaux. Sentier facile pour découvrir ces géants millénaires. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
-    "has_expandable_description": true,
-    "humour_grok": "Tu vas payer pour marcher dans la boue et chercher un lézard de 2cm invisible. Et tu vas adorer ça. Masochiste. 🤠"
+    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩",
+    "sous_type": "Spot Local",
+    "depart_de": "Toliara",
+    "zone": "toliara"
   },
   {
     "id": 404,
-    "ville": "Tuléar",
+    "ville": "Toliara",
     "nom": "Musée de la Mer",
     "type": "Spot Local",
     "lat": -23.355,
@@ -20456,11 +19512,17 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Musée de l’Institut Halieutique. Découvrez la biodiversité marine du canal du Mozambique et le célèbre cœlacanthe fossile. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
+    "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞",
+    "sous_type": "Spot Local",
+    "zone": "toliara",
+    "ville_alias": [
+      "Tuléar",
+      "Tulear"
+    ]
   },
   {
     "id": 405,
-    "ville": "Tuléar",
+    "ville": "Toliara",
     "nom": "Le Jardin de Giancarlo",
     "type": "Restaurant",
     "lat": -23.352,
@@ -20574,11 +19636,17 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Institution gastronomique italienne. Produits de la mer d’une fraîcheur absolue, cadre jardin tropical apaisant. Une valeur sûre. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗"
+    "humour_grok": "La vue est belle, ça aide à faire passer l'attente de 45 minutes pour une entrée froide. 🥗",
+    "sous_type": "Restaurant",
+    "zone": "toliara",
+    "ville_alias": [
+      "Tuléar",
+      "Tulear"
+    ]
   },
   {
     "id": 406,
-    "ville": "Tuléar",
+    "ville": "Toliara",
     "nom": "Chez Freddy",
     "type": "Restaurant",
     "lat": -23.354,
@@ -20598,7 +19666,6 @@ window.LIEUX_DATA = [
       "Restaurant",
       "manger",
       "tulear",
-      "sortir",
       "budget_2"
     ],
     "price": "25 000 Ar",
@@ -20692,11 +19759,17 @@ window.LIEUX_DATA = [
     },
     "description_summary": "L’ambiance routard mythique de Tuléar. Convivial, pas cher, copieux. Le point de ralliement des voyageurs pour échanger des infos. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "L'addition arrivera... un jour. Peut-être. Profite pour digérer. 🧾"
+    "humour_grok": "L'addition arrivera... un jour. Peut-être. Profite pour digérer. 🧾",
+    "sous_type": "Restaurant",
+    "zone": "toliara",
+    "ville_alias": [
+      "Tuléar",
+      "Tulear"
+    ]
   },
   {
     "id": 407,
-    "ville": "Tuléar",
+    "ville": "Toliara",
     "nom": "L’Étoile de Mer",
     "type": "Restaurant",
     "lat": -23.356,
@@ -20809,11 +19882,17 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Terrasse vue mer agréable. Spécialiste des grillades de poissons arrivant du port tout proche. Cuisine simple et savoureuse. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗"
+    "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗",
+    "sous_type": "Restaurant",
+    "zone": "toliara",
+    "ville_alias": [
+      "Tuléar",
+      "Tulear"
+    ]
   },
   {
     "id": 409,
-    "ville": "Tuléar",
+    "ville": "Anakao",
     "nom": "Le Vezo (Anakao)",
     "type": "Restaurant",
     "lat": -23.651,
@@ -20834,8 +19913,7 @@ window.LIEUX_DATA = [
       "manger",
       "tulear",
       "explorer",
-      "budget_2",
-      "nature"
+      "budget_2"
     ],
     "price": "30 000 Ar",
     "rating": 4.8,
@@ -20928,13 +20006,16 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Restaurant de plage les pieds dans le sable à Anakao. Langoustes grillées pêchées du matin. Le goût du paradis. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "L'addition arrivera... un jour. Peut-être. Profite pour digérer. 🧾"
+    "humour_grok": "L'addition arrivera... un jour. Peut-être. Profite pour digérer. 🧾",
+    "sous_type": "Restaurant",
+    "depart_de": "Toliara",
+    "zone": "toliara"
   },
   {
     "id": 410,
-    "ville": "Tuléar",
+    "ville": "Toliara",
     "nom": "Bakouba Concept Hotel",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -23.54,
     "lng": 43.76,
     "prix": "350 000 Ar",
@@ -20949,7 +20030,7 @@ window.LIEUX_DATA = [
     "duree": "Nuit",
     "siteWeb": "http://www.bakuba-lodge.com",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "tulear",
       "dormir",
       "budget_3"
@@ -20958,15 +20039,20 @@ window.LIEUX_DATA = [
     "rating": 4.9,
     "duration": "Nuit",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.54,43.76",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/toliara/toliara_bakouba.png",
         "alt": "Bakouba Concept Hotel",
         "type": "principale"
+      },
+      {
+        "url": "images/toliara/toliara_anakao.png",
+        "alt": "Bakuba Lodge",
+        "type": "secondaire"
       }
     ],
-    "hasCarousel": false,
+    "hasCarousel": true,
     "infos_pratiques": {
       "horaires": {
         "lundi_vendredi": "8h-17h",
@@ -21047,13 +20133,25 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Ovni architectural style Gaudí face à la baie de Saint-Augustin. Décoration ethnique unique, piscine à débordement. Une expérience hors du temps. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Vue sur mer ? Si tu te penches beaucoup et que tu fermes un œil, oui, absolument. 🌊"
+    "humour_grok": "Vue sur mer ? Si tu te penches beaucoup et que tu fermes un œil, oui, absolument. 🌊",
+    "alias": [
+      "Bakuba Lodge"
+    ],
+    "fusion_de": [
+      637
+    ],
+    "sous_type": "Hotel",
+    "zone": "toliara",
+    "ville_alias": [
+      "Tuléar",
+      "Tulear"
+    ]
   },
   {
     "id": 411,
-    "ville": "Tuléar",
+    "ville": "Toliara",
     "nom": "Moringa Hotel",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -23.353,
     "lng": 43.67,
     "prix": "200 000 Ar",
@@ -21068,7 +20166,7 @@ window.LIEUX_DATA = [
     "duree": "Nuit",
     "siteWeb": "http://www.moringa-tulear.mg",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "tulear",
       "dormir",
       "budget_3",
@@ -21078,7 +20176,7 @@ window.LIEUX_DATA = [
     "rating": 4.7,
     "duration": "Nuit",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.353,43.67",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/toliara/toliara_moringa.png",
@@ -21167,13 +20265,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le confort moderne en ville. Chambres spacieuses, grand patio verdoyant, excellent service. La valeur sûre business/détente. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎"
+    "humour_grok": "Les geckos dans la chambre sont tes colocs. Ils mangent les moustiques, dis-leur merci et dors. 🦎",
+    "sous_type": "Hotel",
+    "zone": "toliara",
+    "ville_alias": [
+      "Tuléar",
+      "Tulear"
+    ]
   },
   {
     "id": 412,
-    "ville": "Tuléar",
+    "ville": "Anakao",
     "nom": "Peter Pan",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -23.652,
     "lng": 43.652,
     "prix": "150 000 Ar",
@@ -21188,10 +20292,9 @@ window.LIEUX_DATA = [
     "duree": "Nuit",
     "siteWeb": "http://www.peter-pan-anakao.com",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "manger",
       "tulear",
-      "sortir",
       "dormir",
       "budget_3",
       "gastronomie"
@@ -21200,7 +20303,7 @@ window.LIEUX_DATA = [
     "rating": 4.6,
     "duration": "Nuit",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.652,43.652",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/toliara/toliara_peter_pan.png",
@@ -21289,13 +20392,16 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Charme italien à Anakao. Bungalows rustiques-chic, cuisine délicieuse d’inspiration italienne. Ambiance familiale et décontractée. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "La télé a deux chaînes : de la neige et une émission de cuisine en malgache. Cultive-toi. 📺"
+    "humour_grok": "La télé a deux chaînes : de la neige et une émission de cuisine en malgache. Cultive-toi. 📺",
+    "sous_type": "Hotel",
+    "depart_de": "Toliara",
+    "zone": "toliara"
   },
   {
     "id": 413,
-    "ville": "Tuléar",
+    "ville": "Ifaty",
     "nom": "Le Paradisier",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -23.15,
     "lng": 43.6,
     "prix": "300 000 Ar",
@@ -21310,7 +20416,7 @@ window.LIEUX_DATA = [
     "duree": "Nuit",
     "siteWeb": "https://www.paradisier.net",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "tulear",
       "dormir",
       "budget_3",
@@ -21321,7 +20427,7 @@ window.LIEUX_DATA = [
     "rating": 4.8,
     "duration": "Nuit",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.15,43.6",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/toliara/toliara_paradisier.png",
@@ -21410,13 +20516,16 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Eco-lodge de luxe à Ifaty. Bungalows pierre/bois intégrés à la dune, piscine à débordement sur le lagon. Calme absolu. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Le WiFi fonctionne... quand il a envie. Un peu comme le personnel, finalement. 📶"
+    "humour_grok": "Le WiFi fonctionne... quand il a envie. Un peu comme le personnel, finalement. 📶",
+    "sous_type": "Hotel",
+    "depart_de": "Toliara",
+    "zone": "toliara"
   },
   {
     "id": 414,
-    "ville": "Tuléar",
+    "ville": "Ifaty",
     "nom": "Les Dunes d’Ifaty",
-    "type": "Hotel",
+    "type": "Hôtel",
     "lat": -23.1,
     "lng": 43.6,
     "prix": "250 000 Ar",
@@ -21430,7 +20539,7 @@ window.LIEUX_DATA = [
     "conseil": "Nombreuses activités nautiques disponibles.",
     "duree": "Nuit",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "tulear",
       "dormir",
       "budget_3",
@@ -21440,7 +20549,7 @@ window.LIEUX_DATA = [
     "rating": 4.6,
     "duration": "Nuit",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.1,43.6",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/toliara/toliara_dunes_ifaty.png",
@@ -21529,13 +20638,16 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Complexe hôtelier confortable, villas vue mer, piscine et jardin tropical. Idéal pour familles et longs séjours. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Si tu trouves une bête bizarre dans ta chambre, donne-lui un prénom. Ça fait moins peur. 🕷️"
+    "humour_grok": "Si tu trouves une bête bizarre dans ta chambre, donne-lui un prénom. Ça fait moins peur. 🕷️",
+    "sous_type": "Hotel",
+    "depart_de": "Toliara",
+    "zone": "toliara"
   },
   {
     "id": 415,
-    "ville": "Tuléar",
+    "ville": "Toliara",
     "nom": "Le T’Hôtre Chose",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -23.357,
     "lng": 43.67,
     "prix": "10 000 Ar",
@@ -21549,17 +20661,17 @@ window.LIEUX_DATA = [
     "conseil": "Grosse ambiance le vendredi soir.",
     "duree": "Soirée",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "explorer",
       "tulear",
-      "sortir",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "price": "10 000 Ar",
     "rating": 4.4,
     "duration": "Soirée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.357,43.67",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/toliara/toliara_thotre_chose.png",
@@ -21648,13 +20760,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le bar-club incontournable. Ambiance festive, live music, billard. Le point de rencontre nocturne. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃"
+    "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃",
+    "sous_type": "Bar",
+    "zone": "toliara",
+    "ville_alias": [
+      "Tuléar",
+      "Tulear"
+    ]
   },
   {
     "id": 416,
-    "ville": "Tuléar",
+    "ville": "Toliara",
     "nom": "Bar de l’Hôtel Plazza",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -23.358,
     "lng": 43.66,
     "prix": "15 000 Ar",
@@ -21668,18 +20786,18 @@ window.LIEUX_DATA = [
     "conseil": "Arriver à 17h30 pour la meilleure vue.",
     "duree": "Soirée",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "dormir",
       "tulear",
-      "sortir",
       "spots",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "price": "15 000 Ar",
     "rating": 4.5,
     "duration": "Soirée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.358,43.66",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/toliara/toliara_plazza.png",
@@ -21768,13 +20886,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le spot ’Sunset’. Terrasse panoramique face au canal du Mozambique. Cocktails soignés et brise marine. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Le sol colle. Les verres collent. Tout colle. C'est ça l'ambiance authentique. 🦶"
+    "humour_grok": "Le sol colle. Les verres collent. Tout colle. C'est ça l'ambiance authentique. 🦶",
+    "sous_type": "Bar",
+    "zone": "toliara",
+    "ville_alias": [
+      "Tuléar",
+      "Tulear"
+    ]
   },
   {
     "id": 418,
-    "ville": "Tuléar",
+    "ville": "Toliara",
     "nom": "Chez Alain",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -23.351,
     "lng": 43.673,
     "prix": "12 000 Ar",
@@ -21789,17 +20913,17 @@ window.LIEUX_DATA = [
     "duree": "Soirée",
     "siteWeb": "https://www.facebook.com/chezalaintoliara/",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "manger",
       "tulear",
-      "sortir",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "price": "12 000 Ar",
     "rating": 4.6,
     "duration": "Soirée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.351,43.673",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/toliara/toliara_chez_alain.png",
@@ -21888,13 +21012,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Cabaret-restaurant légendaire. Jazz, Blues, musique malgache de qualité. Ambiance feutrée et mélomane. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Déco minimaliste : chaises en plastique et calendrier 2012. L'essentiel est dans l'assiette. 🪑"
+    "humour_grok": "Déco minimaliste : chaises en plastique et calendrier 2012. L'essentiel est dans l'assiette. 🪑",
+    "sous_type": "Bar",
+    "zone": "toliara",
+    "ville_alias": [
+      "Tuléar",
+      "Tulear"
+    ]
   },
   {
     "id": 419,
-    "ville": "Tuléar",
+    "ville": "Ifaty",
     "nom": "Mangily Beach Bar",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -23.12,
     "lng": 43.615,
     "prix": "10 000 Ar",
@@ -21908,17 +21038,16 @@ window.LIEUX_DATA = [
     "conseil": "Punch coco maison recommandé.",
     "duree": "Soirée",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "tulear",
-      "sortir",
       "budget_1",
-      "nature"
+      "sortir"
     ],
     "price": "10 000 Ar",
     "rating": 4.5,
     "duration": "Soirée",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.12,43.615",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/toliara/toliara_mangily_bar.png",
@@ -22007,253 +21136,19 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le QG d’Ifaty. Les pieds dans le sable, reggae, cocktails coco. Le chill absolu. Ce lieu présente un intérêt certain pour les visiteurs de Tuléar, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "C'est ici que les légendes naissent et que les dignités meurent. Santé ! 🥂"
-  },
-  {
-    "id": 613,
-    "nom": "Ankarana",
-    "ville": "Diego-Suarez",
-    "type": "nature",
-    "lat": -12.9167,
-    "lng": 49.0833,
-    "prix": ">= 10 000 Ar",
-    "note": "4.5",
-    "description": "Une réserve spéciale célèbre pour ses tsingy, ses grottes et ses canyons. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "image": "images/spots/ankarana.jpg",
-    "is_recovered_spot": true,
-    "price": ">= 10 000 Ar",
-    "rating": "4.5",
-    "duration": "Libre",
-    "tags": [
-      "diego",
-      "explorer",
-      "budget_1",
-      "nature"
-    ],
-    "prixNum": 10000,
-    "conseil": "Le vent Varatraza souffle fort l'après-midi, prévoyez un coupe-vent.",
-    "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.9167,49.0833",
-    "duree": "2h à 4h",
-    "categorie": "nature",
-    "galerie_photos": [
-      {
-        "url": "images/spots/ankarana.jpg",
-        "alt": "Ankarana",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.182Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.5",
-      "nombre_avis": 63,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.5",
-        "beaute_naturelle": "4.5"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.9167,
-      "longitude": 49.0833,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Une réserve spéciale célèbre pour ses tsingy, ses grottes et ses canyons. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
-    "has_expandable_description": true,
-    "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿"
-  },
-  {
-    "id": 614,
-    "nom": "Diego-Suarez",
-    "ville": "Diego-Suarez",
-    "type": "ville",
-    "lat": -12.2792,
-    "lng": 49.2919,
-    "prix": "gratuit",
-    "note": "4.5",
-    "description": "Une ville portuaire animée avec une architecture coloniale et une baie spectaculaire. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "image": "images/villes/diego-suarez.jpg",
-    "is_recovered_spot": true,
-    "price": "gratuit",
-    "rating": "4.5",
-    "duration": "Libre",
-    "tags": [
-      "ville",
-      "diego",
-      "budget_1",
-      "explorer",
-      "explorer"
-    ],
-    "prixNum": 0,
-    "conseil": "Le vent Varatraza souffle fort l'après-midi, prévoyez un coupe-vent.",
-    "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
-    "horaires": "8h00 - 18h00",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.2792,49.2919",
-    "duree": "2h à 4h",
-    "categorie": "ville",
-    "galerie_photos": [
-      {
-        "url": "images/villes/diego-suarez.jpg",
-        "alt": "Diego-Suarez",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.182Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.5",
-      "nombre_avis": 139,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.5",
-        "beaute_naturelle": "4.5"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.2792,
-      "longitude": 49.2919,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Une ville portuaire animée avec une architecture coloniale et une baie spectaculaire. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
-    "has_expandable_description": true,
-    "humour_grok": "Le code de la route est une suggestion vague. Le klaxon est ton seul bouclier. 🚗"
+    "humour_grok": "C'est ici que les légendes naissent et que les dignités meurent. Santé ! 🥂",
+    "sous_type": "Bar",
+    "depart_de": "Toliara",
+    "zone": "toliara"
   },
   {
     "id": 615,
     "nom": "Baie Sakalava",
     "ville": "Diego-Suarez",
-    "type": "plage",
+    "type": "Plage",
     "lat": -12.2167,
     "lng": 49.4167,
-    "prix": "gratuit",
+    "prix": "Gratuit",
     "note": "4.5",
     "description": "Une baie magnifique avec des plages de sable blanc et des eaux turquoise, idéale pour le kitesurf. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/iles/baie-sakalava.jpg",
@@ -22262,12 +21157,11 @@ window.LIEUX_DATA = [
     "rating": "4.5",
     "duration": "Libre",
     "tags": [
-      "plage",
+      "Plage",
       "diego",
       "explorer",
       "budget_1",
-      "spots",
-      "nature"
+      "spots"
     ],
     "prixNum": 0,
     "conseil": "Le vent Varatraza souffle fort l'après-midi, prévoyez un coupe-vent.",
@@ -22275,7 +21169,7 @@ window.LIEUX_DATA = [
     "horaires": "Accessible toute la journée (Conseillé le matin)",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.2167,49.4167",
     "duree": "2h à 4h",
-    "categorie": "plage",
+    "categorie": "Plage",
     "galerie_photos": [
       {
         "url": "images/iles/baie-sakalava.jpg",
@@ -22364,260 +21258,29 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une baie magnifique avec des plages de sable blanc et des eaux turquoise, idéale pour le kitesurf. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "L'eau est chaude, le soleil tape, et tu as oublié ta crème. Bonne chance le homard. 🦞"
-  },
-  {
-    "id": 616,
-    "nom": "Pain de Sucre",
-    "ville": "Diego-Suarez",
-    "type": "spot-local",
-    "lat": -12.2667,
-    "lng": 49.3333,
-    "prix": "gratuit",
-    "note": "4.5",
-    "description": "Un îlot emblématique au milieu de la baie de Diego-Suarez, offrant une vue panoramique. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "image": "images/spots/pain-de-sucre.jpg",
-    "is_recovered_spot": true,
-    "price": "gratuit",
-    "rating": "4.5",
-    "duration": "Libre",
-    "tags": [
-      "spot-local",
-      "diego",
-      "spots",
-      "budget_1"
-    ],
-    "prixNum": 0,
-    "conseil": "Le vent Varatraza souffle fort l'après-midi, prévoyez un coupe-vent.",
-    "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
-    "horaires": "8h00 - 18h00",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.2667,49.3333",
-    "duree": "2h à 4h",
-    "categorie": "spot-local",
-    "galerie_photos": [
-      {
-        "url": "images/spots/pain-de-sucre.jpg",
-        "alt": "Pain de Sucre",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.183Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.5",
-      "nombre_avis": 58,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.5",
-        "beaute_naturelle": "4.5"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.2667,
-      "longitude": 49.3333,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Un îlot emblématique au milieu de la baie de Diego-Suarez, offrant une vue panoramique. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
-    "has_expandable_description": true,
-    "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚"
-  },
-  {
-    "id": 617,
-    "nom": "Réserve Ankarana",
-    "ville": "Diego-Suarez",
-    "type": "nature",
-    "lat": -12.8333,
-    "lng": 49.1167,
-    "prix": ">= 10 000 Ar",
-    "note": "4.5",
-    "description": "Une réserve spéciale célèbre pour ses tsingy, ses grottes et ses canyons. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "image": "images/spots/ankarana.jpg",
-    "is_recovered_spot": true,
-    "price": ">= 10 000 Ar",
-    "rating": "4.5",
-    "duration": "Libre",
-    "tags": [
-      "diego",
-      "explorer",
-      "budget_1",
-      "nature"
-    ],
-    "prixNum": 10000,
-    "conseil": "Le vent Varatraza souffle fort l'après-midi, prévoyez un coupe-vent.",
-    "acces": "Accessible en taxi-ville (environ 2000 Ar la course en ville).",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.8333,49.1167",
-    "duree": "2h à 4h",
-    "categorie": "nature",
-    "galerie_photos": [
-      {
-        "url": "images/spots/ankarana.jpg",
-        "alt": "Réserve Ankarana",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.183Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.5",
-      "nombre_avis": 111,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.5",
-        "beaute_naturelle": "4.5"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -12.8333,
-      "longitude": 49.1167,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Une réserve spéciale célèbre pour ses tsingy, ses grottes et ses canyons. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
-    "has_expandable_description": true,
-    "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵"
+    "humour_grok": "L'eau est chaude, le soleil tape, et tu as oublié ta crème. Bonne chance le homard. 🦞",
+    "sous_type": "Plage",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 618,
     "nom": "Jungle Park",
     "ville": "Diego-Suarez",
-    "type": "Lodge",
+    "type": "Hôtel",
     "prix": "150 000 Ar",
     "prixNum": 150000,
     "note": "4.8",
     "image": "images/spots/piscine-naturelle.jpg",
     "description": "Camping éco-responsable et escalade à l’entrée de la Montagne des Français. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Lodge",
+      "Hôtel",
       "diego",
       "dormir",
       "budget_3",
-      "nature",
       "aventure"
     ],
     "lat": -12.3,
@@ -22630,7 +21293,7 @@ window.LIEUX_DATA = [
     "horaires": "Accessible toute la journée (Conseillé le matin)",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-12.3,49.3",
     "duree": "2h à 4h",
-    "categorie": "Lodge",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/spots/piscine-naturelle.jpg",
@@ -22719,141 +21382,26 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Camping éco-responsable et escalade à l’entrée de la Montagne des Français. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Le petit-déjeuner est inclus, mais la bataille pour le dernier croissant ne l'est pas. 🥐"
-  },
-  {
-    "id": 619,
-    "nom": "Nosy Tanikely",
-    "ville": "Nosy Be",
-    "type": "Nature",
-    "prix": "45 000 Ar",
-    "prixNum": 45000,
-    "note": "4.9",
-    "image": "images/iles/nosy-tanikely.jpg",
-    "description": "Réserve marine protégée. Aquarium naturel parfait pour le snorkeling. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Nosy Be. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
-    "tags": [
-      "Nature",
-      "nosybe",
-      "explorer",
-      "budget_2",
-      "nature",
-      "aventure"
-    ],
-    "lat": -13.4833,
-    "lng": 48.2389,
-    "price": "45 000 Ar",
-    "rating": "4.9",
-    "duration": "Libre",
-    "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
-    "acces": "Tuk-tuk facile depuis Hell-Ville ou Ambatoloaka.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4833,48.2389",
-    "duree": "4h à 6h",
-    "categorie": "Nature",
-    "galerie_photos": [
-      {
-        "url": "images/iles/nosy-tanikely.jpg",
-        "alt": "Nosy Tanikely",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h (fermé le lundi)",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "eviter": "Janvier-Mars (pluies intenses)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Bonnes chaussures de randonnée",
-          "Eau (2L min)",
-          "Crème solaire",
-          "Appareil photo",
-          "Anti-moustiques"
-        ],
-        "conseils": "Guide local recommandé pour découvrir la faune"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.184Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.9",
-      "nombre_avis": 105,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.9",
-        "beaute_naturelle": null
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -13.4833,
-      "longitude": 48.2389,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Réserve marine protégée. Aquarium naturel parfait pour le snorkeling. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Nosy Be.",
-    "has_expandable_description": true,
-    "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵"
+    "humour_grok": "Le petit-déjeuner est inclus, mais la bataille pour le dernier croissant ne l'est pas. 🥐",
+    "sous_type": "Lodge",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "id": 620,
     "nom": "L’Heure Bleue",
     "ville": "Nosy Be",
-    "type": "Hotel",
+    "type": "Hôtel",
     "prix": "450 000 Ar",
     "prixNum": 450000,
     "note": "4.7",
     "image": "images/restaurants/heure-bleue.jpg",
     "description": "Ecolodge chic à Madirokely avec vue imprenable sur la baie. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "nosybe",
       "dormir",
       "budget_3"
@@ -22868,7 +21416,7 @@ window.LIEUX_DATA = [
     "horaires": "8h00 - 18h00",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4,48.2",
     "duree": "2h à 4h",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/restaurants/heure-bleue.jpg",
@@ -22957,7 +21505,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Ecolodge chic à Madirokely avec vue imprenable sur la baie. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Le petit-déjeuner est inclus, mais la bataille pour le dernier croissant ne l'est pas. 🥐"
+    "humour_grok": "Le petit-déjeuner est inclus, mais la bataille pour le dernier croissant ne l'est pas. 🥐",
+    "sous_type": "Hotel",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 621,
@@ -23074,141 +21627,25 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un banian millénaire impressionnant, lieu de culte et d’offrandes. Ce lieu présente un intérêt certain pour les visiteurs de Nosy Be, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
-  },
-  {
-    "id": 622,
-    "nom": "Lokobe Special Reserve",
-    "ville": "Nosy Be",
-    "type": "Nature",
-    "prix": "50 000 Ar",
-    "prixNum": 50000,
-    "note": "4.6",
-    "image": "images/spots/lokobe.jpg",
-    "description": "Dernière forêt primaire de l’île. Accès en pirogue, observation de caméléons et boas. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Nosy Be. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
-    "tags": [
-      "Nature",
-      "nosybe",
-      "explorer",
-      "budget_2",
-      "nature",
-      "aventure"
-    ],
-    "lat": -13.4,
-    "lng": 48.3,
-    "price": "50 000 Ar",
-    "rating": "4.6",
-    "duration": "Libre",
-    "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
-    "acces": "Tuk-tuk facile depuis Hell-Ville ou Ambatoloaka.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-13.4,48.3",
-    "duree": "4h à 6h",
-    "categorie": "Nature",
-    "galerie_photos": [
-      {
-        "url": "images/spots/lokobe.jpg",
-        "alt": "Lokobe Special Reserve",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h (fermé le lundi)",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "eviter": "Janvier-Mars (pluies intenses)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Bonnes chaussures de randonnée",
-          "Eau (2L min)",
-          "Crème solaire",
-          "Appareil photo",
-          "Anti-moustiques"
-        ],
-        "conseils": "Guide local recommandé pour découvrir la faune"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.185Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.6",
-      "nombre_avis": 128,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.6",
-        "beaute_naturelle": null
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -13.4,
-      "longitude": 48.3,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Dernière forêt primaire de l’île. Accès en pirogue, observation de caméléons et boas. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Nosy Be.",
-    "has_expandable_description": true,
-    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
+    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻",
+    "sous_type": "Culture",
+    "zone": "nosybe",
+    "ville_alias": [
+      "Nosy-Be"
+    ]
   },
   {
     "id": 623,
     "nom": "Le Louvre Hotel & Spa",
     "ville": "Antananarivo",
-    "type": "Hotel",
+    "type": "Hôtel",
     "prix": "350 000 Ar",
     "prixNum": 350000,
     "note": "4.6",
     "image": "images/hotels/louvre-tana.jpg",
     "description": "Hôtel d’affaires moderne et spa en plein quartier d’Antaninarenina. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "tana",
       "dormir",
       "budget_3",
@@ -23224,7 +21661,7 @@ window.LIEUX_DATA = [
     "horaires": "8h00 - 18h00",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.9,47.5",
     "duree": "2h à 4h",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/hotels/louvre-tana.jpg",
@@ -23313,126 +21750,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Hôtel d’affaires moderne et spa en plein quartier d’Antaninarenina. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "5 étoiles en local, ça vaut un 2 étoiles chez toi. Ajuste tes attentes et tout ira bien. ⭐"
-  },
-  {
-    "id": 624,
-    "nom": "Sakamanga",
-    "ville": "Antananarivo",
-    "type": "Hotel",
-    "prix": "150 000 Ar",
-    "prixNum": 150000,
-    "note": "4.5",
-    "image": "images/hotels/sakamanga.jpg",
-    "description": "Une institution ! Musée-hôtel plein de charme et d’histoire. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "tags": [
-      "Hotel",
-      "explorer",
-      "tana",
-      "dormir",
-      "budget_3",
-      "culture"
-    ],
-    "lat": -18.9,
-    "lng": 47.5,
-    "price": "150 000 Ar",
-    "rating": "4.5",
-    "duration": "Libre",
-    "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
-    "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
-    "horaires": "8h00 - 18h00",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.9,47.5",
-    "duree": "2h à 4h",
-    "categorie": "Hotel",
-    "galerie_photos": [
-      {
-        "url": "images/hotels/sakamanga.jpg",
-        "alt": "Sakamanga",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.186Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.5",
-      "nombre_avis": 81,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.5",
-        "beaute_naturelle": "4.5"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -18.9,
-      "longitude": 47.5,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Une institution ! Musée-hôtel plein de charme et d’histoire. Ce lieu présente un intérêt certain pour les visiteurs de Antananarivo, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
-    "has_expandable_description": true,
-    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
+    "humour_grok": "5 étoiles en local, ça vaut un 2 étoiles chez toi. Ajuste tes attentes et tout ira bien. ⭐",
+    "sous_type": "Hotel",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 625,
@@ -23449,7 +21773,6 @@ window.LIEUX_DATA = [
       "tana",
       "explorer",
       "budget_2",
-      "nature",
       "famille"
     ],
     "lat": -18.8,
@@ -23553,25 +21876,31 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Elevage de crocodiles, parc botanique et dégustation de viande de croco. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Antananarivo.",
     "has_expandable_description": true,
-    "humour_grok": "Les lémuriens ne sont pas mignons, ils complotent. Et ils jugent tes chaussures Quechua. 🐒"
+    "humour_grok": "Les lémuriens ne sont pas mignons, ils complotent. Et ils jugent tes chaussures Quechua. 🐒",
+    "sous_type": "Nature",
+    "zone": "antananarivo",
+    "ville_alias": [
+      "Tana",
+      "Tananarive"
+    ]
   },
   {
     "id": 626,
     "nom": "Bord de Mer",
     "ville": "Mahajanga",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "prix": "Gratuit",
     "prixNum": 0,
     "note": "4.6",
     "image": "images/iles/plage-mahajanga.jpg",
     "description": "Le cœur vibrant de la ville le soir. Brochettes, baobab et ambiance festive. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "majunga",
-      "sortir",
       "spots",
       "explorer",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "spotLocal": true,
     "lat": -15.7167,
@@ -23585,7 +21914,7 @@ window.LIEUX_DATA = [
     "horaires": "11h00 - 22h00 (Cuisine en continu)",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.7167,46.3167",
     "duree": "2h à 4h",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/iles/plage-mahajanga.jpg",
@@ -23674,247 +22003,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le cœur vibrant de la ville le soir. Brochettes, baobab et ambiance festive. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹"
-  },
-  {
-    "id": 627,
-    "nom": "Parc Ankarafantsika",
-    "ville": "Mahajanga",
-    "type": "Nature",
-    "prix": "45 000 Ar",
-    "prixNum": 45000,
-    "note": "4.8",
-    "image": "images/spots/ankarafantsika.jpg",
-    "description": "Royaume des oiseaux et des Sifakas. Paysages de canyon et de lacs. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Mahajanga. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
-    "tags": [
-      "Nature",
-      "majunga",
-      "explorer",
-      "budget_2",
-      "nature",
-      "famille"
-    ],
-    "lat": -16.3167,
-    "lng": 46.8167,
-    "price": "45 000 Ar",
-    "rating": "4.8",
-    "duration": "Libre",
-    "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
-    "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-16.3167,46.8167",
-    "duree": "4h à 6h",
-    "categorie": "Nature",
-    "galerie_photos": [
-      {
-        "url": "images/spots/ankarafantsika.jpg",
-        "alt": "Parc Ankarafantsika",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h (fermé le lundi)",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "eviter": "Janvier-Mars (pluies intenses)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Bonnes chaussures de randonnée",
-          "Eau (2L min)",
-          "Crème solaire",
-          "Appareil photo",
-          "Anti-moustiques"
-        ],
-        "conseils": "Guide local recommandé pour découvrir la faune"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.187Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.8",
-      "nombre_avis": 130,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.8",
-        "beaute_naturelle": null
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -16.3167,
-      "longitude": 46.8167,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Royaume des oiseaux et des Sifakas. Paysages de canyon et de lacs. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Mahajanga.",
-    "has_expandable_description": true,
-    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
-  },
-  {
-    "id": 628,
-    "nom": "Katsepy",
-    "ville": "Mahajanga",
-    "type": "Nature",
-    "prix": "15 000 Ar",
-    "prixNum": 15000,
-    "note": "4.5",
-    "image": "images/spots/katsepy-phare.jpg",
-    "description": "Village de pêcheurs accessible en bac. Lémuriens et phare historique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Mahajanga. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
-    "tags": [
-      "Nature",
-      "majunga",
-      "explorer",
-      "budget_1"
-    ],
-    "lat": -15.7456,
-    "lng": 46.2234,
-    "price": "15 000 Ar",
-    "rating": "4.5",
-    "duration": "Libre",
-    "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
-    "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.7456,46.2234",
-    "duree": "4h à 6h",
-    "categorie": "Nature",
-    "galerie_photos": [
-      {
-        "url": "images/spots/katsepy-phare.jpg",
-        "alt": "Katsepy",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h (fermé le lundi)",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "eviter": "Janvier-Mars (pluies intenses)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Bonnes chaussures de randonnée",
-          "Eau (2L min)",
-          "Crème solaire",
-          "Appareil photo",
-          "Anti-moustiques"
-        ],
-        "conseils": "Guide local recommandé pour découvrir la faune"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.188Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.5",
-      "nombre_avis": 98,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.5",
-        "beaute_naturelle": null
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -15.7456,
-      "longitude": 46.2234,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Village de pêcheurs accessible en bac. Lémuriens et phare historique. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Mahajanga.",
-    "has_expandable_description": true,
-    "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃"
+    "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹",
+    "sous_type": "Bar",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 629,
@@ -23932,7 +22026,6 @@ window.LIEUX_DATA = [
       "explorer",
       "budget_1",
       "spots",
-      "nature",
       "secret_spot"
     ],
     "lat": -15.6,
@@ -24035,128 +22128,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "La plage préférée des Majungais. Restaurants de fruits de mer les pieds dans le sable. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾"
-  },
-  {
-    "id": 630,
-    "nom": "Parc Andasibe-Mantadia",
-    "ville": "Toamasina",
-    "type": "Nature",
-    "prix": "45 000 Ar",
-    "prixNum": 45000,
-    "note": "4.8",
-    "image": "images/spots/andasibe-mantadia.jpg",
-    "description": "La maison de l’Indri Indri. Forêt humide et chant des lémuriens. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Toamasina. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
-    "tags": [
-      "Nature",
-      "tamatave",
-      "explorer",
-      "budget_2",
-      "nature",
-      "famille"
-    ],
-    "lat": -18.9333,
-    "lng": 48.4167,
-    "price": "45 000 Ar",
-    "rating": "4.8",
-    "duration": "Libre",
-    "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
-    "acces": "Pousse-pousse ou Tuk-tuk sont les rois ici. Négociez la course.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.9333,48.4167",
-    "duree": "4h à 6h",
-    "categorie": "Nature",
-    "galerie_photos": [
-      {
-        "url": "images/spots/andasibe-mantadia.jpg",
-        "alt": "Parc Andasibe-Mantadia",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h (fermé le lundi)",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "eviter": "Janvier-Mars (pluies intenses)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Bonnes chaussures de randonnée",
-          "Eau (2L min)",
-          "Crème solaire",
-          "Appareil photo",
-          "Anti-moustiques"
-        ],
-        "conseils": "Guide local recommandé pour découvrir la faune"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.188Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.8",
-      "nombre_avis": 85,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.8",
-        "beaute_naturelle": null
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -18.9333,
-      "longitude": 48.4167,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "La maison de l’Indri Indri. Forêt humide et chant des lémuriens. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Toamasina.",
-    "has_expandable_description": true,
-    "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵"
+    "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾",
+    "sous_type": "Spot Local",
+    "zone": "mahajanga",
+    "ville_alias": [
+      "Majunga"
+    ]
   },
   {
     "id": 631,
@@ -24277,504 +22254,28 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Navigation fluviale apaisante à travers la végétation luxuriante. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞"
-  },
-  {
-    "id": 632,
-    "nom": "Palmarium Reserve",
-    "ville": "Toamasina",
-    "type": "Lodge",
-    "prix": "200 000 Ar",
-    "prixNum": 200000,
-    "note": "4.8",
-    "image": "images/hotels/palmarium.jpg",
-    "description": "Dormez au milieu des lémuriens. Visite de l’Aye-Aye nocturne. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "tags": [
-      "Lodge",
-      "tamatave",
-      "explorer",
-      "dormir",
-      "budget_3"
-    ],
-    "lat": -18.6,
-    "lng": 49.2,
-    "price": "200 000 Ar",
-    "rating": "4.8",
-    "duration": "Libre",
-    "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
-    "acces": "Pousse-pousse ou Tuk-tuk sont les rois ici. Négociez la course.",
-    "horaires": "8h00 - 18h00",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.6,49.2",
-    "duree": "2h à 4h",
-    "categorie": "Lodge",
-    "galerie_photos": [
-      {
-        "url": "images/hotels/palmarium.jpg",
-        "alt": "Palmarium Reserve",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.189Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.8",
-      "nombre_avis": 96,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.8",
-        "beaute_naturelle": "4.8"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -18.6,
-      "longitude": 49.2,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Dormez au milieu des lémuriens. Visite de l’Aye-Aye nocturne. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
-    "has_expandable_description": true,
-    "humour_grok": "Le petit-déjeuner est inclus, mais la bataille pour le dernier croissant ne l'est pas. 🥐"
-  },
-  {
-    "id": 633,
-    "nom": "Île aux Nattes",
-    "ville": "Toamasina",
-    "type": "Spot Local",
-    "prix": "Gratuit",
-    "prixNum": 0,
-    "note": "4.9",
-    "image": "images/iles/ile-aux-nattes.jpg",
-    "description": "Le paradis tropical par excellence, sans voitures, juste du sable blanc. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "tags": [
-      "Spot Local",
-      "tamatave",
-      "explorer",
-      "budget_1",
-      "spots",
-      "secret_spot"
-    ],
-    "lat": -17,
-    "lng": 49.8,
-    "price": "Gratuit",
-    "rating": "4.9",
-    "duration": "Libre",
-    "local_access_required": true,
-    "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
-    "acces": "Pousse-pousse ou Tuk-tuk sont les rois ici. Négociez la course.",
-    "horaires": "8h00 - 18h00",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-17,49.8",
-    "duree": "2h à 4h",
-    "categorie": "Spot Local",
-    "galerie_photos": [
-      {
-        "url": "images/iles/ile-aux-nattes.jpg",
-        "alt": "Île aux Nattes",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.189Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.9",
-      "nombre_avis": 145,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.9",
-        "beaute_naturelle": "4.9"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -17,
-      "longitude": 49.8,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Le paradis tropical par excellence, sans voitures, juste du sable blanc. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
-    "has_expandable_description": true,
-    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
-  },
-  {
-    "id": 634,
-    "nom": "Plage d’Ifaty",
-    "ville": "Toliara",
-    "type": "Spot Local",
-    "prix": "Gratuit",
-    "prixNum": 0,
-    "note": "4.5",
-    "image": "images/iles/plage-ifaty.jpg",
-    "description": "Station balnéaire et village de pêcheurs Vezo. Baignade et détente. Ce lieu présente un intérêt certain pour les visiteurs de Toliara, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "tags": [
-      "Spot Local",
-      "tulear",
-      "explorer",
-      "budget_1",
-      "spots",
-      "nature",
-      "detente",
-      "secret_spot"
-    ],
-    "lat": -23.15,
-    "lng": 43.6167,
-    "price": "Gratuit",
-    "rating": "4.5",
-    "duration": "Libre",
-    "local_access_required": true,
-    "conseil": "Attention aux marées pour la baignade. Crème solaire indispensable !",
-    "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.15,43.6167",
-    "duree": "2h à 4h",
-    "categorie": "Spot Local",
-    "galerie_photos": [
-      {
-        "url": "images/iles/plage-ifaty.jpg",
-        "alt": "Plage d’Ifaty",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.190Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.5",
-      "nombre_avis": 111,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.5",
-        "beaute_naturelle": "4.5"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -23.15,
-      "longitude": 43.6167,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Station balnéaire et village de pêcheurs Vezo. Baignade et détente. Ce lieu présente un intérêt certain pour les visiteurs de Toliara, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
-    "has_expandable_description": true,
-    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
-  },
-  {
-    "id": 635,
-    "nom": "Forêt des Baobabs (Reniala)",
-    "ville": "Toliara",
-    "type": "Nature",
-    "prix": "15 000 Ar",
-    "prixNum": 15000,
-    "note": "4.6",
-    "image": "images/spots/foret-baobabs-mangily.jpg",
-    "description": "Forêt épineuse spectaculaire avec des baobabs bouteilles. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Toliara. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
-    "tags": [
-      "Nature",
-      "tulear",
-      "explorer",
-      "budget_1",
-      "nature"
-    ],
-    "lat": -23.1667,
-    "lng": 43.6,
-    "price": "15 000 Ar",
-    "rating": "4.6",
-    "duration": "Libre",
-    "conseil": "Prenez un guide local pour repérer la faune et la flore cachée.",
-    "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
-    "horaires": "Accessible toute la journée (Conseillé le matin)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.1667,43.6",
-    "duree": "4h à 6h",
-    "categorie": "Nature",
-    "galerie_photos": [
-      {
-        "url": "images/spots/foret-baobabs-mangily.jpg",
-        "alt": "Forêt des Baobabs (Reniala)",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h (fermé le lundi)",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Mai à Octobre (saison sèche)",
-        "eviter": "Janvier-Mars (pluies intenses)"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Bonnes chaussures de randonnée",
-          "Eau (2L min)",
-          "Crème solaire",
-          "Appareil photo",
-          "Anti-moustiques"
-        ],
-        "conseils": "Guide local recommandé pour découvrir la faune"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.190Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.6",
-      "nombre_avis": 72,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.6",
-        "beaute_naturelle": null
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -23.1667,
-      "longitude": 43.6,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Forêt épineuse spectaculaire avec des baobabs bouteilles. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Toliara.",
-    "has_expandable_description": true,
-    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
+    "humour_grok": "Si le guide te dit d'enlever tes chaussures, tu le fais. Discuter, c'est risquer un incident diplomatique (et spirituel). 👞",
+    "sous_type": "Spot Local",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ]
   },
   {
     "id": 636,
     "nom": "Anakao Ocean Lodge",
-    "ville": "Toliara",
-    "type": "Hotel",
+    "ville": "Anakao",
+    "type": "Hôtel",
     "prix": "400 000 Ar",
     "prixNum": 400000,
     "note": "4.8",
     "image": "images/hotels/anakao-ocean.jpg",
     "description": "Luxe sauvage au sud de Toliara, accessible en bateau. Ce lieu présente un intérêt certain pour les visiteurs de Toliara, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Hotel",
+      "Hôtel",
       "tulear",
       "dormir",
       "budget_3",
-      "nature",
       "luxe"
     ],
     "lat": -23.6,
@@ -24787,7 +22288,7 @@ window.LIEUX_DATA = [
     "horaires": "Accessible toute la journée (Conseillé le matin)",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.6,43.6",
     "duree": "2h à 4h",
-    "categorie": "Hotel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/hotels/anakao-ocean.jpg",
@@ -24876,245 +22377,15 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Luxe sauvage au sud de Toliara, accessible en bateau. Ce lieu présente un intérêt certain pour les visiteurs de Toliara, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Le petit-déjeuner est inclus, mais la bataille pour le dernier croissant ne l'est pas. 🥐"
-  },
-  {
-    "id": 637,
-    "nom": "Bakuba Lodge",
-    "ville": "Toliara",
-    "type": "Lodge",
-    "prix": "500 000 Ar",
-    "prixNum": 500000,
-    "note": "4.9",
-    "image": "images/toliara/toliara_anakao.png",
-    "description": "Architecture Gaudi-esque incroyable en plein bush. Ce lieu présente un intérêt certain pour les visiteurs de Toliara, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "tags": [
-      "Lodge",
-      "tulear",
-      "dormir",
-      "budget_3"
-    ],
-    "lat": -23.3,
-    "lng": 43.7,
-    "price": "500 000 Ar",
-    "rating": "4.9",
-    "duration": "Libre",
-    "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
-    "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
-    "horaires": "8h00 - 18h00",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-23.3,43.7",
-    "duree": "2h à 4h",
-    "categorie": "Lodge",
-    "galerie_photos": [
-      {
-        "url": "images/toliara/toliara_anakao.png",
-        "alt": "Bakuba Lodge",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.190Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.9",
-      "nombre_avis": 80,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.9",
-        "beaute_naturelle": "4.9"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -23.3,
-      "longitude": 43.7,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Architecture Gaudi-esque incroyable en plein bush. Ce lieu présente un intérêt certain pour les visiteurs de Toliara, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
-    "has_expandable_description": true,
-    "humour_grok": "5 étoiles en local, ça vaut un 2 étoiles chez toi. Ajuste tes attentes et tout ira bien. ⭐"
-  },
-  {
-    "id": 638,
-    "nom": "Cathédrale d’Antsirabe",
-    "ville": "Antsirabe",
-    "type": "Culture",
-    "prix": "Gratuit",
-    "prixNum": 0,
-    "note": "4.6",
-    "image": "images/tana/antsirabe_cathedrale.jpg",
-    "description": "Majestueuse cathédrale et balade en pousse-pousse. Ce lieu présente un intérêt certain pour les visiteurs de Antsirabe, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "tags": [
-      "Culture",
-      "explorer",
-      "budget_1"
-    ],
-    "lat": -19.8667,
-    "lng": 47.0333,
-    "price": "Gratuit",
-    "rating": "4.6",
-    "duration": "Libre",
-    "conseil": "Demandez aux locaux, ils connaissent les meilleurs moments pour visiter.",
-    "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
-    "horaires": "9h00 - 17h00 (Fermé le dimanche)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-19.8667,47.0333",
-    "duree": "2h à 4h",
-    "categorie": "Culture",
-    "galerie_photos": [
-      {
-        "url": "images/tana/antsirabe_cathedrale.jpg",
-        "alt": "Cathédrale d’Antsirabe",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.191Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.6",
-      "nombre_avis": 100,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.6",
-        "beaute_naturelle": "4.6"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -19.8667,
-      "longitude": 47.0333,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Majestueuse cathédrale et balade en pousse-pousse. Ce lieu présente un intérêt certain pour les visiteurs de Antsirabe, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
-    "has_expandable_description": true,
-    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
+    "humour_grok": "Le petit-déjeuner est inclus, mais la bataille pour le dernier croissant ne l'est pas. 🥐",
+    "sous_type": "Hotel",
+    "depart_de": "Toliara",
+    "zone": "toliara"
   },
   {
     "id": 639,
     "nom": "Ranomafana National Park",
-    "ville": "Fianarantsoa",
+    "ville": "Ranomafana",
     "type": "Nature",
     "prix": "55 000 Ar",
     "prixNum": 55000,
@@ -25125,8 +22396,7 @@ window.LIEUX_DATA = [
       "Nature",
       "fianar",
       "explorer",
-      "budget_2",
-      "nature"
+      "budget_2"
     ],
     "lat": -21.2,
     "lng": 47.4,
@@ -25229,23 +22499,25 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Forêt dense humide, thermes et lémuriens dorés. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Fianarantsoa.",
     "has_expandable_description": true,
-    "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️"
+    "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️",
+    "sous_type": "Nature",
+    "depart_de": "Fianarantsoa",
+    "zone": "fianarantsoa"
   },
   {
     "id": 640,
     "nom": "Train Fianar-Manakara",
     "ville": "Fianarantsoa",
-    "type": "Aventure",
+    "type": "Excursion",
     "prix": "70 000 Ar",
     "prixNum": 70000,
     "note": "4.5",
     "image": "images/spots/train-fianar.jpg",
     "description": "Voyage mythique à travers la jungle. Une expérience hors du temps. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Aventure",
+      "Excursion",
       "fianar",
       "budget_2",
-      "explorer",
       "explorer"
     ],
     "lat": -21.4,
@@ -25258,7 +22530,7 @@ window.LIEUX_DATA = [
     "horaires": "8h00 - 18h00",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-21.4,47.1",
     "duree": "2h à 4h",
-    "categorie": "Aventure",
+    "categorie": "Excursion",
     "galerie_photos": [
       {
         "url": "images/spots/train-fianar.jpg",
@@ -25347,7 +22619,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Voyage mythique à travers la jungle. Une expérience hors du temps. Ce lieu présente un intérêt certain pour les visiteurs de Fianarantsoa, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
     "has_expandable_description": true,
-    "humour_grok": "Respire par la bouche si ça sent fort. Par le nez si ça sent bon. C'est la base de la survie ici. 👃"
+    "humour_grok": "Respire par la bouche si ça sent fort. Par le nez si ça sent bon. C'est la base de la survie ici. 👃",
+    "sous_type": "Aventure",
+    "zone": "fianarantsoa",
+    "ville_alias": [
+      "Fianar"
+    ]
   },
   {
     "id": 16,
@@ -25471,14 +22748,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un lieu fascinant, à la fois merveille naturelle et temple à ciel ouvert. Cette grotte s’ouvre sur la mer et sert de lieu de culte aux ancêtres. L’atmosphère y est solennelle et mystérieuse, bercée par le bruit des vagues. Ce lieu présente un intérêt certain pour les visiteurs de Diego-Suarez, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
+    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸",
+    "sous_type": "Spot Local",
+    "zone": "antsiranana",
+    "ville_alias": [
+      "Antsiranana",
+      "Diego"
+    ]
   },
   {
     "nom": "Gargote Bazar Be",
     "ville": "Toamasina",
     "description": "Une gargote locale authentique au cœur du grand marché. Cuisine malgache traditionnelle à des prix imbattables (2000-3000 Ar). Spécialités : riz aux brèdes, soupe de nouilles, viande grillée. Ambiance locale garantie. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Gargote",
+      "Restaurant",
       "toamasina",
       "manger",
       "budget_1",
@@ -25490,7 +22773,7 @@ window.LIEUX_DATA = [
     "lat": -18.1445,
     "lng": 49.4018,
     "note": 4,
-    "type": "Gargote",
+    "type": "Restaurant",
     "duree": "1h",
     "conseil": "Arrivez tôt pour profiter des plats fraîchement préparés. Les portions sont généreuses.",
     "acces": "Au centre du Bazar Be, accessible en pousse-pousse depuis le centre-ville",
@@ -25499,11 +22782,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Gargote+Bazar+Be+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1445,49.4018",
-    "categorie": "Gargote",
+    "categorie": "Restaurant",
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Gargote Bazar Be",
+        "alt": "Gargote Bazar Be, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -25588,7 +22871,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une gargote locale authentique au cœur du grand marché. Cuisine malgache traditionnelle à des prix imbattables (2000-3000 Ar). Spécialités : riz aux brèdes, soupe de nouilles, viande grillée. Ambiance locale garantie. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Ici, on ne pointe pas du doigt. Sauf si tu veux pointer vers ta propre malchance future. 👉"
+    "humour_grok": "Ici, on ne pointe pas du doigt. Sauf si tu veux pointer vers ta propre malchance future. 👉",
+    "sous_type": "Gargote",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Fatapera du Bord de Mer",
@@ -25620,7 +22909,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Fatapera du Bord de Mer",
+        "alt": "Fatapera du Bord de Mer, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -25703,14 +22992,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Barbecue de rue improvisé le soir sur le boulevard. Mini brochettes de zébu (masikita), poisson frit et manioc à prix doux. Ambiance conviviale avec les locaux pour une immersion totale dans la vie nocturne de Tamatave. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
+    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏",
+    "sous_type": "Restaurant",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Snack du Marché Kely",
     "ville": "Toamasina",
     "description": "Petit snack familial proposant des plats malgaches rapides et copieux. Koba akondro et mofo gasy frais le matin. Idéal pour un déjeuner rapide à petit prix dans une ambiance authentique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Snack",
+      "Restaurant",
       "toamasina",
       "manger",
       "budget_1",
@@ -25721,7 +23016,7 @@ window.LIEUX_DATA = [
     "lat": -18.147,
     "lng": 49.4025,
     "note": 4.1,
-    "type": "Snack",
+    "type": "Restaurant",
     "duree": "30min",
     "conseil": "Essayez le riz aux brèdes avec œufs au plat, un petit-déjeuner malgache copieux et nourrissant.",
     "acces": "Marché Kely (petit marché), accessible à pied depuis Avenue de l'Indépendance",
@@ -25730,11 +23025,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Snack+du+Marché+Kely+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.147,49.4025",
-    "categorie": "Snack",
+    "categorie": "Restaurant",
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Snack du Marché Kely",
+        "alt": "Snack du Marché Kely, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -25819,14 +23114,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Petit snack familial proposant des plats malgaches rapides et copieux. Koba akondro et mofo gasy frais le matin. Idéal pour un déjeuner rapide à petit prix dans une ambiance authentique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
+    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀",
+    "sous_type": "Snack",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Chez Mama Rasoava",
     "ville": "Toamasina",
     "description": "Gargote réputée pour son ravitoto (feuilles de manioc avec porc). Cuisine maison authentique servie dans une ambiance chaleureuse et familiale. Les locaux adorent cet endroit pour la qualité constante des plats. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Gargote",
+      "Restaurant",
       "toamasina",
       "manger",
       "budget_1",
@@ -25837,7 +23138,7 @@ window.LIEUX_DATA = [
     "lat": -18.1432,
     "lng": 49.4055,
     "note": 4.3,
-    "type": "Gargote",
+    "type": "Restaurant",
     "duree": "1h",
     "conseil": "Le ravitoto est préparé le matin même. Demandez du piment frais à part si vous aimez épicé.",
     "acces": "Quartier résidentiel, 10 minutes en pousse-pousse du centre",
@@ -25846,11 +23147,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Chez+Mama+Rasoava+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1432,49.4055",
-    "categorie": "Gargote",
+    "categorie": "Restaurant",
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Chez Mama Rasoava",
+        "alt": "Chez Mama Rasoava, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -25935,18 +23236,23 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Gargote réputée pour son ravitoto (feuilles de manioc avec porc). Cuisine maison authentique servie dans une ambiance chaleureuse et familiale. Les locaux adorent cet endroit pour la qualité constante des plats. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑"
+    "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑",
+    "sous_type": "Gargote",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Stand Fruits de Mer du Port",
     "ville": "Toamasina",
     "description": "Échoppe de pêcheurs vendant fruits de mer ultra-frais grillés sur place. Crevettes, crabes et poisson du jour directement du bateau. Prix imbattables et fraîcheur garantie. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache. Les visiteurs peuvent observer une faune et une flore endémiques remarquables, dans un cadre préservé qui témoigne de la richesse naturelle de Toamasina. L'accès au site permet de découvrir des paysages variés et des écosystèmes uniques, faisant de cette visite un moment inoubliable pour les amoureux de la nature. Les guides locaux, passionnés et compétents, partagent leurs connaissances sur l'environnement et les traditions locales, enrichissant considérablement l'expérience. Que vous soyez randonneur chevronné ou simple amateur de belles découvertes, ce lieu saura vous émerveiller par sa beauté sauvage et authentique.",
     "tags": [
-      "Nature",
+      "Restaurant",
       "toamasina",
       "manger",
       "budget_1",
-      "nature",
       "spots"
     ],
     "prix": "4 000 Ar",
@@ -25954,7 +23260,7 @@ window.LIEUX_DATA = [
     "lat": -18.1489,
     "lng": 49.4115,
     "note": 4.2,
-    "type": "Nature",
+    "type": "Restaurant",
     "duree": "1h",
     "conseil": "Négociez les prix et choisissez vous-même vos fruits de mer. Arrivez avant 11h pour le meilleur choix.",
     "acces": "Zone portuaire, près de l'embarcadère principal",
@@ -25963,11 +23269,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Stand+Fruits+de+Mer+du+Port+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1489,49.4115",
-    "categorie": "Nature",
+    "categorie": "Restaurant",
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Stand Fruits de Mer du Port",
+        "alt": "Stand Fruits de Mer du Port, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -26054,7 +23360,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Échoppe de pêcheurs vendant fruits de mer ultra-frais grillés sur place. Crevettes, crabes et poisson du jour directement du bateau. Prix imbattables et fraîcheur garantie. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵"
+    "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵",
+    "sous_type": "Nature",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Restaurant Darafify",
@@ -26086,7 +23398,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Restaurant Darafify",
+        "alt": "Restaurant Darafify, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -26169,7 +23481,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Cuisine malgache authentique où chaque repas est une célébration de saveurs. Spécialités locales préparées avec soin : romazava, ravitoto traditionnel, et poissons grillés. Décor chaleureux avec touches artisanales. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Le silence est d'or. Et ici, il est obligatoire. Range ton téléphone et écoute l'histoire (même si c'est compliqué). 🤫"
+    "humour_grok": "Le silence est d'or. Et ici, il est obligatoire. Range ton téléphone et écoute l'histoire (même si c'est compliqué). 🤫",
+    "sous_type": "Restaurant",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Koinonia Restaurant",
@@ -26180,8 +23498,7 @@ window.LIEUX_DATA = [
       "toamasina",
       "manger",
       "budget_2",
-      "gastronomie",
-      "nature"
+      "gastronomie"
     ],
     "prix": "40 000 Ar",
     "prixNum": 40000,
@@ -26201,7 +23518,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Koinonia Restaurant",
+        "alt": "Koinonia Restaurant, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -26284,7 +23601,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Terrasse à l'étage avec plats 100% malgaches qui changent selon le marché du jour. Grillades et fruits de mer au rez-de-chaussée. Vue imprenable sur le port et l'océan Indien. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Prends le poisson. Il nageait encore ce matin. Contrairement au steak qui a fait plus d'avion que toi. 🐟"
+    "humour_grok": "Prends le poisson. Il nageait encore ce matin. Contrairement au steak qui a fait plus d'avion que toi. 🐟",
+    "sous_type": "Restaurant",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "La Paillote",
@@ -26315,7 +23638,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "La Paillote",
+        "alt": "La Paillote, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -26398,7 +23721,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Restaurant-paillote au décor tropical chaleureux. Cuisine malgache raffinée où chaque plat raconte une histoire. Spécialité de fruits de mer et poissons grillés. Ambiance détendue et conviviale. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Le dessert ? C'est des fruits. Toujours des fruits. Ou une banane flambée si c'est jour de fête. 🍌"
+    "humour_grok": "Le dessert ? C'est des fruits. Toujours des fruits. Ou une banane flambée si c'est jour de fête. 🍌",
+    "sous_type": "Restaurant",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Poisson d'Or",
@@ -26409,8 +23738,7 @@ window.LIEUX_DATA = [
       "toamasina",
       "manger",
       "budget_2",
-      "gastronomie",
-      "nature"
+      "gastronomie"
     ],
     "prix": "42 000 Ar",
     "prixNum": 42000,
@@ -26430,7 +23758,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Poisson d'Or",
+        "alt": "Poisson d'Or, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -26513,14 +23841,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Spécialiste fruits de mer frais avec une touche malgache unique. Grillades de fruits de mer, curry de crabes épicé, plateaux mixtes avec riz safrané. Produits du jour garantis par les pêcheurs locaux. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗"
+    "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗",
+    "sous_type": "Restaurant",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Angel's Café & Restaurant Bar",
     "ville": "Toamasina",
     "description": "Café-restaurant cosy avec cuisine malgache créative et moderne. Menu varié alliant tradition et innovation culinaire. Bon pour déjeuner d'affaires ou dîner entre amis dans une ambiance relaxante. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Café-Restaurant",
+      "Restaurant",
       "toamasina",
       "manger",
       "budget_2",
@@ -26531,7 +23865,7 @@ window.LIEUX_DATA = [
     "lat": -18.1458,
     "lng": 49.4042,
     "note": 4.3,
-    "type": "Café-Restaurant",
+    "type": "Restaurant",
     "duree": "1h30",
     "conseil": "Leur café malgache est excellent. Parfait pour un petit-déjeuner gourmand ou un goûter.",
     "acces": "Centre-ville, accessible à pied depuis les principaux hôtels",
@@ -26540,11 +23874,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Angel's+Café+&+Restaurant+Bar+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1458,49.4042",
-    "categorie": "Café-Restaurant",
+    "categorie": "Restaurant",
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Angel's Café & Restaurant Bar",
+        "alt": "Angel's Café & Restaurant Bar, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -26629,14 +23963,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Café-restaurant cosy avec cuisine malgache créative et moderne. Menu varié alliant tradition et innovation culinaire. Bon pour déjeuner d'affaires ou dîner entre amis dans une ambiance relaxante. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Le dessert ? C'est des fruits. Toujours des fruits. Ou une banane flambée si c'est jour de fête. 🍌"
+    "humour_grok": "Le dessert ? C'est des fruits. Toujours des fruits. Ou une banane flambée si c'est jour de fête. 🍌",
+    "sous_type": "Café-Restaurant",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "La Braise Côté Cour",
     "ville": "Toamasina",
     "description": "Restaurant gastronomique offrant une expérience culinaire raffinée et mémorable. Viandes grillées premium, fruits de mer nobles, et vins sélectionnés. Jardin intérieur élégant avec éclairage tamisé. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Restaurant Gastronomique",
+      "Restaurant",
       "toamasina",
       "manger",
       "budget_3",
@@ -26648,7 +23988,7 @@ window.LIEUX_DATA = [
     "lat": -18.1468,
     "lng": 49.4015,
     "note": 4.8,
-    "type": "Restaurant Gastronomique",
+    "type": "Restaurant",
     "duree": "2h30",
     "conseil": "Réservation indispensable. Leur filet de zébu grillé sur pierre chaude est sublime.",
     "acces": "Quartier résidentiel huppé, taxi recommandé",
@@ -26657,11 +23997,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/La+Braise+Côté+Cour+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1468,49.4015",
-    "categorie": "Restaurant Gastronomique",
+    "categorie": "Restaurant",
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "La Braise Côté Cour",
+        "alt": "La Braise Côté Cour, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -26746,14 +24086,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Restaurant gastronomique offrant une expérience culinaire raffinée et mémorable. Viandes grillées premium, fruits de mer nobles, et vins sélectionnés. Jardin intérieur élégant avec éclairage tamisé. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗"
+    "humour_grok": "C'est lourd, c'est riche, c'est bon. Ton régime commence lundi prochain (ou jamais). 🍗",
+    "sous_type": "Restaurant Gastronomique",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Restaurant Le Régal",
     "ville": "Toamasina",
     "description": "Cuisine raffinée dans un cadre élégant et moderne. Menu gastronomique changeant selon les saisons et produits disponibles. Fusion franco-malgache avec des produits locaux de première qualité. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Restaurant Gastronomique",
+      "Restaurant",
       "toamasina",
       "manger",
       "budget_3",
@@ -26765,7 +24111,7 @@ window.LIEUX_DATA = [
     "lat": -18.1475,
     "lng": 49.4065,
     "note": 4.7,
-    "type": "Restaurant Gastronomique",
+    "type": "Restaurant",
     "duree": "3h",
     "conseil": "Le menu dégustation 5 plats vaut le détour. Demandez l'accord mets-vins au sommelier.",
     "acces": "Centre-ville, parking privé disponible",
@@ -26774,11 +24120,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Restaurant+Le+Régal+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1475,49.4065",
-    "categorie": "Restaurant Gastronomique",
+    "categorie": "Restaurant",
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Restaurant Le Régal",
+        "alt": "Restaurant Le Régal, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -26863,14 +24209,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Cuisine raffinée dans un cadre élégant et moderne. Menu gastronomique changeant selon les saisons et produits disponibles. Fusion franco-malgache avec des produits locaux de première qualité. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Le menu est à titre indicatif. Il y a ce qu'il y a, et tu vas dire merci. 🤷‍♂️"
+    "humour_grok": "Le menu est à titre indicatif. Il y a ce qu'il y a, et tu vas dire merci. 🤷‍♂️",
+    "sous_type": "Restaurant Gastronomique",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Cosy Restaurant",
     "ville": "Toamasina",
     "description": "Établissement haut de gamme avec terrasse panoramique sur l'océan. Cuisine française et malgache de haute volée. Service impeccable et attentionné, ambiance feutrée et romantique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Restaurant Gastronomique",
+      "Restaurant",
       "toamasina",
       "manger",
       "budget_3",
@@ -26882,7 +24234,7 @@ window.LIEUX_DATA = [
     "lat": -18.1452,
     "lng": 49.4088,
     "note": 4.8,
-    "type": "Restaurant Gastronomique",
+    "type": "Restaurant",
     "duree": "2h30",
     "conseil": "Idéal pour une occasion spéciale. La vue de nuit sur le port illuminé est magique.",
     "acces": "Front de mer, valet parking disponible",
@@ -26891,11 +24243,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Cosy+Restaurant+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1452,49.4088",
-    "categorie": "Restaurant Gastronomique",
+    "categorie": "Restaurant",
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Cosy Restaurant",
+        "alt": "Cosy Restaurant, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -26980,14 +24332,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Établissement haut de gamme avec terrasse panoramique sur l'océan. Cuisine française et malgache de haute volée. Service impeccable et attentionné, ambiance feutrée et romantique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Le menu est à titre indicatif. Il y a ce qu'il y a, et tu vas dire merci. 🤷‍♂️"
+    "humour_grok": "Le menu est à titre indicatif. Il y a ce qu'il y a, et tu vas dire merci. 🤷‍♂️",
+    "sous_type": "Restaurant Gastronomique",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Lotus Rouge",
     "ville": "Toamasina",
     "description": "Restaurant asiatique-malgache fusion unique à Toamasina. Décor raffiné inspiré de l'Asie, plats créatifs mariant épices asiatiques et produits locaux malgaches. Cave à vins impressionnante. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Restaurant Gastronomique",
+      "Restaurant",
       "toamasina",
       "manger",
       "budget_3",
@@ -26999,7 +24357,7 @@ window.LIEUX_DATA = [
     "lat": -18.1482,
     "lng": 49.4052,
     "note": 4.7,
-    "type": "Restaurant Gastronomique",
+    "type": "Restaurant",
     "duree": "2h",
     "conseil": "Leurs crevettes au gingembre et citronnelle locale sont exceptionnelles et très parfumées.",
     "acces": "Centre-ville, près de l'Alliance Française",
@@ -27008,11 +24366,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Lotus+Rouge+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1482,49.4052",
-    "categorie": "Restaurant Gastronomique",
+    "categorie": "Restaurant",
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "Lotus Rouge",
+        "alt": "Lotus Rouge, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -27097,27 +24455,32 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Restaurant asiatique-malgache fusion unique à Toamasina. Décor raffiné inspiré de l'Asie, plats créatifs mariant épices asiatiques et produits locaux malgaches. Cave à vins impressionnante. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️"
+    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️",
+    "sous_type": "Restaurant Gastronomique",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "La Terrasse - El Barco",
     "ville": "Toamasina",
     "description": "Restaurant emblématique du front de mer de Tamatave. Ambiance premium avec vue océan panoramique. Cuisine internationale et locale haut de gamme. Spot Instagram très prisé des influenceurs. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Restaurant Gastronomique",
+      "Restaurant",
       "toamasina",
       "manger",
       "budget_3",
       "gastronomie",
-      "luxe",
-      "nature"
+      "luxe"
     ],
     "prix": "92 000 Ar",
     "prixNum": 92000,
     "lat": -18.1498,
     "lng": 49.4108,
     "note": 4.9,
-    "type": "Restaurant Gastronomique",
+    "type": "Restaurant",
     "duree": "2h30",
     "conseil": "Réservez une table en terrasse au coucher du soleil. L'ambiance et la vue sont uniques.",
     "acces": "Boulevard Ratsimilaho, parking sécurisé",
@@ -27126,11 +24489,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/La+Terrasse+-+El+Barco+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1498,49.4108",
-    "categorie": "Restaurant Gastronomique",
+    "categorie": "Restaurant",
     "galerie_photos": [
       {
         "url": "images/placeholder-restaurant.jpg",
-        "alt": "La Terrasse - El Barco",
+        "alt": "La Terrasse - El Barco, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -27215,7 +24578,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Restaurant emblématique du front de mer de Tamatave. Ambiance premium avec vue océan panoramique. Cuisine internationale et locale haut de gamme. Spot Instagram très prisé des influenceurs. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️"
+    "humour_grok": "Ici, 'épicé' veut dire 'appelle les pompiers'. Tu as été prévenu. 🌶️",
+    "sous_type": "Restaurant Gastronomique",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Hôtel Nado",
@@ -27245,7 +24614,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Hôtel Nado",
+        "alt": "Hôtel Nado, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -27329,14 +24698,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Petit hôtel récent et propre près de la gare routière. Chambres simples mais fonctionnelles avec ventilateur. Idéal pour arrivée ou départ tardif ou matinal. Wi-Fi gratuit dans les espaces communs.",
     "has_expandable_description": true,
-    "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚"
+    "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚",
+    "sous_type": "Hôtel",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Guest House Villa Nancy",
     "ville": "Toamasina",
     "description": "Chambres d'hôtes familiales avec patio et jardin verdoyant. Ambiance conviviale, chambres propres avec ventilateur. Parking privé gratuit et Wi-Fi. Petit-déjeuner continental inclus. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Guest House",
+      "Hôtel",
       "toamasina",
       "dormir",
       "budget_1",
@@ -27347,7 +24722,7 @@ window.LIEUX_DATA = [
     "lat": -18.1438,
     "lng": 49.4028,
     "note": 4.2,
-    "type": "Guest House",
+    "type": "Hôtel",
     "duree": "Nuitée",
     "conseil": "Les propriétaires sont chaleureux et donnent de bons conseils sur la ville et ses environs.",
     "acces": "Quartier résidentiel calme, 10 minutes en pousse-pousse du centre",
@@ -27356,11 +24731,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Guest+House+Villa+Nancy+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1438,49.4028",
-    "categorie": "Guest House",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Guest House Villa Nancy",
+        "alt": "Guest House Villa Nancy, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -27445,25 +24820,30 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Chambres d'hôtes familiales avec patio et jardin verdoyant. Ambiance conviviale, chambres propres avec ventilateur. Parking privé gratuit et Wi-Fi. Petit-déjeuner continental inclus. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
+    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸",
+    "sous_type": "Guest House",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Chambres d'hôtes Evasion",
     "ville": "Toamasina",
     "description": "Maison d'hôtes avec terrasse ensoleillée et jardin tropical. Accueil chaleureux, chambres confortables et propres. Petit-déjeuner malgache inclus avec produits locaux frais. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Chambres d'hôtes",
+      "Hôtel",
       "toamasina",
       "dormir",
-      "budget_1",
-      "nature"
+      "budget_2"
     ],
     "prix": "25 000 Ar",
     "prixNum": 25000,
     "lat": -18.1455,
     "lng": 49.4048,
     "note": 4.3,
-    "type": "Chambres d'hôtes",
+    "type": "Hôtel",
     "duree": "Nuitée",
     "conseil": "Le jardin est idéal pour se détendre après une journée de visite. Demandez le petit-déjeuner sur la terrasse.",
     "acces": "Quartier résidentiel, accessible en taxi ou pousse-pousse",
@@ -27472,11 +24852,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Chambres+d'hôtes+Evasion+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1455,49.4048",
-    "categorie": "Chambres d'hôtes",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Chambres d'hôtes Evasion",
+        "alt": "Chambres d'hôtes Evasion, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -27561,14 +24941,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Maison d'hôtes avec terrasse ensoleillée et jardin tropical. Accueil chaleureux, chambres confortables et propres. Petit-déjeuner malgache inclus avec produits locaux frais. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️"
+    "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️",
+    "sous_type": "Chambres d'hôtes",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Pension Lalao",
     "ville": "Toamasina",
     "description": "Pension simple avec vue sur jardin fleuri. Chambres propres et bien entretenues. Ambiance familiale et accueil authentique malgache. Excellent rapport qualité-prix pour petit budget. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Pension",
+      "Hôtel",
       "toamasina",
       "dormir",
       "budget_1",
@@ -27579,7 +24965,7 @@ window.LIEUX_DATA = [
     "lat": -18.1468,
     "lng": 49.4035,
     "note": 4.1,
-    "type": "Pension",
+    "type": "Hôtel",
     "duree": "Nuitée",
     "conseil": "Quartier calme et sûr. Supérette à 2 minutes à pied pour vos besoins essentiels.",
     "acces": "Zone résidentielle tranquille, 15 minutes à pied du centre",
@@ -27588,11 +24974,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Pension+Lalao+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1468,49.4035",
-    "categorie": "Pension",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Pension Lalao",
+        "alt": "Pension Lalao, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -27677,7 +25063,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Pension simple avec vue sur jardin fleuri. Chambres propres et bien entretenues. Ambiance familiale et accueil authentique malgache. Excellent rapport qualité-prix pour petit budget. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
+    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸",
+    "sous_type": "Pension",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Hôtel H1 Tamatave",
@@ -27707,7 +25099,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Hôtel H1 Tamatave",
+        "alt": "Hôtel H1 Tamatave, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -27791,7 +25183,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Option économique au centre-ville de Tamatave. Chambres basiques mais propres avec ventilateur. Personnel serviable et accueillant. Proche des commerces, restaurants et attractions principales.",
     "has_expandable_description": true,
-    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
+    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸",
+    "sous_type": "Hôtel",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Stephen Hotel",
@@ -27821,7 +25219,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Stephen Hotel",
+        "alt": "Stephen Hotel, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -27905,7 +25303,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Hôtel moderne rénové avec staff compétent et courtois. Propreté impeccable, chambres confortables climatisées avec TV. Proche du centre-ville, parking privé sécurisé gratuit. Excellent rapport qualité-prix.",
     "has_expandable_description": true,
-    "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚"
+    "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚",
+    "sous_type": "Hôtel",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Java Hotel",
@@ -27935,7 +25339,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Java Hotel",
+        "alt": "Java Hotel, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -28019,7 +25423,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Hôtel confortable avec salon commun élégant, restaurant sur place et bar cosy. Chambres spacieuses climatisées, Wi-Fi gratuit haut débit. Ambiance décontractée, personnel attentif aux besoins des clients.",
     "has_expandable_description": true,
-    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
+    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃",
+    "sous_type": "Hôtel",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Satrana Hotel Tamatave",
@@ -28029,8 +25439,7 @@ window.LIEUX_DATA = [
       "Hôtel",
       "toamasina",
       "dormir",
-      "budget_2",
-      "nature"
+      "budget_2"
     ],
     "prix": "58 000 Ar",
     "prixNum": 58000,
@@ -28050,7 +25459,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Satrana Hotel Tamatave",
+        "alt": "Satrana Hotel Tamatave, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -28134,7 +25543,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Hôtel avec jardin tropical agréable et terrasse ombragée. Restaurant servant cuisine locale et internationale. Chambres modernes climatisées avec balcon. Parking privé gratuit et sécurisé. Ambiance paisible.",
     "has_expandable_description": true,
-    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
+    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽",
+    "sous_type": "Hôtel",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Hôtel Les Flamboyants",
@@ -28164,7 +25579,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Hôtel Les Flamboyants",
+        "alt": "Hôtel Les Flamboyants, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -28248,14 +25663,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Chambres rénovées et confortables dans quartier résidentiel sécurisé. Wi-Fi gratuit fiable, parking privé. Bon équilibre entre confort moderne et prix raisonnable. Service attentionné et professionnel.",
     "has_expandable_description": true,
-    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
+    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸",
+    "sous_type": "Hôtel",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Résidence Magali",
     "ville": "Toamasina",
     "description": "Chambres d'hôtes confortables au centre de Tamatave. Accueil personnalisé et chaleureux, ambiance familiale authentique. Petit-déjeuner malgache traditionnel inclus. Conseils touristiques sur mesure offerts par les propriétaires. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Chambres d'hôtes",
+      "Hôtel",
       "toamasina",
       "dormir",
       "budget_2",
@@ -28267,7 +25688,7 @@ window.LIEUX_DATA = [
     "lat": -18.1448,
     "lng": 49.4038,
     "note": 4.6,
-    "type": "Chambres d'hôtes",
+    "type": "Hôtel",
     "duree": "Nuitée",
     "conseil": "Idéal pour séjour prolongé. Les propriétaires organisent des excursions personnalisées.",
     "acces": "Centre-ville, à pied des principales attractions",
@@ -28276,11 +25697,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Résidence+Magali+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1448,49.4038",
-    "categorie": "Chambres d'hôtes",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Résidence Magali",
+        "alt": "Résidence Magali, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -28365,14 +25786,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Chambres d'hôtes confortables au centre de Tamatave. Accueil personnalisé et chaleureux, ambiance familiale authentique. Petit-déjeuner malgache traditionnel inclus. Conseils touristiques sur mesure offerts par les propriétaires. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑"
+    "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑",
+    "sous_type": "Chambres d'hôtes",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Calypso Hôtel & SPA",
     "ville": "Toamasina",
     "description": "Hôtel de référence à Tamatave avec chambres modernes et luxueuses. Literie premium 5 étoiles, SPA complet avec massages, piscine chauffée. Restaurant gastronomique sur place. Service d'excellence à la malgache. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Hôtel de Luxe",
+      "Hôtel",
       "toamasina",
       "dormir",
       "budget_3",
@@ -28384,7 +25811,7 @@ window.LIEUX_DATA = [
     "lat": -18.1488,
     "lng": 49.4082,
     "note": 4.8,
-    "type": "Hôtel de Luxe",
+    "type": "Hôtel",
     "duree": "Nuitée",
     "conseil": "Le forfait SPA + massage est très apprécié. Réservez le massage aux pierres chaudes à l'avance.",
     "acces": "Front de mer, navette aéroport disponible",
@@ -28393,11 +25820,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Calypso+Hôtel+&+SPA+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1488,49.4082",
-    "categorie": "Hôtel de Luxe",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Calypso Hôtel & SPA",
+        "alt": "Calypso Hôtel & SPA, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -28482,14 +25909,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Hôtel de référence à Tamatave avec chambres modernes et luxueuses. Literie premium 5 étoiles, SPA complet avec massages, piscine chauffée. Restaurant gastronomique sur place. Service d'excellence à la malgache. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃"
+    "humour_grok": "Souriez, vous êtes à Madagascar. Si ça ne marche pas, prenez un autre rhum. 🥃",
+    "sous_type": "Hôtel de Luxe",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "The Streamliner Hotel Apartment",
     "ville": "Toamasina",
     "description": "Appartements spacieux avec cuisine entièrement équipée et vue panoramique sur ville. Piscine extérieure moderne, salle de sport équipée, terrasse panoramique. Wi-Fi fibre premium. Emplacement central privilégié. Standing haut de gamme. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Appartement Hôtel",
+      "Hôtel",
       "toamasina",
       "dormir",
       "budget_3",
@@ -28501,7 +25934,7 @@ window.LIEUX_DATA = [
     "lat": -18.1462,
     "lng": 49.4075,
     "note": 4.7,
-    "type": "Appartement Hôtel",
+    "type": "Hôtel",
     "duree": "Nuitée",
     "conseil": "Parfait pour séjour longue durée ou en famille. Les appartements 2 chambres sont très spacieux.",
     "acces": "Centre-ville, parking souterrain sécurisé",
@@ -28510,11 +25943,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/The+Streamliner+Hotel+Apartment+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1462,49.4075",
-    "categorie": "Appartement Hôtel",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "The Streamliner Hotel Apartment",
+        "alt": "The Streamliner Hotel Apartment, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -28599,26 +26032,31 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Appartements spacieux avec cuisine entièrement équipée et vue panoramique sur ville. Piscine extérieure moderne, salle de sport équipée, terrasse panoramique. Wi-Fi fibre premium. Emplacement central privilégié. Standing haut de gamme.",
     "has_expandable_description": true,
-    "humour_grok": "C'est loin, c'est compliqué d'accès, mais tu vas mettre la photo sur Instagram donc ça vaut le coup. 📱"
+    "humour_grok": "C'est loin, c'est compliqué d'accès, mais tu vas mettre la photo sur Instagram donc ça vaut le coup. 📱",
+    "sous_type": "Appartement Hôtel",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Le Majestic Toamasina Hotel",
     "ville": "Toamasina",
     "description": "Hôtel 4 étoiles au bord de mer avec vue imprenable. Chambres élégantes avec balcon privé vue océan Indien. Restaurant panoramique gastronomique, bar lounge sur toit-terrasse, salle de fitness moderne. Luxe tropical raffiné. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Hôtel de Luxe",
+      "Hôtel",
       "toamasina",
       "dormir",
       "budget_3",
-      "luxe",
-      "nature"
+      "luxe"
     ],
     "prix": "135 000 Ar",
     "prixNum": 135000,
     "lat": -18.1495,
     "lng": 49.4098,
     "note": 4.8,
-    "type": "Hôtel de Luxe",
+    "type": "Hôtel",
     "duree": "Nuitée",
     "conseil": "Chambres avec vue mer au lever du soleil valent largement le supplément de prix.",
     "acces": "Boulevard Ratsimilaho, front de mer",
@@ -28627,11 +26065,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Le+Majestic+Toamasina+Hotel+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1495,49.4098",
-    "categorie": "Hôtel de Luxe",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Le Majestic Toamasina Hotel",
+        "alt": "Le Majestic Toamasina Hotel, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -28716,14 +26154,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Hôtel 4 étoiles au bord de mer avec vue imprenable. Chambres élégantes avec balcon privé vue océan Indien. Restaurant panoramique gastronomique, bar lounge sur toit-terrasse, salle de fitness moderne. Luxe tropical raffiné. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
+    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩",
+    "sous_type": "Hôtel de Luxe",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Résidence Anjara Tanamakoa",
     "ville": "Toamasina",
     "description": "Appartements meublés haut standing proche centre-ville. Cuisine complète équipée moderne, salon spacieux avec canapé, Wi-Fi fibre optique. Parking privé sécurisé 24h/24. Confort premium pour séjours prolongés. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Résidence Meublée",
+      "Hôtel",
       "toamasina",
       "dormir",
       "budget_3",
@@ -28734,7 +26178,7 @@ window.LIEUX_DATA = [
     "lat": -18.1452,
     "lng": 49.4062,
     "note": 4.6,
-    "type": "Résidence Meublée",
+    "type": "Hôtel",
     "duree": "Nuitée",
     "conseil": "Idéal pour séjours d'affaires ou en famille. Supermarché moderne à 50m à pied.",
     "acces": "Centre-ville, proche commerces et restaurants",
@@ -28743,11 +26187,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Résidence+Anjara+Tanamakoa+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1452,49.4062",
-    "categorie": "Résidence Meublée",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "Résidence Anjara Tanamakoa",
+        "alt": "Résidence Anjara Tanamakoa, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -28832,19 +26276,24 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Appartements meublés haut standing proche centre-ville. Cuisine complète équipée moderne, salon spacieux avec canapé, Wi-Fi fibre optique. Parking privé sécurisé 24h/24. Confort premium pour séjours prolongés. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Respire par la bouche si ça sent fort. Par le nez si ça sent bon. C'est la base de la survie ici. 👃"
+    "humour_grok": "Respire par la bouche si ça sent fort. Par le nez si ça sent bon. C'est la base de la survie ici. 👃",
+    "sous_type": "Résidence Meublée",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "La Case à Ianou",
     "ville": "Toamasina",
     "description": "Maison d'hôtes de charme exclusive au nord de Tamatave. Bungalows privatifs luxueux dans jardin tropical luxuriant. Piscine à débordement, cuisine gastronomique raffinée. Havre de paix authentique et romantique. Service personnalisé exceptionnel. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Lodge de Charme",
+      "Hôtel",
       "toamasina",
       "dormir",
       "budget_3",
       "luxe",
-      "nature",
       "detente"
     ],
     "prix": "150 000 Ar",
@@ -28852,7 +26301,7 @@ window.LIEUX_DATA = [
     "lat": -18.1305,
     "lng": 49.3988,
     "note": 4.9,
-    "type": "Lodge de Charme",
+    "type": "Hôtel",
     "duree": "Nuitée",
     "conseil": "Parfait pour escapade romantique ou lune de miel. Service conciergerie personnalisé disponible.",
     "acces": "Au nord de Tamatave, transfert privé recommandé",
@@ -28861,11 +26310,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/La+Case+à+Ianou+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1305,49.3988",
-    "categorie": "Lodge de Charme",
+    "categorie": "Hôtel",
     "galerie_photos": [
       {
         "url": "images/placeholder-hotel.jpg",
-        "alt": "La Case à Ianou",
+        "alt": "La Case à Ianou, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -28950,18 +26399,23 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Maison d'hôtes de charme exclusive au nord de Tamatave. Bungalows privatifs luxueux dans jardin tropical luxuriant. Piscine à débordement, cuisine gastronomique raffinée. Havre de paix authentique et romantique. Service personnalisé exceptionnel.",
     "has_expandable_description": true,
-    "humour_grok": "Le WiFi fonctionne... quand il a envie. Un peu comme le personnel, finalement. 📶"
+    "humour_grok": "Le WiFi fonctionne... quand il a envie. Un peu comme le personnel, finalement. 📶",
+    "sous_type": "Lodge de Charme",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Parc Zoologique d'Ivoloina",
     "ville": "Toamasina",
     "description": "Parc zoologique et botanique à 30 minutes au nord de Tamatave. 282 hectares de forêt avec 12 espèces de lémuriens en semi-liberté. Sentiers de randonnée de 9km, cascade pour la baignade, et programme de conservation des espèces en danger. Éducatif et ludique pour toute la famille. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Parc Zoologique",
+      "Nature",
       "toamasina",
       "explorer",
-      "budget_2",
-      "nature",
+      "budget_1",
       "famille",
       "aventure"
     ],
@@ -28970,7 +26424,7 @@ window.LIEUX_DATA = [
     "lat": -18.0892,
     "lng": 49.4234,
     "note": 4.7,
-    "type": "Parc Zoologique",
+    "type": "Nature",
     "duree": "Demi-journée",
     "conseil": "Arrivez tôt le matin pour voir les lémuriens actifs. Apportez un pique-nique et profitez de la cascade.",
     "acces": "12 km au nord de Toamasina, accessible en taxi-brousse ou voiture de location",
@@ -28979,11 +26433,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Parc+Zoologique+d'Ivoloina+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.0892,49.4234",
-    "categorie": "Parc Zoologique",
+    "categorie": "Nature",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Parc Zoologique d'Ivoloina",
+        "alt": "Parc Zoologique d'Ivoloina, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -29068,18 +26522,23 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Parc zoologique et botanique à 30 minutes au nord de Tamatave. 282 hectares de forêt avec 12 espèces de lémuriens en semi-liberté. Sentiers de randonnée de 9km, cascade pour la baignade, et programme de conservation des espèces en danger. Éducatif et ludique pour toute la famille.",
     "has_expandable_description": true,
-    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
+    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩",
+    "sous_type": "Parc Zoologique",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Canal des Pangalanes - Croisière Journée",
     "ville": "Toamasina",
     "description": "Croisière sur le célèbre Canal des Pangalanes, réseau de 645km de canaux et lagunes. Paysages sauvages luxuriants, villages de pêcheurs authentiques, observation de lémuriens et oiseaux tropicaux. Déjeuner dans un village local inclus. Expérience unique et paisible. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Excursion Fluviale",
+      "Excursion",
       "toamasina",
       "explorer",
       "budget_2",
-      "nature",
       "culture",
       "aventure"
     ],
@@ -29088,7 +26547,7 @@ window.LIEUX_DATA = [
     "lat": -18.162,
     "lng": 49.4156,
     "note": 4.8,
-    "type": "Excursion Fluviale",
+    "type": "Excursion",
     "duree": "Journée",
     "conseil": "Réservez à l'avance. Apportez crème solaire, chapeau et appareil photo étanche.",
     "acces": "Embarcadère au sud de Tamatave, transfert organisé par les tour-opérateurs",
@@ -29097,11 +26556,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Canal+des+Pangalanes+-+Croisière+Journée+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.162,49.4156",
-    "categorie": "Excursion Fluviale",
+    "categorie": "Excursion",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Canal des Pangalanes - Croisière Journée",
+        "alt": "Canal des Pangalanes - Croisière Journée, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -29186,14 +26645,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Croisière sur le célèbre Canal des Pangalanes, réseau de 645km de canaux et lagunes. Paysages sauvages luxuriants, villages de pêcheurs authentiques, observation de lémuriens et oiseaux tropicaux. Déjeuner dans un village local inclus. Expérience unique et paisible.",
     "has_expandable_description": true,
-    "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑"
+    "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑",
+    "sous_type": "Excursion Fluviale",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Bazar Be - Grand Marché",
     "ville": "Toamasina",
     "description": "Le grand marché historique de Toamasina, véritable cœur battant de la ville. Épices, vanille, cannelle, fruits exotiques litchis, artisanat local (paniers raphia, sculptures bois), tissus malgaches. Immersion culturelle totale dans l'ambiance locale authentique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Marché",
+      "Culture",
       "toamasina",
       "explorer",
       "budget_1",
@@ -29205,7 +26670,7 @@ window.LIEUX_DATA = [
     "lat": -18.1445,
     "lng": 49.4018,
     "note": 4.3,
-    "type": "Marché",
+    "type": "Culture",
     "duree": "2-3h",
     "conseil": "Allez-y le matin pour la fraîcheur et l'animation. Négociez les prix avec le sourire.",
     "acces": "Centre-ville, accessible à pied ou en pousse-pousse",
@@ -29214,11 +26679,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Bazar+Be+-+Grand+Marché+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1445,49.4018",
-    "categorie": "Marché",
+    "categorie": "Culture",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Bazar Be - Grand Marché",
+        "alt": "Bazar Be - Grand Marché, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -29303,7 +26768,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le grand marché historique de Toamasina, véritable cœur battant de la ville. Épices, vanille, cannelle, fruits exotiques litchis, artisanat local (paniers raphia, sculptures bois), tissus malgaches. Immersion culturelle totale dans l'ambiance locale authentique.",
     "has_expandable_description": true,
-    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻"
+    "humour_grok": "Les ancêtres te regardent. Et ils jugent ton short à fleurs. Un peu de respect, merci. 👻",
+    "sous_type": "Marché",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Île aux Prunes (Nosy Alanana)",
@@ -29314,7 +26785,6 @@ window.LIEUX_DATA = [
       "toamasina",
       "explorer",
       "budget_2",
-      "nature",
       "spots",
       "detente",
       "secret_spot"
@@ -29337,7 +26807,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Île aux Prunes (Nosy Alanana)",
+        "alt": "Île aux Prunes (Nosy Alanana), Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -29422,18 +26892,23 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Île déserte paradisiaque avec phare historique, plages de sable blanc immaculé et eaux cristallines. Snorkeling, baignade dans une eau turquoise, pique-nique sur la plage. Accessible en bateau depuis le port. Parfait pour une journée d'évasion totale.",
     "has_expandable_description": true,
-    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩"
+    "humour_grok": "Tu voulais de l'aventure ? Voilà de la boue jusqu'aux genoux. Ne pleure pas, c'est ce que tu as payé. 💩",
+    "sous_type": "Spot Local",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Foulpointe Village et Plage",
-    "ville": "Toamasina",
+    "ville": "Foulpointe",
     "description": "Village côtier charmant au nord de Tamatave, réputé pour ses plages de sable blanc et son lagon turquoise. Fort Manda historique à visiter, cimetière de pirates mystérieux. Idéal pour snorkeling, baignade et détente. Ambiance paisible et authentique. Le sable fin et l'eau cristalline créent un décor de carte postale, idéal pour se détendre et profiter du soleil tropical. Les activités nautiques disponibles (snorkeling, kayak, etc.) permettent d'explorer les fonds marins riches en vie marine et en coraux colorés. La plage reste relativement préservée du tourisme de masse, offrant une atmosphère paisible et authentique, loin de l'agitation urbaine. Les locaux accueillants peuvent organiser des excursions en bateau vers les îlots environnants, ajoutant une dimension d'aventure à votre journée. Pensez à apporter votre équipement de snorkeling et de la crème solaire, car ce petit coin de paradis mérite qu'on y passe la journée entière.",
     "tags": [
       "Plage",
       "toamasina",
       "explorer",
-      "budget_2",
-      "nature",
+      "budget_1",
       "culture",
       "detente"
     ],
@@ -29455,7 +26930,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Foulpointe Village et Plage",
+        "alt": "Foulpointe Village et Plage, Foulpointe (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -29542,18 +27017,21 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Village côtier charmant au nord de Tamatave, réputé pour ses plages de sable blanc et son lagon turquoise. Fort Manda historique à visiter, cimetière de pirates mystérieux. Idéal pour snorkeling, baignade et détente. Ambiance paisible et authentique.",
     "has_expandable_description": true,
-    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸"
+    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸",
+    "sous_type": "Plage",
+    "depart_de": "Toamasina",
+    "zone": "toamasina",
+    "image_provisoire": true
   },
   {
     "nom": "Riagna Park",
     "ville": "Toamasina",
     "description": "Parc naturel à 30km au sud de Tamatave. Randonnées en forêt tropicale, baignade dans piscines naturelles et mini-cascades rafraîchissantes, parcours accrobranche pour les aventuriers. Cadre verdoyant et familial. Parfait pour une journée nature active. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Parc Naturel",
+      "Nature",
       "toamasina",
       "explorer",
       "budget_1",
-      "nature",
       "famille",
       "aventure"
     ],
@@ -29562,7 +27040,7 @@ window.LIEUX_DATA = [
     "lat": -18.2145,
     "lng": 49.3892,
     "note": 4.4,
-    "type": "Parc Naturel",
+    "type": "Nature",
     "duree": "Demi-journée",
     "conseil": "Apportez maillot de bain et chaussures de marche. Aire de pique-nique disponible.",
     "acces": "30 km au sud de Toamasina, accessible en taxi",
@@ -29571,11 +27049,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Riagna+Park+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.2145,49.3892",
-    "categorie": "Parc Naturel",
+    "categorie": "Nature",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Riagna Park",
+        "alt": "Riagna Park, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -29660,18 +27138,23 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Parc naturel à 30km au sud de Tamatave. Randonnées en forêt tropicale, baignade dans piscines naturelles et mini-cascades rafraîchissantes, parcours accrobranche pour les aventuriers. Cadre verdoyant et familial. Parfait pour une journée nature active.",
     "has_expandable_description": true,
-    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨"
+    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨",
+    "sous_type": "Parc Naturel",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Ampasinambo Verger",
     "ville": "Toamasina",
     "description": "Verger à ciel ouvert à 20km de Tamatave. Cueillette de fruits frais tropicaux selon saison (litchis, mangues, ananas), baignade dans zones aménagées naturelles, promenade dans jardins luxuriants. Expérience agricole authentique et gourmande. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Verger",
+      "Nature",
       "toamasina",
       "explorer",
       "budget_1",
-      "nature",
       "famille",
       "gastronomie"
     ],
@@ -29680,7 +27163,7 @@ window.LIEUX_DATA = [
     "lat": -18.1289,
     "lng": 49.3756,
     "note": 4.5,
-    "type": "Verger",
+    "type": "Nature",
     "duree": "2-3h",
     "conseil": "Venez en saison des litchis (nov-déc). Fruits cueillis payants au poids.",
     "acces": "20 km de Toamasina, accessible en taxi ou voiture",
@@ -29689,11 +27172,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Ampasinambo+Verger+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1289,49.3756",
-    "categorie": "Verger",
+    "categorie": "Nature",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Ampasinambo Verger",
+        "alt": "Ampasinambo Verger, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -29778,7 +27261,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Verger à ciel ouvert à 20km de Tamatave. Cueillette de fruits frais tropicaux selon saison (litchis, mangues, ananas), baignade dans zones aménagées naturelles, promenade dans jardins luxuriants. Expérience agricole authentique et gourmande.",
     "has_expandable_description": true,
-    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟"
+    "humour_grok": "Attention, ici les moustiques sont des mutants. Ils traversent les vêtements et se moquent de ton répulsif bio. 🦟",
+    "sous_type": "Verger",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Boulevard Ratsimilaho - Promenade du Front de Mer",
@@ -29811,7 +27300,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Boulevard Ratsimilaho - Promenade du Front de Mer",
+        "alt": "Boulevard Ratsimilaho - Promenade du Front de Mer, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -29896,7 +27385,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Boulevard emblématique en bord de mer, cœur de la vie sociale de Tamatave. Promenade au coucher du soleil, animation locale le soir avec fatapera (BBQ de rue), vue sur le port et navires. Ambiance conviviale et authentique. Gratuit et accessible à tous.",
     "has_expandable_description": true,
-    "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔"
+    "humour_grok": "Touche pas. Juste... touche pas. C'est sacré, c'est fady, et t'as pas envie d'être maudit sur 7 générations. ⛔",
+    "sous_type": "Spot Local",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Îlot Sable - Plage Secrète",
@@ -29907,7 +27402,6 @@ window.LIEUX_DATA = [
       "toamasina",
       "explorer",
       "budget_1",
-      "nature",
       "spots",
       "detente",
       "secret_spot"
@@ -29930,7 +27424,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Îlot Sable - Plage Secrète",
+        "alt": "Îlot Sable - Plage Secrète, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -30015,18 +27509,23 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Petite plage isolée juste en face du port, accessible en pirogue. Sable fin, eaux calmes, tranquillité absolue. Parfait pour se détendre sans être dérangé, loin de l'agitation urbaine. Spot secret apprécié des locaux pour sa sérénité.",
     "has_expandable_description": true,
-    "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
+    "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊",
+    "sous_type": "Spot Local",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Randrianasolo Park - Parc Central",
     "ville": "Toamasina",
     "description": "Parc spacieux au centre-ville, poumon vert de Tamatave. Jardins bien entretenus, fleurs tropicales colorées, bancs ombragés. Lieu de détente pour locaux et touristes, parfait pour pause fraîcheur après visite du marché. Gratuit et accessible. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Parc Urbain",
+      "Nature",
       "toamasina",
       "explorer",
       "budget_1",
-      "nature",
       "famille"
     ],
     "prix": "Gratuit",
@@ -30034,7 +27533,7 @@ window.LIEUX_DATA = [
     "lat": -18.1456,
     "lng": 49.4067,
     "note": 4,
-    "type": "Parc Urbain",
+    "type": "Nature",
     "duree": "1h",
     "conseil": "Idéal pour une pause lecture ou pique-nique en plein centre-ville.",
     "acces": "Centre-ville, à pied depuis la plupart des hôtels",
@@ -30043,11 +27542,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Randrianasolo+Park+-+Parc+Central+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1456,49.4067",
-    "categorie": "Parc Urbain",
+    "categorie": "Nature",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Randrianasolo Park - Parc Central",
+        "alt": "Randrianasolo Park - Parc Central, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -30132,14 +27631,20 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Parc spacieux au centre-ville, poumon vert de Tamatave. Jardins bien entretenus, fleurs tropicales colorées, bancs ombragés. Lieu de détente pour locaux et touristes, parfait pour pause fraîcheur après visite du marché. Gratuit et accessible.",
     "has_expandable_description": true,
-    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
+    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️",
+    "sous_type": "Parc Urbain",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Alliance Française de Toamasina",
     "ville": "Toamasina",
     "description": "Centre culturel à l'architecture créole remarquable. Expositions d'art local et international, médiathèque riche, événements culturels réguliers (concerts, pièces de théâtre, projections). Lieu d'échange culturel franco-malgache. Entrée libre pour la médiathèque. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Centre Culturel",
+      "Culture",
       "toamasina",
       "explorer",
       "budget_1",
@@ -30150,7 +27655,7 @@ window.LIEUX_DATA = [
     "lat": -18.1467,
     "lng": 49.4051,
     "note": 4.3,
-    "type": "Centre Culturel",
+    "type": "Culture",
     "duree": "1-2h",
     "conseil": "Consultez le programme en ligne pour les événements spéciaux.",
     "acces": "Centre-ville, accessible à pied ou pousse-pousse",
@@ -30159,11 +27664,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Alliance+Française+de+Toamasina+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1467,49.4051",
-    "categorie": "Centre Culturel",
+    "categorie": "Culture",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Alliance Française de Toamasina",
+        "alt": "Alliance Française de Toamasina, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -30248,18 +27753,23 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Centre culturel à l'architecture créole remarquable. Expositions d'art local et international, médiathèque riche, événements culturels réguliers (concerts, pièces de théâtre, projections). Lieu d'échange culturel franco-malgache. Entrée libre pour la médiathèque.",
     "has_expandable_description": true,
-    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸"
+    "humour_grok": "C'est mystique, c'est ancien, et toi tu penses juste à ta photo de profil. Triste époque. 📸",
+    "sous_type": "Centre Culturel",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Mahambo Beach",
-    "ville": "Toamasina",
+    "ville": "Mahambo",
     "description": "Plage de surfeurs réputée au nord de Tamatave. Vagues puissantes et régulières, spot prisé des surfeurs locaux et internationaux. Plage sauvage et authentique, peu touristique. Location de planches possible. Ambiance décontractée et sportive. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
       "Spot Local",
       "toamasina",
       "explorer",
-      "budget_2",
-      "nature",
+      "budget_1",
       "aventure",
       "spots",
       "secret_spot"
@@ -30282,7 +27792,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Mahambo Beach",
+        "alt": "Mahambo Beach, Mahambo (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -30367,44 +27877,54 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Plage de surfeurs réputée au nord de Tamatave. Vagues puissantes et régulières, spot prisé des surfeurs locaux et internationaux. Plage sauvage et authentique, peu touristique. Location de planches possible. Ambiance décontractée et sportive.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃"
+    "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃",
+    "sous_type": "Spot Local",
+    "depart_de": "Toamasina",
+    "zone": "toamasina",
+    "image_provisoire": true
   },
   {
     "nom": "Palmarium Reserve - Lodge Nature",
-    "ville": "Toamasina",
+    "ville": "Ankanin'ny Nofy",
     "description": "Réserve privée luxueuse sur les bords du Canal des Pangalanes. Observation de l'Aye-Aye (lémurien nocturne rare), balades en forêt primaire, pirogue traditionnelle sur le canal. Hébergement en bungalows écologiques. Expérience nature premium et exclusive. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Réserve Privée",
+      "Nature",
       "toamasina",
       "explorer",
       "budget_3",
-      "nature",
       "luxe",
-      "aventure"
+      "aventure",
+      "tamatave",
+      "dormir"
     ],
     "prix": "150 000 Ar",
     "prixNum": 150000,
-    "lat": -17.9845,
-    "lng": 49.3567,
+    "lat": -18.6,
+    "lng": 49.2,
     "note": 4.9,
-    "type": "Réserve Privée",
+    "type": "Nature",
     "duree": "2 jours minimum",
     "conseil": "Réservez longtemps à l'avance. La visite nocturne de l'Aye-Aye est inoubliable.",
     "acces": "90 km au nord, transfert en bateau organisé par la réserve",
     "horaires": "Séjour avec réservation obligatoire",
     "id": 683,
-    "image": "images/placeholder-nature.jpg",
+    "image": "images/hotels/palmarium.jpg",
     "siteWeb": "https://www.google.com/maps/search/Palmarium+Reserve+-+Lodge+Nature+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-17.9845,49.3567",
-    "categorie": "Réserve Privée",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.6,49.2",
+    "categorie": "Nature",
     "galerie_photos": [
       {
-        "url": "images/placeholder-nature.jpg",
+        "url": "images/hotels/palmarium.jpg",
         "alt": "Palmarium Reserve - Lodge Nature",
         "type": "principale"
+      },
+      {
+        "url": "images/hotels/palmarium.jpg",
+        "alt": "Palmarium Reserve",
+        "type": "secondaire"
       }
     ],
-    "hasCarousel": false,
+    "hasCarousel": true,
     "infos_pratiques": {
       "horaires": {
         "lundi_vendredi": "8h-17h",
@@ -30478,25 +27998,33 @@ window.LIEUX_DATA = [
       }
     },
     "carte_interactive": {
-      "latitude": -17.9845,
-      "longitude": 49.3567,
+      "latitude": -18.6,
+      "longitude": 49.2,
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
     "description_summary": "Réserve privée luxueuse sur les bords du Canal des Pangalanes. Observation de l'Aye-Aye (lémurien nocturne rare), balades en forêt primaire, pirogue traditionnelle sur le canal. Hébergement en bungalows écologiques. Expérience nature premium et exclusive.",
     "has_expandable_description": true,
-    "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿"
+    "humour_grok": "Le guide voit des choses que tu ne vois pas. Fais semblant. 'Ah oui, magnifique ce phasme !' (C'est une branche). 🌿",
+    "alias": [
+      "Palmarium Reserve"
+    ],
+    "fusion_de": [
+      632
+    ],
+    "sous_type": "Réserve Privée",
+    "depart_de": "Toamasina",
+    "zone": "toamasina"
   },
   {
     "nom": "Excursion Île Sainte-Marie en Bateau",
-    "ville": "Toamasina",
+    "ville": "Sainte-Marie",
     "description": "Excursion maritime vers la mythique Île Sainte-Marie. Traversée spectaculaire sur l'océan Indien, observation possible de baleines à bosse (juillet-septembre), plages paradisiaques, cimetière des pirates. Journée complète all-inclusive avec déjeuner fruits de mer. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Excursion Maritime",
+      "Excursion",
       "toamasina",
       "explorer",
       "budget_3",
-      "nature",
       "aventure",
       "luxe"
     ],
@@ -30505,7 +28033,7 @@ window.LIEUX_DATA = [
     "lat": -17.0833,
     "lng": 49.85,
     "note": 4.8,
-    "type": "Excursion Maritime",
+    "type": "Excursion",
     "duree": "Journée",
     "conseil": "Période des baleines (juil-sept) à privilégier. Réservez 48h à l'avance minimum.",
     "acces": "Départ du port de Toamasina, bateau rapide",
@@ -30514,11 +28042,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Excursion+Île+Sainte-Marie+en+Bateau+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-17.0833,49.85",
-    "categorie": "Excursion Maritime",
+    "categorie": "Excursion",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Excursion Île Sainte-Marie en Bateau",
+        "alt": "Excursion Île Sainte-Marie en Bateau, Sainte-Marie (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -30603,14 +28131,21 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Excursion maritime vers la mythique Île Sainte-Marie. Traversée spectaculaire sur l'océan Indien, observation possible de baleines à bosse (juillet-septembre), plages paradisiaques, cimetière des pirates. Journée complète all-inclusive avec déjeuner fruits de mer.",
     "has_expandable_description": true,
-    "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
+    "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊",
+    "sous_type": "Excursion Maritime",
+    "depart_de": "Toamasina",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Visite Guidée des Distilleries Artisanales",
     "ville": "Toamasina",
     "description": "Tour des distilleries artisanales de rhum et liqueurs locales autour de Tamatave. Découverte du processus de fabrication traditionnel, dégustation de rhums arrangés aux fruits et épices, visite des plantations de canne à sucre. Expérience authentique et savoureuse. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Visite Guidée",
+      "Culture",
       "toamasina",
       "explorer",
       "budget_2",
@@ -30622,7 +28157,7 @@ window.LIEUX_DATA = [
     "lat": -18.1623,
     "lng": 49.3845,
     "note": 4.4,
-    "type": "Visite Guidée",
+    "type": "Culture",
     "duree": "Demi-journée",
     "conseil": "Réservation obligatoire. Dégustation avec modération, prévoir un chauffeur.",
     "acces": "Zone rurale autour de Toamasina, transport organisé",
@@ -30631,11 +28166,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Visite+Guidée+des+Distilleries+Artisanales+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1623,49.3845",
-    "categorie": "Visite Guidée",
+    "categorie": "Culture",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Visite Guidée des Distilleries Artisanales",
+        "alt": "Visite Guidée des Distilleries Artisanales, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -30720,18 +28255,23 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Tour des distilleries artisanales de rhum et liqueurs locales autour de Tamatave. Découverte du processus de fabrication traditionnel, dégustation de rhums arrangés aux fruits et épices, visite des plantations de canne à sucre. Expérience authentique et savoureuse.",
     "has_expandable_description": true,
-    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐"
+    "humour_grok": "Ne demande pas 'Pourquoi ?'. La réponse est 'Parce que'. C'est le Fady. Accepte-le. 🤐",
+    "sous_type": "Visite Guidée",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Observation Baleines à Bosse (Juillet-Septembre)",
     "ville": "Toamasina",
     "description": "Sortie en mer pour observer les baleines à bosse dans leur habitat naturel. Migration annuelle spectaculaire, sauts et chants des baleines, dauphins parfois présents. Guide naturaliste expert inclus. Expérience marine inoubliable et respectueuse de l'environnement. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Excursion Marine",
+      "Excursion",
       "toamasina",
       "explorer",
       "budget_3",
-      "nature",
       "aventure"
     ],
     "prix": "120 000 Ar",
@@ -30739,7 +28279,7 @@ window.LIEUX_DATA = [
     "lat": -18.1234,
     "lng": 49.5678,
     "note": 4.9,
-    "type": "Excursion Marine",
+    "type": "Excursion",
     "duree": "Demi-journée",
     "conseil": "Uniquement juillet à septembre. Médicament contre le mal de mer recommandé.",
     "acces": "Départ du port de Toamasina, bateau équipé",
@@ -30748,11 +28288,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Observation+Baleines+à+Bosse+(Juillet-Septembre)+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1234,49.5678",
-    "categorie": "Excursion Marine",
+    "categorie": "Excursion",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Observation Baleines à Bosse (Juillet-Septembre)",
+        "alt": "Observation Baleines à Bosse (Juillet-Septembre), Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -30837,7 +28377,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Sortie en mer pour observer les baleines à bosse dans leur habitat naturel. Migration annuelle spectaculaire, sauts et chants des baleines, dauphins parfois présents. Guide naturaliste expert inclus. Expérience marine inoubliable et respectueuse de l'environnement.",
     "has_expandable_description": true,
-    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️"
+    "humour_grok": "Les sentiers sont 'balisés'. Si par balisé tu entends 'vaguement piétinés par un zébu en 2012'. 🗺️",
+    "sous_type": "Excursion Marine",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Kayak sur le Canal des Pangalanes",
@@ -30848,7 +28394,6 @@ window.LIEUX_DATA = [
       "toamasina",
       "explorer",
       "budget_2",
-      "nature",
       "aventure",
       "spots",
       "secret_spot"
@@ -30871,7 +28416,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Kayak sur le Canal des Pangalanes",
+        "alt": "Kayak sur le Canal des Pangalanes, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -30956,18 +28501,23 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Descente en kayak du Canal des Pangalanes sur plusieurs heures. Exploration autonome des lagunes et canaux, rencontre avec pêcheurs locaux, observation faune et flore aquatique. Activité sportive et contemplative. Location kayaks simple ou double disponible.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃"
+    "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃",
+    "sous_type": "Spot Local",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Jardin d'Éden - Jardin Botanique",
     "ville": "Toamasina",
     "description": "Jardin botanique privé avec collection impressionnante de plantes tropicales rares et orchidées endémiques. Sentiers ombragés, étangs avec nénuphars, volière avec oiseaux colorés. Havre de paix et de beauté naturelle. Parfait pour amoureux de botanique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Jardin Botanique",
+      "Nature",
       "toamasina",
       "explorer",
-      "budget_2",
-      "nature",
+      "budget_1",
       "detente"
     ],
     "prix": "12 000 Ar",
@@ -30975,7 +28525,7 @@ window.LIEUX_DATA = [
     "lat": -18.1389,
     "lng": 49.3978,
     "note": 4.5,
-    "type": "Jardin Botanique",
+    "type": "Nature",
     "duree": "2h",
     "conseil": "Période de floraison des orchidées : octobre à janvier. Visite guidée disponible.",
     "acces": "Périphérie de Toamasina, accessible en taxi",
@@ -30984,11 +28534,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Jardin+d'Éden+-+Jardin+Botanique+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1389,49.3978",
-    "categorie": "Jardin Botanique",
+    "categorie": "Nature",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Jardin d'Éden - Jardin Botanique",
+        "alt": "Jardin d'Éden - Jardin Botanique, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -31073,18 +28623,23 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Jardin botanique privé avec collection impressionnante de plantes tropicales rares et orchidées endémiques. Sentiers ombragés, étangs avec nénuphars, volière avec oiseaux colorés. Havre de paix et de beauté naturelle. Parfait pour amoureux de botanique.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃"
+    "humour_grok": "Tu vas prendre 50 photos de la même feuille en croyant que c'est un insecte rare. Spoiler: c'est une feuille. 🍃",
+    "sous_type": "Jardin Botanique",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Tour en Hélicoptère - Survol Côte Est",
     "ville": "Toamasina",
     "description": "Survol panoramique en hélicoptère de la côte Est malgache. Vue aérienne spectaculaire sur le Canal des Pangalanes, forêts tropicales, villages côtiers, récifs coralliens. Expérience VIP luxueuse et inoubliable. Photos aériennes époustouflantes garanties. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Vol Panoramique",
+      "Excursion",
       "toamasina",
       "explorer",
       "budget_3",
-      "nature",
       "aventure",
       "luxe"
     ],
@@ -31093,7 +28648,7 @@ window.LIEUX_DATA = [
     "lat": -18.1123,
     "lng": 49.3967,
     "note": 5,
-    "type": "Vol Panoramique",
+    "type": "Excursion",
     "duree": "30-45 min",
     "conseil": "Réservation obligatoire 1 semaine avant. Vol tôt le matin pour meilleure visibilité.",
     "acces": "Héliport de Toamasina, navette depuis hôtels premium",
@@ -31102,11 +28657,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Tour+en+Hélicoptère+-+Survol+Côte+Est+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1123,49.3967",
-    "categorie": "Vol Panoramique",
+    "categorie": "Excursion",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Tour en Hélicoptère - Survol Côte Est",
+        "alt": "Tour en Hélicoptère - Survol Côte Est, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -31191,18 +28746,23 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Survol panoramique en hélicoptère de la côte Est malgache. Vue aérienne spectaculaire sur le Canal des Pangalanes, forêts tropicales, villages côtiers, récifs coralliens. Expérience VIP luxueuse et inoubliable. Photos aériennes époustouflantes garanties.",
     "has_expandable_description": true,
-    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽"
+    "humour_grok": "C'est 'sauvage'. Ce qui veut dire 'pas de toilettes' et 'pas de réseau'. Bonne chance. 🚽",
+    "sous_type": "Vol Panoramique",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Pêche en Haute Mer - Sortie Sportive",
     "ville": "Toamasina",
     "description": "Sortie de pêche sportive en haute mer au large de Tamatave. Pêche au gros (marlin, thon, dorade coryphène), matériel professionnel fourni, capitaine expérimenté. Poissons pêchés peuvent être cuisinés au retour. Aventure marine sportive et authentique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Pêche Sportive",
+      "Excursion",
       "toamasina",
       "explorer",
       "budget_3",
-      "nature",
       "aventure"
     ],
     "prix": "250 000 Ar",
@@ -31210,7 +28770,7 @@ window.LIEUX_DATA = [
     "lat": -18.1567,
     "lng": 49.5012,
     "note": 4.7,
-    "type": "Pêche Sportive",
+    "type": "Excursion",
     "duree": "Journée",
     "conseil": "Réservation 3-4 jours avant. Bon pied marin nécessaire. Protection solaire maximale.",
     "acces": "Départ port de Toamasina, bateau de pêche équipé",
@@ -31219,11 +28779,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Pêche+en+Haute+Mer+-+Sortie+Sportive+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1567,49.5012",
-    "categorie": "Pêche Sportive",
+    "categorie": "Excursion",
     "galerie_photos": [
       {
         "url": "images/placeholder-nature.jpg",
-        "alt": "Pêche en Haute Mer - Sortie Sportive",
+        "alt": "Pêche en Haute Mer - Sortie Sportive, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -31308,25 +28868,31 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Sortie de pêche sportive en haute mer au large de Tamatave. Pêche au gros (marlin, thon, dorade coryphène), matériel professionnel fourni, capitaine expérimenté. Poissons pêchés peuvent être cuisinés au retour. Aventure marine sportive et authentique.",
     "has_expandable_description": true,
-    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨"
+    "humour_grok": "Le silence de la nature... interrompu uniquement par ton souffle court et tes plaintes. 😮‍💨",
+    "sous_type": "Pêche Sportive",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Le Neptune - Havana Club",
     "ville": "Toamasina",
     "description": "Club emblématique de Tamatave ouvert mercredis et samedis dès 22h. DJ résident créant une ambiance énergique et festive. Piste de danse spacieuse, bar bien fourni, système son professionnel. Incontournable de la vie nocturne locale. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Nightclub",
+      "Bar & Sortir",
       "toamasina",
-      "sortir",
-      "budget_2",
-      "culture"
+      "budget_1",
+      "culture",
+      "sortir"
     ],
     "prix": "10 000 Ar",
     "prixNum": 10000,
     "lat": -18.1489,
     "lng": 49.4095,
     "note": 4.5,
-    "type": "Nightclub",
+    "type": "Bar & Sortir",
     "duree": "Soirée",
     "conseil": "Arrivez après 23h quand l'ambiance monte. Tenue correcte exigée le samedi.",
     "acces": "Centre-ville, accessible en taxi",
@@ -31335,11 +28901,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Le+Neptune+-+Havana+Club+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1489,49.4095",
-    "categorie": "Nightclub",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/placeholder-bar.jpg",
-        "alt": "Le Neptune - Havana Club",
+        "alt": "Le Neptune - Havana Club, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -31424,24 +28990,30 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Club emblématique de Tamatave ouvert mercredis et samedis dès 22h. DJ résident créant une ambiance énergique et festive. Piste de danse spacieuse, bar bien fourni, système son professionnel. Incontournable de la vie nocturne locale.",
     "has_expandable_description": true,
-    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏"
+    "humour_grok": "Tu ne comprends rien aux rituels ? C'est normal. Contente-toi d'être humble et de ne rien casser. 🙏",
+    "sous_type": "Nightclub",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Le Pandora Club",
     "ville": "Toamasina",
     "description": "Club moderne sur la route de l'aéroport. Ouvert vendredis et samedis de 22h à 6h. Ambiance jeune et décontractée, musique variée (afrobeat, zouk, dancehall, électro). Grande terrasse fumeurs, VIP lounge disponible. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Nightclub",
+      "Bar & Sortir",
       "toamasina",
-      "sortir",
-      "budget_2"
+      "budget_1",
+      "sortir"
     ],
     "prix": "15 000 Ar",
     "prixNum": 15000,
     "lat": -18.1234,
     "lng": 49.3856,
     "note": 4.4,
-    "type": "Nightclub",
+    "type": "Bar & Sortir",
     "duree": "Soirée",
     "conseil": "Les vendredis sont moins bondés que les samedis. Parkings surveillés disponibles.",
     "acces": "Route de l'aéroport, taxi recommandé",
@@ -31450,11 +29022,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Le+Pandora+Club+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1234,49.3856",
-    "categorie": "Nightclub",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/placeholder-bar.jpg",
-        "alt": "Le Pandora Club",
+        "alt": "Le Pandora Club, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -31539,25 +29111,31 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Club moderne sur la route de l'aéroport. Ouvert vendredis et samedis de 22h à 6h. Ambiance jeune et décontractée, musique variée (afrobeat, zouk, dancehall, électro). Grande terrasse fumeurs, VIP lounge disponible. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹"
+    "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹",
+    "sous_type": "Nightclub",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Queen's Club",
     "ville": "Toamasina",
     "description": "Club chic sur le Boulevard Maréchal-Joffre. Ambiance premium avec décoration soignée. Clientèle élégante, cocktails signatures, champagne disponible. Musique house et R&B. Dress code strictement appliqué. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Club Premium",
+      "Bar & Sortir",
       "toamasina",
-      "sortir",
-      "budget_3",
-      "luxe"
+      "budget_2",
+      "luxe",
+      "sortir"
     ],
     "prix": "25 000 Ar",
     "prixNum": 25000,
     "lat": -18.1478,
     "lng": 49.4088,
     "note": 4.6,
-    "type": "Club Premium",
+    "type": "Bar & Sortir",
     "duree": "Soirée",
     "conseil": "Réservation VIP table recommandée le week-end. Tenue élégante obligatoire.",
     "acces": "Boulevard Maréchal-Joffre, service voiturier disponible",
@@ -31566,11 +29144,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Queen's+Club+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1478,49.4088",
-    "categorie": "Club Premium",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/placeholder-bar.jpg",
-        "alt": "Queen's Club",
+        "alt": "Queen's Club, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -31655,25 +29233,31 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Club chic sur le Boulevard Maréchal-Joffre. Ambiance premium avec décoration soignée. Clientèle élégante, cocktails signatures, champagne disponible. Musique house et R&B. Dress code strictement appliqué. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Le sol colle. Les verres collent. Tout colle. C'est ça l'ambiance authentique. 🦶"
+    "humour_grok": "Le sol colle. Les verres collent. Tout colle. C'est ça l'ambiance authentique. 🦶",
+    "sous_type": "Club Premium",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Le Taxi Be Club",
     "ville": "Toamasina",
     "description": "Bar-club populaire dans le quartier Bazar Be. Ouvert 7 jours sur 7, entrée gratuite, boissons à prix doux. Ambiance locale authentique et conviviale. Idéal pour danser, socialiser et faire la fête sans se ruiner. Très prisé des jeunes. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Bar-Club",
+      "Bar & Sortir",
       "toamasina",
-      "sortir",
       "budget_1",
-      "culture"
+      "culture",
+      "sortir"
     ],
     "prix": "Gratuit",
     "prixNum": 0,
     "lat": -18.1456,
     "lng": 49.4025,
     "note": 4.3,
-    "type": "Bar-Club",
+    "type": "Bar & Sortir",
     "duree": "Soirée",
     "conseil": "Arrive tôt pour avoir une table. Ambiance la plus animée après minuit.",
     "acces": "Quartier Bazar Be, accessible en pousse-pousse",
@@ -31682,11 +29266,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Le+Taxi+Be+Club+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1456,49.4025",
-    "categorie": "Bar-Club",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/placeholder-bar.jpg",
-        "alt": "Le Taxi Be Club",
+        "alt": "Le Taxi Be Club, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -31771,26 +29355,32 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Bar-club populaire dans le quartier Bazar Be. Ouvert 7 jours sur 7, entrée gratuite, boissons à prix doux. Ambiance locale authentique et conviviale. Idéal pour danser, socialiser et faire la fête sans se ruiner. Très prisé des jeunes.",
     "has_expandable_description": true,
-    "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑"
+    "humour_grok": "On ne s'assoit pas n'importe où. Sauf si tu veux t'asseoir sur l'esprit d'un roi du 17ème siècle. Mauvaise idée. 👑",
+    "sous_type": "Bar-Club",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "La Terrasse Bar Lounge",
     "ville": "Toamasina",
     "description": "Bar lounge élégant sur terrasse panoramique avec vue sur l'océan. Cocktails créatifs, tapas gastronomiques, musique lounge et jazz. Ambiance détendue et sophistiquée. Idéal pour after-work ou soirée romantique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Bar Lounge",
+      "Bar & Sortir",
       "toamasina",
-      "sortir",
-      "budget_3",
+      "budget_1",
       "luxe",
-      "gastronomie"
+      "gastronomie",
+      "sortir"
     ],
     "prix": "20 000 Ar",
     "prixNum": 20000,
     "lat": -18.1498,
     "lng": 49.4108,
     "note": 4.7,
-    "type": "Bar Lounge",
+    "type": "Bar & Sortir",
     "duree": "Soirée",
     "conseil": "Réservez une table en terrasse pour le coucher de soleil. Happy hour 18h-20h.",
     "acces": "Front de mer, parking disponible",
@@ -31799,11 +29389,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/La+Terrasse+Bar+Lounge+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1498,49.4108",
-    "categorie": "Bar Lounge",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/placeholder-bar.jpg",
-        "alt": "La Terrasse Bar Lounge",
+        "alt": "La Terrasse Bar Lounge, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -31888,25 +29478,31 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Bar lounge élégant sur terrasse panoramique avec vue sur l'océan. Cocktails créatifs, tapas gastronomiques, musique lounge et jazz. Ambiance détendue et sophistiquée. Idéal pour after-work ou soirée romantique. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas devenir meilleur ami avec des gens dont tu ne te souviendras plus du prénom demain. C'est la magie. ✨"
+    "humour_grok": "Tu vas devenir meilleur ami avec des gens dont tu ne te souviendras plus du prénom demain. C'est la magie. ✨",
+    "sous_type": "Bar Lounge",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Le Feeling Bar Karaoké",
     "ville": "Toamasina",
     "description": "Bar karaoké convivial et familial. Grande sélection de chansons françaises, malgaches et internationales. Soirées thématiques régulières, écrans multiples, système son de qualité. Ambiance fun et décontractée pour tous âges. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Bar Karaoké",
+      "Bar & Sortir",
       "toamasina",
-      "sortir",
       "budget_1",
-      "famille"
+      "famille",
+      "sortir"
     ],
     "prix": "5 000 Ar",
     "prixNum": 5000,
     "lat": -18.1467,
     "lng": 49.4042,
     "note": 4.2,
-    "type": "Bar Karaoké",
+    "type": "Bar & Sortir",
     "duree": "Soirée",
     "conseil": "Arrivez avant 21h pour réserver votre chanson. Jeudi soir = soirée karaoké compétition.",
     "acces": "Centre-ville, accessible à pied",
@@ -31915,11 +29511,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Le+Feeling+Bar+Karaoké+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1467,49.4042",
-    "categorie": "Bar Karaoké",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/placeholder-bar.jpg",
-        "alt": "Le Feeling Bar Karaoké",
+        "alt": "Le Feeling Bar Karaoké, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -32004,25 +29600,31 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Bar karaoké convivial et familial. Grande sélection de chansons françaises, malgaches et internationales. Soirées thématiques régulières, écrans multiples, système son de qualité. Ambiance fun et décontractée pour tous âges. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu vas boire, tu vas danser, tu vas oublier. Demain matin sera un problème pour le 'Toi du Futur'. 🍻"
+    "humour_grok": "Tu vas boire, tu vas danser, tu vas oublier. Demain matin sera un problème pour le 'Toi du Futur'. 🍻",
+    "sous_type": "Bar Karaoké",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Chez Moi Bar & Grill",
     "ville": "Toamasina",
     "description": "Bar-restaurant décontracté avec terrasse ombragée. Grillades, burgers, pizzas. Écrans géants pour matchs de foot, billard, baby-foot. Clientèle mixte locale et expatriée. Bières locales et importées à prix raisonnables. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Bar-Restaurant",
+      "Bar & Sortir",
       "toamasina",
-      "sortir",
-      "budget_2",
-      "famille"
+      "budget_1",
+      "famille",
+      "sortir"
     ],
     "prix": "12 000 Ar",
     "prixNum": 12000,
     "lat": -18.1445,
     "lng": 49.4065,
     "note": 4.3,
-    "type": "Bar-Restaurant",
+    "type": "Bar & Sortir",
     "duree": "Soirée",
     "conseil": "Venez pour les matchs en soirée. Happy hour bières 17h-19h en semaine.",
     "acces": "Centre-ville, parking petit mais disponible",
@@ -32031,11 +29633,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Chez+Moi+Bar+&+Grill+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1445,49.4065",
-    "categorie": "Bar-Restaurant",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/placeholder-bar.jpg",
-        "alt": "Chez Moi Bar & Grill",
+        "alt": "Chez Moi Bar & Grill, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -32120,25 +29722,31 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Bar-restaurant décontracté avec terrasse ombragée. Grillades, burgers, pizzas. Écrans géants pour matchs de foot, billard, baby-foot. Clientèle mixte locale et expatriée. Bières locales et importées à prix raisonnables. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹"
+    "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹",
+    "sous_type": "Bar-Restaurant",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "No Comment Bar Tamatave",
     "ville": "Toamasina",
     "description": "Bar tendance avec décoration moderne et urbaine. Cocktails créatifs, DJ sets week-ends, terrasse chill-out. Clientèle jeune et branchée. Bonnes vibes garanties, musique afrobeat et électro. Ambiance cool et sans prise de tête. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Bar Tendance",
+      "Bar & Sortir",
       "toamasina",
-      "sortir",
-      "budget_2",
-      "culture"
+      "budget_1",
+      "culture",
+      "sortir"
     ],
     "prix": "15 000 Ar",
     "prixNum": 15000,
     "lat": -18.1423,
     "lng": 49.4078,
     "note": 4.4,
-    "type": "Bar Tendance",
+    "type": "Bar & Sortir",
     "duree": "Soirée",
     "conseil": "Goûtez leurs cocktails maison signature. DJ live les vendredis et samedis dès 22h.",
     "acces": "Quartier moderne, taxi recommandé le soir",
@@ -32147,11 +29755,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/No+Comment+Bar+Tamatave+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1423,49.4078",
-    "categorie": "Bar Tendance",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/placeholder-bar.jpg",
-        "alt": "No Comment Bar Tamatave",
+        "alt": "No Comment Bar Tamatave, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -32236,25 +29844,31 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Bar tendance avec décoration moderne et urbaine. Cocktails créatifs, DJ sets week-ends, terrasse chill-out. Clientèle jeune et branchée. Bonnes vibes garanties, musique afrobeat et électro. Ambiance cool et sans prise de tête. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Si tu vois du tissu rouge, c'est pas de la déco. C'est sacré. Recule doucement et fais un sourire gêné. 🔴"
+    "humour_grok": "Si tu vois du tissu rouge, c'est pas de la déco. C'est sacré. Recule doucement et fais un sourire gêné. 🔴",
+    "sous_type": "Bar Tendance",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Belle Aire Rooftop Bar",
     "ville": "Toamasina",
     "description": "Bar sur toit avec vue panoramique à 360° sur Tamatave et l'océan. Cocktails premium, champagne, carte de vins. Ambiance lounge chic, musique douce. Spot Instagram par excellence. Idéal pour soirée spéciale ou célébration. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Rooftop Bar",
+      "Bar & Sortir",
       "toamasina",
-      "sortir",
-      "budget_3",
-      "luxe"
+      "budget_2",
+      "luxe",
+      "sortir"
     ],
     "prix": "30 000 Ar",
     "prixNum": 30000,
     "lat": -18.1412,
     "lng": 49.4092,
     "note": 4.8,
-    "type": "Rooftop Bar",
+    "type": "Bar & Sortir",
     "duree": "Soirée",
     "conseil": "Réservation obligatoire le week-end. Vue spectaculaire au coucher du soleil.",
     "acces": "Centre-ville, ascenseur direct au rooftop",
@@ -32263,11 +29877,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Belle+Aire+Rooftop+Bar+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1412,49.4092",
-    "categorie": "Rooftop Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/placeholder-bar.jpg",
-        "alt": "Belle Aire Rooftop Bar",
+        "alt": "Belle Aire Rooftop Bar, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -32352,26 +29966,31 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Bar sur toit avec vue panoramique à 360° sur Tamatave et l'océan. Cocktails premium, champagne, carte de vins. Ambiance lounge chic, musique douce. Spot Instagram par excellence. Idéal pour soirée spéciale ou célébration. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "La musique est si forte que tes oreilles vont saigner, mais après 3 verres, tu trouveras ça génial. 🎶"
+    "humour_grok": "La musique est si forte que tes oreilles vont saigner, mais après 3 verres, tu trouveras ça génial. 🎶",
+    "sous_type": "Rooftop Bar",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
     "nom": "Bar Mananara Beach",
     "ville": "Toamasina",
     "description": "Bar les pieds dans le sable en bordure de plage. Ambiance tropicale décontractée, cocktails fruités, barbecue le soir, musique reggae et salsa. Parfait pour after-beach, sunset drinks. Vue mer exceptionnelle, brise marine rafraîchissante. Ce lieu présente un intérêt certain pour les visiteurs de Toamasina, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "tags": [
-      "Beach Bar",
+      "Bar & Sortir",
       "toamasina",
-      "sortir",
-      "budget_2",
-      "nature",
-      "detente"
+      "budget_1",
+      "detente",
+      "sortir"
     ],
     "prix": "10 000 Ar",
     "prixNum": 10000,
     "lat": -18.1567,
     "lng": 49.4201,
     "note": 4.6,
-    "type": "Beach Bar",
+    "type": "Bar & Sortir",
     "duree": "Soirée",
     "conseil": "Arrivez vers 17h30 pour le coucher de soleil. Transat et parasols gratuits avec conso.",
     "acces": "Plage sud de Tamatave, 15 min en taxi",
@@ -32380,11 +29999,11 @@ window.LIEUX_DATA = [
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Bar+Mananara+Beach+Toamasina",
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1567,49.4201",
-    "categorie": "Beach Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/placeholder-bar.jpg",
-        "alt": "Bar Mananara Beach",
+        "alt": "Bar Mananara Beach, Toamasina (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -32469,10 +30088,16 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Bar les pieds dans le sable en bordure de plage. Ambiance tropicale décontractée, cocktails fruités, barbecue le soir, musique reggae et salsa. Parfait pour after-beach, sunset drinks. Vue mer exceptionnelle, brise marine rafraîchissante.",
     "has_expandable_description": true,
-    "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃"
+    "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃",
+    "sous_type": "Beach Bar",
+    "zone": "toamasina",
+    "ville_alias": [
+      "Tamatave"
+    ],
+    "image_provisoire": true
   },
   {
-    "id": 701,
+    "id": 804,
     "ville": "Sainte-Marie",
     "nom": "Cimetière des Pirates",
     "type": "Culture",
@@ -32586,10 +30211,15 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un lieu unique au monde, chargé de mystères. Situé sur l'île aux Forbans, ce cimetière envahi par la végétation abrite les tombes d'anciens pirates légendaires. L'atmosphère y est envoûtante, presque irréelle. Ce lieu présente un intérêt certain pour les visiteurs de Sainte-Marie, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️"
+    "humour_grok": "Tu te sens observé ? C'est normal. C'est l'ambiance. Ou un lémurien. Ou un fantôme. Qui sait ? 👁️",
+    "sous_type": "Culture",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ]
   },
   {
-    "id": 702,
+    "id": 805,
     "ville": "Sainte-Marie",
     "nom": "Île aux Nattes",
     "type": "Spot Local",
@@ -32603,11 +30233,11 @@ window.LIEUX_DATA = [
     "tags": [
       "Spot Local",
       "saintemarie",
-      "nature",
       "explorer",
       "budget_1",
       "spots",
-      "secret_spot"
+      "secret_spot",
+      "tamatave"
     ],
     "duree": "Journée",
     "conseil": "Louez un vélo pour faire le tour de l'île par les sentiers, puis finissez par un apéro sunset à la 'Maison Blanche'.",
@@ -32705,10 +30335,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le paradis terrestre. Une petite île sans voiture au sud de Sainte-Marie, avec des plages de sable blanc éblouissant et un lagon turquoise. Idéal pour se déconnecter totalement du monde. Ce lieu présente un intérêt certain pour les visiteurs de Sainte-Marie, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾"
+    "humour_grok": "Si le guide te dit 'C'est juste à côté', prépare-toi mentalement pour 2h de marche commando. 🥾",
+    "fusion_de": [
+      633
+    ],
+    "sous_type": "Spot Local",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ]
   },
   {
-    "id": 703,
+    "id": 806,
     "ville": "Sainte-Marie",
     "nom": "Piscine Naturelle Ambodiatafana",
     "type": "Nature",
@@ -32722,7 +30360,6 @@ window.LIEUX_DATA = [
     "tags": [
       "Nature",
       "saintemarie",
-      "nature",
       "explorer",
       "budget_1"
     ],
@@ -32824,10 +30461,15 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Au nord de l'île, une formation rocheuse crée une piscine naturelle d'eau de mer à l'abri des vagues de l'océan Indien. L'eau y est cristalline et le cadre sauvage est spectaculaire. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Les lémuriens ne sont pas mignons, ils complotent. Et ils jugent tes chaussures Quechua. 🐒"
+    "humour_grok": "Les lémuriens ne sont pas mignons, ils complotent. Et ils jugent tes chaussures Quechua. 🐒",
+    "sous_type": "Nature",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ]
   },
   {
-    "id": 704,
+    "id": 807,
     "ville": "Sainte-Marie",
     "nom": "Cascade d'Antanandava",
     "type": "Nature",
@@ -32841,7 +30483,6 @@ window.LIEUX_DATA = [
     "tags": [
       "Nature",
       "saintemarie",
-      "nature",
       "explorer",
       "budget_1"
     ],
@@ -32943,10 +30584,15 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une belle chute d'eau accessible après une marche agréable à travers la forêt de girofliers et de vanille. Possibilité de se baigner dans le bassin frais au pied de la cascade. Ce site naturel exceptionnel offre une expérience immersive au cœur de la biodiversité malgache.",
     "has_expandable_description": true,
-    "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊"
+    "humour_grok": "Regarde, une cascade ! Une autre ! C'est de l'eau qui tombe. Incroyable non ? Maintenant marche. 🌊",
+    "sous_type": "Nature",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ]
   },
   {
-    "id": 705,
+    "id": 808,
     "ville": "Sainte-Marie",
     "nom": "Safari Baleines",
     "type": "Incontournable",
@@ -32960,7 +30606,6 @@ window.LIEUX_DATA = [
     "tags": [
       "Incontournable",
       "saintemarie",
-      "nature",
       "explorer",
       "budget_3",
       "incontournable"
@@ -33061,7 +30706,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "De juillet à septembre, le canal de Sainte-Marie accueille des centaines de baleines à bosse. Une expérience inoubliable pour observer leurs sauts et écouter leur chant. Le spectacle de la nature à l'état pur.",
     "has_expandable_description": true,
-    "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵"
+    "humour_grok": "Ne touche pas à cette plante. Ni à celle-là. En fait, garde les mains dans les poches, tout veut te griffer ici. 🌵",
+    "sous_type": "Incontournable",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ]
   },
   {
     "id": 706,
@@ -33175,7 +30825,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Restaurant convivial spécialisé dans les fruits de mer et la cuisine locale. Langoustes, calamars et poissons grillés sont à l'honneur. Ambiance décontractée typique des îles. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Ne demande pas ce qu'il y a exactement dans la sauce. Mange, c'est délicieux, pose pas de questions. 🤫"
+    "humour_grok": "Ne demande pas ce qu'il y a exactement dans la sauce. Mange, c'est délicieux, pose pas de questions. 🤫",
+    "sous_type": "Restaurant",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ]
   },
   {
     "id": 707,
@@ -33290,7 +30945,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Restaurant de plage raffiné offrant une cuisine fusion franco-malgache. Le cadre est magnifique pour un déjeuner les pieds dans le sable ou un dîner romantique au coucher du soleil. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳"
+    "humour_grok": "Mora Mora sur le service. Si tu es pressé, tu t'es trompé de pays (et d'hémisphère). ⏳",
+    "sous_type": "Restaurant",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ]
   },
   {
     "id": 708,
@@ -33404,7 +31064,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Une adresse authentique sur l'Île aux Nattes. Nath cuisine avec amour des plats malgaches généreux (romazava, porc aux brèdes) à prix doux. Simple, bon et chaleureux. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Si la nappe colle, c'est bon signe. Ça veut dire qu'il y a du passage (ou qu'elle est là depuis 1998). 🍽️"
+    "humour_grok": "Si la nappe colle, c'est bon signe. Ça veut dire qu'il y a du passage (ou qu'elle est là depuis 1998). 🍽️",
+    "sous_type": "Restaurant",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ]
   },
   {
     "id": 709,
@@ -33422,7 +31087,6 @@ window.LIEUX_DATA = [
       "Restaurant",
       "saintemarie",
       "manger",
-      "nature",
       "budget_2"
     ],
     "duree": "Repas",
@@ -33519,13 +31183,18 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Situé au nord, ce restaurant offre une vue imprenable sur le lagon. Cuisine saine et fraîche, utilisant les produits du potager bio. Parfait pour une pause gourmande lors d'un tour de l'île. La carte met en valeur les produits locaux et les spécialités régionales, préparés avec soin par une équipe passionnée.",
     "has_expandable_description": true,
-    "humour_grok": "Le rhum arrangé n'est pas une boisson, c'est un test de sélection naturelle pour ton foie. 🥃"
+    "humour_grok": "Le rhum arrangé n'est pas une boisson, c'est un test de sélection naturelle pour ton foie. 🥃",
+    "sous_type": "Restaurant",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ]
   },
   {
     "id": 710,
     "ville": "Sainte-Marie",
     "nom": "Le Mora Mora",
-    "type": "Bar",
+    "type": "Bar & Sortir",
     "lat": -17.008,
     "lng": 49.85,
     "prix": "10 000 Ar",
@@ -33534,10 +31203,10 @@ window.LIEUX_DATA = [
     "description": "Le spot pour boire un verre le soir à Ambodifotatra. Musique, billard et bonne ambiance. C'est le point de rendez-vous des locaux et des voyageurs. Ce lieu présente un intérêt certain pour les visiteurs de Sainte-Marie, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
     "image": "images/placeholder-bar.jpg",
     "tags": [
-      "Bar",
+      "Bar & Sortir",
       "saintemarie",
-      "sortir",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "duree": "Soirée",
     "conseil": "Lieu de rencontre incontournable des expats et locaux. La THG (bière pression) y est bien fraîche !",
@@ -33546,11 +31215,11 @@ window.LIEUX_DATA = [
     "siteWeb": "https://www.google.com/maps/search/Le+Mora+Mora+Bar",
     "prixEur": 2,
     "y_aller": "https://www.google.com/maps/search/?api=1&query=-17.008,49.85",
-    "categorie": "Bar",
+    "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
         "url": "images/placeholder-bar.jpg",
-        "alt": "Le Mora Mora",
+        "alt": "Le Mora Mora, Sainte-Marie (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -33635,7 +31304,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le spot pour boire un verre le soir à Ambodifotatra. Musique, billard et bonne ambiance. C'est le point de rendez-vous des locaux et des voyageurs. Ce lieu présente un intérêt certain pour les visiteurs de Sainte-Marie, offrant une expérience authentique et mémorable.",
     "has_expandable_description": true,
-    "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃"
+    "humour_grok": "Le DJ passe les mêmes 3 chansons depuis 2010. Et tu vas quand même danser dessus. 💃",
+    "sous_type": "Bar",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ],
+    "image_provisoire": true
   },
   {
     "id": 711,
@@ -33648,7 +31323,7 @@ window.LIEUX_DATA = [
     "prixNum": 600000,
     "note": 4.8,
     "description": "Le luxe éco-chic à son apogée. Villas de charme, spa, piscine à débordement et ponton privé. L'hôtel est également très impliqué dans la protection des baleines avec l'association Cétamada. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité. Le personnel accueillant et professionnel met un point d'honneur à satisfaire chaque demande, garantissant une expérience client exceptionnelle. Les équipements sur place (piscine, restaurant, wifi, etc.) permettent de profiter pleinement de votre séjour sans avoir besoin de quitter l'établissement. L'emplacement stratégique facilite l'accès aux principales attractions de Sainte-Marie, tout en offrant un havre de paix pour se ressourcer. Que ce soit pour un séjour d'affaires ou une escapade touristique, cet établissement répond à toutes les attentes avec professionnalisme.",
-    "image": "images/hotels/placeholder-hotel.jpg",
+    "image": "images/placeholder-hotel.jpg",
     "tags": [
       "Hôtel",
       "saintemarie",
@@ -33666,8 +31341,8 @@ window.LIEUX_DATA = [
     "categorie": "Hôtel",
     "galerie_photos": [
       {
-        "url": "images/hotels/placeholder-hotel.jpg",
-        "alt": "Princesse Bora Lodge",
+        "url": "images/placeholder-hotel.jpg",
+        "alt": "Princesse Bora Lodge, Sainte-Marie (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -33751,7 +31426,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Le luxe éco-chic à son apogée. Villas de charme, spa, piscine à débordement et ponton privé. L'hôtel est également très impliqué dans la protection des baleines avec l'association Cétamada.",
     "has_expandable_description": true,
-    "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚"
+    "humour_grok": "Mora Mora... on arrive quand on arrive. Arrête de regarder ta montre, elle ne sert à rien ici. ⌚",
+    "sous_type": "Hôtel",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ],
+    "image_provisoire": true
   },
   {
     "id": 712,
@@ -33764,12 +31445,12 @@ window.LIEUX_DATA = [
     "prixNum": 180000,
     "note": 4.5,
     "description": "Un excellent rapport qualité-prix. Bungalows confortables face à la mer, sur une petite île reliée par un pont. Le restaurant surplombant l'eau est un atout majeur. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité. Le personnel accueillant et professionnel met un point d'honneur à satisfaire chaque demande, garantissant une expérience client exceptionnelle. Les équipements sur place (piscine, restaurant, wifi, etc.) permettent de profiter pleinement de votre séjour sans avoir besoin de quitter l'établissement. L'emplacement stratégique facilite l'accès aux principales attractions de Sainte-Marie, tout en offrant un havre de paix pour se ressourcer. Que ce soit pour un séjour d'affaires ou une escapade touristique, cet établissement répond à toutes les attentes avec professionnalisme.",
-    "image": "images/hotels/placeholder-hotel.jpg",
+    "image": "images/placeholder-hotel.jpg",
     "tags": [
       "Hôtel",
       "saintemarie",
       "dormir",
-      "budget_2"
+      "budget_3"
     ],
     "duree": "Séjour",
     "conseil": "La vue depuis la piscine infinity est à couper le souffle. Petit-déjeuner buffet excellent.",
@@ -33781,8 +31462,8 @@ window.LIEUX_DATA = [
     "categorie": "Hôtel",
     "galerie_photos": [
       {
-        "url": "images/hotels/placeholder-hotel.jpg",
-        "alt": "Libertalia Hotel",
+        "url": "images/placeholder-hotel.jpg",
+        "alt": "Libertalia Hotel, Sainte-Marie (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -33866,7 +31547,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Un excellent rapport qualité-prix. Bungalows confortables face à la mer, sur une petite île reliée par un pont. Le restaurant surplombant l'eau est un atout majeur. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
-    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸"
+    "humour_grok": "Prépare ton portefeuille, tout se négocie. Sauf ta dignité, ça c'est déjà perdu. 💸",
+    "sous_type": "Hôtel",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ],
+    "image_provisoire": true
   },
   {
     "id": 713,
@@ -33879,7 +31566,7 @@ window.LIEUX_DATA = [
     "prixNum": 450000,
     "note": 4.7,
     "description": "Hôtel prestigieux offrant tout le confort moderne. Grande piscine, chambres spacieuses avec vue mer, spa et service impeccable. Idéal pour ceux qui cherchent le standing international. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité. Le personnel accueillant et professionnel met un point d'honneur à satisfaire chaque demande, garantissant une expérience client exceptionnelle. Les équipements sur place (piscine, restaurant, wifi, etc.) permettent de profiter pleinement de votre séjour sans avoir besoin de quitter l'établissement. L'emplacement stratégique facilite l'accès aux principales attractions de Sainte-Marie, tout en offrant un havre de paix pour se ressourcer. Que ce soit pour un séjour d'affaires ou une escapade touristique, cet établissement répond à toutes les attentes avec professionnalisme.",
-    "image": "images/hotels/placeholder-hotel.jpg",
+    "image": "images/placeholder-hotel.jpg",
     "tags": [
       "Hôtel",
       "saintemarie",
@@ -33897,8 +31584,8 @@ window.LIEUX_DATA = [
     "categorie": "Hôtel",
     "galerie_photos": [
       {
-        "url": "images/hotels/placeholder-hotel.jpg",
-        "alt": "Soanambo Hotel",
+        "url": "images/placeholder-hotel.jpg",
+        "alt": "Soanambo Hotel, Sainte-Marie (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -33982,7 +31669,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Hôtel prestigieux offrant tout le confort moderne. Grande piscine, chambres spacieuses avec vue mer, spa et service impeccable. Idéal pour ceux qui cherchent le standing international. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
-    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
+    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸",
+    "sous_type": "Hôtel",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ],
+    "image_provisoire": true
   },
   {
     "id": 714,
@@ -33995,12 +31688,12 @@ window.LIEUX_DATA = [
     "prixNum": 120000,
     "note": 4.3,
     "description": "Des bungalows traditionnels en bois et ravinala, pleins de charme, posés sur la plage. Ambiance familiale et détendue à proximité du village. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité. Le personnel accueillant et professionnel met un point d'honneur à satisfaire chaque demande, garantissant une expérience client exceptionnelle. Les équipements sur place (piscine, restaurant, wifi, etc.) permettent de profiter pleinement de votre séjour sans avoir besoin de quitter l'établissement. L'emplacement stratégique facilite l'accès aux principales attractions de Sainte-Marie, tout en offrant un havre de paix pour se ressourcer. Que ce soit pour un séjour d'affaires ou une escapade touristique, cet établissement répond à toutes les attentes avec professionnalisme.",
-    "image": "images/hotels/placeholder-hotel.jpg",
+    "image": "images/placeholder-hotel.jpg",
     "tags": [
       "Hôtel",
       "saintemarie",
       "dormir",
-      "budget_2"
+      "budget_3"
     ],
     "duree": "Séjour",
     "conseil": "Ambiance très 'vacances'. Les bungalows premier rang plage sont à privilégier pour s'endormir avec le bruit des vagues.",
@@ -34012,8 +31705,8 @@ window.LIEUX_DATA = [
     "categorie": "Hôtel",
     "galerie_photos": [
       {
-        "url": "images/hotels/placeholder-hotel.jpg",
-        "alt": "Vohilava",
+        "url": "images/placeholder-hotel.jpg",
+        "alt": "Vohilava, Sainte-Marie (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -34097,7 +31790,13 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Des bungalows traditionnels en bois et ravinala, pleins de charme, posés sur la plage. Ambiance familiale et détendue à proximité du village. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
-    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀"
+    "humour_grok": "Tu es perdu ? Moi aussi. Mais regarde, c'est joli. 👀",
+    "sous_type": "Hôtel",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ],
+    "image_provisoire": true
   },
   {
     "id": 715,
@@ -34110,12 +31809,12 @@ window.LIEUX_DATA = [
     "prixNum": 90000,
     "note": 4.2,
     "description": "Bungalows sur pilotis au milieu d'un jardin tropical et du lagon. Une expérience 'Robinson Crusoé' confortable et abordable, très appréciée des amoureux de la nature. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité. Le personnel accueillant et professionnel met un point d'honneur à satisfaire chaque demande, garantissant une expérience client exceptionnelle. Les équipements sur place (piscine, restaurant, wifi, etc.) permettent de profiter pleinement de votre séjour sans avoir besoin de quitter l'établissement. L'emplacement stratégique facilite l'accès aux principales attractions de Sainte-Marie, tout en offrant un havre de paix pour se ressourcer. Que ce soit pour un séjour d'affaires ou une escapade touristique, cet établissement répond à toutes les attentes avec professionnalisme.",
-    "image": "images/hotels/placeholder-hotel.jpg",
+    "image": "images/placeholder-hotel.jpg",
     "tags": [
       "Hôtel",
       "saintemarie",
       "dormir",
-      "budget_1"
+      "budget_3"
     ],
     "duree": "Séjour",
     "conseil": "Authenticité garantie. Pas d'électricité 24/24 (solaire), déconnexion assurée. Le meilleur rapport qualité/prix de l'île.",
@@ -34127,8 +31826,8 @@ window.LIEUX_DATA = [
     "categorie": "Hôtel",
     "galerie_photos": [
       {
-        "url": "images/hotels/placeholder-hotel.jpg",
-        "alt": "Lakana Hotel",
+        "url": "images/placeholder-hotel.jpg",
+        "alt": "Lakana Hotel, Sainte-Marie (photo provisoire)",
         "type": "principale"
       }
     ],
@@ -34212,6 +31911,12 @@ window.LIEUX_DATA = [
     },
     "description_summary": "Bungalows sur pilotis au milieu d'un jardin tropical et du lagon. Une expérience 'Robinson Crusoé' confortable et abordable, très appréciée des amoureux de la nature. Les chambres spacieuses et bien équipées offrent tout le confort nécessaire pour un séjour agréable, avec une décoration soignée qui marie tradition et modernité.",
     "has_expandable_description": true,
-    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸"
+    "humour_grok": "Ceci est un lieu touristique. Il y a donc des touristes. Ne fais pas l'étonné. 📸",
+    "sous_type": "Hôtel",
+    "zone": "saintemarie",
+    "ville_alias": [
+      "Nosy Boraha"
+    ],
+    "image_provisoire": true
   }
 ];
