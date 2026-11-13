@@ -64,7 +64,8 @@ const fichiers = SCAN.flatMap(s => walk(path.join(ROOT, s)))
 const RE_MEDIA = /(?:\.\.\/|\.\/|\/)?((?:images|audio|icons)\/[^"'`)\s?#<>\\]+?\.(?:jpe?g|png|webp|svg|gif|ico|mp3|ogg|wav|m4a|mp4|webm))/gi;
 const refs = new Map(); // chemin -> Set(fichiers sources)
 for (const f of fichiers) {
-  const txt = fs.readFileSync(f, 'utf8');
+  // `galerie_a_creer` liste volontairement des photos qui n'existent pas encore : hors périmètre
+  const txt = fs.readFileSync(f, 'utf8').replace(/"galerie_a_creer": \[[^\]]*\]/g, '');
   let m;
   while ((m = RE_MEDIA.exec(txt))) {
     if (m[1].includes('${')) continue; // chemin construit dynamiquement
@@ -72,6 +73,12 @@ for (const f of fichiers) {
     if (!refs.has(p)) refs.set(p, new Set());
     refs.get(p).add(rel(f));
   }
+}
+// Audio des phrases : le chemin est construit à l'exécution (audio/<fichier>)
+{
+  const txt = fs.readFileSync(path.join(ROOT, 'data/phrases.js'), 'utf8');
+  let m; const re = /audio:\s*["']([^"']+)["']/g;
+  while ((m = re.exec(txt))) { const p = 'audio/' + m[1]; if (!refs.has(p)) refs.set(p, new Set()); refs.get(p).add('data/phrases.js'); }
 }
 const manquants = [...refs.keys()].filter(p => !fs.existsSync(path.join(ROOT, p))).sort();
 section('medias_manquants', `Médias référencés mais absents (sur ${refs.size} références uniques)`,
@@ -102,6 +109,15 @@ for (const [ville, ls] of Object.entries(parVille)) {
   });
 }
 section('coords_loin_ville', `Lieux à plus de ${RAYON_VILLE_KM} km de la médiane de leur ville (hors excursions déclarées)`, loin);
+const ZONES = ['antananarivo', 'antsiranana', 'nosybe', 'mahajanga', 'toamasina', 'fianarantsoa', 'toliara', 'saintemarie'];
+section('zone_manquante', 'Lieux sans champ `zone` valide (absents des pages villes et des filtres de la carte)',
+  L.filter(l => !ZONES.includes(l.zone)).map(desc));
+section('coords_arrondies', 'Coordonnées arrondies à une décimale (position à ±5 km, à préciser)',
+  L.filter(l => Number.isInteger(l.lat * 10) && Number.isInteger(l.lng * 10)).map(l => `${desc(l)} → ${l.lat}, ${l.lng}`));
+const parCoord = {};
+L.forEach(l => (parCoord[l.lat + ',' + l.lng] = parCoord[l.lat + ',' + l.lng] || []).push(l));
+section('coords_identiques', 'Lieux différents posés exactement au même point',
+  Object.entries(parCoord).filter(([, v]) => v.length > 1).map(([c, v]) => `${c} ← ${v.map(l => `#${l.id} ${l.nom}`).join(' | ')}`));
 section('y_aller_incoherent', 'Lien « Y aller » dont les coordonnées diffèrent de lat/lng',
   L.filter(l => { const m = /query=(-?[\d.]+),(-?[\d.]+)/.exec(l.y_aller || ''); return m && (Math.abs(+m[1] - l.lat) > 1e-4 || Math.abs(+m[2] - l.lng) > 1e-4); }).map(desc));
 
@@ -115,6 +131,11 @@ section('type_categorie_divergents', 'Lieux dont `categorie` diffère de `type`'
 const CAT_TAGS = ['explorer', 'manger', 'dormir', 'sortir', 'spots'];
 section('sans_tag_categorie', `Lieux sans tag de filtre (${CAT_TAGS.join('/')}) : invisibles dans les filtres`,
   L.filter(l => !(l.tags || []).some(t => CAT_TAGS.includes(t))).map(l => `${desc(l)} [${l.type}]`));
+const niveau = n => n < 25000 ? 1 : n <= 80000 ? 2 : 3;
+section('budget_incoherent', 'Tag budget incohérent avec le prix (€ < 25 000 Ar ≤ €€ ≤ 80 000 Ar < €€€)',
+  L.filter(l => l.prixNum > 0 && !(l.tags || []).includes('budget_' + niveau(l.prixNum))).map(l => `${desc(l)} → ${l.prix}`));
+section('contacts_fictifs', 'Fiches dont un bouton pointe vers « /contact » (page inexistante) ou vers le numéro WhatsApp d’exemple (boutons neutralisés à l’affichage)',
+  L.filter(l => /"\/contact"|261340001234/.test(JSON.stringify(l.actions_principales || {}))).map(desc));
 section('sans_tag_budget', 'Lieux sans tag budget_1/2/3', L.filter(l => !(l.tags || []).some(t => /^budget_[123]$/.test(t))).map(desc));
 
 const idc = {}; L.forEach(l => (idc[l.id] = idc[l.id] || []).push(l.nom));
@@ -137,6 +158,17 @@ section('quasi_doublons', 'Doublons probables (mot-clé commun, même type, moin
 
 const villes = Object.keys(parVille);
 section('villes', 'Villes distinctes (contrôle visuel des variantes)', villes.sort().map(v => `${v} × ${parVille[v].length}`));
+
+// Circuits : chaque étape doit pointer vers une fiche existante
+{
+  const w = {}; new Function('window', fs.readFileSync(path.join(ROOT, 'data/itineraires.js'), 'utf8'))(w);
+  const ids = new Set(L.map(l => l.id)), orphelins = [];
+  (function parcours(o, circuit) {
+    if (Array.isArray(o)) return o.forEach(x => parcours(x, circuit));
+    if (o && typeof o === 'object') for (const k in o) { if (k === 'lieux_ids') o[k].filter(x => !ids.has(x)).forEach(x => orphelins.push(`${circuit} → lieu #${x} introuvable`)); else parcours(o[k], o.id && typeof o.id === 'string' ? o.id : circuit); }
+  })(w.ITINERAIRES_DATA, '?');
+  section('circuits_lieux_introuvables', 'Étapes de circuits pointant vers une fiche inexistante', orphelins, { bloquant: true });
+}
 
 // ---------- 4. Images des lieux ----------
 const estPlaceholder = p => /placeholder/i.test(p || '');
