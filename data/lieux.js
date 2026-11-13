@@ -54,53 +54,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.091Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 100,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.2797,
@@ -164,47 +124,8 @@ window.LIEUX_DATA = [
         "type": "secondaire"
       }
     ],
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 138,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.5,
-        "confort": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Patrick D.",
-          "origine": "France",
-          "date": "2025-12-22",
-          "note": 5,
-          "commentaire": "Hôtel magnifique avec toutes les commodités. Le spa est excellent et le personnel très professionnel. Parfait pour un séjour de luxe à Diego.",
-          "verifie": true
-        },
-        {
-          "auteur": "Hery R.",
-          "origine": "Madagascar",
-          "date": "2025-12-15",
-          "note": 4,
-          "commentaire": "Très bon hôtel, piscine agréable. Petit-déjeuner copieux. Le casino est un plus pour les soirées.",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "infos_pratiques": {
       "horaires": {
@@ -247,7 +168,6 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.096Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
@@ -332,53 +252,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.098Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 86,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.683,
@@ -450,53 +330,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.099Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 110,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.533,
@@ -567,53 +407,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.099Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 138,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.67,
@@ -686,53 +486,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.101Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 100,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -13.75,
@@ -802,53 +562,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.101Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 141,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.4,
@@ -930,53 +650,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.103Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 85,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.9151,
@@ -1056,53 +736,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.103Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 97,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.9087,
@@ -1184,53 +824,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.104Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 59,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -18.9352,
@@ -1310,53 +910,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.105Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4,
-      "nombre_avis": 107,
-      "detail_notes": {
-        "accessibilite": 3.8,
-        "rapport_qualite_prix": 4.1,
-        "experience_globale": 4,
-        "beaute_naturelle": 4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.9151,
@@ -1429,53 +989,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.105Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 99,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -14.2667,
@@ -1548,53 +1068,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.106Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 106,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -14.4394,
@@ -1664,53 +1144,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.107Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 76,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -14.8833,
@@ -1782,53 +1222,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.107Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 139,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.2667,
@@ -1900,53 +1300,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.107Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 63,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -14.9083,
@@ -2021,48 +1381,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.111Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 135,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.hotel-restaurant-lavarangue-tananarive.com",
@@ -2147,53 +1472,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.111Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 75,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.7614,
@@ -2274,53 +1559,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.112Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 96,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -18.9667,
@@ -2401,53 +1646,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.113Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 82,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.904,
@@ -2487,7 +1692,6 @@ window.LIEUX_DATA = [
       "Restaurant",
       "manger",
       "tana",
-      "explorer",
       "budget_2",
       "gastronomie"
     ],
@@ -2526,48 +1730,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.113Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 67,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.kudeta.com",
@@ -2588,7 +1757,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tana",
       "Tananarive"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 519,
@@ -2651,48 +1824,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.114Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 75,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://lokanga-hotel.mg",
@@ -2732,7 +1870,6 @@ window.LIEUX_DATA = [
     "horaires": "12h-14h et 19h-22h",
     "conseil": "Ne partez pas sans goûter à leurs glaces maison en dessert.",
     "duree": "1h30",
-    "siteWeb": "https://www.facebook.com",
     "tags": [
       "Restaurant",
       "tana",
@@ -2775,48 +1912,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.115Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 144,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.facebook.com",
@@ -2837,7 +1939,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tana",
       "Tananarive"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 521,
@@ -2899,53 +2005,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.115Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 140,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -18.9115,
@@ -3025,53 +2091,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.115Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 103,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -18.906,
@@ -3110,7 +2136,6 @@ window.LIEUX_DATA = [
     "tags": [
       "Hôtel",
       "tana",
-      "explorer",
       "dormir",
       "budget_3",
       "culture"
@@ -3156,53 +2181,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.116Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 126,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -18.915,
@@ -3224,7 +2209,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tana",
       "Tananarive"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 524,
@@ -3287,53 +2276,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.116Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 58,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -18.918,
@@ -3349,7 +2298,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tana",
       "Tananarive"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 525,
@@ -3413,53 +2366,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.117Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 126,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -18.92,
@@ -3497,7 +2410,6 @@ window.LIEUX_DATA = [
     "siteWeb": "https://www.nocomment.mg",
     "tags": [
       "Bar & Sortir",
-      "explorer",
       "tana",
       "budget_1",
       "sortir"
@@ -3539,53 +2451,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.117Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 75,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.9155,
@@ -3620,7 +2492,6 @@ window.LIEUX_DATA = [
     "horaires": "18h-5h tous les jours",
     "conseil": "L’entrée est souvent gratuite mais conso obligatoire. Surveillez vos affaires.",
     "duree": "Nuit blanche",
-    "siteWeb": "https://www.facebook.com",
     "tags": [
       "Bar & Sortir",
       "tana",
@@ -3664,53 +2535,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.117Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 79,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.905,
@@ -3726,7 +2557,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tana",
       "Tananarive"
-    ]
+    ],
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 528,
@@ -3750,7 +2585,6 @@ window.LIEUX_DATA = [
       "Bar & Sortir",
       "tana",
       "spots",
-      "explorer",
       "budget_1",
       "culture",
       "sortir"
@@ -3792,53 +2626,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.117Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 137,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.925,
@@ -3854,7 +2648,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tana",
       "Tananarive"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 529,
@@ -3919,53 +2717,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.118Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 90,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.908,
@@ -4045,53 +2803,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.119Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 87,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.91,
@@ -4107,7 +2825,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tana",
       "Tananarive"
-    ]
+    ],
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 531,
@@ -4172,53 +2894,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.120Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 106,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -19.05,
@@ -4294,53 +2976,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.120Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 77,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -19,
@@ -4414,53 +3056,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.121Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 66,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -19.03,
@@ -4536,53 +3138,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.121Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 66,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -19.9333,
@@ -4658,53 +3220,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.122Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 82,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -19.8667,
@@ -4788,53 +3310,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.122Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 91,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Claire B.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Plage paradisiaque ! Eau cristalline et sable blanc. Parfait pour le snorkeling.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Hery M.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très belle plage, peu fréquentée en semaine. Idéal pour se détendre.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "plage_lagon",
-      "cta_principal": {
-        "texte": "Réserver une Sortie Bateau",
-        "url": "/contact",
-        "couleur": "bleu",
-        "icone": "⛵"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "plage_lagon"
     },
     "carte_interactive": {
       "latitude": -12.2167,
@@ -4918,53 +3400,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.122Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 88,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.164,
@@ -5057,53 +3499,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.123Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 94,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Claire B.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Plage paradisiaque ! Eau cristalline et sable blanc. Parfait pour le snorkeling.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Hery M.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très belle plage, peu fréquentée en semaine. Idéal pour se détendre.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "plage_lagon",
-      "cta_principal": {
-        "texte": "Réserver une Sortie Bateau",
-        "url": "/contact",
-        "couleur": "bleu",
-        "icone": "⛵"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "plage_lagon"
     },
     "carte_interactive": {
       "latitude": -12.25,
@@ -5196,53 +3598,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.123Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 134,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -12.5186,
@@ -5329,53 +3691,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.124Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 59,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.633,
@@ -5461,53 +3783,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.124Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 129,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.35,
@@ -5590,53 +3872,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.124Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 102,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -12.32,
@@ -5694,47 +3936,8 @@ window.LIEUX_DATA = [
         "type": "secondaire"
       }
     ],
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 142,
-      "detail_notes": {
-        "accessibilite": 4.8,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.7,
-        "qualite_cuisine": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "François B.",
-          "origine": "France",
-          "date": "2025-12-18",
-          "note": 5,
-          "commentaire": "Cadre magnifique avec vue sur la baie. Les langoustes grillées étaient parfaites. Service impeccable et chaleureux !",
-          "verifie": true
-        },
-        {
-          "auteur": "Lisa M.",
-          "origine": "Madagascar",
-          "date": "2025-12-10",
-          "note": 5,
-          "commentaire": "Un incontournable de Diego ! Coucher de soleil spectaculaire depuis la terrasse. Le crabe farci est à tomber.",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter le restaurant",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "restaurant"
     },
     "infos_pratiques": {
       "horaires": {
@@ -5776,7 +3979,6 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.124Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
@@ -5862,48 +4064,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.125Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 113,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.tripadvisor.fr/Restaurant_Review-g303985-d2217997-Reviews-La_Cambusa-Antsiranana_Diego_Suarez_Diana_Region.html",
@@ -5996,53 +4163,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.125Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 137,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -12.2634,
@@ -6129,53 +4256,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.127Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 96,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.3056,
@@ -6191,7 +4278,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Antsiranana",
       "Diego"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 102,
@@ -6260,53 +4351,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.128Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 112,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.2789,
@@ -6347,12 +4398,10 @@ window.LIEUX_DATA = [
     "horaires": "Midi et Soir, fermé dimanche",
     "conseil": "Leur filet de zébu au poivre vert de Madagascar est un classique indémodable.",
     "duree": "2h",
-    "siteWeb": "https://www.tripadvisor.com",
     "tags": [
       "Restaurant",
       "diego",
       "manger",
-      "explorer",
       "budget_2",
       "gastronomie",
       "culture"
@@ -6392,48 +4441,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.128Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 89,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.tripadvisor.com",
@@ -6519,53 +4533,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.128Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 79,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.271,
@@ -6581,7 +4555,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Antsiranana",
       "Diego"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 105,
@@ -6645,53 +4623,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.129Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 147,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.2715,
@@ -6707,7 +4645,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Antsiranana",
       "Diego"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 106,
@@ -6726,11 +4668,9 @@ window.LIEUX_DATA = [
     "horaires": "23h - Aube",
     "conseil": "Tenue correcte exigée (pantalon pour les hommes), l’ambiance est un peu plus chic.",
     "duree": "Nuit",
-    "siteWeb": "https://www.facebook.com",
     "tags": [
       "Bar & Sortir",
       "diego",
-      "dormir",
       "budget_1",
       "sortir"
     ],
@@ -6771,53 +4711,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.129Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 111,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.2725,
@@ -6833,6 +4733,14 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Antsiranana",
       "Diego"
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Référencé en ligne sous le nom « Le Fun (ex Nouvel Hôtel) », 75 rue Colbert."
+    },
+    "alias": [
+      "Le Fun"
     ]
   },
   {
@@ -6902,53 +4810,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.129Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 132,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -12.3174,
@@ -7026,53 +4894,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.130Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 83,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.27,
@@ -7149,53 +4977,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.130Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 56,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.26,
@@ -7275,53 +5063,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.131Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 113,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.28,
@@ -7398,53 +5146,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.131Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 142,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.25,
@@ -7522,53 +5230,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.131Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 55,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.27300778403283,
@@ -7584,7 +5252,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Antsiranana",
       "Diego"
-    ]
+    ],
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13",
+      "note": "Aucun « Gîte du Voyageur » trouvé à Diego ; il existe un hôtel « La Terrasse du Voyageur »."
+    }
   },
   {
     "id": 60,
@@ -7646,53 +5319,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.132Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 65,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.9667,
@@ -7776,53 +5409,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.133Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 111,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.2205,
@@ -7908,53 +5501,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.133Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 93,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.4619,
@@ -8041,53 +5594,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.133Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 126,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 5.1
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -13.4833,
@@ -8174,53 +5687,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.134Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 81,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.596,
@@ -8310,53 +5783,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.134Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 54,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -13.4147,
@@ -8442,53 +5875,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.134Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 97,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.3214,
@@ -8570,53 +5963,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.135Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 145,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.3556,
@@ -8695,53 +6048,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.136Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 65,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.3639,
@@ -8821,53 +6134,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.137Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 130,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.3108,
@@ -8944,48 +6217,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.137Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 78,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://heurebleue.com",
@@ -9005,6 +6243,13 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "alias": [
+      "Le Deck de l’Heure Bleue"
     ]
   },
   {
@@ -9070,53 +6315,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.138Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 92,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.3634,
@@ -9194,53 +6399,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.138Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 107,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.3508,
@@ -9324,53 +6489,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.139Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 112,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.3456,
@@ -9451,53 +6576,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.139Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 143,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.335,
@@ -9577,53 +6662,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.139Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 149,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.34,
@@ -9638,7 +6683,11 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 203,
@@ -9658,7 +6707,6 @@ window.LIEUX_DATA = [
     "tags": [
       "Hôtel",
       "nosybe",
-      "explorer",
       "dormir",
       "budget_3",
       "luxe"
@@ -9703,53 +6751,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.140Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 52,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.3,
@@ -9827,53 +6835,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.140Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 65,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.28,
@@ -9951,53 +6919,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.140Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 60,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.36,
@@ -10074,53 +7002,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.141Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 113,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
-      "cta_secondaire": {
-        "texte": "Appeler le restaurant",
-        "url": "/contact",
-        "type": "phone"
-      }
+      "type_lieu": "restaurant"
     },
     "carte_interactive": {
       "latitude": -13.365,
@@ -10195,53 +7083,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.141Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 91,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
-      "cta_secondaire": {
-        "texte": "Appeler le restaurant",
-        "url": "/contact",
-        "type": "phone"
-      }
+      "type_lieu": "restaurant"
     },
     "carte_interactive": {
       "latitude": -13.4,
@@ -10256,7 +7104,11 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 208,
@@ -10316,53 +7168,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.142Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 112,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
-      "cta_secondaire": {
-        "texte": "Appeler le restaurant",
-        "url": "/contact",
-        "type": "phone"
-      }
+      "type_lieu": "restaurant"
     },
     "carte_interactive": {
       "latitude": -13.362,
@@ -10377,7 +7189,11 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 209,
@@ -10437,53 +7253,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.142Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 110,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
-      "cta_secondaire": {
-        "texte": "Appeler le restaurant",
-        "url": "/contact",
-        "type": "phone"
-      }
+      "type_lieu": "restaurant"
     },
     "carte_interactive": {
       "latitude": -13.32,
@@ -10498,7 +7274,11 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 214,
@@ -10559,48 +7339,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.143Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 101,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.facebook.com/cacaobeachnosybe",
@@ -10620,7 +7365,11 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 215,
@@ -10644,7 +7393,6 @@ window.LIEUX_DATA = [
       "Restaurant",
       "manger",
       "nosybe",
-      "explorer",
       "budget_2",
       "aventure"
     ],
@@ -10683,48 +7431,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.144Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 142,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.facebook.com/safariambaro",
@@ -10744,7 +7457,12 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13",
+      "note": "Un « Safari Bar Restaurant » existe à Ambatoloaka ; le nom « Safari Ambaro » n’a pas été retrouvé."
+    }
   },
   {
     "id": 210,
@@ -10764,7 +7482,6 @@ window.LIEUX_DATA = [
       "Bar & Sortir",
       "nosybe",
       "spots",
-      "explorer",
       "budget_1",
       "sortir"
     ],
@@ -10810,53 +7527,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.144Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 80,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -13.361,
@@ -10871,7 +7548,11 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 211,
@@ -10933,53 +7614,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.145Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 96,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.402,
@@ -10994,7 +7635,11 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 212,
@@ -11056,53 +7701,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.145Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 145,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.363,
@@ -11117,7 +7722,11 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 213,
@@ -11179,53 +7788,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.145Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 104,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.318,
@@ -11240,7 +7809,11 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 31,
@@ -11303,53 +7876,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.146Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 101,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.6667,
@@ -11429,53 +7962,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.146Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 70,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -15.7167,
@@ -11558,53 +8051,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.147Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 107,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.7234,
@@ -11644,7 +8097,8 @@ window.LIEUX_DATA = [
       "manger",
       "majunga",
       "explorer",
-      "budget_1"
+      "budget_1",
+      "sortir"
     ],
     "price": "Gratuit",
     "rating": 4.6,
@@ -11683,53 +8137,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.147Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 52,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.7167,
@@ -11744,6 +8158,13 @@ window.LIEUX_DATA = [
     "zone": "mahajanga",
     "ville_alias": [
       "Majunga"
+    ],
+    "alias": [
+      "Bord de Mer",
+      "Bord de mer de Majunga"
+    ],
+    "fusion_de": [
+      626
     ]
   },
   {
@@ -11810,53 +8231,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.147Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 126,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -16.3167,
@@ -11939,53 +8320,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.148Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 67,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.7456,
@@ -12071,53 +8412,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.148Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 105,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.5234,
@@ -12191,48 +8492,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.148Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 133,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.facebook.com/ChezKaronMajunga",
@@ -12316,53 +8582,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.149Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 106,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.7156,
@@ -12441,53 +8667,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.149Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 115,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.7234,
@@ -12568,53 +8754,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.149Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 120,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -15.65,
@@ -12695,53 +8841,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.150Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 115,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.6667,
@@ -12819,48 +8925,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.150Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 52,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://restaurantleguest.com",
@@ -12880,7 +8951,11 @@ window.LIEUX_DATA = [
     "zone": "mahajanga",
     "ville_alias": [
       "Majunga"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 503,
@@ -12946,53 +9021,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.150Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 142,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.718,
@@ -13007,7 +9042,11 @@ window.LIEUX_DATA = [
     "zone": "mahajanga",
     "ville_alias": [
       "Majunga"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 504,
@@ -13026,12 +9065,10 @@ window.LIEUX_DATA = [
     "horaires": "10h-21h",
     "conseil": "Commandez le poisson grillé entier du jour, simple et délicieux.",
     "duree": "2h",
-    "siteWeb": "https://www.facebook.com",
     "tags": [
       "Restaurant",
       "manger",
       "majunga",
-      "explorer",
       "budget_2"
     ],
     "price": "25 000 Ar",
@@ -13069,48 +9106,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.151Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 145,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.facebook.com",
@@ -13197,53 +9199,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.151Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 148,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.66,
@@ -13280,7 +9242,6 @@ window.LIEUX_DATA = [
     "siteWeb": "https://baobab-tree-hotel.mg",
     "tags": [
       "Hôtel",
-      "explorer",
       "majunga",
       "dormir",
       "budget_3",
@@ -13323,53 +9284,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.151Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 91,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -15.725,
@@ -13384,7 +9305,11 @@ window.LIEUX_DATA = [
     "zone": "mahajanga",
     "ville_alias": [
       "Majunga"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 506,
@@ -13449,53 +9374,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.152Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 145,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -15.58,
@@ -13572,53 +9457,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.153Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 74,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -15.67,
@@ -13655,7 +9500,6 @@ window.LIEUX_DATA = [
     "siteWeb": "https://rochesrouges.mg",
     "tags": [
       "Hôtel",
-      "explorer",
       "majunga",
       "dormir",
       "budget_3"
@@ -13696,53 +9540,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.153Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 96,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -15.7185,
@@ -13757,7 +9561,11 @@ window.LIEUX_DATA = [
     "zone": "mahajanga",
     "ville_alias": [
       "Majunga"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 511,
@@ -13776,12 +9584,10 @@ window.LIEUX_DATA = [
     "horaires": "18h-5h (fermé Lundi)",
     "conseil": "Arrivez vers minuit pour l’ambiance maximale côté club.",
     "duree": "Soirée",
-    "siteWeb": "https://www.facebook.com",
     "tags": [
       "Bar & Sortir",
       "majunga",
       "spots",
-      "explorer",
       "budget_1",
       "sortir"
     ],
@@ -13822,53 +9628,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.153Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 85,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.72,
@@ -13883,7 +9649,11 @@ window.LIEUX_DATA = [
     "zone": "mahajanga",
     "ville_alias": [
       "Majunga"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 512,
@@ -13902,10 +9672,8 @@ window.LIEUX_DATA = [
     "horaires": "10h-22h",
     "conseil": "Leur planteur maison est redoutable mais délicieux !",
     "duree": "2h",
-    "siteWeb": "https://www.facebook.com",
     "tags": [
       "Bar & Sortir",
-      "explorer",
       "majunga",
       "budget_1",
       "sortir"
@@ -13947,53 +9715,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.154Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 84,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.665,
@@ -14008,7 +9736,11 @@ window.LIEUX_DATA = [
     "zone": "mahajanga",
     "ville_alias": [
       "Majunga"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 513,
@@ -14072,53 +9804,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.154Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 66,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.715,
@@ -14133,7 +9825,11 @@ window.LIEUX_DATA = [
     "zone": "mahajanga",
     "ville_alias": [
       "Majunga"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 514,
@@ -14197,53 +9893,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.154Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 84,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.719,
@@ -14258,7 +9914,11 @@ window.LIEUX_DATA = [
     "zone": "mahajanga",
     "ville_alias": [
       "Majunga"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 41,
@@ -14324,53 +9984,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.155Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 104,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -18.9333,
@@ -14454,53 +10074,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.155Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 91,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -18.935,
@@ -14580,53 +10160,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.155Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 79,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.9389,
@@ -14702,53 +10242,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.156Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 77,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -22.5833,
@@ -14825,53 +10325,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.156Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 101,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -22.55,
@@ -14950,53 +10410,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.156Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 61,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -22.5678,
@@ -15074,53 +10494,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.157Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 138,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.15,
@@ -15208,53 +10588,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.157Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 107,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.1667,
@@ -15342,53 +10682,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.158Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 50,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.1723,
@@ -15405,7 +10705,7 @@ window.LIEUX_DATA = [
   {
     "id": 50,
     "ville": "Ankarana",
-    "nom": "Réserve Spéciale de l’Ankarana",
+    "nom": "Parc National de l’Ankarana",
     "type": "Incontournable",
     "lat": -12.9167,
     "lng": 49.0833,
@@ -15437,7 +10737,7 @@ window.LIEUX_DATA = [
     "galerie_photos": [
       {
         "url": "images/spots/ankarana.jpg",
-        "alt": "Réserve Spéciale de l’Ankarana",
+        "alt": "Parc National de l’Ankarana, Ankarana",
         "type": "principale"
       }
     ],
@@ -15466,53 +10766,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.158Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 138,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.9167,
@@ -15526,7 +10786,8 @@ window.LIEUX_DATA = [
     "alias": [
       "Ankarana",
       "Réserve Ankarana",
-      "Parc National Ankarana"
+      "Parc National Ankarana",
+      "Réserve Spéciale de l’Ankarana"
     ],
     "fusion_de": [
       613,
@@ -15600,53 +10861,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.158Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 141,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -12.9234,
@@ -15728,53 +10949,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.159Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 61,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.9312,
@@ -15850,53 +11031,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.159Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 59,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -16.1667,
@@ -15973,53 +11114,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.160Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 65,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -16.1833,
@@ -16098,53 +11199,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.161Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 68,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -16.1734,
@@ -16219,53 +11280,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.162Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 143,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.4536,
@@ -16342,53 +11363,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.163Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 78,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.4447,
@@ -16467,53 +11448,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.163Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 145,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -21.4,
@@ -16590,53 +11531,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.164Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 58,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.451,
@@ -16713,53 +11614,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.164Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 127,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.448,
@@ -16834,53 +11695,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.164Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 144,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
-      "cta_secondaire": {
-        "texte": "Appeler le restaurant",
-        "url": "/contact",
-        "type": "phone"
-      }
+      "type_lieu": "restaurant"
     },
     "carte_interactive": {
       "latitude": -21.449,
@@ -16895,7 +11716,11 @@ window.LIEUX_DATA = [
     "zone": "fianarantsoa",
     "ville_alias": [
       "Fianar"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 306,
@@ -16918,7 +11743,6 @@ window.LIEUX_DATA = [
       "Restaurant",
       "fianar",
       "manger",
-      "explorer",
       "budget_2",
       "culture"
     ],
@@ -16957,53 +11781,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.165Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 114,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
-      "cta_secondaire": {
-        "texte": "Appeler le restaurant",
-        "url": "/contact",
-        "type": "phone"
-      }
+      "type_lieu": "restaurant"
     },
     "carte_interactive": {
       "latitude": -21.452,
@@ -17018,7 +11802,11 @@ window.LIEUX_DATA = [
     "zone": "fianarantsoa",
     "ville_alias": [
       "Fianar"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 307,
@@ -17080,53 +11868,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.165Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 111,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
-      "cta_secondaire": {
-        "texte": "Appeler le restaurant",
-        "url": "/contact",
-        "type": "phone"
-      }
+      "type_lieu": "restaurant"
     },
     "carte_interactive": {
       "latitude": -21.46,
@@ -17141,7 +11889,11 @@ window.LIEUX_DATA = [
     "zone": "fianarantsoa",
     "ville_alias": [
       "Fianar"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 308,
@@ -17202,53 +11954,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.165Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 51,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
-      "cta_secondaire": {
-        "texte": "Appeler le restaurant",
-        "url": "/contact",
-        "type": "phone"
-      }
+      "type_lieu": "restaurant"
     },
     "carte_interactive": {
       "latitude": -21.446,
@@ -17263,7 +11975,11 @@ window.LIEUX_DATA = [
     "zone": "fianarantsoa",
     "ville_alias": [
       "Fianar"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 309,
@@ -17285,9 +12001,7 @@ window.LIEUX_DATA = [
     "tags": [
       "Restaurant",
       "fianar",
-      "dormir",
       "budget_2",
-      "manger",
       "manger"
     ],
     "price": "35 000 Ar",
@@ -17325,53 +12039,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.166Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 131,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
-      "cta_secondaire": {
-        "texte": "Appeler le restaurant",
-        "url": "/contact",
-        "type": "phone"
-      }
+      "type_lieu": "restaurant"
     },
     "carte_interactive": {
       "latitude": -21.443,
@@ -17386,7 +12060,11 @@ window.LIEUX_DATA = [
     "zone": "fianarantsoa",
     "ville_alias": [
       "Fianar"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 310,
@@ -17409,7 +12087,6 @@ window.LIEUX_DATA = [
       "Bar & Sortir",
       "fianar",
       "spots",
-      "explorer",
       "budget_1",
       "culture",
       "sortir"
@@ -17451,53 +12128,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.166Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 132,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.447,
@@ -17512,7 +12149,11 @@ window.LIEUX_DATA = [
     "zone": "fianarantsoa",
     "ville_alias": [
       "Fianar"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 311,
@@ -17576,53 +12217,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.167Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 62,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.4455,
@@ -17637,7 +12238,11 @@ window.LIEUX_DATA = [
     "zone": "fianarantsoa",
     "ville_alias": [
       "Fianar"
-    ]
+    ],
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 312,
@@ -17658,7 +12263,6 @@ window.LIEUX_DATA = [
     "tags": [
       "Bar & Sortir",
       "fianar",
-      "dormir",
       "budget_1",
       "spots",
       "sortir"
@@ -17701,53 +12305,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.167Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4,
-      "nombre_avis": 143,
-      "detail_notes": {
-        "accessibilite": 3.8,
-        "rapport_qualite_prix": 4.1,
-        "experience_globale": 4,
-        "beaute_naturelle": 4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.442,
@@ -17783,7 +12347,6 @@ window.LIEUX_DATA = [
     "tags": [
       "Bar & Sortir",
       "fianar",
-      "dormir",
       "budget_1",
       "detente",
       "sortir"
@@ -17826,53 +12389,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.168Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 51,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.4605,
@@ -17908,7 +12431,6 @@ window.LIEUX_DATA = [
     "tags": [
       "Bar & Sortir",
       "fianar",
-      "dormir",
       "budget_1",
       "sortir"
     ],
@@ -17950,53 +12472,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.168Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 128,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.444,
@@ -18076,53 +12558,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.169Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 82,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.453,
@@ -18202,53 +12644,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.170Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 87,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.44,
@@ -18328,53 +12730,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.171Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 54,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.435,
@@ -18454,53 +12816,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.171Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 126,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.455,
@@ -18580,53 +12902,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.171Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 131,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.458,
@@ -18704,53 +12986,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.172Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 83,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.443,
@@ -18765,7 +13007,11 @@ window.LIEUX_DATA = [
     "zone": "fianarantsoa",
     "ville_alias": [
       "Fianar"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 322,
@@ -18827,53 +13073,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.172Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 70,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.4465,
@@ -18888,7 +13094,11 @@ window.LIEUX_DATA = [
     "zone": "fianarantsoa",
     "ville_alias": [
       "Fianar"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 323,
@@ -18951,53 +13161,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.173Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 84,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.448,
@@ -19012,7 +13182,11 @@ window.LIEUX_DATA = [
     "zone": "fianarantsoa",
     "ville_alias": [
       "Fianar"
-    ]
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 400,
@@ -19077,53 +13251,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.174Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 120,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -23.4167,
@@ -19204,53 +13338,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.174Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 149,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -23.55,
@@ -19331,53 +13425,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.175Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 72,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.65,
@@ -19456,53 +13510,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.175Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 94,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.355,
@@ -19580,48 +13594,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.176Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 92,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.facebook.com/giancarlo.faussone",
@@ -19703,48 +13682,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.176Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 135,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.facebook.com/chezfreddyifaty",
@@ -19826,53 +13770,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.177Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 107,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
-      "cta_secondaire": {
-        "texte": "Appeler le restaurant",
-        "url": "/contact",
-        "type": "phone"
-      }
+      "type_lieu": "restaurant"
     },
     "carte_interactive": {
       "latitude": -23.356,
@@ -19912,7 +13816,6 @@ window.LIEUX_DATA = [
       "Restaurant",
       "manger",
       "tulear",
-      "explorer",
       "budget_2"
     ],
     "price": "30 000 Ar",
@@ -19950,48 +13853,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.177Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 90,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "http://www.longovezo.com",
@@ -20009,7 +13877,11 @@ window.LIEUX_DATA = [
     "humour_grok": "L'addition arrivera... un jour. Peut-être. Profite pour digérer. 🧾",
     "sous_type": "Restaurant",
     "depart_de": "Toliara",
-    "zone": "toliara"
+    "zone": "toliara",
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 410,
@@ -20077,53 +13949,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.178Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 129,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.54,
@@ -20209,53 +14041,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.178Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 120,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.353,
@@ -20336,53 +14128,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.179Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 70,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.652,
@@ -20460,53 +14212,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.179Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 104,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.15,
@@ -20582,53 +14294,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.180Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 56,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.1,
@@ -20641,7 +14313,8 @@ window.LIEUX_DATA = [
     "humour_grok": "Si tu trouves une bête bizarre dans ta chambre, donne-lui un prénom. Ça fait moins peur. 🕷️",
     "sous_type": "Hotel",
     "depart_de": "Toliara",
-    "zone": "toliara"
+    "zone": "toliara",
+    "position_approx": true
   },
   {
     "id": 415,
@@ -20662,7 +14335,6 @@ window.LIEUX_DATA = [
     "duree": "Soirée",
     "tags": [
       "Bar & Sortir",
-      "explorer",
       "tulear",
       "budget_1",
       "sortir"
@@ -20704,53 +14376,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.180Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 139,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.357,
@@ -20766,7 +14398,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tuléar",
       "Tulear"
-    ]
+    ],
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 416,
@@ -20787,7 +14423,6 @@ window.LIEUX_DATA = [
     "duree": "Soirée",
     "tags": [
       "Bar & Sortir",
-      "dormir",
       "tulear",
       "spots",
       "budget_1",
@@ -20830,53 +14465,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.180Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 128,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.358,
@@ -20956,53 +14551,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.181Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 105,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.351,
@@ -21080,53 +14635,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.181Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 140,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.12,
@@ -21139,7 +14654,11 @@ window.LIEUX_DATA = [
     "humour_grok": "C'est ici que les légendes naissent et que les dignités meurent. Santé ! 🥂",
     "sous_type": "Bar",
     "depart_de": "Toliara",
-    "zone": "toliara"
+    "zone": "toliara",
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 615,
@@ -21202,53 +14721,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.182Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": "4.5",
-      "nombre_avis": 109,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.5",
-        "beaute_naturelle": "4.5"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.2167,
@@ -21326,53 +14805,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.183Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": "4.8",
-      "nombre_avis": 72,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.8",
-        "beaute_naturelle": "4.8"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.3,
@@ -21388,7 +14827,8 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Antsiranana",
       "Diego"
-    ]
+    ],
+    "position_approx": true
   },
   {
     "id": 620,
@@ -21449,53 +14889,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.184Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": "4.7",
-      "nombre_avis": 87,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.7",
-        "beaute_naturelle": "4.7"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.4,
@@ -21510,7 +14910,12 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "position_approx": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "id": 621,
@@ -21571,53 +14976,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.184Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": "4.5",
-      "nombre_avis": 103,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.5",
-        "beaute_naturelle": "4.5"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -13.3,
@@ -21632,7 +14997,8 @@ window.LIEUX_DATA = [
     "zone": "nosybe",
     "ville_alias": [
       "Nosy-Be"
-    ]
+    ],
+    "position_approx": true
   },
   {
     "id": 623,
@@ -21694,53 +15060,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.186Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": "4.6",
-      "nombre_avis": 111,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.6",
-        "beaute_naturelle": "4.6"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.9,
@@ -21756,7 +15082,8 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tana",
       "Tananarive"
-    ]
+    ],
+    "position_approx": true
   },
   {
     "id": 625,
@@ -21820,53 +15147,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.187Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": "4.3",
-      "nombre_avis": 115,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.3",
-        "beaute_naturelle": null
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -18.8,
@@ -21882,133 +15169,8 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tana",
       "Tananarive"
-    ]
-  },
-  {
-    "id": 626,
-    "nom": "Bord de Mer",
-    "ville": "Mahajanga",
-    "type": "Bar & Sortir",
-    "prix": "Gratuit",
-    "prixNum": 0,
-    "note": "4.6",
-    "image": "images/iles/plage-mahajanga.jpg",
-    "description": "Le cœur vibrant de la ville le soir. Brochettes, baobab et ambiance festive. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
-    "tags": [
-      "Bar & Sortir",
-      "majunga",
-      "spots",
-      "explorer",
-      "budget_1",
-      "sortir"
     ],
-    "spotLocal": true,
-    "lat": -15.7167,
-    "lng": 46.3167,
-    "price": "Gratuit",
-    "rating": "4.6",
-    "duration": "Libre",
-    "local_access_required": true,
-    "conseil": "Parfait pour le coucher de soleil. Arrivez vers 17h for la meilleure place.",
-    "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
-    "horaires": "11h00 - 22h00 (Cuisine en continu)",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.7167,46.3167",
-    "duree": "2h à 4h",
-    "categorie": "Bar & Sortir",
-    "galerie_photos": [
-      {
-        "url": "images/iles/plage-mahajanga.jpg",
-        "alt": "Bord de Mer",
-        "type": "principale"
-      }
-    ],
-    "hasCarousel": false,
-    "infos_pratiques": {
-      "horaires": {
-        "lundi_vendredi": "8h-17h",
-        "weekend": "8h-17h"
-      },
-      "meilleure_periode": {
-        "saison_ideale": "Toute l'année",
-        "eviter": "Aucune restriction"
-      },
-      "a_prevoir": {
-        "equipement": [
-          "Vêtements confortables",
-          "Eau",
-          "Appareil photo"
-        ],
-        "conseils": "Prenez votre temps et profitez !"
-      }
-    },
-    "_metadata": {
-      "standardized": true,
-      "version": "2026.2",
-      "date": "2026-01-02T08:55:12.187Z",
-      "model": "Montagne d'Ambre",
-      "features": [
-        "avis",
-        "actions",
-        "carte",
-        "accordeon"
-      ]
-    },
-    "avis": {
-      "note_globale": "4.6",
-      "nombre_avis": 58,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.6",
-        "beaute_naturelle": "4.6"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
-    "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
-    },
-    "carte_interactive": {
-      "latitude": -15.7167,
-      "longitude": 46.3167,
-      "zoom_defaut": 13,
-      "afficher_dans_fiche": true
-    },
-    "description_summary": "Le cœur vibrant de la ville le soir. Brochettes, baobab et ambiance festive. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
-    "has_expandable_description": true,
-    "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹",
-    "sous_type": "Bar",
-    "zone": "mahajanga",
-    "ville_alias": [
-      "Majunga"
-    ]
+    "position_approx": true
   },
   {
     "id": 629,
@@ -22072,53 +15234,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.188Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": "4.6",
-      "nombre_avis": 50,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.6",
-        "beaute_naturelle": "4.6"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -15.6,
@@ -22133,7 +15255,8 @@ window.LIEUX_DATA = [
     "zone": "mahajanga",
     "ville_alias": [
       "Majunga"
-    ]
+    ],
+    "position_approx": true
   },
   {
     "id": 631,
@@ -22198,53 +15321,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.189Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": "4.6",
-      "nombre_avis": 135,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.6",
-        "beaute_naturelle": "4.6"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1499,
@@ -22321,53 +15404,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.190Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": "4.8",
-      "nombre_avis": 138,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.8",
-        "beaute_naturelle": "4.8"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -23.6,
@@ -22380,7 +15423,8 @@ window.LIEUX_DATA = [
     "humour_grok": "Le petit-déjeuner est inclus, mais la bataille pour le dernier croissant ne l'est pas. 🥐",
     "sous_type": "Hotel",
     "depart_de": "Toliara",
-    "zone": "toliara"
+    "zone": "toliara",
+    "position_approx": true
   },
   {
     "id": 639,
@@ -22443,53 +15487,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.191Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": "4.7",
-      "nombre_avis": 113,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.7",
-        "beaute_naturelle": null
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -21.2,
@@ -22502,7 +15506,8 @@ window.LIEUX_DATA = [
     "humour_grok": "La météo a plus de sautes d'humeur qu'une diva. K-way, maillot, doudoune : prends tout. 🌦️",
     "sous_type": "Nature",
     "depart_de": "Fianarantsoa",
-    "zone": "fianarantsoa"
+    "zone": "fianarantsoa",
+    "position_approx": true
   },
   {
     "id": 640,
@@ -22563,53 +15568,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.192Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": "4.5",
-      "nombre_avis": 148,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": null,
-        "experience_globale": "4.5",
-        "beaute_naturelle": "4.5"
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -21.4,
@@ -22624,7 +15589,8 @@ window.LIEUX_DATA = [
     "zone": "fianarantsoa",
     "ville_alias": [
       "Fianar"
-    ]
+    ],
+    "position_approx": true
   },
   {
     "id": 16,
@@ -22692,53 +15658,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.192Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 69,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -12.2389,
@@ -22815,53 +15741,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.192Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4,
-      "nombre_avis": 137,
-      "detail_notes": {
-        "accessibilite": 3.8,
-        "rapport_qualite_prix": 4.1,
-        "experience_globale": 4,
-        "beaute_naturelle": 4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1445,
@@ -22877,7 +15763,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Fatapera du Bord de Mer",
@@ -22936,48 +15827,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.193Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 83,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.google.com/maps/search/Fatapera+du+Bord+de+Mer+Toamasina",
@@ -22998,7 +15854,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Snack du Marché Kely",
@@ -23058,53 +15919,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.193Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.1,
-      "nombre_avis": 145,
-      "detail_notes": {
-        "accessibilite": 3.9,
-        "rapport_qualite_prix": 4.2,
-        "experience_globale": 4.1,
-        "beaute_naturelle": 4.1
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.147,
@@ -23120,7 +15941,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Chez Mama Rasoava",
@@ -23180,53 +16006,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.194Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 52,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1432,
@@ -23242,7 +16028,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Stand Fruits de Mer du Port",
@@ -23304,53 +16095,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.194Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 131,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -18.1489,
@@ -23366,7 +16117,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Restaurant Darafify",
@@ -23393,7 +16149,7 @@ window.LIEUX_DATA = [
     "id": 646,
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Restaurant+Darafify+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1478,49.3998",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Darafify%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Restaurant",
     "galerie_photos": [
       {
@@ -23425,48 +16181,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.195Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 100,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.google.com/maps/search/Restaurant+Darafify+Toamasina",
@@ -23487,7 +16208,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Koinonia Restaurant",
@@ -23513,7 +16239,7 @@ window.LIEUX_DATA = [
     "id": 647,
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Koinonia+Restaurant+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1495,49.4102",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Koinonia%20Restaurant%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Restaurant",
     "galerie_photos": [
       {
@@ -23545,48 +16271,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.195Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 97,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.google.com/maps/search/Koinonia+Restaurant+Toamasina",
@@ -23607,7 +16298,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "La Paillote",
@@ -23633,7 +16329,7 @@ window.LIEUX_DATA = [
     "id": 648,
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/La+Paillote+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1462,49.4078",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=La%20Paillote%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Restaurant",
     "galerie_photos": [
       {
@@ -23665,48 +16361,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.195Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 121,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.google.com/maps/search/La+Paillote+Toamasina",
@@ -23727,7 +16388,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Poisson d'Or",
@@ -23753,7 +16419,7 @@ window.LIEUX_DATA = [
     "id": 649,
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Poisson+d'Or+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1485,49.4095",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Poisson%20d'Or%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Restaurant",
     "galerie_photos": [
       {
@@ -23785,48 +16451,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.196Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 127,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.google.com/maps/search/Poisson+d'Or+Toamasina",
@@ -23847,7 +16478,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Angel's Café & Restaurant Bar",
@@ -23873,7 +16509,7 @@ window.LIEUX_DATA = [
     "id": 650,
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Angel's+Café+&+Restaurant+Bar+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1458,49.4042",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Angel's%20Caf%C3%A9%20%26%20Restaurant%20Bar%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Restaurant",
     "galerie_photos": [
       {
@@ -23907,53 +16543,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.196Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 113,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1458,
@@ -23969,7 +16565,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "La Braise Côté Cour",
@@ -23996,7 +16597,7 @@ window.LIEUX_DATA = [
     "id": 651,
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/La+Braise+Côté+Cour+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1468,49.4015",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=La%20Braise%20C%C3%B4t%C3%A9%20Cour%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Restaurant",
     "galerie_photos": [
       {
@@ -24030,53 +16631,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.197Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 120,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1468,
@@ -24092,7 +16653,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Restaurant Le Régal",
@@ -24119,7 +16685,7 @@ window.LIEUX_DATA = [
     "id": 652,
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Restaurant+Le+Régal+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1475,49.4065",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Le%20R%C3%A9gal%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Restaurant",
     "galerie_photos": [
       {
@@ -24153,53 +16719,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.197Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 61,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1475,
@@ -24215,7 +16741,13 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Restaurant de l’hôtel Anjara ; un avis en ligne indique qu’il n’existe plus sous cette forme."
+    },
+    "position_approx": true
   },
   {
     "nom": "Cosy Restaurant",
@@ -24242,7 +16774,7 @@ window.LIEUX_DATA = [
     "id": 653,
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Cosy+Restaurant+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1452,49.4088",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Cosy%20Restaurant%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Restaurant",
     "galerie_photos": [
       {
@@ -24276,53 +16808,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.197Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 140,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1452,
@@ -24338,7 +16830,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Lotus Rouge",
@@ -24365,7 +16862,7 @@ window.LIEUX_DATA = [
     "id": 654,
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/Lotus+Rouge+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1482,49.4052",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Lotus%20Rouge%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Restaurant",
     "galerie_photos": [
       {
@@ -24399,53 +16896,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.198Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 65,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1482,
@@ -24461,7 +16918,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "La Terrasse - El Barco",
@@ -24488,7 +16950,7 @@ window.LIEUX_DATA = [
     "id": 655,
     "image": "images/placeholder-restaurant.jpg",
     "siteWeb": "https://www.google.com/maps/search/La+Terrasse+-+El+Barco+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1498,49.4108",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=La%20Terrasse%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Restaurant",
     "galerie_photos": [
       {
@@ -24522,53 +16984,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.198Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 91,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1498,
@@ -24584,7 +17006,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Hôtel Nado",
@@ -24609,7 +17036,7 @@ window.LIEUX_DATA = [
     "id": 656,
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Hôtel+Nado+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1425,49.4008",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20Nado%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Hôtel",
     "galerie_photos": [
       {
@@ -24642,53 +17069,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.198Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4,
-      "nombre_avis": 103,
-      "detail_notes": {
-        "accessibilite": 3.8,
-        "rapport_qualite_prix": 4.1,
-        "experience_globale": 4,
-        "beaute_naturelle": 4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -18.1425,
@@ -24704,7 +17091,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Guest House Villa Nancy",
@@ -24730,7 +17122,7 @@ window.LIEUX_DATA = [
     "id": 657,
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Guest+House+Villa+Nancy+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1438,49.4028",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Guest%20House%20Villa%20Nancy%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Hôtel",
     "galerie_photos": [
       {
@@ -24764,53 +17156,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.198Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 94,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1438,
@@ -24826,7 +17178,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Chambres d'hôtes Evasion",
@@ -24885,53 +17242,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.199Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 148,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1455,
@@ -24947,7 +17264,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Pension Lalao",
@@ -25007,53 +17329,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.199Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.1,
-      "nombre_avis": 86,
-      "detail_notes": {
-        "accessibilite": 3.9,
-        "rapport_qualite_prix": 4.2,
-        "experience_globale": 4.1,
-        "beaute_naturelle": 4.1
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1468,
@@ -25069,7 +17351,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Hôtel H1 Tamatave",
@@ -25094,7 +17381,7 @@ window.LIEUX_DATA = [
     "id": 660,
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Hôtel+H1+Tamatave+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1472,49.4058",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20H1%20Tamatave%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Hôtel",
     "galerie_photos": [
       {
@@ -25127,53 +17414,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.199Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4,
-      "nombre_avis": 89,
-      "detail_notes": {
-        "accessibilite": 3.8,
-        "rapport_qualite_prix": 4.1,
-        "experience_globale": 4,
-        "beaute_naturelle": 4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -18.1472,
@@ -25189,7 +17436,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Stephen Hotel",
@@ -25214,7 +17466,7 @@ window.LIEUX_DATA = [
     "id": 661,
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Stephen+Hotel+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1465,49.4068",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Stephen%20Hotel%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Hôtel",
     "galerie_photos": [
       {
@@ -25247,53 +17499,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.200Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 109,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -18.1465,
@@ -25309,7 +17521,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Java Hotel",
@@ -25334,7 +17551,7 @@ window.LIEUX_DATA = [
     "id": 662,
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Java+Hotel+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1478,49.4072",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Java%20Hotel%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Hôtel",
     "galerie_photos": [
       {
@@ -25367,53 +17584,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.200Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 83,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -18.1478,
@@ -25429,7 +17606,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Satrana Hotel Tamatave",
@@ -25454,7 +17636,7 @@ window.LIEUX_DATA = [
     "id": 663,
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Satrana+Hotel+Tamatave+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1458,49.4052",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Satrana%20Hotel%20Tamatave%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Hôtel",
     "galerie_photos": [
       {
@@ -25487,53 +17669,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.200Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 92,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -18.1458,
@@ -25549,7 +17691,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Hôtel Les Flamboyants",
@@ -25574,7 +17721,7 @@ window.LIEUX_DATA = [
     "id": 664,
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Hôtel+Les+Flamboyants+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1485,49.4045",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20Les%20Flamboyants%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Hôtel",
     "galerie_photos": [
       {
@@ -25607,53 +17754,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.201Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 136,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -18.1485,
@@ -25669,7 +17776,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Résidence Magali",
@@ -25730,53 +17842,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.201Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 125,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1448,
@@ -25792,7 +17864,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Calypso Hôtel & SPA",
@@ -25819,7 +17896,7 @@ window.LIEUX_DATA = [
     "id": 666,
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Calypso+Hôtel+&+SPA+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1488,49.4082",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Calypso%20H%C3%B4tel%20%26%20SPA%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Hôtel",
     "galerie_photos": [
       {
@@ -25853,53 +17930,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.201Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 57,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1488,
@@ -25915,7 +17952,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "The Streamliner Hotel Apartment",
@@ -25942,7 +17984,7 @@ window.LIEUX_DATA = [
     "id": 667,
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/The+Streamliner+Hotel+Apartment+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1462,49.4075",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=The%20Streamliner%20Hotel%20Apartment%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Hôtel",
     "galerie_photos": [
       {
@@ -25976,53 +18018,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.202Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 60,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1462,
@@ -26038,7 +18040,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Le Majestic Toamasina Hotel",
@@ -26064,7 +18071,7 @@ window.LIEUX_DATA = [
     "id": 668,
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Le+Majestic+Toamasina+Hotel+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1495,49.4098",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Le%20Majestic%20Toamasina%20Hotel%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Hôtel",
     "galerie_photos": [
       {
@@ -26098,53 +18105,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.203Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 73,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1495,
@@ -26160,7 +18127,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Résidence Anjara Tanamakoa",
@@ -26186,7 +18158,7 @@ window.LIEUX_DATA = [
     "id": 669,
     "image": "images/placeholder-hotel.jpg",
     "siteWeb": "https://www.google.com/maps/search/Résidence+Anjara+Tanamakoa+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1452,49.4062",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=R%C3%A9sidence%20Anjara%20Tanamakoa%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Hôtel",
     "galerie_photos": [
       {
@@ -26220,53 +18192,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.203Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 94,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1452,
@@ -26282,7 +18214,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "La Case à Ianou",
@@ -26343,53 +18280,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.203Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 114,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1305,
@@ -26405,7 +18302,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Parc Zoologique d'Ivoloina",
@@ -26421,8 +18323,8 @@ window.LIEUX_DATA = [
     ],
     "prix": "15 000 Ar",
     "prixNum": 15000,
-    "lat": -18.0892,
-    "lng": 49.4234,
+    "lat": -18.06,
+    "lng": 49.36,
     "note": 4.7,
     "type": "Nature",
     "duree": "Demi-journée",
@@ -26432,7 +18334,7 @@ window.LIEUX_DATA = [
     "id": 671,
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Parc+Zoologique+d'Ivoloina+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.0892,49.4234",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.06,49.36",
     "categorie": "Nature",
     "galerie_photos": [
       {
@@ -26466,57 +18368,17 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.204Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 51,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
-      "latitude": -18.0892,
-      "longitude": 49.4234,
+      "latitude": -18.06,
+      "longitude": 49.36,
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
@@ -26528,7 +18390,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "nom": "Canal des Pangalanes - Croisière Journée",
@@ -26589,53 +18455,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.204Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 81,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.162,
@@ -26712,53 +18538,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.204Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 134,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1445,
@@ -26774,7 +18560,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "nom": "Île aux Prunes (Nosy Alanana)",
@@ -26791,8 +18581,8 @@ window.LIEUX_DATA = [
     ],
     "prix": "25 000 Ar",
     "prixNum": 25000,
-    "lat": -18.1689,
-    "lng": 49.4523,
+    "lat": -18.05,
+    "lng": 49.46,
     "note": 4.9,
     "type": "Spot Local",
     "duree": "Journée",
@@ -26802,7 +18592,7 @@ window.LIEUX_DATA = [
     "id": 674,
     "image": "images/placeholder-nature.jpg",
     "siteWeb": "https://www.google.com/maps/search/Île+aux+Prunes+(Nosy+Alanana)+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1689,49.4523",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.05,49.46",
     "categorie": "Spot Local",
     "galerie_photos": [
       {
@@ -26836,57 +18626,17 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.205Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 86,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
-      "latitude": -18.1689,
-      "longitude": 49.4523,
+      "latitude": -18.05,
+      "longitude": 49.46,
       "zoom_defaut": 13,
       "afficher_dans_fiche": true
     },
@@ -26898,7 +18648,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "nom": "Foulpointe Village et Plage",
@@ -26961,53 +18715,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.205Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 94,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Claire B.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Plage paradisiaque ! Eau cristalline et sable blanc. Parfait pour le snorkeling.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Hery M.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très belle plage, peu fréquentée en semaine. Idéal pour se détendre.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "plage_lagon",
-      "cta_principal": {
-        "texte": "Réserver une Sortie Bateau",
-        "url": "/contact",
-        "couleur": "bleu",
-        "icone": "⛵"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "plage_lagon"
     },
     "carte_interactive": {
       "latitude": -17.6833,
@@ -27082,53 +18796,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.205Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 122,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.2145,
@@ -27144,7 +18818,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Ampasinambo Verger",
@@ -27205,53 +18884,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.206Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 75,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1289,
@@ -27267,7 +18906,13 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13",
+      "note": "Un « Ampasinambo Agro camping » existe à Fanandrana, à une vingtaine de km de la ville ; le « verger » décrit ici n’a pas été retrouvé."
+    },
+    "position_approx": true
   },
   {
     "nom": "Boulevard Ratsimilaho - Promenade du Front de Mer",
@@ -27329,53 +18974,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.206Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 108,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1501,
@@ -27453,53 +19058,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.207Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 96,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1498,
@@ -27515,7 +19080,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Randrianasolo Park - Parc Central",
@@ -27575,53 +19145,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.207Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4,
-      "nombre_avis": 123,
-      "detail_notes": {
-        "accessibilite": 3.8,
-        "rapport_qualite_prix": 4.1,
-        "experience_globale": 4,
-        "beaute_naturelle": 4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1456,
@@ -27637,7 +19167,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Alliance Française de Toamasina",
@@ -27697,53 +19232,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.207Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 125,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1467,
@@ -27759,7 +19254,11 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    }
   },
   {
     "nom": "Mahambo Beach",
@@ -27821,53 +19320,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.208Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 98,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -17.7523,
@@ -27949,53 +19408,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.208Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 134,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.6,
@@ -28014,7 +19433,8 @@ window.LIEUX_DATA = [
     ],
     "sous_type": "Réserve Privée",
     "depart_de": "Toamasina",
-    "zone": "toamasina"
+    "zone": "toamasina",
+    "position_approx": true
   },
   {
     "nom": "Excursion Île Sainte-Marie en Bateau",
@@ -28075,53 +19495,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.208Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 87,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -17.0833,
@@ -28199,53 +19579,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.209Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 67,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1623,
@@ -28321,53 +19661,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.209Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 52,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1234,
@@ -28445,53 +19745,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.209Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 133,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1756,
@@ -28567,53 +19827,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.209Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 56,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1389,
@@ -28629,7 +19849,13 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13",
+      "note": "Aucun jardin de ce nom trouvé à Toamasina (un « Eden Botanical Garden » existe à Toliara)."
+    },
+    "position_approx": true
   },
   {
     "nom": "Tour en Hélicoptère - Survol Côte Est",
@@ -28690,53 +19916,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.211Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 5,
-      "nombre_avis": 96,
-      "detail_notes": {
-        "accessibilite": 4.8,
-        "rapport_qualite_prix": 5.1,
-        "experience_globale": 5,
-        "beaute_naturelle": 5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1123,
@@ -28812,53 +19998,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.212Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 55,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1567,
@@ -28900,7 +20046,7 @@ window.LIEUX_DATA = [
     "id": 691,
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Le+Neptune+-+Havana+Club+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1489,49.4095",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Le%20Neptune%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
@@ -28934,53 +20080,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.212Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 144,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1489,
@@ -28996,7 +20102,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Le Pandora Club",
@@ -29021,7 +20132,7 @@ window.LIEUX_DATA = [
     "id": 692,
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Le+Pandora+Club+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1234,49.3856",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Le%20Pandora%20Club%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
@@ -29055,53 +20166,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.213Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 83,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1234,
@@ -29117,7 +20188,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Queen's Club",
@@ -29177,53 +20253,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.213Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 105,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1478,
@@ -29239,7 +20275,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Le Taxi Be Club",
@@ -29265,7 +20306,7 @@ window.LIEUX_DATA = [
     "id": 694,
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Le+Taxi+Be+Club+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1456,49.4025",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Le%20Taxi%20Be%20Club%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
@@ -29299,53 +20340,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.213Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 55,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1456,
@@ -29361,7 +20362,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "La Terrasse Bar Lounge",
@@ -29422,53 +20428,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.214Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 145,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1498,
@@ -29484,7 +20450,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "non_confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Le Feeling Bar Karaoké",
@@ -29510,7 +20481,7 @@ window.LIEUX_DATA = [
     "id": 696,
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Le+Feeling+Bar+Karaoké+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1467,49.4042",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Le%20Feeling%20Bar%20Karaok%C3%A9%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
@@ -29544,53 +20515,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.214Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 149,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1467,
@@ -29606,7 +20537,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Chez Moi Bar & Grill",
@@ -29632,7 +20568,7 @@ window.LIEUX_DATA = [
     "id": 697,
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Chez+Moi+Bar+&+Grill+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1445,49.4065",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Chez%20Moi%20Bar%20%26%20Grill%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
@@ -29666,53 +20602,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.215Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 123,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1445,
@@ -29728,7 +20624,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "No Comment Bar Tamatave",
@@ -29754,7 +20655,7 @@ window.LIEUX_DATA = [
     "id": 698,
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/No+Comment+Bar+Tamatave+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1423,49.4078",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=No%20Comment%20Bar%20Tamatave%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
@@ -29788,53 +20689,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.215Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 60,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.4
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1423,
@@ -29850,7 +20711,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Belle Aire Rooftop Bar",
@@ -29876,7 +20742,7 @@ window.LIEUX_DATA = [
     "id": 699,
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Belle+Aire+Rooftop+Bar+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1412,49.4092",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Belle%20Aire%20Rooftop%20Bar%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
@@ -29910,53 +20776,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.215Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 103,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1412,
@@ -29972,7 +20798,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "nom": "Bar Mananara Beach",
@@ -29998,7 +20829,7 @@ window.LIEUX_DATA = [
     "id": 700,
     "image": "images/placeholder-bar.jpg",
     "siteWeb": "https://www.google.com/maps/search/Bar+Mananara+Beach+Toamasina",
-    "y_aller": "https://www.google.com/maps/search/?api=1&query=-18.1567,49.4201",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Bar%20Mananara%20Beach%2C%20Toamasina%2C%20Madagascar",
     "categorie": "Bar & Sortir",
     "galerie_photos": [
       {
@@ -30032,53 +20863,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.216Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 145,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -18.1567,
@@ -30094,7 +20885,12 @@ window.LIEUX_DATA = [
     "ville_alias": [
       "Tamatave"
     ],
-    "image_provisoire": true
+    "image_provisoire": true,
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13"
+    },
+    "position_approx": true
   },
   {
     "id": 804,
@@ -30155,53 +20951,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.216Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 79,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4.5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -17.009,
@@ -30279,53 +21035,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.216Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.9,
-      "nombre_avis": 110,
-      "detail_notes": {
-        "accessibilite": 4.7,
-        "rapport_qualite_prix": 5,
-        "experience_globale": 4.9,
-        "beaute_naturelle": 4.9
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -17.106,
@@ -30361,7 +21077,8 @@ window.LIEUX_DATA = [
       "Nature",
       "saintemarie",
       "explorer",
-      "budget_1"
+      "budget_1",
+      "spots"
     ],
     "duree": "Demi-journée",
     "conseil": "Détente absolue garantie. Apportez votre masque et tuba, mais attention aux oursins !",
@@ -30405,53 +21122,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.217Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 115,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -16.85,
@@ -30484,7 +21161,8 @@ window.LIEUX_DATA = [
       "Nature",
       "saintemarie",
       "explorer",
-      "budget_1"
+      "budget_1",
+      "spots"
     ],
     "duree": "2h",
     "conseil": "Profitez-en pour acheter de la vanille fraîche directement aux villageois sur le chemin.",
@@ -30528,53 +21206,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.217Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.4,
-      "nombre_avis": 122,
-      "detail_notes": {
-        "accessibilite": 4.2,
-        "rapport_qualite_prix": 4.5,
-        "experience_globale": 4.4,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Sophie M.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Magnifique parc ! La biodiversité est incroyable. Guide local très compétent.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Rakoto F.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très beau site naturel. Prévoir de bonnes chaussures et de l'eau.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "parc_national",
-      "cta_principal": {
-        "texte": "Réserver un Guide",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "🎫"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide local",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "parc_national"
     },
     "carte_interactive": {
       "latitude": -16.98,
@@ -30650,53 +21288,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.217Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 5,
-      "nombre_avis": 127,
-      "detail_notes": {
-        "accessibilite": 4.8,
-        "rapport_qualite_prix": 5.1,
-        "experience_globale": 5,
-        "beaute_naturelle": 5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -17,
@@ -30769,48 +21367,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.218Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 52,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.google.com/maps/search/La+Bigorne+Sainte+Marie",
@@ -30889,48 +21452,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.219Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.6,
-      "nombre_avis": 62,
-      "detail_notes": {
-        "accessibilite": 4.4,
-        "rapport_qualite_prix": 4.7,
-        "experience_globale": 4.6,
-        "beaute_naturelle": 4.6
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "http://www.idyllebeach.com/",
@@ -31008,48 +21536,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.219Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 84,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.google.com/maps/search/Chez+Nath+Ile+aux+Nattes",
@@ -31127,48 +21620,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.220Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 99,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Jean-Pierre D.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Excellente cuisine locale ! Les fruits de mer sont ultra-frais. Service impeccable.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Lalaina R.",
-          "origine": "Madagascar",
-          "note": 4.5,
-          "commentaire": "Très bon restaurant avec vue. Prix corrects pour la qualité. Réservation recommandée.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
       "type_lieu": "restaurant",
-      "cta_principal": {
-        "texte": "Réserver une Table",
-        "url": "/contact",
-        "couleur": "rouge",
-        "icone": "🍽️"
-      },
       "cta_secondaire": {
         "texte": "Appeler le restaurant",
         "url": "https://www.samarialodge.com/",
@@ -31248,53 +21706,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.220Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.1,
-      "nombre_avis": 142,
-      "detail_notes": {
-        "accessibilite": 3.9,
-        "rapport_qualite_prix": 4.2,
-        "experience_globale": 4.1,
-        "beaute_naturelle": 4.1
-      },
-      "avis_recents": [
-        {
-          "auteur": "Pascal R.",
-          "origine": "France",
-          "note": 4,
-          "commentaire": "Très bonne expérience ! Je recommande vivement cette visite.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "Miora T.",
-          "origine": "Madagascar",
-          "note": 3.5,
-          "commentaire": "Endroit intéressant à découvrir. Bon rapport qualité/prix.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "general",
-      "cta_principal": {
-        "texte": "Organiser une Visite",
-        "url": "/contact",
-        "couleur": "orange",
-        "icone": "📍"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter un guide",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "general"
     },
     "carte_interactive": {
       "latitude": -17.008,
@@ -31370,53 +21788,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.221Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.8,
-      "nombre_avis": 114,
-      "detail_notes": {
-        "accessibilite": 4.6,
-        "rapport_qualite_prix": 4.9,
-        "experience_globale": 4.8,
-        "beaute_naturelle": 4.8
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -17.04,
@@ -31491,53 +21869,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.221Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.5,
-      "nombre_avis": 139,
-      "detail_notes": {
-        "accessibilite": 4.3,
-        "rapport_qualite_prix": 4.6,
-        "experience_globale": 4.5,
-        "beaute_naturelle": 4.5
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -17.02,
@@ -31613,53 +21951,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.221Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.7,
-      "nombre_avis": 135,
-      "detail_notes": {
-        "accessibilite": 4.5,
-        "rapport_qualite_prix": 4.8,
-        "experience_globale": 4.7,
-        "beaute_naturelle": 4.7
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -17.03,
@@ -31734,53 +22032,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.222Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.3,
-      "nombre_avis": 129,
-      "detail_notes": {
-        "accessibilite": 4.1,
-        "rapport_qualite_prix": 4.4,
-        "experience_globale": 4.3,
-        "beaute_naturelle": 4.3
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -17.06,
@@ -31855,53 +22113,13 @@ window.LIEUX_DATA = [
       "date": "2026-01-02T08:55:12.222Z",
       "model": "Montagne d'Ambre",
       "features": [
-        "avis",
         "actions",
         "carte",
         "accordeon"
       ]
     },
-    "avis": {
-      "note_globale": 4.2,
-      "nombre_avis": 81,
-      "detail_notes": {
-        "accessibilite": 4,
-        "rapport_qualite_prix": 4.3,
-        "experience_globale": 4.2,
-        "beaute_naturelle": 4.2
-      },
-      "avis_recents": [
-        {
-          "auteur": "Marie C.",
-          "origine": "France",
-          "note": 5,
-          "commentaire": "Hôtel magnifique ! Chambres spacieuses et propres. Personnel très accueillant.",
-          "date": "2025-12-18",
-          "verifie": true
-        },
-        {
-          "auteur": "David L.",
-          "origine": "Belgique",
-          "note": 4,
-          "commentaire": "Bon rapport qualité/prix. Piscine agréable. Petit-déjeuner copieux.",
-          "date": "2025-12-03",
-          "verifie": true
-        }
-      ]
-    },
     "actions_principales": {
-      "type_lieu": "hotel",
-      "cta_principal": {
-        "texte": "Réserver une Chambre",
-        "url": "/contact",
-        "couleur": "or",
-        "icone": "🏨"
-      },
-      "cta_secondaire": {
-        "texte": "Contacter l'hôtel",
-        "url": "https://wa.me/261340001234",
-        "type": "whatsapp"
-      }
+      "type_lieu": "hotel"
     },
     "carte_interactive": {
       "latitude": -17.08,
@@ -31918,5 +22136,334 @@ window.LIEUX_DATA = [
       "Nosy Boraha"
     ],
     "image_provisoire": true
+  },
+  {
+    "id": 820,
+    "ville": "Sainte-Marie",
+    "nom": "Île aux Forbans",
+    "type": "Spot Local",
+    "lat": -17.006,
+    "lng": 49.855,
+    "prix": "Selon guide ou piroguier",
+    "prixNum": 0,
+    "description": "Un îlot au milieu de la baie d’Ambodifotatra, ancien repaire des pirates qui venaient s’y partager leur butin aux XVIIe et XVIIIe siècles.\n\nOn y accède en pirogue depuis Ambodifotatra, et la visite se combine naturellement avec celle du cimetière des pirates, d’où l’on aperçoit l’îlot.",
+    "image": "images/placeholder-spot.jpg",
+    "tags": [
+      "Spot Local",
+      "saintemarie",
+      "culture",
+      "spots",
+      "explorer",
+      "budget_1",
+      "secret_spot"
+    ],
+    "duree": "1h à 2h",
+    "conseil": "Négociez la pirogue aller-retour avant d’embarquer et combinez avec le cimetière des pirates.",
+    "acces": "Pirogue depuis Ambodifotatra.",
+    "horaires": "En journée",
+    "prixEur": "",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=%C3%8Ele%20aux%20Forbans%2C%20Sainte-Marie%2C%20Madagascar",
+    "categorie": "Spot Local",
+    "galerie_photos": [
+      {
+        "url": "images/placeholder-spot.jpg",
+        "alt": "Île aux Forbans, Sainte-Marie (photo provisoire)",
+        "type": "principale"
+      }
+    ],
+    "hasCarousel": false,
+    "infos_pratiques": {
+      "a_prevoir": {
+        "equipement": [
+          "Eau",
+          "Protection solaire",
+          "Espèces (pas de distributeur sur place)"
+        ],
+        "conseils": "Négociez la pirogue aller-retour avant d’embarquer et combinez avec le cimetière des pirates."
+      }
+    },
+    "_metadata": {
+      "standardized": true,
+      "version": "2026.2",
+      "date": "2026-01-02T08:55:12.216Z",
+      "model": "Montagne d'Ambre",
+      "features": [
+        "actions",
+        "carte",
+        "accordeon"
+      ]
+    },
+    "actions_principales": {
+      "type_lieu": "general"
+    },
+    "carte_interactive": {
+      "latitude": -17.006,
+      "longitude": 49.855,
+      "zoom_defaut": 13,
+      "afficher_dans_fiche": true
+    },
+    "description_summary": "Un îlot au milieu de la baie d’Ambodifotatra, ancien repaire des pirates qui venaient s’y partager leur butin aux XVIIe et XVIIIe siècles.",
+    "has_expandable_description": false,
+    "sous_type": "Spot Local",
+    "zone": "saintemarie",
+    "duration": "1h à 2h",
+    "price": "Selon guide ou piroguier",
+    "image_provisoire": true,
+    "position_approx": true,
+    "sources": [
+      "https://www.routard.com/fr/guide/afrique/madagascar/tamatave-toamasina-et-sa-region/ile-sainte-marie-nosy-boraha/ambodifotatra"
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Lieu attesté par les sources citées ; prix, horaires et position exacte à préciser sur place."
+    }
+  },
+  {
+    "id": 821,
+    "ville": "Sainte-Marie",
+    "nom": "Baie d’Ampanihy",
+    "type": "Spot Local",
+    "lat": -16.87,
+    "lng": 49.93,
+    "prix": "Selon guide ou piroguier",
+    "prixNum": 0,
+    "description": "Sur la côte est de l’île, une baie bordée de mangrove qui se découvre en pirogue, loin des hôtels de la côte ouest.\n\nDes tortues marines viennent parfois pondre sur la plage voisine.",
+    "image": "images/placeholder-spot.jpg",
+    "tags": [
+      "Spot Local",
+      "saintemarie",
+      "nature",
+      "spots",
+      "explorer",
+      "budget_1",
+      "secret_spot"
+    ],
+    "duree": "Une journée",
+    "conseil": "Partez tôt : la piste qui traverse l’île est lente, et la balade en pirogue dépend de la marée.",
+    "acces": "Piste depuis la côte ouest, puis pirogue dans la mangrove.",
+    "horaires": "En journée",
+    "prixEur": "",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Baie%20d%E2%80%99Ampanihy%2C%20Sainte-Marie%2C%20Madagascar",
+    "categorie": "Spot Local",
+    "galerie_photos": [
+      {
+        "url": "images/placeholder-spot.jpg",
+        "alt": "Baie d’Ampanihy, Sainte-Marie (photo provisoire)",
+        "type": "principale"
+      }
+    ],
+    "hasCarousel": false,
+    "infos_pratiques": {
+      "a_prevoir": {
+        "equipement": [
+          "Eau",
+          "Protection solaire",
+          "Espèces (pas de distributeur sur place)"
+        ],
+        "conseils": "Partez tôt : la piste qui traverse l’île est lente, et la balade en pirogue dépend de la marée."
+      }
+    },
+    "_metadata": {
+      "standardized": true,
+      "version": "2026.2",
+      "date": "2026-01-02T08:55:12.216Z",
+      "model": "Montagne d'Ambre",
+      "features": [
+        "actions",
+        "carte",
+        "accordeon"
+      ]
+    },
+    "actions_principales": {
+      "type_lieu": "general"
+    },
+    "carte_interactive": {
+      "latitude": -16.87,
+      "longitude": 49.93,
+      "zoom_defaut": 13,
+      "afficher_dans_fiche": true
+    },
+    "description_summary": "Sur la côte est de l’île, une baie bordée de mangrove qui se découvre en pirogue, loin des hôtels de la côte ouest.",
+    "has_expandable_description": false,
+    "sous_type": "Spot Local",
+    "zone": "saintemarie",
+    "duration": "Une journée",
+    "price": "Selon guide ou piroguier",
+    "image_provisoire": true,
+    "position_approx": true,
+    "sources": [
+      "https://madagascartravel.com/guide-madagascar/destination/sainte-marie"
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Lieu attesté par les sources citées ; prix, horaires et position exacte à préciser sur place."
+    }
+  },
+  {
+    "id": 822,
+    "ville": "Nosy Be",
+    "nom": "Village de Marodoka",
+    "type": "Spot Local",
+    "lat": -13.405,
+    "lng": 48.3,
+    "prix": "Selon guide ou piroguier",
+    "prixNum": 0,
+    "description": "Le premier village de Nosy Be, ancien comptoir swahili à quelques kilomètres du centre, non loin de la réserve de Lokobe.\n\nUn circuit à pied passe par la « maison des fantômes », l’ancien port et les tombes indiennes, dont l’une porte la date de 1850.",
+    "image": "images/placeholder-spot.jpg",
+    "tags": [
+      "Spot Local",
+      "nosybe",
+      "culture",
+      "spots",
+      "explorer",
+      "budget_1",
+      "secret_spot"
+    ],
+    "duree": "1h à 2h",
+    "conseil": "Faites la visite avec un guide du village : c’est lui qui raconte les histoires derrière les ruines.",
+    "acces": "Quelques kilomètres à l’est de Hell-Ville, en tuk-tuk ou taxi.",
+    "horaires": "En journée",
+    "prixEur": "",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Village%20de%20Marodoka%2C%20Nosy%20Be%2C%20Madagascar",
+    "categorie": "Spot Local",
+    "galerie_photos": [
+      {
+        "url": "images/placeholder-spot.jpg",
+        "alt": "Village de Marodoka, Nosy Be (photo provisoire)",
+        "type": "principale"
+      }
+    ],
+    "hasCarousel": false,
+    "infos_pratiques": {
+      "a_prevoir": {
+        "equipement": [
+          "Eau",
+          "Protection solaire",
+          "Espèces (pas de distributeur sur place)"
+        ],
+        "conseils": "Faites la visite avec un guide du village : c’est lui qui raconte les histoires derrière les ruines."
+      }
+    },
+    "_metadata": {
+      "standardized": true,
+      "version": "2026.2",
+      "date": "2026-01-02T08:55:12.216Z",
+      "model": "Montagne d'Ambre",
+      "features": [
+        "actions",
+        "carte",
+        "accordeon"
+      ]
+    },
+    "actions_principales": {
+      "type_lieu": "general"
+    },
+    "carte_interactive": {
+      "latitude": -13.405,
+      "longitude": 48.3,
+      "zoom_defaut": 13,
+      "afficher_dans_fiche": true
+    },
+    "description_summary": "Le premier village de Nosy Be, ancien comptoir swahili à quelques kilomètres du centre, non loin de la réserve de Lokobe.",
+    "has_expandable_description": false,
+    "sous_type": "Spot Local",
+    "zone": "nosybe",
+    "duration": "1h à 2h",
+    "price": "Selon guide ou piroguier",
+    "image_provisoire": true,
+    "position_approx": true,
+    "sources": [
+      "https://nosybe-tourisme.com/?p=11993",
+      "https://madagascartravel.com/guide-madagascar/destination/nosy-be"
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Lieu attesté par les sources citées ; prix, horaires et position exacte à préciser sur place."
+    }
+  },
+  {
+    "id": 823,
+    "ville": "Nosy Be",
+    "nom": "Cascade d’Androadroatra",
+    "type": "Spot Local",
+    "lat": -13.33,
+    "lng": 48.25,
+    "prix": "Selon guide ou piroguier",
+    "prixNum": 0,
+    "description": "Une cascade peu connue, y compris des Malgaches, au bout d’une balade agréable depuis un petit village de l’île.\n\nLa meilleure période va d’avril à novembre.",
+    "image": "images/placeholder-spot.jpg",
+    "tags": [
+      "Spot Local",
+      "nosybe",
+      "nature",
+      "spots",
+      "explorer",
+      "budget_1",
+      "secret_spot"
+    ],
+    "duree": "2h",
+    "conseil": "Demandez un guide au village : le sentier n’est pas balisé. Position sur la carte indicative.",
+    "acces": "À pied depuis le village d’Androadroatra.",
+    "horaires": "En journée",
+    "prixEur": "",
+    "y_aller": "https://www.google.com/maps/search/?api=1&query=Cascade%20d%E2%80%99Androadroatra%2C%20Nosy%20Be%2C%20Madagascar",
+    "categorie": "Spot Local",
+    "galerie_photos": [
+      {
+        "url": "images/placeholder-spot.jpg",
+        "alt": "Cascade d’Androadroatra, Nosy Be (photo provisoire)",
+        "type": "principale"
+      }
+    ],
+    "hasCarousel": false,
+    "infos_pratiques": {
+      "a_prevoir": {
+        "equipement": [
+          "Eau",
+          "Protection solaire",
+          "Espèces (pas de distributeur sur place)"
+        ],
+        "conseils": "Demandez un guide au village : le sentier n’est pas balisé. Position sur la carte indicative."
+      }
+    },
+    "_metadata": {
+      "standardized": true,
+      "version": "2026.2",
+      "date": "2026-01-02T08:55:12.216Z",
+      "model": "Montagne d'Ambre",
+      "features": [
+        "actions",
+        "carte",
+        "accordeon"
+      ]
+    },
+    "actions_principales": {
+      "type_lieu": "general"
+    },
+    "carte_interactive": {
+      "latitude": -13.33,
+      "longitude": 48.25,
+      "zoom_defaut": 13,
+      "afficher_dans_fiche": true
+    },
+    "description_summary": "Une cascade peu connue, y compris des Malgaches, au bout d’une balade agréable depuis un petit village de l’île.",
+    "has_expandable_description": false,
+    "sous_type": "Spot Local",
+    "zone": "nosybe",
+    "duration": "2h",
+    "price": "Selon guide ou piroguier",
+    "image_provisoire": true,
+    "position_approx": true,
+    "sources": [
+      "https://www.primemedia.international/madagascar-destinations-guide-androadroatra-waterfall.html"
+    ],
+    "verification": {
+      "statut": "confirme",
+      "date": "2026-11-13",
+      "note": "Lieu attesté par les sources citées ; prix, horaires et position exacte à préciser sur place."
+    }
   }
 ];

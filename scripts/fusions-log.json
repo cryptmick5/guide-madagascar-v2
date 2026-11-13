@@ -4055,6 +4055,103 @@
         "has_expandable_description": true,
         "humour_grok": "Tu vas payer pour marcher dans la boue et chercher un lézard de 2cm invisible. Et tu vas adorer ça. Masochiste. 🤠"
       }
+    },
+    {
+      "garde": {
+        "id": 34,
+        "nom": "Plage de Mahajanga"
+      },
+      "absorbe": {
+        "id": 626,
+        "nom": "Bord de Mer"
+      },
+      "raison": "même front de mer, mêmes coordonnées",
+      "fiche_absorbee": {
+        "id": 626,
+        "nom": "Bord de Mer",
+        "ville": "Mahajanga",
+        "type": "Bar & Sortir",
+        "prix": "Gratuit",
+        "prixNum": 0,
+        "note": "4.6",
+        "image": "images/iles/plage-mahajanga.jpg",
+        "description": "Le cœur vibrant de la ville le soir. Brochettes, baobab et ambiance festive. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques. Les visiteurs apprécient particulièrement l'authenticité des lieux et la qualité de l'accueil réservé, témoignant de la vraie hospitalité malgache. Facile d'accès et bien situé, ce lieu mérite qu'on y consacre du temps pour en découvrir toutes les facettes. Que vous soyez de passage ou en séjour prolongé, cette étape enrichira votre voyage et vous laissera de beaux souvenirs.",
+        "tags": [
+          "Bar & Sortir",
+          "majunga",
+          "spots",
+          "explorer",
+          "budget_1",
+          "sortir"
+        ],
+        "spotLocal": true,
+        "lat": -15.7167,
+        "lng": 46.3167,
+        "price": "Gratuit",
+        "rating": "4.6",
+        "duration": "Libre",
+        "local_access_required": true,
+        "conseil": "Parfait pour le coucher de soleil. Arrivez vers 17h for la meilleure place.",
+        "acces": "Accessible en transport local ou véhicule privé. Parking disponible à proximité.",
+        "horaires": "11h00 - 22h00 (Cuisine en continu)",
+        "y_aller": "https://www.google.com/maps/search/?api=1&query=-15.7167,46.3167",
+        "duree": "2h à 4h",
+        "categorie": "Bar & Sortir",
+        "galerie_photos": [
+          {
+            "url": "images/iles/plage-mahajanga.jpg",
+            "alt": "Bord de Mer",
+            "type": "principale"
+          }
+        ],
+        "hasCarousel": false,
+        "infos_pratiques": {
+          "horaires": {
+            "lundi_vendredi": "8h-17h",
+            "weekend": "8h-17h"
+          },
+          "meilleure_periode": {
+            "saison_ideale": "Toute l'année",
+            "eviter": "Aucune restriction"
+          },
+          "a_prevoir": {
+            "equipement": [
+              "Vêtements confortables",
+              "Eau",
+              "Appareil photo"
+            ],
+            "conseils": "Prenez votre temps et profitez !"
+          }
+        },
+        "_metadata": {
+          "standardized": true,
+          "version": "2026.2",
+          "date": "2026-01-02T08:55:12.187Z",
+          "model": "Montagne d'Ambre",
+          "features": [
+            "actions",
+            "carte",
+            "accordeon"
+          ]
+        },
+        "actions_principales": {
+          "type_lieu": "general"
+        },
+        "carte_interactive": {
+          "latitude": -15.7167,
+          "longitude": 46.3167,
+          "zoom_defaut": 13,
+          "afficher_dans_fiche": true
+        },
+        "description_summary": "Le cœur vibrant de la ville le soir. Brochettes, baobab et ambiance festive. Ce lieu présente un intérêt certain pour les visiteurs de Mahajanga, offrant une expérience authentique et mémorable. L'atmosphère unique et le cadre soigné invitent à la découverte et au dépaysement, loin des sentiers touristiques classiques.",
+        "has_expandable_description": true,
+        "humour_grok": "Ici on ne demande pas l'heure. On demande juste 'encore un ?'. 🍹",
+        "sous_type": "Bar",
+        "zone": "mahajanga",
+        "ville_alias": [
+          "Majunga"
+        ]
+      }
     }
   ],
   "ids_renumerotes": [
