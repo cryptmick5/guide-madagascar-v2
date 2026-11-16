@@ -190,7 +190,7 @@ window.ITINERAIRES_DATA = {
         },
         "gourmandise": "Calmars sautés à l'ail.",
         "lieux_ids": [
-          50
+          11
         ]
       },
       {
@@ -214,7 +214,7 @@ window.ITINERAIRES_DATA = {
         },
         "astuce": "Attention aux 'Fady' (tabous) ici. Écoutez bien votre guide.",
         "lieux_ids": [
-          606
+          50
         ]
       },
       {
@@ -231,7 +231,7 @@ window.ITINERAIRES_DATA = {
           "standard": "Relais de l'Ankarana"
         },
         "lieux_ids": [
-          606
+          51
         ],
         "gourmandise": "Pique-nique d'aventure dans le canyon.",
         "astuce": "Prévoyez une lampe frontale puissante pour les grottes."
@@ -255,10 +255,12 @@ window.ITINERAIRES_DATA = {
           "standard": "Hôtel Kozobe"
         },
         "gourmandise": "Goûtez aux 'Mofo Gasy' au marché.",
-        "lieux_ids": [
-          607
-        ],
-        "astuce": "Le marché est le meilleur endroit pour sentir l'ambiance locale."
+        "lieux_ids": [],
+        "astuce": "Le marché est le meilleur endroit pour sentir l'ambiance locale.",
+        "coords": [
+          -13.195,
+          49.05
+        ]
       },
       {
         "jour": 9,
@@ -282,14 +284,6 @@ window.ITINERAIRES_DATA = {
         "lieux_ids": [
           610
         ]
-      },
-      {
-        "jour": 10,
-        "astuce": "Goûtez le chocolat 100% cacao sur place, c'est intense.",
-        "lieux_ids": [
-          606
-        ],
-        "description": "Dernier trajet vers le port d'Ankify. On dit au revoir à la Grande Terre. La vedette nous attend pour glisser vers Nosy Be. Veloma !"
       },
       {
         "jour": 10,
@@ -421,7 +415,7 @@ window.ITINERAIRES_DATA = {
         "jour": 4,
         "titre": "Remontée du Fleuve",
         "lieux_ids": [
-          102
+          611
         ],
         "description": "Pirogue sur le fleuve. On remonte le courant comme les explorateurs d'antan. La nature est reine, on se fait tout petit et on observe.",
         "transports_details": [
