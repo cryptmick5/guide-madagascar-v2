@@ -1,8 +1,17 @@
-// sw.js - Service Worker Gasikara Explorer V2.5.3
+// sw.js - Service Worker Gasikara Explorer V2.6.0
 // Tous les chemins sont RELATIFS : le site est servi dans un sous-dossier (GitHub Pages /guide-madagascar-v2/).
-const CACHE_VERSION = 'gasikara-v2.5.4';
+const CACHE_VERSION = 'gasikara-v2.6.0';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
+// Les tuiles de carte survivent aux mises à jour de l'application
+const TILES_CACHE = 'gasikara-tuiles';
+const MAX_TUILES = 600;
+
+function limiterCache(nom, max) {
+  caches.open(nom).then(cache => cache.keys().then(keys => {
+    if (keys.length > max) keys.slice(0, keys.length - max).forEach(k => cache.delete(k));
+  }));
+}
 
 const CRITICAL_ASSETS = [
   './',
@@ -20,6 +29,22 @@ const CRITICAL_ASSETS = [
   './js/modules/spots.js',
   './js/modules/itineraries.js',
   './js/modules/tools.js',
+  './vendor/leaflet/leaflet.js',
+  './vendor/leaflet/leaflet.css',
+  './vendor/leaflet/images/marker-icon.png',
+  './vendor/leaflet/images/marker-icon-2x.png',
+  './vendor/leaflet/images/marker-shadow.png',
+  './vendor/markercluster/leaflet.markercluster.js',
+  './vendor/markercluster/MarkerCluster.css',
+  './vendor/markercluster/MarkerCluster.Default.css',
+  './vendor/gsap/gsap.min.js',
+  './vendor/gsap/ScrollTrigger.min.js',
+  './vendor/gsap/Flip.min.js',
+  './vendor/fontawesome/css/all.min.css',
+  './vendor/fontawesome/webfonts/fa-solid-900.woff2',
+  './vendor/fontawesome/webfonts/fa-regular-400.woff2',
+  './vendor/fontawesome/webfonts/fa-brands-400.woff2',
+  './js/circuit-renderer.js',
   './data/lieux.js',
   './data/avis.js',
   './data/itineraires.js',
@@ -34,7 +59,7 @@ const CRITICAL_ASSETS = [
 
 // INSTALLATION
 self.addEventListener('install', (event) => {
-  console.log('[SW v2.5.3] Installation...');
+  console.log('[SW v2.6.0] Installation...');
   
   event.waitUntil(
     caches.open(STATIC_CACHE)
@@ -55,7 +80,7 @@ self.addEventListener('install', (event) => {
 
 // ACTIVATION
 self.addEventListener('activate', (event) => {
-  console.log('[SW v2.5.3] Activation...');
+  console.log('[SW v2.6.0] Activation...');
   
   event.waitUntil(
     caches.keys()
@@ -64,7 +89,8 @@ self.addEventListener('activate', (event) => {
           cacheNames
             .filter(name => name.startsWith('gasikara-') && 
                            name !== STATIC_CACHE && 
-                           name !== DYNAMIC_CACHE)
+                           name !== DYNAMIC_CACHE &&
+                           name !== TILES_CACHE)
             .map(name => {
               console.log('[SW] Suppression cache:', name);
               return caches.delete(name);
@@ -84,6 +110,29 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   
   if (request.method !== 'GET') return;
+
+  // Fond de carte et polices (autres domaines) : gardés en cache au fil de la navigation,
+  // pour que les zones déjà consultées restent visibles sans réseau.
+  const estTuile = url.hostname === 'tile.openstreetmap.org' || url.hostname.endsWith('basemaps.cartocdn.com');
+  const estPolice = url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com';
+  if (estTuile || estPolice) {
+    const nomCache = estTuile ? TILES_CACHE : DYNAMIC_CACHE;
+    event.respondWith(
+      caches.open(nomCache).then(cache =>
+        cache.match(request).then(cached => {
+          if (cached) return cached;
+          return fetch(request).then(response => {
+            if (response && (response.ok || response.type === 'opaque')) {
+              cache.put(request, response.clone());
+              if (estTuile) limiterCache(nomCache, MAX_TUILES);
+            }
+            return response;
+          });
+        })
+      )
+    );
+    return;
+  }
   if (url.origin !== self.location.origin) return;
   
   const isStaticAsset = /\.(js|css|png|jpg|jpeg|webp|svg|woff2?)$/i.test(url.pathname);

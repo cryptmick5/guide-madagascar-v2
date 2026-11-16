@@ -65,8 +65,10 @@ const RE_MEDIA = /(?:\.\.\/|\.\/|\/)?((?:images|audio|icons)\/[^"'`)\s?#<>\\]+?\
 const refs = new Map(); // chemin -> Set(fichiers sources)
 for (const f of fichiers) {
   // `galerie_a_creer` liste volontairement des photos qui n'existent pas encore : hors périmètre
-  const txt = fs.readFileSync(f, 'utf8').replace(/"galerie_a_creer": \[[^\]]*\]/g, '');
+  let txt = fs.readFileSync(f, "utf8").replace(/"galerie_a_creer": \[[^\]]*\]/g, '');
   let m;
+  // Les librairies embarquées (vendor/) ont leurs propres sous-dossiers images/ : hors périmètre
+  txt = txt.replace(/vendor\/[^"'`)\s]+/g, '');
   while ((m = RE_MEDIA.exec(txt))) {
     if (m[1].includes('${')) continue; // chemin construit dynamiquement
     const p = decodeURIComponent(m[1]);

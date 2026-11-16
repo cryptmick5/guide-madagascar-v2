@@ -59,6 +59,24 @@ window.imgAttrs = function (src, placeholder) {
     return `src="${esc(window.imgOpt(src))}" data-orig="${esc(src)}" data-ph="${esc(placeholder || '')}" onerror="imgRepli(this)" decoding="async"`;
 };
 
+/* --- Fond de carte : OpenStreetMap, sans clé.
+   CARTO (ancien fond « Voyager ») exige une clé API depuis septembre 2026 : sans clé, chaque tuile
+   affiche « API KEY REQUIRED ». Pour revenir au style CARTO, demander une clé gratuite sur
+   carto.com/basemaps/apikey et la mettre dans CARTO_CLE ci-dessous. --- */
+window.CARTO_CLE = '';
+window.creerFondCarte = function () {
+    if (window.CARTO_CLE) {
+        return L.tileLayer('https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=' + encodeURIComponent(window.CARTO_CLE), {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            maxZoom: 20
+        });
+    }
+    return L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 19
+    });
+};
+
 window.normalizeText = function (s) {
     return String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 };
@@ -208,6 +226,8 @@ window.toggleLieuFavorite = function (id, btn, event) {
 window._histo = { attente: Promise.resolve(), ignorer: false, liberer: null, scroll: {} };
 
 window.histoRoute = function () {
+    const c = /^#\/circuit\/(\d+)$/.exec(location.hash || '');
+    if (c) return { page: 'itineraires', circuit: Number(c[1]) };
     const m = /^#\/(?:lieu\/(\d+)|([a-z]+))$/.exec(location.hash || '');
     if (!m) return { page: 'accueil' };
     if (m[1]) return { page: 'accueil', lieu: Number(m[1]) };
@@ -215,6 +235,7 @@ window.histoRoute = function () {
 };
 window.histoUrl = function (etat) {
     if (etat.lieu) return '#/lieu/' + etat.lieu;
+    if (etat.circuit != null) return '#/circuit/' + etat.circuit;
     return etat.page && etat.page !== 'accueil' ? '#/' + etat.page : location.pathname + location.search;
 };
 // Empile une entrée, après un éventuel retour arrière encore en cours
@@ -222,7 +243,7 @@ window.histoPousser = function (etat, remplacer) {
     window._histo.attente = window._histo.attente.then(() => {
         try {
             const cur = history.state || {};
-            if (!remplacer && cur.page === etat.page && (cur.lieu || null) === (etat.lieu || null)) return;
+            if (!remplacer && cur.page === etat.page && (cur.lieu || null) === (etat.lieu || null) && (cur.circuit == null ? null : cur.circuit) === (etat.circuit == null ? null : etat.circuit)) return;
             history[remplacer ? 'replaceState' : 'pushState'](etat, '', window.histoUrl(etat));
         } catch (e) { /* file://, iframe sandbox… : la navigation fonctionne sans historique */ }
     });
@@ -238,7 +259,13 @@ window.addEventListener('popstate', function (e) {
     const etat = e.state || window.histoRoute();
     const modal = document.getElementById('lieu-modal-overlay');
     if (modal && !etat.lieu) window.closeLieuModal({ fromHistory: true });
-    if (etat.page && etat.page !== window.pageActive()) window.navigateToPage(etat.page, { fromHistory: true });
+    const fini = (etat.page && etat.page !== window.pageActive()) ? window.navigateToPage(etat.page, { fromHistory: true }) : Promise.resolve();
+    // Détail d'un circuit : ouvert ou refermé selon l'entrée d'historique
+    Promise.resolve(fini).then(() => {
+        const detail = document.getElementById('itineraire-detail');
+        if (etat.circuit != null) window.showItineraryDetails(etat.circuit, { fromHistory: true });
+        else if (detail && detail.style.display !== 'none' && window.pageActive() === 'itineraires') window.backToItineraries({ fromHistory: true });
+    });
     if (etat.lieu && (!modal || modal.dataset.lieuId != etat.lieu)) window.showLieuDetailsByID(etat.lieu, { fromHistory: true });
 });
 
@@ -246,8 +273,9 @@ window.addEventListener('popstate', function (e) {
 window.initHistorique = function () {
     const route = window.histoRoute();
     try { history.replaceState({ page: route.page }, '', window.histoUrl({ page: route.page })); } catch (e) { }
-    if (route.page !== 'accueil') window.navigateToPage(route.page, { fromHistory: true });
+    const pret = route.page !== 'accueil' ? window.navigateToPage(route.page, { fromHistory: true }) : Promise.resolve();
     if (route.lieu) window.showLieuDetailsByID(route.lieu);
+    if (route.circuit != null) Promise.resolve(pret).then(() => window.showItineraryDetails(route.circuit));
 };
 
 window.navigateToHomeDestinations = function () {
@@ -906,8 +934,8 @@ window.initOutilsPage = function () {
 /* Convertisseur de devises (page Outils).
    Taux INDICATIFS, en ariary pour 1 unité de devise, relevés à la date TAUX_DATE.
    Le bouton 🔄 tente une mise à jour en ligne ; hors connexion, on garde le dernier taux connu. */
-const TAUX_DATE = '09/11/2026';
-const TAUX_DEFAUT = { EUR: 5100, USD: 4540, GBP: 6110 }; // CHF et ZAR : pas de valeur par défaut fiable → mise à jour en ligne ou saisie manuelle
+const TAUX_DATE = '16/11/2026';
+const TAUX_DEFAUT = { EUR: 5076, USD: 4587, GBP: 6098, CHF: 5495, ZAR: 272 }; // relevé open.er-api.com du 16/11/2026
 const SYMBOLES = { EUR: '€', USD: '$', GBP: '£', CHF: 'CHF', ZAR: 'R' };
 
 function initConverter() {
@@ -988,6 +1016,96 @@ function initConverter() {
     afficher(); versLocal();
 }
 
+/* --- Estimateur taxi-brousse : tronçons réels.
+   km, durée (heures) et prix de la place en ariary. Sources relevées en novembre 2026 :
+   Mada360 (lignes et tarifs 2026), allAfrica/L'Express (Tana–Mahajanga, juin 2026),
+   voyagemadagascar.com et madaassist.com (distances du Nord), hotels-diego.com (Tana–Diego, juillet 2026),
+   bifaco et besoindailleurs.fr (Diego–Ankify, bateau de Nosy Be).
+   derive:true = valeur déduite par différence entre deux lignes sourcées (pas de tarif affiché). --- */
+window.TRAJETS_TAXI = {
+    villes: ["Antananarivo", "Diego-Suarez", "Mahajanga", "Toamasina", "Fianarantsoa", "Toliara", "Nosy Be", "Ambanja", "Antsirabe"],
+    troncons: [
+        { a: "Antananarivo", b: "Antsirabe", km: 170, h: [3, 4], ar: [8000, 10000], route: "RN7" },
+        { a: "Antananarivo", b: "Toamasina", km: 355, h: [7, 9], ar: [35000, 35000], route: "RN2" },
+        { a: "Antananarivo", b: "Mahajanga", km: 570, h: [10, 14], ar: [50000, 70000], route: "RN4", note: "Tana–Mahajanga : 50 000 à 60 000 Ar hors saison, 60 000 à 70 000 Ar en haute saison." },
+        { a: "Antsirabe", b: "Fianarantsoa", km: 240, h: [5, 6], ar: null, route: "RN7", derive: true },
+        { a: "Fianarantsoa", b: "Toliara", km: 540, h: [10, 14], ar: null, route: "RN7", derive: true },
+        { a: "Antananarivo", b: "Ambanja", km: 884, h: [21, 29], ar: null, route: "RN4 puis RN6", derive: true },
+        { a: "Ambanja", b: "Diego-Suarez", km: 210, h: [5, 7], ar: [20000, 40000], route: "RN6" },
+        { a: "Ambanja", b: "Nosy Be", km: null, h: [2, 3], ar: [15000, 20000], route: "taxi jusqu'au port d'Ankify (≈ 1 h) puis vedette (≈ 45 min)", note: "Nosy Be est une île : le prix indiqué est celui de la vedette Ankify–Hell-Ville, le taxi Ambanja–Ankify se paie à part." }
+    ],
+    // Lignes directes vendues d'un seul billet : elles priment sur l'addition des tronçons
+    directs: [
+        { a: "Antananarivo", b: "Fianarantsoa", km: 410, h: [8, 10], ar: [35000, 35000], route: "RN7" },
+        { a: "Antananarivo", b: "Toliara", km: 950, h: [18, 24], ar: [80000, 80000], route: "RN7" },
+        { a: "Antananarivo", b: "Diego-Suarez", km: 1094, h: [26, 36], ar: null, tarifTexte: "environ 50 € la place", route: "RN4 puis RN6", note: "Trajet très long, souvent coupé par une nuit d'étape. L'avion met environ 1 h 45." }
+    ],
+    // La RN6 quitte la RN4 à Ambondromamy : passer par Tana serait faux, et aucune donnée fiable n'a été trouvée
+    sansDonnees: [["Mahajanga", "Diego-Suarez"], ["Mahajanga", "Ambanja"], ["Mahajanga", "Nosy Be"]]
+};
+
+window.estimerTrajetTaxi = function (de, vers) {
+    const T = window.TRAJETS_TAXI;
+    const meme = (x, a, b) => (x.a === a && x.b === b) || (x.a === b && x.b === a);
+    const res = { km: 0, hMin: 0, hMax: 0, tarifMin: 0, tarifMax: 0, tarifTexte: '', etapes: [], notes: [], inconnu: false };
+
+    if (T.sansDonnees.some(p => (p[0] === de && p[1] === vers) || (p[0] === vers && p[1] === de))) {
+        res.inconnu = true; res.km = 0;
+        res.notes.push("Ce trajet suit la RN4 puis la RN6 (bifurcation d'Ambondromamy), sans repasser par Antananarivo. Nous n'avons pas de durée ni de prix fiables : renseignez-vous en gare routière.");
+        return res;
+    }
+
+    // Plus court chemin (en nombre de tronçons) dans le petit réseau ci-dessus
+    const aretes = T.directs.concat(T.troncons);
+    const direct = T.directs.find(x => meme(x, de, vers)) || T.troncons.find(x => meme(x, de, vers));
+    let chemin = direct ? [direct] : null;
+    if (!chemin) {
+        const file = [[de, []]], vus = new Set([de]);
+        while (file.length && !chemin) {
+            const [ville, parcours] = file.shift();
+            for (const x of T.troncons) {
+                if (x.a !== ville && x.b !== ville) continue;
+                const suiv = x.a === ville ? x.b : x.a;
+                if (vus.has(suiv)) continue;
+                vus.add(suiv);
+                const p = parcours.concat([x]);
+                if (suiv === vers) { chemin = p; break; }
+                file.push([suiv, p]);
+            }
+        }
+        // Deux tronçons consécutifs couverts par une ligne directe (ex. Tana–Antsirabe–Fianarantsoa)
+        if (chemin) {
+            let villes = [de];
+            chemin.forEach(x => villes.push(x.a === villes[villes.length - 1] ? x.b : x.a));
+            for (let i = 0; i < villes.length - 1; i++) {
+                for (let j = villes.length - 1; j > i + 1; j--) {
+                    const d = T.directs.find(x => meme(x, villes[i], villes[j]));
+                    if (d) { chemin.splice(i, j - i, d); villes.splice(i + 1, j - i - 1); break; }
+                }
+            }
+        }
+    }
+    if (!chemin) { res.inconnu = true; return res; }
+
+    let prixComplet = true, kmComplet = true, ville = de;
+    chemin.forEach(x => {
+        const suiv = x.a === ville ? x.b : x.a;
+        if (x.km) res.km += x.km; else kmComplet = false;
+        res.hMin += x.h[0]; res.hMax += x.h[1];
+        if (x.ar) { res.tarifMin += x.ar[0]; res.tarifMax += x.ar[1]; } else prixComplet = false;
+        if (x.tarifTexte && chemin.length === 1) res.tarifTexte = x.tarifTexte;
+        res.etapes.push(`${ville} – ${suiv} (${x.route})`);
+        if (x.note) res.notes.push(x.note);
+        ville = suiv;
+    });
+    if (!prixComplet) { res.tarifMin = res.tarifMax = 0; }
+    if (!kmComplet && chemin.length === 1) res.km = 0;
+    if (chemin.length === 1) res.etapes = [`${de} – ${vers} (${chemin[0].route})`];
+    if (chemin.length > 1) res.notes.unshift("Pas de ligne directe connue : durée et distance sont l'addition des tronçons, hors temps d'attente aux correspondances.");
+    if (!kmComplet && chemin.length > 1) res.notes.push("Distance indiquée : partie routière uniquement.");
+    return res;
+};
+
 function initTaxiTool() {
     const btnCalcTaxi = document.getElementById('btnCalcTaxi');
     const selFrom = document.getElementById('taxiFrom');
@@ -995,7 +1113,7 @@ function initTaxiTool() {
     const resultDiv = document.getElementById('taxiResult');
 
     // Populate Selects
-    const cities = ["Antananarivo", "Diego-Suarez", "Mahajanga", "Toamasina", "Fianarantsoa", "Toliara", "Nosy Be", "Ambanja", "Antsirabe"];
+    const cities = window.TRAJETS_TAXI.villes;
     if (selFrom && selTo) {
         const opts = cities.map(c => `<option value="${c}">${c}</option>`).join('');
         selFrom.innerHTML = opts;
@@ -1024,54 +1142,56 @@ function initTaxiTool() {
             ];
             const randomRemark = remarks[Math.floor(Math.random() * remarks.length)];
 
-            // Mock Data
-            let dist = Math.floor(Math.random() * 800) + 100;
-            let hours = Math.floor(dist / 50);
-            let price = dist * 100;
+            // Données réelles (plus de valeurs tirées au hasard) : voir TRAJETS_TAXI
+            const t = window.estimerTrajetTaxi(from, to);
+            const fmtAr = v => Math.round(v).toLocaleString('fr-FR') + ' Ar';
+            const duree = t.inconnu ? 'Non renseignée' : (t.hMin === t.hMax ? `${t.hMin} h` : `${t.hMin} h à ${t.hMax} h`);
+            const tarif = t.inconnu ? '—'
+                : t.tarifTexte ? t.tarifTexte
+                : t.tarifMin ? (t.tarifMin === t.tarifMax ? 'environ ' + fmtAr(t.tarifMin) : `${fmtAr(t.tarifMin)} à ${fmtAr(t.tarifMax)}`)
+                : 'À demander en gare routière';
 
             resultDiv.innerHTML = `
-                <div style="background:var(--bg-secondary); padding:10px; border-radius:8px; margin-bottom:15px; border-left:4px solid var(--laterite); font-style:italic;">
+                <div style="background:var(--bg-secondary); padding:10px; border-radius:8px; margin-bottom:15px; border-left:4px solid var(--laterite); font-style:italic; color:var(--text-secondary);">
                     "${randomRemark}"
                 </div>
 
                 <div class="result-row">
                     <div class="result-item">
-                        <span class="result-label">Durée Estimée</span>
-                        <span class="result-value" id="resDuration">${hours}h ${Math.floor(Math.random() * 60)}min</span>
+                        <span class="result-label">Durée en taxi-brousse</span>
+                        <span class="result-value" id="resDuration">${duree}</span>
                     </div>
+                    ${t.km ? `<div class="result-item">
+                        <span class="result-label">Distance par la route</span>
+                        <span class="result-value">${t.km.toLocaleString('fr-FR')} km</span>
+                    </div>` : ''}
                 </div>
 
                 <div class="result-divider" style="height: 1px; background: rgba(0,0,0,0.1); margin: 15px 0;"></div>
 
                 <div id="resPriceContainer" class="price-tiers-container">
-                    <div class="price-tier">
-                        <div class="price-tier-name">Taxi-Brousse</div>
-                        <div class="price-tier-amount">${(price * 10).toLocaleString()} Ar</div>
-                    </div>
-                     <div class="price-tier featured">
-                        <div class="price-tier-name">Cotisse / VIP</div>
-                        <div class="price-tier-amount">${(price * 25).toLocaleString()} Ar</div>
-                    </div>
-                     <div class="price-tier">
-                        <div class="price-tier-name">Location 4x4</div>
-                        <div class="price-tier-amount">${(price * 150).toLocaleString()} Ar</div>
+                    <div class="price-tier featured">
+                        <div class="price-tier-name">Taxi-brousse (la place)</div>
+                        <div class="price-tier-amount">${tarif}</div>
                     </div>
                 </div>
 
-                <div class="mt-20">
-                    <span class="result-note">⚠️ Tarifs indicatifs (Lite / Premium / VIP)</span>
+                <div class="mt-20" style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5;">
+                    ${t.etapes.length ? `<p style="margin:0 0 8px;"><strong>Itinéraire :</strong> ${t.etapes.join(' → ')}</p>` : ''}
+                    ${t.notes.map(n => `<p style="margin:0 0 8px;">${n}</p>`).join('')}
+                    <span class="result-note">⚠️ Ordres de grandeur relevés en 2026, variables selon la coopérative, la saison et l'état de la route. Le prix exact se confirme en gare routière.</span>
                 </div>
 
                 <div id="companiesSection" class="companies-section">
-                    <h4 style="font-family: 'Playfair Display', serif; color: var(--text-primary); margin-bottom: 15px;">Compagnies Recommandées</h4>
+                    <h4 style="font-family: 'Playfair Display', serif; color: var(--text-primary); margin-bottom: 15px;">Plus de confort</h4>
                     <div id="companiesList" class="companies-list">
                         <div class="company-card">
                             <div class="company-logo">🚐</div>
-                            <div><strong>Cotisse Transport</strong><br><span style="font-size:0.8rem; color:#666;">Premium & Wi-Fi</span></div>
+                            <div><strong>Cotisse Transport</strong><br><span style="font-size:0.8rem; color:#666;">Classes Lite, Premium et VIP sur les grands axes au départ de Tana. Compter 50 à 80 % de plus qu'un taxi-brousse classique ; horaires et tarifs du jour sur cotisse-transport.com.</span></div>
                         </div>
                         <div class="company-card">
                             <div class="company-logo">🚌</div>
-                            <div><strong>Kofmad</strong><br><span style="font-size:0.8rem; color:#666;">Fiable & Rapide</span></div>
+                            <div><strong>Coopératives nationales</strong><br><span style="font-size:0.8rem; color:#666;">Kofmad et les autres coopératives vendent leurs places directement en gare routière.</span></div>
                         </div>
                     </div>
                 </div>
@@ -1622,7 +1742,7 @@ window.getAccomPreviewText = window.getAccomPreviewText || function (options) {
     return options.standard || (options.premium ? (options.premium.text || options.premium) : '') || (options.eco || '');
 };
 
-window.showItineraryDetails = function (index) {
+window.showItineraryDetails = function (index, opts) {
     // Critical: Re-derive array to match the index passed from initItinerariesPage
     const itineraries = Array.isArray(window.ITINERAIRES_DATA) ? window.ITINERAIRES_DATA : Object.values(window.ITINERAIRES_DATA);
     const itin = itineraries[index];
@@ -1631,6 +1751,8 @@ window.showItineraryDetails = function (index) {
         console.error("Itinerary not found for index:", index);
         return;
     }
+    // Historique : le bouton Retour ramène à la liste des circuits
+    if (!(opts && opts.fromHistory)) window.histoPousser({ page: 'itineraires', circuit: index });
 
     const list = document.getElementById('itineraires-list');
     const detail = document.getElementById('itineraire-detail');
@@ -1819,13 +1941,24 @@ window.showItineraryDetails = function (index) {
     }, 100); // Short delay to ensure DOM is ready
 };
 
-window.backToItineraries = function () {
+window.backToItineraries = function (opts) {
     const list = document.getElementById('itineraires-list');
     const detail = document.getElementById('itineraire-detail');
     if (list && detail) {
+        const ouvert = detail.style.display !== 'none';
         detail.style.display = 'none';
         list.style.display = 'grid'; // Grid!
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo(0, 0);
+        // Fermeture par le bouton de la page : on retire l'entrée « circuit » de l'historique
+        if (ouvert && !(opts && opts.fromHistory) && history.state && history.state.circuit != null) {
+            const h = window._histo;
+            h.attente = h.attente.then(() => new Promise(res => {
+                h.ignorer = true;
+                h.liberer = res;
+                setTimeout(() => { h.ignorer = false; res(); }, 400);
+                history.back();
+            }));
+        }
     }
 };
 
@@ -2903,9 +3036,7 @@ window.openLieuModal = function (lieu, opts) {
             const mapContainer = document.getElementById('modal-map-container');
             if (mapContainer) {
                 const map = L.map('modal-map-container').setView([embeddedMap.latitude || lieu.lat, embeddedMap.longitude || lieu.lng], embeddedMap.zoom_defaut || 13);
-                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '© OSM'
-                }).addTo(map);
+                window.creerFondCarte().addTo(map);
                 L.marker([embeddedMap.latitude || lieu.lat, embeddedMap.longitude || lieu.lng]).addTo(map)
                     .bindPopup(lieu.nom)
                     .openPopup();
@@ -3486,46 +3617,53 @@ window.initItineraryMap = function (steps) {
     window.itinMap = map;
 
     // Tile Layer (Voyager - Premium Clean Look)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; OpenStreetMap & CARTO',
-        subdomains: 'abcd',
-        maxZoom: 20
-    }).addTo(map);
+    window.creerFondCarte().addTo(map);
 
     // Collect Data
     const routeCoords = [];
+    // Plusieurs jours au même endroit = un seul repère (« 3-5 »), sinon les numéros se recouvrent
+    const points = [];
 
     if (steps && Array.isArray(steps)) {
         steps.forEach((step, idx) => {
-            if (step.lieux_ids && step.lieux_ids.length > 0) {
-                const lieuId = step.lieux_ids[0];
-                const lieu = window.LIEUX_DATA ? window.LIEUX_DATA.find(l => l.id == lieuId) : null;
-
-                if (lieu && lieu.lat && lieu.lng) {
-                    const latLng = [lieu.lat, lieu.lng];
-                    routeCoords.push(latLng);
-
-                    // Add Marker (Numbered)
-                    const icon = L.divIcon({
-                        className: 'itin-marker',
-                        html: `<div style="background:var(--laterite); color:white; width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:0.9rem; border:2px solid white; box-shadow:0 3px 6px rgba(0,0,0,0.3); z-index:100;">${idx + 1}</div>`,
-                        iconSize: [28, 28],
-                        iconAnchor: [14, 14],
-                        popupAnchor: [0, -14]
-                    });
-
-                    const marker = L.marker(latLng, { icon: icon })
-                        .bindPopup(`
-                            <div style="font-family:var(--font-body); text-align:center;">
-                                <strong style="color:var(--laterite);">Jour ${step.jour || idx + 1}</strong><br>
-                                ${lieu.nom}
-                            </div>
-                        `);
-                    marker.addTo(map);
-                }
+            const lieuId = (step.lieux_ids && step.lieux_ids.length > 0) ? step.lieux_ids[0] : null;
+            const lieu = (lieuId !== null && window.LIEUX_DATA) ? window.LIEUX_DATA.find(l => l.id == lieuId) : null;
+            // Étape sans fiche dans le guide : coordonnées propres à l'étape
+            const latLng = (lieu && lieu.lat && lieu.lng) ? [lieu.lat, lieu.lng]
+                : (Array.isArray(step.coords) && step.coords.length === 2 ? step.coords : null);
+            if (!latLng) return;
+            const jour = step.jour || idx + 1;
+            const nom = lieu ? lieu.nom : (step.titre || '');
+            const dernier = points[points.length - 1];
+            if (dernier && dernier.latLng[0] === latLng[0] && dernier.latLng[1] === latLng[1]) {
+                dernier.jours.push(jour);
+            } else {
+                points.push({ latLng, jours: [jour], nom });
+                routeCoords.push(latLng);
             }
         });
     }
+
+    points.forEach(pt => {
+        const j1 = pt.jours[0], j2 = pt.jours[pt.jours.length - 1];
+        const label = j1 === j2 ? String(j1) : `${j1}-${j2}`;
+        const large = label.length > 2 ? 44 : 28;
+        const icon = L.divIcon({
+            className: 'itin-marker',
+            html: `<div style="background:var(--laterite); color:white; width:${large}px; height:28px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-weight:bold; border:2px solid white; box-shadow:0 2px 5px rgba(0,0,0,0.3); font-family:var(--font-body); font-size:0.85rem;">${label}</div>`,
+            iconSize: [large, 28],
+            iconAnchor: [large / 2, 14],
+            popupAnchor: [0, -14]
+        });
+        L.marker(pt.latLng, { icon: icon })
+            .bindPopup(`
+                <div style="font-family:var(--font-body); text-align:center;">
+                    <strong style="color:var(--laterite);">${j1 === j2 ? 'Jour ' + j1 : 'Jours ' + j1 + ' à ' + j2}</strong><br>
+                    ${pt.nom}
+                </div>
+            `)
+            .addTo(map);
+    });
 
     // Draw Route Polyline
     if (routeCoords.length > 1) {
