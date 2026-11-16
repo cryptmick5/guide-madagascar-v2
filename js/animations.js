@@ -362,16 +362,22 @@ class GasikaraAnimations {
 // ==========================================
 // AUTO-INITIALIZATION
 // ==========================================
-document.addEventListener('DOMContentLoaded', () => {
-    // Wait a bit for DOM to be fully ready
-    setTimeout(() => {
-        GasikaraAnimations.init();
-    }, 100);
-});
+// Sans GSAP (hors ligne au premier lancement, CDN bloqué), on n'exporte rien :
+// app.js bascule alors sur ses replis sans animation et tout reste cliquable.
+if (window.GSAP_DISPONIBLE) {
+    document.addEventListener('DOMContentLoaded', () => {
+        // Wait a bit for DOM to be fully ready
+        setTimeout(() => {
+            GasikaraAnimations.init();
+        }, 100);
+    });
 
-// ==========================================
-// EXPORT
-// ==========================================
-window.GasikaraAnimations = GasikaraAnimations;
+    // ==========================================
+    // EXPORT
+    // ==========================================
+    window.GasikaraAnimations = GasikaraAnimations;
+} else {
+    console.warn('GSAP indisponible : animations désactivées');
+}
 
 console.log('🎨 Gasikara Animations loaded - Version 1.0');

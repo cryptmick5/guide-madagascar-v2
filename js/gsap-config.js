@@ -6,17 +6,22 @@
 // ==========================================
 // GSAP GLOBAL DEFAULTS
 // ==========================================
-gsap.defaults({
-    ease: 'power2.out',
-    duration: 0.4,
-    overwrite: 'auto'
-});
+// Si GSAP n'a pas pu être chargé (réseau coupé, CDN inaccessible), l'application doit rester
+// utilisable : on n'initialise rien ici et animations.js ne s'exporte pas (app.js a ses replis).
+window.GSAP_DISPONIBLE = typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined';
+if (window.GSAP_DISPONIBLE) {
+    gsap.defaults({
+        ease: 'power2.out',
+        duration: 0.4,
+        overwrite: 'auto'
+    });
 
-// Register custom easing for Madagascar vibe
-gsap.registerEase('madagascar', 'cubic-bezier(0.34, 1.56, 0.64, 1)');
+    // Register custom easing for Madagascar vibe
+    gsap.registerEase('madagascar', 'cubic-bezier(0.34, 1.56, 0.64, 1)');
 
-// Register ScrollTrigger plugin
-gsap.registerPlugin(ScrollTrigger, Flip);
+    // Register ScrollTrigger plugin
+    gsap.registerPlugin(...[ScrollTrigger, typeof Flip !== 'undefined' ? Flip : null].filter(Boolean));
+}
 
 // ==========================================
 // ANIMATION CONSTANTS
