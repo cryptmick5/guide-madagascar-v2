@@ -201,6 +201,55 @@ window.toggleLieuFavorite = function (id, btn, event) {
    3. NAVIGATION & UI CORE
    ============================================ */
 
+/* ============================================
+   HISTORIQUE — bouton Retour du téléphone / du navigateur, liens partageables
+   #/nosybe ouvre une destination, #/lieu/123 ouvre une fiche.
+   ============================================ */
+window._histo = { attente: Promise.resolve(), ignorer: false, liberer: null, scroll: {} };
+
+window.histoRoute = function () {
+    const m = /^#\/(?:lieu\/(\d+)|([a-z]+))$/.exec(location.hash || '');
+    if (!m) return { page: 'accueil' };
+    if (m[1]) return { page: 'accueil', lieu: Number(m[1]) };
+    return document.getElementById('page-' + m[2]) ? { page: m[2] } : { page: 'accueil' };
+};
+window.histoUrl = function (etat) {
+    if (etat.lieu) return '#/lieu/' + etat.lieu;
+    return etat.page && etat.page !== 'accueil' ? '#/' + etat.page : location.pathname + location.search;
+};
+// Empile une entrée, après un éventuel retour arrière encore en cours
+window.histoPousser = function (etat, remplacer) {
+    window._histo.attente = window._histo.attente.then(() => {
+        try {
+            const cur = history.state || {};
+            if (!remplacer && cur.page === etat.page && (cur.lieu || null) === (etat.lieu || null)) return;
+            history[remplacer ? 'replaceState' : 'pushState'](etat, '', window.histoUrl(etat));
+        } catch (e) { /* file://, iframe sandbox… : la navigation fonctionne sans historique */ }
+    });
+};
+window.pageActive = function () {
+    const s = document.querySelector('.page-section.active');
+    return s ? s.id.replace('page-', '') : 'accueil';
+};
+
+window.addEventListener('popstate', function (e) {
+    const h = window._histo;
+    if (h.ignorer) { h.ignorer = false; if (h.liberer) h.liberer(); return; }
+    const etat = e.state || window.histoRoute();
+    const modal = document.getElementById('lieu-modal-overlay');
+    if (modal && !etat.lieu) window.closeLieuModal({ fromHistory: true });
+    if (etat.page && etat.page !== window.pageActive()) window.navigateToPage(etat.page, { fromHistory: true });
+    if (etat.lieu && (!modal || modal.dataset.lieuId != etat.lieu)) window.showLieuDetailsByID(etat.lieu, { fromHistory: true });
+});
+
+// Au démarrage : ouvre la page ou la fiche demandée par le lien
+window.initHistorique = function () {
+    const route = window.histoRoute();
+    try { history.replaceState({ page: route.page }, '', window.histoUrl({ page: route.page })); } catch (e) { }
+    if (route.page !== 'accueil') window.navigateToPage(route.page, { fromHistory: true });
+    if (route.lieu) window.showLieuDetailsByID(route.lieu);
+};
+
 window.navigateToHomeDestinations = function () {
     console.log("🔄 Navigation Fluide: Retour Destinations...");
 
@@ -227,6 +276,8 @@ window.navigateToHomeDestinations = function () {
             }
         }, 10);
     }
+
+    window.histoPousser({ page: 'accueil' });
 
     // 4. Update Nav State
     document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
@@ -256,7 +307,8 @@ window.initNavigation = function () {
 // Global Context Tracker
 window.previousPageContext = null;
 
-window.navigateToPage = async function (pageName) {
+window.navigateToPage = async function (pageName, opts) {
+    opts = opts || {};
     console.log('🔄 navigateToPage called with:', pageName);
     if (!pageName) return;
 
@@ -273,6 +325,9 @@ window.navigateToPage = async function (pageName) {
             window.previousPageContext = null;
         }
     }
+
+    // Mémorise la position de lecture de la page quittée (restituée au retour arrière)
+    if (currentSection) window._histo.scroll[currentSection.id] = window.scrollY;
 
     // --- UI RESET ---
     document.querySelectorAll('.page-section').forEach(section => {
@@ -293,8 +348,10 @@ window.navigateToPage = async function (pageName) {
         }
         newSection.style.display = 'block';
         newSection.classList.add('active');
-        // Défilement immédiat : un défilement animé pendant le changement de page donnait une impression de lenteur
-        window.scrollTo(0, 0);
+        // Défilement immédiat : un défilement animé pendant le changement de page donnait une impression de lenteur.
+        // Retour arrière : on revient là où on en était dans la liste.
+        window.scrollTo(0, opts.fromHistory ? (window._histo.scroll[targetId] || 0) : 0);
+        if (!opts.fromHistory) window.histoPousser({ page: targetId.replace('page-', '') });
 
         // Map Specifics
         if (pageName === 'carte') {
@@ -826,10 +883,10 @@ window.switchCircuitBudget = function (circuitId, level) {
     }
 }
 
-window.showLieuDetailsByID = function (id) {
+window.showLieuDetailsByID = function (id, opts) {
     const lieu = window.LIEUX_DATA.find(l => l.id == id);
     if (lieu) {
-        openLieuModal(lieu);
+        openLieuModal(lieu, opts);
     } else {
         console.warn("Lieu not found for ID:", id);
     }
@@ -2576,8 +2633,12 @@ window.initCarouselFeatures = function (carouselId) {
    9. MODAL SYSTEM (CRASH FIX)
    ============================================ */
 
-window.openLieuModal = function (lieu) {
+window.openLieuModal = function (lieu, opts) {
     if (!lieu) return;
+    // Historique : le bouton Retour ferme la fiche au lieu de quitter l'application
+    if (!(opts && opts.fromHistory)) {
+        window.histoPousser({ page: window.pageActive(), lieu: lieu.id }, !!(history.state && history.state.lieu));
+    }
 
     console.log('Opening Modal for:', lieu.nom, lieu); // Debug data
 
@@ -2857,13 +2918,27 @@ window.openLieuModal = function (lieu) {
 
     // GSAP Animation
     const modal = document.getElementById('lieu-modal-overlay');
+    if (modal) modal.dataset.lieuId = lieu.id;
     if (modal && window.GasikaraAnimations) {
         window.GasikaraAnimations.openModal(modal);
     }
 };
 
-window.closeLieuModal = function () {
+window.closeLieuModal = function (opts) {
     const modal = document.getElementById('lieu-modal-overlay');
+    // Fermeture par l'interface : on retire aussi l'entrée « fiche » de l'historique
+    if (modal && !(opts && opts.fromHistory)) {
+        const h = window._histo;
+        h.attente = h.attente.then(() => {
+            if (!(history.state && history.state.lieu)) return;
+            return new Promise(res => {
+                h.ignorer = true;
+                h.liberer = res;
+                setTimeout(() => { h.ignorer = false; res(); }, 400); // garde-fou si popstate n'arrive pas
+                history.back();
+            });
+        });
+    }
     if (modal) {
         // GSAP Animation: Animate modal closing (with callback)
         if (window.GasikaraAnimations) {
@@ -3343,6 +3418,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // 4. Global Search (Optimized)
     initGlobalSearch();
+
+    // 4 bis. Historique / liens directs (#/nosybe, #/lieu/123)
+    window.initHistorique();
 
     // 5. PWA Service Worker (Non-blocking)
     if (typeof registerServiceWorker === 'function') {

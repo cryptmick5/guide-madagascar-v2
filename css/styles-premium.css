@@ -2358,3 +2358,78 @@ button[onclick*="toggleStepAccordion"]>i.fas.fa-info {
     padding: 0 8px !important;
   }
 }
+
+/* =========================================
+   MOBILE : barre d'onglets en bas + filtres atteignables
+   (le corps de page réservait déjà 80 px « Space for Bottom Nav »)
+   ========================================= */
+@media (max-width: 768px) {
+  .nav-container {
+    position: fixed !important;
+    top: auto !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    overflow: visible;
+    border-bottom: 0;
+    border-top: 1px solid var(--border-color);
+    box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .main-nav {
+    min-width: 0;
+    padding: 4px 4px;
+    gap: 0;
+    justify-content: space-around;
+  }
+
+  .main-nav > div {
+    display: none;
+  }
+
+  .nav-container .main-nav .nav-btn,
+  .nav-container .main-nav .nav-btn:hover {
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 6px 2px;
+    border: 0;
+    border-radius: 12px;
+    background: transparent;
+    box-shadow: none;
+    color: var(--text-secondary);
+    font-size: 0.68rem;
+    font-weight: 600;
+    white-space: nowrap;
+    transform: none;
+  }
+
+  .nav-container .main-nav .nav-btn i {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .nav-container .main-nav .nav-btn.active,
+  .nav-container .main-nav .nav-btn.active:hover {
+    background: transparent;
+    color: var(--laterite);
+    box-shadow: none;
+  }
+
+  /* Filtres des pages villes : centrés, « Tout » et « Explorer » sortaient de l'écran sans pouvoir y revenir */
+  .province-filter-container {
+    justify-content: flex-start !important;
+  }
+
+  /* La carte s'arrête au-dessus de la barre d'onglets */
+  #page-carte {
+    padding-bottom: 0;
+  }
+}
